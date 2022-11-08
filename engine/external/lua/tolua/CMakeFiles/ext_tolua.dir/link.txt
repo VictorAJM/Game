@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../../lib/libext_tolua.a CMakeFiles/ext_tolua.dir/tolua_event.c.o CMakeFiles/ext_tolua.dir/tolua_is.c.o CMakeFiles/ext_tolua.dir/tolua_map.c.o CMakeFiles/ext_tolua.dir/tolua_push.c.o CMakeFiles/ext_tolua.dir/tolua_to.c.o
+/usr/bin/ranlib ../../../../lib/libext_tolua.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../lib/libexternal.a CMakeFiles/external.dir/empty.cpp.o
+/usr/bin/ranlib ../../lib/libexternal.a

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="edtaa3func"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cocos2d\;CMake Files\cocos2d\cmake\;CMake Files\cocos2d\cmake\Modules\;CMake Files\cocos2d\cocos\;CMake Files\cocos2d\cocos\2d\;CMake Files\cocos2d\cocos\3d\;CMake Files\cocos2d\cocos\platform\;CMake Files\cocos2d\cocos\physics\;CMake Files\cocos2d\cocos\physics3d\;CMake Files\cocos2d\cocos\math\;CMake Files\cocos2d\cocos\navmesh\;CMake Files\cocos2d\cocos\renderer\;CMake Files\cocos2d\cocos\base\;CMake Files\cocos2d\cocos\ui\;CMake Files\cocos2d\cocos\network\;CMake Files\cocos2d\cocos\audio\;CMake Files\cocos2d\cocos\editor-support\;CMake Files\cocos2d\cocos\editor-support\cocostudio\;CMake Files\cocos2d\extensions\;CMake Files\cocos2d\external\;CMake Files\cocos2d\external\Box2D\;CMake Files\cocos2d\external\cmake\;CMake Files\cocos2d\external\chipmunk\;CMake Files\cocos2d\external\freetype2\;CMake Files\cocos2d\external\recast\;CMake Files\cocos2d\external\bullet\;CMake Files\cocos2d\external\jpeg\;CMake Files\cocos2d\external\openssl\;CMake Files\cocos2d\external\uv\;CMake Files\cocos2d\external\webp\;CMake Files\cocos2d\external\websockets\;CMake Files\cocos2d\external\tinyxml2\;CMake Files\cocos2d\external\xxhash\;CMake Files\cocos2d\external\xxtea\;CMake Files\cocos2d\external\clipper\;CMake Files\cocos2d\external\edtaa3func\;CMake Files\cocos2d\external\ConvertUTF\;CMake Files\cocos2d\external\poly2tri\;CMake Files\cocos2d\external\md5\;CMake Files\cocos2d\external\linux-specific\;CMake Files\cocos2d\external\linux-specific\fmod\;CMake Files\cocos2d\external\glfw3\;CMake Files\cocos2d\external\unzip\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ext_edtaa3func">
+				<Option output="/home/victor/cocos2d-x/Game/proj.linux/lib/libext_edtaa3func.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/GLFW"/>
+					<Add directory="/usr/local/include/GLFW"/>
+					<Add directory="/home/victor/cocos2d-x/Game/cocos2d/external/edtaa3func/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 ext_edtaa3func"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ext_edtaa3func/fast">
+				<Option output="/home/victor/cocos2d-x/Game/proj.linux/lib/libext_edtaa3func.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/GLFW"/>
+					<Add directory="/usr/local/include/GLFW"/>
+					<Add directory="/home/victor/cocos2d-x/Game/cocos2d/external/edtaa3func/."/>
+					<Add directory="/usr/include/c++/11"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/11"/>
+					<Add directory="/usr/include/c++/11/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 ext_edtaa3func/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/victor/cocos2d-x/Game/proj.linux/engine/external/edtaa3func/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/edtaa3func/edtaa3func.cpp">
+			<Option target="ext_edtaa3func"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/edtaa3func/edtaa3func.h">
+			<Option target="ext_edtaa3func"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cmake/Modules/CocosBuildHelpers.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cmake/Modules/CocosBuildSet.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cmake/Modules/CocosConfigDefine.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cmake/Modules/CocosConfigDepend.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cmake/Modules/FindGTK3.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cmake/Modules/FindSQLite3.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\cmake\Modules\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/2d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\2d\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\3d\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/platform/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\platform\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/physics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\physics\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/physics3d/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\physics3d\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/math/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\math\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/navmesh/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\navmesh\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/renderer/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\renderer\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\base\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/ui/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\ui\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/network/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\network\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/audio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\audio\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/cocos/editor-support/cocostudio/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\cocos\editor-support\cocostudio\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/extensions/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\extensions\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/Box2D/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\Box2D\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/cmake/CocosExternalConfig.cmake">
+			<Option virtualFolder="CMake Files\cocos2d\external\cmake\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/chipmunk/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\chipmunk\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/freetype2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\freetype2\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/recast/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\recast\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/bullet/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\bullet\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/jpeg/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\jpeg\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/openssl/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\openssl\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/uv/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\uv\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/webp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\webp\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/websockets/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\websockets\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/tinyxml2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\tinyxml2\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/xxhash/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\xxhash\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/xxtea/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\xxtea\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/clipper/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\clipper\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/edtaa3func/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\edtaa3func\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/ConvertUTF/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\ConvertUTF\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/poly2tri/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\poly2tri\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/md5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\md5\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/linux-specific/fmod/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\linux-specific\fmod\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/glfw3/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\glfw3\"/>
+		</Unit>
+		<Unit filename="/home/victor/cocos2d-x/Game/cocos2d/external/unzip/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cocos2d\external\unzip\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libext_unzip.a CMakeFiles/ext_unzip.dir/ioapi.cpp.o CMakeFiles/ext_unzip.dir/unzip.cpp.o CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o
+/usr/bin/ranlib ../../../lib/libext_unzip.a

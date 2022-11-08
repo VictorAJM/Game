@@ -1,0 +1,8 @@
+# Hashes of file build rules.
+eb1ede5651abe1fddf474a8c878aa6e6 engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp
+a7ea179b93f6e523889179d35908c069 engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test
+371cc3f677fc3d58efd0b2a08e52f32a engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests
+24f7bfa1da3a6410b4cda63e2fe1f695 engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test
+225e3f5162556c63ba1767fbca354aa6 engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test
+f2082ea606ce0eca5976d72ec7d7b5a3 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests
+d4deea50566cefb7fbcc11b906c1f45b engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests

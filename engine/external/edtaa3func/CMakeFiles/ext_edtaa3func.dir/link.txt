@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libext_edtaa3func.a CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o
+/usr/bin/ranlib ../../../lib/libext_edtaa3func.a

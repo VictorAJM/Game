@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libext_tinyxml2.a CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o
+/usr/bin/ranlib ../../../lib/libext_tinyxml2.a

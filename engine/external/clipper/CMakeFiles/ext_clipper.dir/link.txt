@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libext_clipper.a CMakeFiles/ext_clipper.dir/clipper.cpp.o
+/usr/bin/ranlib ../../../lib/libext_clipper.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libext_md5.a CMakeFiles/ext_md5.dir/md5.c.o
+/usr/bin/ranlib ../../../lib/libext_md5.a

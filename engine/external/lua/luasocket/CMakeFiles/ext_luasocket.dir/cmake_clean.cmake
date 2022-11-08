@@ -1,0 +1,41 @@
+file(REMOVE_RECURSE
+  "../../../../lib/libext_luasocket.a"
+  "../../../../lib/libext_luasocket.pdb"
+  "CMakeFiles/ext_luasocket.dir/auxiliar.c.o"
+  "CMakeFiles/ext_luasocket.dir/auxiliar.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/buffer.c.o"
+  "CMakeFiles/ext_luasocket.dir/buffer.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/except.c.o"
+  "CMakeFiles/ext_luasocket.dir/except.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/inet.c.o"
+  "CMakeFiles/ext_luasocket.dir/inet.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/io.c.o"
+  "CMakeFiles/ext_luasocket.dir/io.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/luasocket.c.o"
+  "CMakeFiles/ext_luasocket.dir/luasocket.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o"
+  "CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/mime.c.o"
+  "CMakeFiles/ext_luasocket.dir/mime.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/options.c.o"
+  "CMakeFiles/ext_luasocket.dir/options.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/select.c.o"
+  "CMakeFiles/ext_luasocket.dir/select.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/serial.c.o"
+  "CMakeFiles/ext_luasocket.dir/serial.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/tcp.c.o"
+  "CMakeFiles/ext_luasocket.dir/tcp.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/timeout.c.o"
+  "CMakeFiles/ext_luasocket.dir/timeout.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/udp.c.o"
+  "CMakeFiles/ext_luasocket.dir/udp.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/unix.c.o"
+  "CMakeFiles/ext_luasocket.dir/unix.c.o.d"
+  "CMakeFiles/ext_luasocket.dir/usocket.c.o"
+  "CMakeFiles/ext_luasocket.dir/usocket.c.o.d"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/ext_luasocket.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../../../lib/libext_poly2tri.a CMakeFiles/ext_poly2tri.dir/common/shapes.cc.o CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.o CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.o CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.o CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.o
+/usr/bin/ranlib ../../../lib/libext_poly2tri.a
