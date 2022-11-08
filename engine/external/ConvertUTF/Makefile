@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/ConvertUTF//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_convertUTF: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule
 
 # fast build rule for target.
 ext_convertUTF/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build
 .PHONY : ext_convertUTF/fast
 
 ConvertUTF.o: ConvertUTF.c.o
@@ -135,7 +135,7 @@ ConvertUTF.o: ConvertUTF.c.o
 
 # target to build an object file
 ConvertUTF.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o
 .PHONY : ConvertUTF.c.o
 
 ConvertUTF.i: ConvertUTF.c.i
@@ -143,7 +143,7 @@ ConvertUTF.i: ConvertUTF.c.i
 
 # target to preprocess a source file
 ConvertUTF.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.i
 .PHONY : ConvertUTF.c.i
 
 ConvertUTF.s: ConvertUTF.c.s
@@ -151,7 +151,7 @@ ConvertUTF.s: ConvertUTF.c.s
 
 # target to generate assembly for a file
 ConvertUTF.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.s
 .PHONY : ConvertUTF.c.s
 
 ConvertUTFWrapper.o: ConvertUTFWrapper.cpp.o
@@ -159,7 +159,7 @@ ConvertUTFWrapper.o: ConvertUTFWrapper.cpp.o
 
 # target to build an object file
 ConvertUTFWrapper.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o
 .PHONY : ConvertUTFWrapper.cpp.o
 
 ConvertUTFWrapper.i: ConvertUTFWrapper.cpp.i
@@ -167,7 +167,7 @@ ConvertUTFWrapper.i: ConvertUTFWrapper.cpp.i
 
 # target to preprocess a source file
 ConvertUTFWrapper.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.i
 .PHONY : ConvertUTFWrapper.cpp.i
 
 ConvertUTFWrapper.s: ConvertUTFWrapper.cpp.s
@@ -175,7 +175,7 @@ ConvertUTFWrapper.s: ConvertUTFWrapper.cpp.s
 
 # target to generate assembly for a file
 ConvertUTFWrapper.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.s
 .PHONY : ConvertUTFWrapper.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/depend.make
@@ -70,74 +70,74 @@ include engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/progress.make
 include engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/flags.make
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/flags.make
-engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o: ../../external/lua/tolua/tolua_event.c
+engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o: ../external/lua/tolua/tolua_event.c
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o -MF CMakeFiles/ext_tolua.dir/tolua_event.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_event.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_event.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o -MF CMakeFiles/ext_tolua.dir/tolua_event.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_event.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_event.c
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_tolua.dir/tolua_event.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_event.c > CMakeFiles/ext_tolua.dir/tolua_event.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_event.c > CMakeFiles/ext_tolua.dir/tolua_event.c.i
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_tolua.dir/tolua_event.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_event.c -o CMakeFiles/ext_tolua.dir/tolua_event.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_event.c -o CMakeFiles/ext_tolua.dir/tolua_event.c.s
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/flags.make
-engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o: ../../external/lua/tolua/tolua_is.c
+engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o: ../external/lua/tolua/tolua_is.c
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o -MF CMakeFiles/ext_tolua.dir/tolua_is.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_is.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_is.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o -MF CMakeFiles/ext_tolua.dir/tolua_is.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_is.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_is.c
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_tolua.dir/tolua_is.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_is.c > CMakeFiles/ext_tolua.dir/tolua_is.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_is.c > CMakeFiles/ext_tolua.dir/tolua_is.c.i
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_tolua.dir/tolua_is.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_is.c -o CMakeFiles/ext_tolua.dir/tolua_is.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_is.c -o CMakeFiles/ext_tolua.dir/tolua_is.c.s
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/flags.make
-engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o: ../../external/lua/tolua/tolua_map.c
+engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o: ../external/lua/tolua/tolua_map.c
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o -MF CMakeFiles/ext_tolua.dir/tolua_map.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_map.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_map.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o -MF CMakeFiles/ext_tolua.dir/tolua_map.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_map.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_map.c
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_tolua.dir/tolua_map.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_map.c > CMakeFiles/ext_tolua.dir/tolua_map.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_map.c > CMakeFiles/ext_tolua.dir/tolua_map.c.i
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_tolua.dir/tolua_map.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_map.c -o CMakeFiles/ext_tolua.dir/tolua_map.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_map.c -o CMakeFiles/ext_tolua.dir/tolua_map.c.s
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/flags.make
-engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o: ../../external/lua/tolua/tolua_push.c
+engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o: ../external/lua/tolua/tolua_push.c
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o -MF CMakeFiles/ext_tolua.dir/tolua_push.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_push.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_push.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o -MF CMakeFiles/ext_tolua.dir/tolua_push.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_push.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_push.c
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_tolua.dir/tolua_push.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_push.c > CMakeFiles/ext_tolua.dir/tolua_push.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_push.c > CMakeFiles/ext_tolua.dir/tolua_push.c.i
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_tolua.dir/tolua_push.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_push.c -o CMakeFiles/ext_tolua.dir/tolua_push.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_push.c -o CMakeFiles/ext_tolua.dir/tolua_push.c.s
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/flags.make
-engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o: ../../external/lua/tolua/tolua_to.c
+engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o: ../external/lua/tolua/tolua_to.c
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o -MF CMakeFiles/ext_tolua.dir/tolua_to.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_to.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_to.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o -MF CMakeFiles/ext_tolua.dir/tolua_to.c.o.d -o CMakeFiles/ext_tolua.dir/tolua_to.c.o -c /home/victor/cocos2d-x/external/lua/tolua/tolua_to.c
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_tolua.dir/tolua_to.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_to.c > CMakeFiles/ext_tolua.dir/tolua_to.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/tolua/tolua_to.c > CMakeFiles/ext_tolua.dir/tolua_to.c.i
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_tolua.dir/tolua_to.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_to.c -o CMakeFiles/ext_tolua.dir/tolua_to.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/tolua/tolua_to.c -o CMakeFiles/ext_tolua.dir/tolua_to.c.s
 
 # Object files for target ext_tolua
 ext_tolua_OBJECTS = \
@@ -157,19 +157,19 @@ lib/libext_tolua.a: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_pus
 lib/libext_tolua.a: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o
 lib/libext_tolua.a: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make
 lib/libext_tolua.a: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library ../../../../lib/libext_tolua.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && $(CMAKE_COMMAND) -P CMakeFiles/ext_tolua.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_tolua.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C static library ../../../../lib/libext_tolua.a"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && $(CMAKE_COMMAND) -P CMakeFiles/ext_tolua.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_tolua.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build: lib/libext_tolua.a
 .PHONY : engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua && $(CMAKE_COMMAND) -P CMakeFiles/ext_tolua.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/tolua && $(CMAKE_COMMAND) -P CMakeFiles/ext_tolua.dir/cmake_clean.cmake
 .PHONY : engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/clean
 
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/lua/tolua /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/lua/tolua /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/external/lua/tolua /home/victor/cocos2d-x/Game/engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/depend
 

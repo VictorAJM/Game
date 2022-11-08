@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/unzip//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/unzip/CMakeFiles/ext_unzip.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/CMakeFiles/ext_unzip.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/CMakeFiles/ext_unzip.dir/rule
 .PHONY : engine/external/unzip/CMakeFiles/ext_unzip.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_unzip: engine/external/unzip/CMakeFiles/ext_unzip.dir/rule
 
 # fast build rule for target.
 ext_unzip/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/build
 .PHONY : ext_unzip/fast
 
 ioapi.o: ioapi.cpp.o
@@ -135,7 +135,7 @@ ioapi.o: ioapi.cpp.o
 
 # target to build an object file
 ioapi.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o
 .PHONY : ioapi.cpp.o
 
 ioapi.i: ioapi.cpp.i
@@ -143,7 +143,7 @@ ioapi.i: ioapi.cpp.i
 
 # target to preprocess a source file
 ioapi.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.i
 .PHONY : ioapi.cpp.i
 
 ioapi.s: ioapi.cpp.s
@@ -151,7 +151,7 @@ ioapi.s: ioapi.cpp.s
 
 # target to generate assembly for a file
 ioapi.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.s
 .PHONY : ioapi.cpp.s
 
 ioapi_mem.o: ioapi_mem.cpp.o
@@ -159,7 +159,7 @@ ioapi_mem.o: ioapi_mem.cpp.o
 
 # target to build an object file
 ioapi_mem.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o
 .PHONY : ioapi_mem.cpp.o
 
 ioapi_mem.i: ioapi_mem.cpp.i
@@ -167,7 +167,7 @@ ioapi_mem.i: ioapi_mem.cpp.i
 
 # target to preprocess a source file
 ioapi_mem.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.i
 .PHONY : ioapi_mem.cpp.i
 
 ioapi_mem.s: ioapi_mem.cpp.s
@@ -175,7 +175,7 @@ ioapi_mem.s: ioapi_mem.cpp.s
 
 # target to generate assembly for a file
 ioapi_mem.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.s
 .PHONY : ioapi_mem.cpp.s
 
 unzip.o: unzip.cpp.o
@@ -183,7 +183,7 @@ unzip.o: unzip.cpp.o
 
 # target to build an object file
 unzip.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o
 .PHONY : unzip.cpp.o
 
 unzip.i: unzip.cpp.i
@@ -191,7 +191,7 @@ unzip.i: unzip.cpp.i
 
 # target to preprocess a source file
 unzip.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.i
 .PHONY : unzip.cpp.i
 
 unzip.s: unzip.cpp.s
@@ -199,7 +199,7 @@ unzip.s: unzip.cpp.s
 
 # target to generate assembly for a file
 unzip.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.s
 .PHONY : unzip.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

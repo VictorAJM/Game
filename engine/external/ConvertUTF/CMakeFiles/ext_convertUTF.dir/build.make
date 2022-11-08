@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/depend.make
@@ -70,32 +70,32 @@ include engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/progress.make
 include engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/flags.make
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/flags.make
-engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o: ../../external/ConvertUTF/ConvertUTF.c
+engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o: ../external/ConvertUTF/ConvertUTF.c
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o -MF CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o.d -o CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o -c /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTF.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o -MF CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o.d -o CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.o -c /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTF.c
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTF.c > CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTF.c > CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.i
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTF.c -o CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTF.c -o CMakeFiles/ext_convertUTF.dir/ConvertUTF.c.s
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/flags.make
-engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o: ../../external/ConvertUTF/ConvertUTFWrapper.cpp
+engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o: ../external/ConvertUTF/ConvertUTFWrapper.cpp
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o -MF CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o.d -o CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o -c /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o -MF CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o.d -o CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o -c /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp > CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp > CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.i
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp -o CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/ConvertUTF/ConvertUTFWrapper.cpp -o CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.s
 
 # Object files for target ext_convertUTF
 ext_convertUTF_OBJECTS = \
@@ -109,19 +109,19 @@ lib/libext_convertUTF.a: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.di
 lib/libext_convertUTF.a: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/ConvertUTFWrapper.cpp.o
 lib/libext_convertUTF.a: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make
 lib/libext_convertUTF.a: engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/libext_convertUTF.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && $(CMAKE_COMMAND) -P CMakeFiles/ext_convertUTF.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_convertUTF.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library ../../../lib/libext_convertUTF.a"
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && $(CMAKE_COMMAND) -P CMakeFiles/ext_convertUTF.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_convertUTF.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build: lib/libext_convertUTF.a
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF && $(CMAKE_COMMAND) -P CMakeFiles/ext_convertUTF.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/ConvertUTF && $(CMAKE_COMMAND) -P CMakeFiles/ext_convertUTF.dir/cmake_clean.cmake
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/clean
 
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/ConvertUTF /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/ConvertUTF /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/external/ConvertUTF /home/victor/cocos2d-x/Game/engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/depend
 

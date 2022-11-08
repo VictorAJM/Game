@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/depend.make
@@ -70,704 +70,704 @@ include engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/progress.make
 include engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o: ../../cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o: ../cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaBridge.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o: ../../cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o: ../cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaEngine.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o: ../../cocos/scripting/lua-bindings/manual/CCLuaStack.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o: ../cocos/scripting/lua-bindings/manual/CCLuaStack.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaStack.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o: ../../cocos/scripting/lua-bindings/manual/CCLuaValue.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o: ../cocos/scripting/lua-bindings/manual/CCLuaValue.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.cpp > CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCLuaValue.cpp -o CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o: ../../cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o: ../cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp > CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp > CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp -o CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/Cocos2dxLuaLoader.cpp -o CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o: ../../cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o: ../cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp > CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp > CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp -o CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/LuaBasicConversions.cpp -o CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o: ../../cocos/scripting/lua-bindings/manual/lua_module_register.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o: ../cocos/scripting/lua-bindings/manual/lua_module_register.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/lua_module_register.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/lua_module_register.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/lua_module_register.cpp > CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/lua_module_register.cpp > CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/lua_module_register.cpp -o CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/lua_module_register.cpp -o CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o: ../../cocos/scripting/lua-bindings/manual/tolua_fix.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o: ../cocos/scripting/lua-bindings/manual/tolua_fix.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/tolua_fix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/tolua_fix.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/tolua_fix.cpp > CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/tolua_fix.cpp > CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/tolua_fix.cpp -o CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/tolua_fix.cpp -o CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o: ../../cocos/scripting/lua-bindings/manual/CCComponentLua.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o: ../cocos/scripting/lua-bindings/manual/CCComponentLua.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.cpp > CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.cpp > CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.cpp -o CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/CCComponentLua.cpp -o CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o: ../cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/LuaScriptHandlerMgr.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o: ../cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_deprecated.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocos2d/lua_cocos2dx_physics_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp > CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp > CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/3d/lua_cocos2dx_3d_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o: ../cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/CustomGUIReader.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o: ../cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua-cocos-studio-conversions.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp > CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp > CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp > CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/controller/lua_cocos2dx_controller_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp > CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp > CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/extension/lua_cocos2dx_extension_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o: ../../cocos/scripting/lua-bindings/manual/network/lua_extensions.c
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o: ../cocos/scripting/lua-bindings/manual/network/lua_extensions.c
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_extensions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_extensions.c
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_extensions.c > CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_extensions.c > CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_extensions.c -o CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_extensions.c -o CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp > CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp > CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_cocos2dx_network_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o: ../../cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o: ../cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp > CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp > CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp -o CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/Lua_web_socket.cpp -o CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o: ../../cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o: ../cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp > CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp > CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp -o CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_xml_http_request.cpp -o CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o: ../../cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o: ../cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp > CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp > CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp -o CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/network/lua_downloader.cpp -o CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o: ../../cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o: ../cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp > CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp > CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp -o CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/spine/LuaSkeletonAnimation.cpp -o CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp > CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp > CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/ui/lua_cocos2dx_ui_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp > CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp > CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp > CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp > CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o: ../../cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o: ../cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp > CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp > CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o: ../../cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o: ../cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o -MF CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o.d -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp > CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp > CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp -o CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_3d_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_controller_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_extension_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_studio_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_csloader_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_ui_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_audioengine_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_physics3d_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_navmesh_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o: ../../cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o: ../cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o -MF CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o.d -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp > CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/lua-bindings/auto/lua_cocos2dx_backend_auto.cpp -o CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o: ../../cocos/scripting/deprecated/CCDictionary.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o: ../cocos/scripting/deprecated/CCDictionary.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDictionary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDictionary.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDictionary.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDictionary.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDictionary.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDictionary.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o: ../../cocos/scripting/deprecated/CCDeprecated.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o: ../cocos/scripting/deprecated/CCDeprecated.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDeprecated.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDeprecated.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDeprecated.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDeprecated.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDeprecated.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDeprecated.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o: ../../cocos/scripting/deprecated/CCNotificationCenter.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o: ../cocos/scripting/deprecated/CCNotificationCenter.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCNotificationCenter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCNotificationCenter.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCNotificationCenter.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCNotificationCenter.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCNotificationCenter.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCNotificationCenter.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o: ../../cocos/scripting/deprecated/CCString.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o: ../cocos/scripting/deprecated/CCString.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCString.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCString.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCString.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCString.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCString.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o: ../../cocos/scripting/deprecated/CCSet.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o: ../cocos/scripting/deprecated/CCSet.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCSet.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCSet.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCSet.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCSet.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCSet.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCSet.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o: ../../cocos/scripting/deprecated/CCArray.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o: ../cocos/scripting/deprecated/CCArray.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCArray.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCArray.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCArray.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCArray.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCArray.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.s
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/flags.make
-engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o: ../../cocos/scripting/deprecated/CCDataVisitor.cpp
+engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o: ../cocos/scripting/deprecated/CCDataVisitor.cpp
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDataVisitor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o -MF CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o.d -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o -c /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDataVisitor.cpp
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDataVisitor.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDataVisitor.cpp > CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.i
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDataVisitor.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/cocos/scripting/deprecated/CCDataVisitor.cpp -o CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.s
 
 # Object files for target luacocos2d
 luacocos2d_OBJECTS = \
@@ -877,19 +877,19 @@ lib/libluacocos2d.a: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/depr
 lib/libluacocos2d.a: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o
 lib/libluacocos2d.a: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make
 lib/libluacocos2d.a: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX static library ../../../lib/libluacocos2d.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && $(CMAKE_COMMAND) -P CMakeFiles/luacocos2d.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/luacocos2d.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX static library ../../../lib/libluacocos2d.a"
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && $(CMAKE_COMMAND) -P CMakeFiles/luacocos2d.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/luacocos2d.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build: lib/libluacocos2d.a
 .PHONY : engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings && $(CMAKE_COMMAND) -P CMakeFiles/luacocos2d.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings && $(CMAKE_COMMAND) -P CMakeFiles/luacocos2d.dir/cmake_clean.cmake
 .PHONY : engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/clean
 
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/cocos/scripting/lua-bindings /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/cocos/scripting/lua-bindings /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/depend
 

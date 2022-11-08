@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/depend.make
@@ -70,18 +70,18 @@ include engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/progress.make
 include engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/flags.make
 
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o: engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/flags.make
-engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o: ../../external/tinyxml2/tinyxml2.cpp
+engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o: ../external/tinyxml2/tinyxml2.cpp
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o: engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o -MF CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o.d -o CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o -c /home/victor/cocos2d-x/external/tinyxml2/tinyxml2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/tinyxml2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o -MF CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o.d -o CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o -c /home/victor/cocos2d-x/external/tinyxml2/tinyxml2.cpp
 
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/tinyxml2/tinyxml2.cpp > CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/external/tinyxml2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/tinyxml2/tinyxml2.cpp > CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.i
 
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/tinyxml2/tinyxml2.cpp -o CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/external/tinyxml2 && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/tinyxml2/tinyxml2.cpp -o CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.s
 
 # Object files for target ext_tinyxml2
 ext_tinyxml2_OBJECTS = \
@@ -93,19 +93,19 @@ ext_tinyxml2_EXTERNAL_OBJECTS =
 lib/libext_tinyxml2.a: engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/tinyxml2.cpp.o
 lib/libext_tinyxml2.a: engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/build.make
 lib/libext_tinyxml2.a: engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libext_tinyxml2.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 && $(CMAKE_COMMAND) -P CMakeFiles/ext_tinyxml2.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_tinyxml2.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libext_tinyxml2.a"
+	cd /home/victor/cocos2d-x/Game/engine/external/tinyxml2 && $(CMAKE_COMMAND) -P CMakeFiles/ext_tinyxml2.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/tinyxml2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_tinyxml2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/build: lib/libext_tinyxml2.a
 .PHONY : engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/build
 
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 && $(CMAKE_COMMAND) -P CMakeFiles/ext_tinyxml2.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/tinyxml2 && $(CMAKE_COMMAND) -P CMakeFiles/ext_tinyxml2.dir/cmake_clean.cmake
 .PHONY : engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/clean
 
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/tinyxml2 /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2 /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/tinyxml2 /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/external/tinyxml2 /home/victor/cocos2d-x/Game/engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/depend
 

@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/lua-bindings//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/cocos/lua-bindings//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule
 .PHONY : engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ luacocos2d: engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule
 
 # fast build rule for target.
 luacocos2d/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build
 .PHONY : luacocos2d/fast
 
 __/deprecated/CCArray.o: __/deprecated/CCArray.cpp.o
@@ -135,7 +135,7 @@ __/deprecated/CCArray.o: __/deprecated/CCArray.cpp.o
 
 # target to build an object file
 __/deprecated/CCArray.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.o
 .PHONY : __/deprecated/CCArray.cpp.o
 
 __/deprecated/CCArray.i: __/deprecated/CCArray.cpp.i
@@ -143,7 +143,7 @@ __/deprecated/CCArray.i: __/deprecated/CCArray.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCArray.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.i
 .PHONY : __/deprecated/CCArray.cpp.i
 
 __/deprecated/CCArray.s: __/deprecated/CCArray.cpp.s
@@ -151,7 +151,7 @@ __/deprecated/CCArray.s: __/deprecated/CCArray.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCArray.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCArray.cpp.s
 .PHONY : __/deprecated/CCArray.cpp.s
 
 __/deprecated/CCDataVisitor.o: __/deprecated/CCDataVisitor.cpp.o
@@ -159,7 +159,7 @@ __/deprecated/CCDataVisitor.o: __/deprecated/CCDataVisitor.cpp.o
 
 # target to build an object file
 __/deprecated/CCDataVisitor.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.o
 .PHONY : __/deprecated/CCDataVisitor.cpp.o
 
 __/deprecated/CCDataVisitor.i: __/deprecated/CCDataVisitor.cpp.i
@@ -167,7 +167,7 @@ __/deprecated/CCDataVisitor.i: __/deprecated/CCDataVisitor.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCDataVisitor.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.i
 .PHONY : __/deprecated/CCDataVisitor.cpp.i
 
 __/deprecated/CCDataVisitor.s: __/deprecated/CCDataVisitor.cpp.s
@@ -175,7 +175,7 @@ __/deprecated/CCDataVisitor.s: __/deprecated/CCDataVisitor.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCDataVisitor.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDataVisitor.cpp.s
 .PHONY : __/deprecated/CCDataVisitor.cpp.s
 
 __/deprecated/CCDeprecated.o: __/deprecated/CCDeprecated.cpp.o
@@ -183,7 +183,7 @@ __/deprecated/CCDeprecated.o: __/deprecated/CCDeprecated.cpp.o
 
 # target to build an object file
 __/deprecated/CCDeprecated.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.o
 .PHONY : __/deprecated/CCDeprecated.cpp.o
 
 __/deprecated/CCDeprecated.i: __/deprecated/CCDeprecated.cpp.i
@@ -191,7 +191,7 @@ __/deprecated/CCDeprecated.i: __/deprecated/CCDeprecated.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCDeprecated.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.i
 .PHONY : __/deprecated/CCDeprecated.cpp.i
 
 __/deprecated/CCDeprecated.s: __/deprecated/CCDeprecated.cpp.s
@@ -199,7 +199,7 @@ __/deprecated/CCDeprecated.s: __/deprecated/CCDeprecated.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCDeprecated.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDeprecated.cpp.s
 .PHONY : __/deprecated/CCDeprecated.cpp.s
 
 __/deprecated/CCDictionary.o: __/deprecated/CCDictionary.cpp.o
@@ -207,7 +207,7 @@ __/deprecated/CCDictionary.o: __/deprecated/CCDictionary.cpp.o
 
 # target to build an object file
 __/deprecated/CCDictionary.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.o
 .PHONY : __/deprecated/CCDictionary.cpp.o
 
 __/deprecated/CCDictionary.i: __/deprecated/CCDictionary.cpp.i
@@ -215,7 +215,7 @@ __/deprecated/CCDictionary.i: __/deprecated/CCDictionary.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCDictionary.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.i
 .PHONY : __/deprecated/CCDictionary.cpp.i
 
 __/deprecated/CCDictionary.s: __/deprecated/CCDictionary.cpp.s
@@ -223,7 +223,7 @@ __/deprecated/CCDictionary.s: __/deprecated/CCDictionary.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCDictionary.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCDictionary.cpp.s
 .PHONY : __/deprecated/CCDictionary.cpp.s
 
 __/deprecated/CCNotificationCenter.o: __/deprecated/CCNotificationCenter.cpp.o
@@ -231,7 +231,7 @@ __/deprecated/CCNotificationCenter.o: __/deprecated/CCNotificationCenter.cpp.o
 
 # target to build an object file
 __/deprecated/CCNotificationCenter.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.o
 .PHONY : __/deprecated/CCNotificationCenter.cpp.o
 
 __/deprecated/CCNotificationCenter.i: __/deprecated/CCNotificationCenter.cpp.i
@@ -239,7 +239,7 @@ __/deprecated/CCNotificationCenter.i: __/deprecated/CCNotificationCenter.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCNotificationCenter.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.i
 .PHONY : __/deprecated/CCNotificationCenter.cpp.i
 
 __/deprecated/CCNotificationCenter.s: __/deprecated/CCNotificationCenter.cpp.s
@@ -247,7 +247,7 @@ __/deprecated/CCNotificationCenter.s: __/deprecated/CCNotificationCenter.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCNotificationCenter.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCNotificationCenter.cpp.s
 .PHONY : __/deprecated/CCNotificationCenter.cpp.s
 
 __/deprecated/CCSet.o: __/deprecated/CCSet.cpp.o
@@ -255,7 +255,7 @@ __/deprecated/CCSet.o: __/deprecated/CCSet.cpp.o
 
 # target to build an object file
 __/deprecated/CCSet.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.o
 .PHONY : __/deprecated/CCSet.cpp.o
 
 __/deprecated/CCSet.i: __/deprecated/CCSet.cpp.i
@@ -263,7 +263,7 @@ __/deprecated/CCSet.i: __/deprecated/CCSet.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCSet.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.i
 .PHONY : __/deprecated/CCSet.cpp.i
 
 __/deprecated/CCSet.s: __/deprecated/CCSet.cpp.s
@@ -271,7 +271,7 @@ __/deprecated/CCSet.s: __/deprecated/CCSet.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCSet.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCSet.cpp.s
 .PHONY : __/deprecated/CCSet.cpp.s
 
 __/deprecated/CCString.o: __/deprecated/CCString.cpp.o
@@ -279,7 +279,7 @@ __/deprecated/CCString.o: __/deprecated/CCString.cpp.o
 
 # target to build an object file
 __/deprecated/CCString.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.o
 .PHONY : __/deprecated/CCString.cpp.o
 
 __/deprecated/CCString.i: __/deprecated/CCString.cpp.i
@@ -287,7 +287,7 @@ __/deprecated/CCString.i: __/deprecated/CCString.cpp.i
 
 # target to preprocess a source file
 __/deprecated/CCString.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.i
 .PHONY : __/deprecated/CCString.cpp.i
 
 __/deprecated/CCString.s: __/deprecated/CCString.cpp.s
@@ -295,7 +295,7 @@ __/deprecated/CCString.s: __/deprecated/CCString.cpp.s
 
 # target to generate assembly for a file
 __/deprecated/CCString.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/__/deprecated/CCString.cpp.s
 .PHONY : __/deprecated/CCString.cpp.s
 
 auto/lua_cocos2dx_3d_auto.o: auto/lua_cocos2dx_3d_auto.cpp.o
@@ -303,7 +303,7 @@ auto/lua_cocos2dx_3d_auto.o: auto/lua_cocos2dx_3d_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_3d_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_3d_auto.cpp.o
 
 auto/lua_cocos2dx_3d_auto.i: auto/lua_cocos2dx_3d_auto.cpp.i
@@ -311,7 +311,7 @@ auto/lua_cocos2dx_3d_auto.i: auto/lua_cocos2dx_3d_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_3d_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_3d_auto.cpp.i
 
 auto/lua_cocos2dx_3d_auto.s: auto/lua_cocos2dx_3d_auto.cpp.s
@@ -319,7 +319,7 @@ auto/lua_cocos2dx_3d_auto.s: auto/lua_cocos2dx_3d_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_3d_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_3d_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_3d_auto.cpp.s
 
 auto/lua_cocos2dx_audioengine_auto.o: auto/lua_cocos2dx_audioengine_auto.cpp.o
@@ -327,7 +327,7 @@ auto/lua_cocos2dx_audioengine_auto.o: auto/lua_cocos2dx_audioengine_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_audioengine_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_audioengine_auto.cpp.o
 
 auto/lua_cocos2dx_audioengine_auto.i: auto/lua_cocos2dx_audioengine_auto.cpp.i
@@ -335,7 +335,7 @@ auto/lua_cocos2dx_audioengine_auto.i: auto/lua_cocos2dx_audioengine_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_audioengine_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_audioengine_auto.cpp.i
 
 auto/lua_cocos2dx_audioengine_auto.s: auto/lua_cocos2dx_audioengine_auto.cpp.s
@@ -343,7 +343,7 @@ auto/lua_cocos2dx_audioengine_auto.s: auto/lua_cocos2dx_audioengine_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_audioengine_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_audioengine_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_audioengine_auto.cpp.s
 
 auto/lua_cocos2dx_auto.o: auto/lua_cocos2dx_auto.cpp.o
@@ -351,7 +351,7 @@ auto/lua_cocos2dx_auto.o: auto/lua_cocos2dx_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_auto.cpp.o
 
 auto/lua_cocos2dx_auto.i: auto/lua_cocos2dx_auto.cpp.i
@@ -359,7 +359,7 @@ auto/lua_cocos2dx_auto.i: auto/lua_cocos2dx_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_auto.cpp.i
 
 auto/lua_cocos2dx_auto.s: auto/lua_cocos2dx_auto.cpp.s
@@ -367,7 +367,7 @@ auto/lua_cocos2dx_auto.s: auto/lua_cocos2dx_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_auto.cpp.s
 
 auto/lua_cocos2dx_backend_auto.o: auto/lua_cocos2dx_backend_auto.cpp.o
@@ -375,7 +375,7 @@ auto/lua_cocos2dx_backend_auto.o: auto/lua_cocos2dx_backend_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_backend_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_backend_auto.cpp.o
 
 auto/lua_cocos2dx_backend_auto.i: auto/lua_cocos2dx_backend_auto.cpp.i
@@ -383,7 +383,7 @@ auto/lua_cocos2dx_backend_auto.i: auto/lua_cocos2dx_backend_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_backend_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_backend_auto.cpp.i
 
 auto/lua_cocos2dx_backend_auto.s: auto/lua_cocos2dx_backend_auto.cpp.s
@@ -391,7 +391,7 @@ auto/lua_cocos2dx_backend_auto.s: auto/lua_cocos2dx_backend_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_backend_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_backend_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_backend_auto.cpp.s
 
 auto/lua_cocos2dx_controller_auto.o: auto/lua_cocos2dx_controller_auto.cpp.o
@@ -399,7 +399,7 @@ auto/lua_cocos2dx_controller_auto.o: auto/lua_cocos2dx_controller_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_controller_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_controller_auto.cpp.o
 
 auto/lua_cocos2dx_controller_auto.i: auto/lua_cocos2dx_controller_auto.cpp.i
@@ -407,7 +407,7 @@ auto/lua_cocos2dx_controller_auto.i: auto/lua_cocos2dx_controller_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_controller_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_controller_auto.cpp.i
 
 auto/lua_cocos2dx_controller_auto.s: auto/lua_cocos2dx_controller_auto.cpp.s
@@ -415,7 +415,7 @@ auto/lua_cocos2dx_controller_auto.s: auto/lua_cocos2dx_controller_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_controller_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_controller_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_controller_auto.cpp.s
 
 auto/lua_cocos2dx_csloader_auto.o: auto/lua_cocos2dx_csloader_auto.cpp.o
@@ -423,7 +423,7 @@ auto/lua_cocos2dx_csloader_auto.o: auto/lua_cocos2dx_csloader_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_csloader_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_csloader_auto.cpp.o
 
 auto/lua_cocos2dx_csloader_auto.i: auto/lua_cocos2dx_csloader_auto.cpp.i
@@ -431,7 +431,7 @@ auto/lua_cocos2dx_csloader_auto.i: auto/lua_cocos2dx_csloader_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_csloader_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_csloader_auto.cpp.i
 
 auto/lua_cocos2dx_csloader_auto.s: auto/lua_cocos2dx_csloader_auto.cpp.s
@@ -439,7 +439,7 @@ auto/lua_cocos2dx_csloader_auto.s: auto/lua_cocos2dx_csloader_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_csloader_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_csloader_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_csloader_auto.cpp.s
 
 auto/lua_cocos2dx_extension_auto.o: auto/lua_cocos2dx_extension_auto.cpp.o
@@ -447,7 +447,7 @@ auto/lua_cocos2dx_extension_auto.o: auto/lua_cocos2dx_extension_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_extension_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_extension_auto.cpp.o
 
 auto/lua_cocos2dx_extension_auto.i: auto/lua_cocos2dx_extension_auto.cpp.i
@@ -455,7 +455,7 @@ auto/lua_cocos2dx_extension_auto.i: auto/lua_cocos2dx_extension_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_extension_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_extension_auto.cpp.i
 
 auto/lua_cocos2dx_extension_auto.s: auto/lua_cocos2dx_extension_auto.cpp.s
@@ -463,7 +463,7 @@ auto/lua_cocos2dx_extension_auto.s: auto/lua_cocos2dx_extension_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_extension_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_extension_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_extension_auto.cpp.s
 
 auto/lua_cocos2dx_navmesh_auto.o: auto/lua_cocos2dx_navmesh_auto.cpp.o
@@ -471,7 +471,7 @@ auto/lua_cocos2dx_navmesh_auto.o: auto/lua_cocos2dx_navmesh_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_navmesh_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_navmesh_auto.cpp.o
 
 auto/lua_cocos2dx_navmesh_auto.i: auto/lua_cocos2dx_navmesh_auto.cpp.i
@@ -479,7 +479,7 @@ auto/lua_cocos2dx_navmesh_auto.i: auto/lua_cocos2dx_navmesh_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_navmesh_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_navmesh_auto.cpp.i
 
 auto/lua_cocos2dx_navmesh_auto.s: auto/lua_cocos2dx_navmesh_auto.cpp.s
@@ -487,7 +487,7 @@ auto/lua_cocos2dx_navmesh_auto.s: auto/lua_cocos2dx_navmesh_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_navmesh_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_navmesh_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_navmesh_auto.cpp.s
 
 auto/lua_cocos2dx_physics3d_auto.o: auto/lua_cocos2dx_physics3d_auto.cpp.o
@@ -495,7 +495,7 @@ auto/lua_cocos2dx_physics3d_auto.o: auto/lua_cocos2dx_physics3d_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_physics3d_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_physics3d_auto.cpp.o
 
 auto/lua_cocos2dx_physics3d_auto.i: auto/lua_cocos2dx_physics3d_auto.cpp.i
@@ -503,7 +503,7 @@ auto/lua_cocos2dx_physics3d_auto.i: auto/lua_cocos2dx_physics3d_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_physics3d_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_physics3d_auto.cpp.i
 
 auto/lua_cocos2dx_physics3d_auto.s: auto/lua_cocos2dx_physics3d_auto.cpp.s
@@ -511,7 +511,7 @@ auto/lua_cocos2dx_physics3d_auto.s: auto/lua_cocos2dx_physics3d_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_physics3d_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics3d_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_physics3d_auto.cpp.s
 
 auto/lua_cocos2dx_physics_auto.o: auto/lua_cocos2dx_physics_auto.cpp.o
@@ -519,7 +519,7 @@ auto/lua_cocos2dx_physics_auto.o: auto/lua_cocos2dx_physics_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_physics_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_physics_auto.cpp.o
 
 auto/lua_cocos2dx_physics_auto.i: auto/lua_cocos2dx_physics_auto.cpp.i
@@ -527,7 +527,7 @@ auto/lua_cocos2dx_physics_auto.i: auto/lua_cocos2dx_physics_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_physics_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_physics_auto.cpp.i
 
 auto/lua_cocos2dx_physics_auto.s: auto/lua_cocos2dx_physics_auto.cpp.s
@@ -535,7 +535,7 @@ auto/lua_cocos2dx_physics_auto.s: auto/lua_cocos2dx_physics_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_physics_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_physics_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_physics_auto.cpp.s
 
 auto/lua_cocos2dx_studio_auto.o: auto/lua_cocos2dx_studio_auto.cpp.o
@@ -543,7 +543,7 @@ auto/lua_cocos2dx_studio_auto.o: auto/lua_cocos2dx_studio_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_studio_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_studio_auto.cpp.o
 
 auto/lua_cocos2dx_studio_auto.i: auto/lua_cocos2dx_studio_auto.cpp.i
@@ -551,7 +551,7 @@ auto/lua_cocos2dx_studio_auto.i: auto/lua_cocos2dx_studio_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_studio_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_studio_auto.cpp.i
 
 auto/lua_cocos2dx_studio_auto.s: auto/lua_cocos2dx_studio_auto.cpp.s
@@ -559,7 +559,7 @@ auto/lua_cocos2dx_studio_auto.s: auto/lua_cocos2dx_studio_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_studio_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_studio_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_studio_auto.cpp.s
 
 auto/lua_cocos2dx_ui_auto.o: auto/lua_cocos2dx_ui_auto.cpp.o
@@ -567,7 +567,7 @@ auto/lua_cocos2dx_ui_auto.o: auto/lua_cocos2dx_ui_auto.cpp.o
 
 # target to build an object file
 auto/lua_cocos2dx_ui_auto.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.o
 .PHONY : auto/lua_cocos2dx_ui_auto.cpp.o
 
 auto/lua_cocos2dx_ui_auto.i: auto/lua_cocos2dx_ui_auto.cpp.i
@@ -575,7 +575,7 @@ auto/lua_cocos2dx_ui_auto.i: auto/lua_cocos2dx_ui_auto.cpp.i
 
 # target to preprocess a source file
 auto/lua_cocos2dx_ui_auto.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.i
 .PHONY : auto/lua_cocos2dx_ui_auto.cpp.i
 
 auto/lua_cocos2dx_ui_auto.s: auto/lua_cocos2dx_ui_auto.cpp.s
@@ -583,7 +583,7 @@ auto/lua_cocos2dx_ui_auto.s: auto/lua_cocos2dx_ui_auto.cpp.s
 
 # target to generate assembly for a file
 auto/lua_cocos2dx_ui_auto.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/auto/lua_cocos2dx_ui_auto.cpp.s
 .PHONY : auto/lua_cocos2dx_ui_auto.cpp.s
 
 manual/3d/lua_cocos2dx_3d_manual.o: manual/3d/lua_cocos2dx_3d_manual.cpp.o
@@ -591,7 +591,7 @@ manual/3d/lua_cocos2dx_3d_manual.o: manual/3d/lua_cocos2dx_3d_manual.cpp.o
 
 # target to build an object file
 manual/3d/lua_cocos2dx_3d_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.o
 .PHONY : manual/3d/lua_cocos2dx_3d_manual.cpp.o
 
 manual/3d/lua_cocos2dx_3d_manual.i: manual/3d/lua_cocos2dx_3d_manual.cpp.i
@@ -599,7 +599,7 @@ manual/3d/lua_cocos2dx_3d_manual.i: manual/3d/lua_cocos2dx_3d_manual.cpp.i
 
 # target to preprocess a source file
 manual/3d/lua_cocos2dx_3d_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.i
 .PHONY : manual/3d/lua_cocos2dx_3d_manual.cpp.i
 
 manual/3d/lua_cocos2dx_3d_manual.s: manual/3d/lua_cocos2dx_3d_manual.cpp.s
@@ -607,7 +607,7 @@ manual/3d/lua_cocos2dx_3d_manual.s: manual/3d/lua_cocos2dx_3d_manual.cpp.s
 
 # target to generate assembly for a file
 manual/3d/lua_cocos2dx_3d_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/3d/lua_cocos2dx_3d_manual.cpp.s
 .PHONY : manual/3d/lua_cocos2dx_3d_manual.cpp.s
 
 manual/CCComponentLua.o: manual/CCComponentLua.cpp.o
@@ -615,7 +615,7 @@ manual/CCComponentLua.o: manual/CCComponentLua.cpp.o
 
 # target to build an object file
 manual/CCComponentLua.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.o
 .PHONY : manual/CCComponentLua.cpp.o
 
 manual/CCComponentLua.i: manual/CCComponentLua.cpp.i
@@ -623,7 +623,7 @@ manual/CCComponentLua.i: manual/CCComponentLua.cpp.i
 
 # target to preprocess a source file
 manual/CCComponentLua.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.i
 .PHONY : manual/CCComponentLua.cpp.i
 
 manual/CCComponentLua.s: manual/CCComponentLua.cpp.s
@@ -631,7 +631,7 @@ manual/CCComponentLua.s: manual/CCComponentLua.cpp.s
 
 # target to generate assembly for a file
 manual/CCComponentLua.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCComponentLua.cpp.s
 .PHONY : manual/CCComponentLua.cpp.s
 
 manual/CCLuaBridge.o: manual/CCLuaBridge.cpp.o
@@ -639,7 +639,7 @@ manual/CCLuaBridge.o: manual/CCLuaBridge.cpp.o
 
 # target to build an object file
 manual/CCLuaBridge.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.o
 .PHONY : manual/CCLuaBridge.cpp.o
 
 manual/CCLuaBridge.i: manual/CCLuaBridge.cpp.i
@@ -647,7 +647,7 @@ manual/CCLuaBridge.i: manual/CCLuaBridge.cpp.i
 
 # target to preprocess a source file
 manual/CCLuaBridge.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.i
 .PHONY : manual/CCLuaBridge.cpp.i
 
 manual/CCLuaBridge.s: manual/CCLuaBridge.cpp.s
@@ -655,7 +655,7 @@ manual/CCLuaBridge.s: manual/CCLuaBridge.cpp.s
 
 # target to generate assembly for a file
 manual/CCLuaBridge.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaBridge.cpp.s
 .PHONY : manual/CCLuaBridge.cpp.s
 
 manual/CCLuaEngine.o: manual/CCLuaEngine.cpp.o
@@ -663,7 +663,7 @@ manual/CCLuaEngine.o: manual/CCLuaEngine.cpp.o
 
 # target to build an object file
 manual/CCLuaEngine.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.o
 .PHONY : manual/CCLuaEngine.cpp.o
 
 manual/CCLuaEngine.i: manual/CCLuaEngine.cpp.i
@@ -671,7 +671,7 @@ manual/CCLuaEngine.i: manual/CCLuaEngine.cpp.i
 
 # target to preprocess a source file
 manual/CCLuaEngine.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.i
 .PHONY : manual/CCLuaEngine.cpp.i
 
 manual/CCLuaEngine.s: manual/CCLuaEngine.cpp.s
@@ -679,7 +679,7 @@ manual/CCLuaEngine.s: manual/CCLuaEngine.cpp.s
 
 # target to generate assembly for a file
 manual/CCLuaEngine.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaEngine.cpp.s
 .PHONY : manual/CCLuaEngine.cpp.s
 
 manual/CCLuaStack.o: manual/CCLuaStack.cpp.o
@@ -687,7 +687,7 @@ manual/CCLuaStack.o: manual/CCLuaStack.cpp.o
 
 # target to build an object file
 manual/CCLuaStack.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.o
 .PHONY : manual/CCLuaStack.cpp.o
 
 manual/CCLuaStack.i: manual/CCLuaStack.cpp.i
@@ -695,7 +695,7 @@ manual/CCLuaStack.i: manual/CCLuaStack.cpp.i
 
 # target to preprocess a source file
 manual/CCLuaStack.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.i
 .PHONY : manual/CCLuaStack.cpp.i
 
 manual/CCLuaStack.s: manual/CCLuaStack.cpp.s
@@ -703,7 +703,7 @@ manual/CCLuaStack.s: manual/CCLuaStack.cpp.s
 
 # target to generate assembly for a file
 manual/CCLuaStack.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaStack.cpp.s
 .PHONY : manual/CCLuaStack.cpp.s
 
 manual/CCLuaValue.o: manual/CCLuaValue.cpp.o
@@ -711,7 +711,7 @@ manual/CCLuaValue.o: manual/CCLuaValue.cpp.o
 
 # target to build an object file
 manual/CCLuaValue.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.o
 .PHONY : manual/CCLuaValue.cpp.o
 
 manual/CCLuaValue.i: manual/CCLuaValue.cpp.i
@@ -719,7 +719,7 @@ manual/CCLuaValue.i: manual/CCLuaValue.cpp.i
 
 # target to preprocess a source file
 manual/CCLuaValue.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.i
 .PHONY : manual/CCLuaValue.cpp.i
 
 manual/CCLuaValue.s: manual/CCLuaValue.cpp.s
@@ -727,7 +727,7 @@ manual/CCLuaValue.s: manual/CCLuaValue.cpp.s
 
 # target to generate assembly for a file
 manual/CCLuaValue.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/CCLuaValue.cpp.s
 .PHONY : manual/CCLuaValue.cpp.s
 
 manual/Cocos2dxLuaLoader.o: manual/Cocos2dxLuaLoader.cpp.o
@@ -735,7 +735,7 @@ manual/Cocos2dxLuaLoader.o: manual/Cocos2dxLuaLoader.cpp.o
 
 # target to build an object file
 manual/Cocos2dxLuaLoader.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.o
 .PHONY : manual/Cocos2dxLuaLoader.cpp.o
 
 manual/Cocos2dxLuaLoader.i: manual/Cocos2dxLuaLoader.cpp.i
@@ -743,7 +743,7 @@ manual/Cocos2dxLuaLoader.i: manual/Cocos2dxLuaLoader.cpp.i
 
 # target to preprocess a source file
 manual/Cocos2dxLuaLoader.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.i
 .PHONY : manual/Cocos2dxLuaLoader.cpp.i
 
 manual/Cocos2dxLuaLoader.s: manual/Cocos2dxLuaLoader.cpp.s
@@ -751,7 +751,7 @@ manual/Cocos2dxLuaLoader.s: manual/Cocos2dxLuaLoader.cpp.s
 
 # target to generate assembly for a file
 manual/Cocos2dxLuaLoader.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/Cocos2dxLuaLoader.cpp.s
 .PHONY : manual/Cocos2dxLuaLoader.cpp.s
 
 manual/LuaBasicConversions.o: manual/LuaBasicConversions.cpp.o
@@ -759,7 +759,7 @@ manual/LuaBasicConversions.o: manual/LuaBasicConversions.cpp.o
 
 # target to build an object file
 manual/LuaBasicConversions.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.o
 .PHONY : manual/LuaBasicConversions.cpp.o
 
 manual/LuaBasicConversions.i: manual/LuaBasicConversions.cpp.i
@@ -767,7 +767,7 @@ manual/LuaBasicConversions.i: manual/LuaBasicConversions.cpp.i
 
 # target to preprocess a source file
 manual/LuaBasicConversions.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.i
 .PHONY : manual/LuaBasicConversions.cpp.i
 
 manual/LuaBasicConversions.s: manual/LuaBasicConversions.cpp.s
@@ -775,7 +775,7 @@ manual/LuaBasicConversions.s: manual/LuaBasicConversions.cpp.s
 
 # target to generate assembly for a file
 manual/LuaBasicConversions.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/LuaBasicConversions.cpp.s
 .PHONY : manual/LuaBasicConversions.cpp.s
 
 manual/audioengine/lua_cocos2dx_audioengine_manual.o: manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o
@@ -783,7 +783,7 @@ manual/audioengine/lua_cocos2dx_audioengine_manual.o: manual/audioengine/lua_coc
 
 # target to build an object file
 manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o
 .PHONY : manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.o
 
 manual/audioengine/lua_cocos2dx_audioengine_manual.i: manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i
@@ -791,7 +791,7 @@ manual/audioengine/lua_cocos2dx_audioengine_manual.i: manual/audioengine/lua_coc
 
 # target to preprocess a source file
 manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i
 .PHONY : manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.i
 
 manual/audioengine/lua_cocos2dx_audioengine_manual.s: manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s
@@ -799,7 +799,7 @@ manual/audioengine/lua_cocos2dx_audioengine_manual.s: manual/audioengine/lua_coc
 
 # target to generate assembly for a file
 manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s
 .PHONY : manual/audioengine/lua_cocos2dx_audioengine_manual.cpp.s
 
 manual/cocos2d/LuaScriptHandlerMgr.o: manual/cocos2d/LuaScriptHandlerMgr.cpp.o
@@ -807,7 +807,7 @@ manual/cocos2d/LuaScriptHandlerMgr.o: manual/cocos2d/LuaScriptHandlerMgr.cpp.o
 
 # target to build an object file
 manual/cocos2d/LuaScriptHandlerMgr.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.o
 .PHONY : manual/cocos2d/LuaScriptHandlerMgr.cpp.o
 
 manual/cocos2d/LuaScriptHandlerMgr.i: manual/cocos2d/LuaScriptHandlerMgr.cpp.i
@@ -815,7 +815,7 @@ manual/cocos2d/LuaScriptHandlerMgr.i: manual/cocos2d/LuaScriptHandlerMgr.cpp.i
 
 # target to preprocess a source file
 manual/cocos2d/LuaScriptHandlerMgr.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.i
 .PHONY : manual/cocos2d/LuaScriptHandlerMgr.cpp.i
 
 manual/cocos2d/LuaScriptHandlerMgr.s: manual/cocos2d/LuaScriptHandlerMgr.cpp.s
@@ -823,7 +823,7 @@ manual/cocos2d/LuaScriptHandlerMgr.s: manual/cocos2d/LuaScriptHandlerMgr.cpp.s
 
 # target to generate assembly for a file
 manual/cocos2d/LuaScriptHandlerMgr.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/LuaScriptHandlerMgr.cpp.s
 .PHONY : manual/cocos2d/LuaScriptHandlerMgr.cpp.s
 
 manual/cocos2d/lua_cocos2dx_deprecated.o: manual/cocos2d/lua_cocos2dx_deprecated.cpp.o
@@ -831,7 +831,7 @@ manual/cocos2d/lua_cocos2dx_deprecated.o: manual/cocos2d/lua_cocos2dx_deprecated
 
 # target to build an object file
 manual/cocos2d/lua_cocos2dx_deprecated.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.o
 .PHONY : manual/cocos2d/lua_cocos2dx_deprecated.cpp.o
 
 manual/cocos2d/lua_cocos2dx_deprecated.i: manual/cocos2d/lua_cocos2dx_deprecated.cpp.i
@@ -839,7 +839,7 @@ manual/cocos2d/lua_cocos2dx_deprecated.i: manual/cocos2d/lua_cocos2dx_deprecated
 
 # target to preprocess a source file
 manual/cocos2d/lua_cocos2dx_deprecated.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.i
 .PHONY : manual/cocos2d/lua_cocos2dx_deprecated.cpp.i
 
 manual/cocos2d/lua_cocos2dx_deprecated.s: manual/cocos2d/lua_cocos2dx_deprecated.cpp.s
@@ -847,7 +847,7 @@ manual/cocos2d/lua_cocos2dx_deprecated.s: manual/cocos2d/lua_cocos2dx_deprecated
 
 # target to generate assembly for a file
 manual/cocos2d/lua_cocos2dx_deprecated.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_deprecated.cpp.s
 .PHONY : manual/cocos2d/lua_cocos2dx_deprecated.cpp.s
 
 manual/cocos2d/lua_cocos2dx_manual.o: manual/cocos2d/lua_cocos2dx_manual.cpp.o
@@ -855,7 +855,7 @@ manual/cocos2d/lua_cocos2dx_manual.o: manual/cocos2d/lua_cocos2dx_manual.cpp.o
 
 # target to build an object file
 manual/cocos2d/lua_cocos2dx_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.o
 .PHONY : manual/cocos2d/lua_cocos2dx_manual.cpp.o
 
 manual/cocos2d/lua_cocos2dx_manual.i: manual/cocos2d/lua_cocos2dx_manual.cpp.i
@@ -863,7 +863,7 @@ manual/cocos2d/lua_cocos2dx_manual.i: manual/cocos2d/lua_cocos2dx_manual.cpp.i
 
 # target to preprocess a source file
 manual/cocos2d/lua_cocos2dx_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.i
 .PHONY : manual/cocos2d/lua_cocos2dx_manual.cpp.i
 
 manual/cocos2d/lua_cocos2dx_manual.s: manual/cocos2d/lua_cocos2dx_manual.cpp.s
@@ -871,7 +871,7 @@ manual/cocos2d/lua_cocos2dx_manual.s: manual/cocos2d/lua_cocos2dx_manual.cpp.s
 
 # target to generate assembly for a file
 manual/cocos2d/lua_cocos2dx_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_manual.cpp.s
 .PHONY : manual/cocos2d/lua_cocos2dx_manual.cpp.s
 
 manual/cocos2d/lua_cocos2dx_physics_manual.o: manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o
@@ -879,7 +879,7 @@ manual/cocos2d/lua_cocos2dx_physics_manual.o: manual/cocos2d/lua_cocos2dx_physic
 
 # target to build an object file
 manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o
 .PHONY : manual/cocos2d/lua_cocos2dx_physics_manual.cpp.o
 
 manual/cocos2d/lua_cocos2dx_physics_manual.i: manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i
@@ -887,7 +887,7 @@ manual/cocos2d/lua_cocos2dx_physics_manual.i: manual/cocos2d/lua_cocos2dx_physic
 
 # target to preprocess a source file
 manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i
 .PHONY : manual/cocos2d/lua_cocos2dx_physics_manual.cpp.i
 
 manual/cocos2d/lua_cocos2dx_physics_manual.s: manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s
@@ -895,7 +895,7 @@ manual/cocos2d/lua_cocos2dx_physics_manual.s: manual/cocos2d/lua_cocos2dx_physic
 
 # target to generate assembly for a file
 manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s
 .PHONY : manual/cocos2d/lua_cocos2dx_physics_manual.cpp.s
 
 manual/cocostudio/CustomGUIReader.o: manual/cocostudio/CustomGUIReader.cpp.o
@@ -903,7 +903,7 @@ manual/cocostudio/CustomGUIReader.o: manual/cocostudio/CustomGUIReader.cpp.o
 
 # target to build an object file
 manual/cocostudio/CustomGUIReader.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.o
 .PHONY : manual/cocostudio/CustomGUIReader.cpp.o
 
 manual/cocostudio/CustomGUIReader.i: manual/cocostudio/CustomGUIReader.cpp.i
@@ -911,7 +911,7 @@ manual/cocostudio/CustomGUIReader.i: manual/cocostudio/CustomGUIReader.cpp.i
 
 # target to preprocess a source file
 manual/cocostudio/CustomGUIReader.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.i
 .PHONY : manual/cocostudio/CustomGUIReader.cpp.i
 
 manual/cocostudio/CustomGUIReader.s: manual/cocostudio/CustomGUIReader.cpp.s
@@ -919,7 +919,7 @@ manual/cocostudio/CustomGUIReader.s: manual/cocostudio/CustomGUIReader.cpp.s
 
 # target to generate assembly for a file
 manual/cocostudio/CustomGUIReader.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/CustomGUIReader.cpp.s
 .PHONY : manual/cocostudio/CustomGUIReader.cpp.s
 
 manual/cocostudio/lua-cocos-studio-conversions.o: manual/cocostudio/lua-cocos-studio-conversions.cpp.o
@@ -927,7 +927,7 @@ manual/cocostudio/lua-cocos-studio-conversions.o: manual/cocostudio/lua-cocos-st
 
 # target to build an object file
 manual/cocostudio/lua-cocos-studio-conversions.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.o
 .PHONY : manual/cocostudio/lua-cocos-studio-conversions.cpp.o
 
 manual/cocostudio/lua-cocos-studio-conversions.i: manual/cocostudio/lua-cocos-studio-conversions.cpp.i
@@ -935,7 +935,7 @@ manual/cocostudio/lua-cocos-studio-conversions.i: manual/cocostudio/lua-cocos-st
 
 # target to preprocess a source file
 manual/cocostudio/lua-cocos-studio-conversions.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.i
 .PHONY : manual/cocostudio/lua-cocos-studio-conversions.cpp.i
 
 manual/cocostudio/lua-cocos-studio-conversions.s: manual/cocostudio/lua-cocos-studio-conversions.cpp.s
@@ -943,7 +943,7 @@ manual/cocostudio/lua-cocos-studio-conversions.s: manual/cocostudio/lua-cocos-st
 
 # target to generate assembly for a file
 manual/cocostudio/lua-cocos-studio-conversions.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua-cocos-studio-conversions.cpp.s
 .PHONY : manual/cocostudio/lua-cocos-studio-conversions.cpp.s
 
 manual/cocostudio/lua_cocos2dx_coco_studio_manual.o: manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o
@@ -951,7 +951,7 @@ manual/cocostudio/lua_cocos2dx_coco_studio_manual.o: manual/cocostudio/lua_cocos
 
 # target to build an object file
 manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o
 .PHONY : manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.o
 
 manual/cocostudio/lua_cocos2dx_coco_studio_manual.i: manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i
@@ -959,7 +959,7 @@ manual/cocostudio/lua_cocos2dx_coco_studio_manual.i: manual/cocostudio/lua_cocos
 
 # target to preprocess a source file
 manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i
 .PHONY : manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.i
 
 manual/cocostudio/lua_cocos2dx_coco_studio_manual.s: manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s
@@ -967,7 +967,7 @@ manual/cocostudio/lua_cocos2dx_coco_studio_manual.s: manual/cocostudio/lua_cocos
 
 # target to generate assembly for a file
 manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s
 .PHONY : manual/cocostudio/lua_cocos2dx_coco_studio_manual.cpp.s
 
 manual/cocostudio/lua_cocos2dx_csloader_manual.o: manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o
@@ -975,7 +975,7 @@ manual/cocostudio/lua_cocos2dx_csloader_manual.o: manual/cocostudio/lua_cocos2dx
 
 # target to build an object file
 manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o
 .PHONY : manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.o
 
 manual/cocostudio/lua_cocos2dx_csloader_manual.i: manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i
@@ -983,7 +983,7 @@ manual/cocostudio/lua_cocos2dx_csloader_manual.i: manual/cocostudio/lua_cocos2dx
 
 # target to preprocess a source file
 manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i
 .PHONY : manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.i
 
 manual/cocostudio/lua_cocos2dx_csloader_manual.s: manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s
@@ -991,7 +991,7 @@ manual/cocostudio/lua_cocos2dx_csloader_manual.s: manual/cocostudio/lua_cocos2dx
 
 # target to generate assembly for a file
 manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s
 .PHONY : manual/cocostudio/lua_cocos2dx_csloader_manual.cpp.s
 
 manual/controller/lua_cocos2dx_controller_manual.o: manual/controller/lua_cocos2dx_controller_manual.cpp.o
@@ -999,7 +999,7 @@ manual/controller/lua_cocos2dx_controller_manual.o: manual/controller/lua_cocos2
 
 # target to build an object file
 manual/controller/lua_cocos2dx_controller_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.o
 .PHONY : manual/controller/lua_cocos2dx_controller_manual.cpp.o
 
 manual/controller/lua_cocos2dx_controller_manual.i: manual/controller/lua_cocos2dx_controller_manual.cpp.i
@@ -1007,7 +1007,7 @@ manual/controller/lua_cocos2dx_controller_manual.i: manual/controller/lua_cocos2
 
 # target to preprocess a source file
 manual/controller/lua_cocos2dx_controller_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.i
 .PHONY : manual/controller/lua_cocos2dx_controller_manual.cpp.i
 
 manual/controller/lua_cocos2dx_controller_manual.s: manual/controller/lua_cocos2dx_controller_manual.cpp.s
@@ -1015,7 +1015,7 @@ manual/controller/lua_cocos2dx_controller_manual.s: manual/controller/lua_cocos2
 
 # target to generate assembly for a file
 manual/controller/lua_cocos2dx_controller_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/controller/lua_cocos2dx_controller_manual.cpp.s
 .PHONY : manual/controller/lua_cocos2dx_controller_manual.cpp.s
 
 manual/extension/lua_cocos2dx_extension_manual.o: manual/extension/lua_cocos2dx_extension_manual.cpp.o
@@ -1023,7 +1023,7 @@ manual/extension/lua_cocos2dx_extension_manual.o: manual/extension/lua_cocos2dx_
 
 # target to build an object file
 manual/extension/lua_cocos2dx_extension_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.o
 .PHONY : manual/extension/lua_cocos2dx_extension_manual.cpp.o
 
 manual/extension/lua_cocos2dx_extension_manual.i: manual/extension/lua_cocos2dx_extension_manual.cpp.i
@@ -1031,7 +1031,7 @@ manual/extension/lua_cocos2dx_extension_manual.i: manual/extension/lua_cocos2dx_
 
 # target to preprocess a source file
 manual/extension/lua_cocos2dx_extension_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.i
 .PHONY : manual/extension/lua_cocos2dx_extension_manual.cpp.i
 
 manual/extension/lua_cocos2dx_extension_manual.s: manual/extension/lua_cocos2dx_extension_manual.cpp.s
@@ -1039,7 +1039,7 @@ manual/extension/lua_cocos2dx_extension_manual.s: manual/extension/lua_cocos2dx_
 
 # target to generate assembly for a file
 manual/extension/lua_cocos2dx_extension_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/extension/lua_cocos2dx_extension_manual.cpp.s
 .PHONY : manual/extension/lua_cocos2dx_extension_manual.cpp.s
 
 manual/lua_module_register.o: manual/lua_module_register.cpp.o
@@ -1047,7 +1047,7 @@ manual/lua_module_register.o: manual/lua_module_register.cpp.o
 
 # target to build an object file
 manual/lua_module_register.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.o
 .PHONY : manual/lua_module_register.cpp.o
 
 manual/lua_module_register.i: manual/lua_module_register.cpp.i
@@ -1055,7 +1055,7 @@ manual/lua_module_register.i: manual/lua_module_register.cpp.i
 
 # target to preprocess a source file
 manual/lua_module_register.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.i
 .PHONY : manual/lua_module_register.cpp.i
 
 manual/lua_module_register.s: manual/lua_module_register.cpp.s
@@ -1063,7 +1063,7 @@ manual/lua_module_register.s: manual/lua_module_register.cpp.s
 
 # target to generate assembly for a file
 manual/lua_module_register.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/lua_module_register.cpp.s
 .PHONY : manual/lua_module_register.cpp.s
 
 manual/navmesh/lua_cocos2dx_navmesh_conversions.o: manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o
@@ -1071,7 +1071,7 @@ manual/navmesh/lua_cocos2dx_navmesh_conversions.o: manual/navmesh/lua_cocos2dx_n
 
 # target to build an object file
 manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o
 .PHONY : manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.o
 
 manual/navmesh/lua_cocos2dx_navmesh_conversions.i: manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i
@@ -1079,7 +1079,7 @@ manual/navmesh/lua_cocos2dx_navmesh_conversions.i: manual/navmesh/lua_cocos2dx_n
 
 # target to preprocess a source file
 manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i
 .PHONY : manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.i
 
 manual/navmesh/lua_cocos2dx_navmesh_conversions.s: manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s
@@ -1087,7 +1087,7 @@ manual/navmesh/lua_cocos2dx_navmesh_conversions.s: manual/navmesh/lua_cocos2dx_n
 
 # target to generate assembly for a file
 manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s
 .PHONY : manual/navmesh/lua_cocos2dx_navmesh_conversions.cpp.s
 
 manual/navmesh/lua_cocos2dx_navmesh_manual.o: manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o
@@ -1095,7 +1095,7 @@ manual/navmesh/lua_cocos2dx_navmesh_manual.o: manual/navmesh/lua_cocos2dx_navmes
 
 # target to build an object file
 manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o
 .PHONY : manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.o
 
 manual/navmesh/lua_cocos2dx_navmesh_manual.i: manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i
@@ -1103,7 +1103,7 @@ manual/navmesh/lua_cocos2dx_navmesh_manual.i: manual/navmesh/lua_cocos2dx_navmes
 
 # target to preprocess a source file
 manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i
 .PHONY : manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.i
 
 manual/navmesh/lua_cocos2dx_navmesh_manual.s: manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s
@@ -1111,7 +1111,7 @@ manual/navmesh/lua_cocos2dx_navmesh_manual.s: manual/navmesh/lua_cocos2dx_navmes
 
 # target to generate assembly for a file
 manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s
 .PHONY : manual/navmesh/lua_cocos2dx_navmesh_manual.cpp.s
 
 manual/network/Lua_web_socket.o: manual/network/Lua_web_socket.cpp.o
@@ -1119,7 +1119,7 @@ manual/network/Lua_web_socket.o: manual/network/Lua_web_socket.cpp.o
 
 # target to build an object file
 manual/network/Lua_web_socket.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.o
 .PHONY : manual/network/Lua_web_socket.cpp.o
 
 manual/network/Lua_web_socket.i: manual/network/Lua_web_socket.cpp.i
@@ -1127,7 +1127,7 @@ manual/network/Lua_web_socket.i: manual/network/Lua_web_socket.cpp.i
 
 # target to preprocess a source file
 manual/network/Lua_web_socket.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.i
 .PHONY : manual/network/Lua_web_socket.cpp.i
 
 manual/network/Lua_web_socket.s: manual/network/Lua_web_socket.cpp.s
@@ -1135,7 +1135,7 @@ manual/network/Lua_web_socket.s: manual/network/Lua_web_socket.cpp.s
 
 # target to generate assembly for a file
 manual/network/Lua_web_socket.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/Lua_web_socket.cpp.s
 .PHONY : manual/network/Lua_web_socket.cpp.s
 
 manual/network/lua_cocos2dx_network_manual.o: manual/network/lua_cocos2dx_network_manual.cpp.o
@@ -1143,7 +1143,7 @@ manual/network/lua_cocos2dx_network_manual.o: manual/network/lua_cocos2dx_networ
 
 # target to build an object file
 manual/network/lua_cocos2dx_network_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.o
 .PHONY : manual/network/lua_cocos2dx_network_manual.cpp.o
 
 manual/network/lua_cocos2dx_network_manual.i: manual/network/lua_cocos2dx_network_manual.cpp.i
@@ -1151,7 +1151,7 @@ manual/network/lua_cocos2dx_network_manual.i: manual/network/lua_cocos2dx_networ
 
 # target to preprocess a source file
 manual/network/lua_cocos2dx_network_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.i
 .PHONY : manual/network/lua_cocos2dx_network_manual.cpp.i
 
 manual/network/lua_cocos2dx_network_manual.s: manual/network/lua_cocos2dx_network_manual.cpp.s
@@ -1159,7 +1159,7 @@ manual/network/lua_cocos2dx_network_manual.s: manual/network/lua_cocos2dx_networ
 
 # target to generate assembly for a file
 manual/network/lua_cocos2dx_network_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_cocos2dx_network_manual.cpp.s
 .PHONY : manual/network/lua_cocos2dx_network_manual.cpp.s
 
 manual/network/lua_downloader.o: manual/network/lua_downloader.cpp.o
@@ -1167,7 +1167,7 @@ manual/network/lua_downloader.o: manual/network/lua_downloader.cpp.o
 
 # target to build an object file
 manual/network/lua_downloader.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.o
 .PHONY : manual/network/lua_downloader.cpp.o
 
 manual/network/lua_downloader.i: manual/network/lua_downloader.cpp.i
@@ -1175,7 +1175,7 @@ manual/network/lua_downloader.i: manual/network/lua_downloader.cpp.i
 
 # target to preprocess a source file
 manual/network/lua_downloader.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.i
 .PHONY : manual/network/lua_downloader.cpp.i
 
 manual/network/lua_downloader.s: manual/network/lua_downloader.cpp.s
@@ -1183,7 +1183,7 @@ manual/network/lua_downloader.s: manual/network/lua_downloader.cpp.s
 
 # target to generate assembly for a file
 manual/network/lua_downloader.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_downloader.cpp.s
 .PHONY : manual/network/lua_downloader.cpp.s
 
 manual/network/lua_extensions.o: manual/network/lua_extensions.c.o
@@ -1191,7 +1191,7 @@ manual/network/lua_extensions.o: manual/network/lua_extensions.c.o
 
 # target to build an object file
 manual/network/lua_extensions.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.o
 .PHONY : manual/network/lua_extensions.c.o
 
 manual/network/lua_extensions.i: manual/network/lua_extensions.c.i
@@ -1199,7 +1199,7 @@ manual/network/lua_extensions.i: manual/network/lua_extensions.c.i
 
 # target to preprocess a source file
 manual/network/lua_extensions.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.i
 .PHONY : manual/network/lua_extensions.c.i
 
 manual/network/lua_extensions.s: manual/network/lua_extensions.c.s
@@ -1207,7 +1207,7 @@ manual/network/lua_extensions.s: manual/network/lua_extensions.c.s
 
 # target to generate assembly for a file
 manual/network/lua_extensions.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_extensions.c.s
 .PHONY : manual/network/lua_extensions.c.s
 
 manual/network/lua_xml_http_request.o: manual/network/lua_xml_http_request.cpp.o
@@ -1215,7 +1215,7 @@ manual/network/lua_xml_http_request.o: manual/network/lua_xml_http_request.cpp.o
 
 # target to build an object file
 manual/network/lua_xml_http_request.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.o
 .PHONY : manual/network/lua_xml_http_request.cpp.o
 
 manual/network/lua_xml_http_request.i: manual/network/lua_xml_http_request.cpp.i
@@ -1223,7 +1223,7 @@ manual/network/lua_xml_http_request.i: manual/network/lua_xml_http_request.cpp.i
 
 # target to preprocess a source file
 manual/network/lua_xml_http_request.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.i
 .PHONY : manual/network/lua_xml_http_request.cpp.i
 
 manual/network/lua_xml_http_request.s: manual/network/lua_xml_http_request.cpp.s
@@ -1231,7 +1231,7 @@ manual/network/lua_xml_http_request.s: manual/network/lua_xml_http_request.cpp.s
 
 # target to generate assembly for a file
 manual/network/lua_xml_http_request.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/network/lua_xml_http_request.cpp.s
 .PHONY : manual/network/lua_xml_http_request.cpp.s
 
 manual/physics3d/lua_cocos2dx_physics3d_manual.o: manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o
@@ -1239,7 +1239,7 @@ manual/physics3d/lua_cocos2dx_physics3d_manual.o: manual/physics3d/lua_cocos2dx_
 
 # target to build an object file
 manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o
 .PHONY : manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.o
 
 manual/physics3d/lua_cocos2dx_physics3d_manual.i: manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i
@@ -1247,7 +1247,7 @@ manual/physics3d/lua_cocos2dx_physics3d_manual.i: manual/physics3d/lua_cocos2dx_
 
 # target to preprocess a source file
 manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i
 .PHONY : manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.i
 
 manual/physics3d/lua_cocos2dx_physics3d_manual.s: manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s
@@ -1255,7 +1255,7 @@ manual/physics3d/lua_cocos2dx_physics3d_manual.s: manual/physics3d/lua_cocos2dx_
 
 # target to generate assembly for a file
 manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s
 .PHONY : manual/physics3d/lua_cocos2dx_physics3d_manual.cpp.s
 
 manual/spine/LuaSkeletonAnimation.o: manual/spine/LuaSkeletonAnimation.cpp.o
@@ -1263,7 +1263,7 @@ manual/spine/LuaSkeletonAnimation.o: manual/spine/LuaSkeletonAnimation.cpp.o
 
 # target to build an object file
 manual/spine/LuaSkeletonAnimation.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.o
 .PHONY : manual/spine/LuaSkeletonAnimation.cpp.o
 
 manual/spine/LuaSkeletonAnimation.i: manual/spine/LuaSkeletonAnimation.cpp.i
@@ -1271,7 +1271,7 @@ manual/spine/LuaSkeletonAnimation.i: manual/spine/LuaSkeletonAnimation.cpp.i
 
 # target to preprocess a source file
 manual/spine/LuaSkeletonAnimation.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.i
 .PHONY : manual/spine/LuaSkeletonAnimation.cpp.i
 
 manual/spine/LuaSkeletonAnimation.s: manual/spine/LuaSkeletonAnimation.cpp.s
@@ -1279,7 +1279,7 @@ manual/spine/LuaSkeletonAnimation.s: manual/spine/LuaSkeletonAnimation.cpp.s
 
 # target to generate assembly for a file
 manual/spine/LuaSkeletonAnimation.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/spine/LuaSkeletonAnimation.cpp.s
 .PHONY : manual/spine/LuaSkeletonAnimation.cpp.s
 
 manual/tolua_fix.o: manual/tolua_fix.cpp.o
@@ -1287,7 +1287,7 @@ manual/tolua_fix.o: manual/tolua_fix.cpp.o
 
 # target to build an object file
 manual/tolua_fix.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.o
 .PHONY : manual/tolua_fix.cpp.o
 
 manual/tolua_fix.i: manual/tolua_fix.cpp.i
@@ -1295,7 +1295,7 @@ manual/tolua_fix.i: manual/tolua_fix.cpp.i
 
 # target to preprocess a source file
 manual/tolua_fix.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.i
 .PHONY : manual/tolua_fix.cpp.i
 
 manual/tolua_fix.s: manual/tolua_fix.cpp.s
@@ -1303,7 +1303,7 @@ manual/tolua_fix.s: manual/tolua_fix.cpp.s
 
 # target to generate assembly for a file
 manual/tolua_fix.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/tolua_fix.cpp.s
 .PHONY : manual/tolua_fix.cpp.s
 
 manual/ui/lua_cocos2dx_ui_manual.o: manual/ui/lua_cocos2dx_ui_manual.cpp.o
@@ -1311,7 +1311,7 @@ manual/ui/lua_cocos2dx_ui_manual.o: manual/ui/lua_cocos2dx_ui_manual.cpp.o
 
 # target to build an object file
 manual/ui/lua_cocos2dx_ui_manual.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.o
 .PHONY : manual/ui/lua_cocos2dx_ui_manual.cpp.o
 
 manual/ui/lua_cocos2dx_ui_manual.i: manual/ui/lua_cocos2dx_ui_manual.cpp.i
@@ -1319,7 +1319,7 @@ manual/ui/lua_cocos2dx_ui_manual.i: manual/ui/lua_cocos2dx_ui_manual.cpp.i
 
 # target to preprocess a source file
 manual/ui/lua_cocos2dx_ui_manual.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.i
 .PHONY : manual/ui/lua_cocos2dx_ui_manual.cpp.i
 
 manual/ui/lua_cocos2dx_ui_manual.s: manual/ui/lua_cocos2dx_ui_manual.cpp.s
@@ -1327,7 +1327,7 @@ manual/ui/lua_cocos2dx_ui_manual.s: manual/ui/lua_cocos2dx_ui_manual.cpp.s
 
 # target to generate assembly for a file
 manual/ui/lua_cocos2dx_ui_manual.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/manual/ui/lua_cocos2dx_ui_manual.cpp.s
 .PHONY : manual/ui/lua_cocos2dx_ui_manual.cpp.s
 
 # Help Target
@@ -1500,6 +1500,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

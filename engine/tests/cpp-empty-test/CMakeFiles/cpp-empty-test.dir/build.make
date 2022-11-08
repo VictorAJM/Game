@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/depend.make
@@ -70,46 +70,46 @@ include engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/progress.make
 include engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/flags.make
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/flags.make
-engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o: ../../tests/cpp-empty-test/Classes/AppDelegate.cpp
+engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o: ../tests/cpp-empty-test/Classes/AppDelegate.cpp
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o -MF CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o.d -o CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o -c /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/AppDelegate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o -MF CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o.d -o CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.o -c /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/AppDelegate.cpp
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/AppDelegate.cpp > CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/AppDelegate.cpp > CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.i
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/AppDelegate.cpp -o CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/AppDelegate.cpp -o CMakeFiles/cpp-empty-test.dir/Classes/AppDelegate.cpp.s
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/flags.make
-engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o: ../../tests/cpp-empty-test/Classes/HelloWorldScene.cpp
+engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o: ../tests/cpp-empty-test/Classes/HelloWorldScene.cpp
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o -MF CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o.d -o CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o -c /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/HelloWorldScene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o -MF CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o.d -o CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.o -c /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/HelloWorldScene.cpp
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/HelloWorldScene.cpp > CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/HelloWorldScene.cpp > CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.i
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/HelloWorldScene.cpp -o CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/tests/cpp-empty-test/Classes/HelloWorldScene.cpp -o CMakeFiles/cpp-empty-test.dir/Classes/HelloWorldScene.cpp.s
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/flags.make
-engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o: ../../tests/cpp-empty-test/proj.linux/main.cpp
+engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o: ../tests/cpp-empty-test/proj.linux/main.cpp
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o -MF CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o.d -o CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o -c /home/victor/cocos2d-x/tests/cpp-empty-test/proj.linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o -MF CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o.d -o CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.o -c /home/victor/cocos2d-x/tests/cpp-empty-test/proj.linux/main.cpp
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/tests/cpp-empty-test/proj.linux/main.cpp > CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/tests/cpp-empty-test/proj.linux/main.cpp > CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.i
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/tests/cpp-empty-test/proj.linux/main.cpp -o CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/tests/cpp-empty-test/proj.linux/main.cpp -o CMakeFiles/cpp-empty-test.dir/proj.linux/main.cpp.s
 
 # Object files for target cpp-empty-test
 cpp__empty__test_OBJECTS = \
@@ -126,22 +126,22 @@ bin/cpp-empty-test/cpp-empty-test: engine/tests/cpp-empty-test/CMakeFiles/cpp-em
 bin/cpp-empty-test/cpp-empty-test: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/build.make
 bin/cpp-empty-test/cpp-empty-test: lib/libcocos2d.a
 bin/cpp-empty-test/cpp-empty-test: lib/libexternal.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/Box2D/prebuilt/linux/64-bit/libbox2d.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/chipmunk/prebuilt/linux/64-bit/libchipmunk.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/freetype2/prebuilt/linux/64-bit/libfreetype.a
+bin/cpp-empty-test/cpp-empty-test: ../external/Box2D/prebuilt/linux/64-bit/libbox2d.a
+bin/cpp-empty-test/cpp-empty-test: ../external/chipmunk/prebuilt/linux/64-bit/libchipmunk.a
+bin/cpp-empty-test/cpp-empty-test: ../external/freetype2/prebuilt/linux/64-bit/libfreetype.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_recast.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/bullet/prebuilt/linux/64-bit/libLinearMath.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/bullet/prebuilt/linux/64-bit/libBulletDynamics.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/bullet/prebuilt/linux/64-bit/libBulletCollision.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/bullet/prebuilt/linux/64-bit/libLinearMath.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/bullet/prebuilt/linux/64-bit/libBulletMultiThreaded.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/bullet/prebuilt/linux/64-bit/libMiniCL.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/jpeg/prebuilt/linux/64-bit/libjpeg.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/webp/prebuilt/linux/64-bit/libwebp.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/websockets/prebuilt/linux/64-bit/libwebsockets.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/openssl/prebuilt/linux/64-bit/libssl.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/openssl/prebuilt/linux/64-bit/libcrypto.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/uv/prebuilt/linux/64-bit/libuv_a.a
+bin/cpp-empty-test/cpp-empty-test: ../external/bullet/prebuilt/linux/64-bit/libLinearMath.a
+bin/cpp-empty-test/cpp-empty-test: ../external/bullet/prebuilt/linux/64-bit/libBulletDynamics.a
+bin/cpp-empty-test/cpp-empty-test: ../external/bullet/prebuilt/linux/64-bit/libBulletCollision.a
+bin/cpp-empty-test/cpp-empty-test: ../external/bullet/prebuilt/linux/64-bit/libLinearMath.a
+bin/cpp-empty-test/cpp-empty-test: ../external/bullet/prebuilt/linux/64-bit/libBulletMultiThreaded.a
+bin/cpp-empty-test/cpp-empty-test: ../external/bullet/prebuilt/linux/64-bit/libMiniCL.a
+bin/cpp-empty-test/cpp-empty-test: ../external/jpeg/prebuilt/linux/64-bit/libjpeg.a
+bin/cpp-empty-test/cpp-empty-test: ../external/webp/prebuilt/linux/64-bit/libwebp.a
+bin/cpp-empty-test/cpp-empty-test: ../external/websockets/prebuilt/linux/64-bit/libwebsockets.a
+bin/cpp-empty-test/cpp-empty-test: ../external/openssl/prebuilt/linux/64-bit/libssl.a
+bin/cpp-empty-test/cpp-empty-test: ../external/openssl/prebuilt/linux/64-bit/libcrypto.a
+bin/cpp-empty-test/cpp-empty-test: ../external/uv/prebuilt/linux/64-bit/libuv_a.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_tinyxml2.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_xxhash.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_xxtea.a
@@ -150,8 +150,8 @@ bin/cpp-empty-test/cpp-empty-test: lib/libext_edtaa3func.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_convertUTF.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_poly2tri.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_md5.a
-bin/cpp-empty-test/cpp-empty-test: ../../external/linux-specific/fmod/prebuilt/64-bit/libfmod.so
-bin/cpp-empty-test/cpp-empty-test: ../../external/glfw3/prebuilt/linux/libglfw3.a
+bin/cpp-empty-test/cpp-empty-test: ../external/linux-specific/fmod/prebuilt/64-bit/libfmod.so
+bin/cpp-empty-test/cpp-empty-test: ../external/glfw3/prebuilt/linux/libglfw3.a
 bin/cpp-empty-test/cpp-empty-test: lib/libext_unzip.a
 bin/cpp-empty-test/cpp-empty-test: /usr/lib/x86_64-linux-gnu/libz.so
 bin/cpp-empty-test/cpp-empty-test: /usr/lib/x86_64-linux-gnu/libpng.so
@@ -163,18 +163,18 @@ bin/cpp-empty-test/cpp-empty-test: /usr/lib/x86_64-linux-gnu/libGLU.so
 bin/cpp-empty-test/cpp-empty-test: /usr/lib/x86_64-linux-gnu/libcurl.so
 bin/cpp-empty-test/cpp-empty-test: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 bin/cpp-empty-test/cpp-empty-test: engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/cpp-empty-test/cpp-empty-test"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-empty-test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable ../../../bin/cpp-empty-test/cpp-empty-test"
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cpp-empty-test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/build: bin/cpp-empty-test/cpp-empty-test
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/build
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test && $(CMAKE_COMMAND) -P CMakeFiles/cpp-empty-test.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test && $(CMAKE_COMMAND) -P CMakeFiles/cpp-empty-test.dir/cmake_clean.cmake
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/clean
 
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/tests/cpp-empty-test /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/tests/cpp-empty-test /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test /home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/depend
 

@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/depend.make
@@ -70,228 +70,228 @@ include engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/progress.make
 include engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o: ../../external/lua/luasocket/buffer.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o: ../external/lua/luasocket/buffer.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o -MF CMakeFiles/ext_luasocket.dir/buffer.c.o.d -o CMakeFiles/ext_luasocket.dir/buffer.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/buffer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o -MF CMakeFiles/ext_luasocket.dir/buffer.c.o.d -o CMakeFiles/ext_luasocket.dir/buffer.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/buffer.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/buffer.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/buffer.c > CMakeFiles/ext_luasocket.dir/buffer.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/buffer.c > CMakeFiles/ext_luasocket.dir/buffer.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/buffer.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/buffer.c -o CMakeFiles/ext_luasocket.dir/buffer.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/buffer.c -o CMakeFiles/ext_luasocket.dir/buffer.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o: ../../external/lua/luasocket/io.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o: ../external/lua/luasocket/io.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o -MF CMakeFiles/ext_luasocket.dir/io.c.o.d -o CMakeFiles/ext_luasocket.dir/io.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/io.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o -MF CMakeFiles/ext_luasocket.dir/io.c.o.d -o CMakeFiles/ext_luasocket.dir/io.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/io.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/io.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/io.c > CMakeFiles/ext_luasocket.dir/io.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/io.c > CMakeFiles/ext_luasocket.dir/io.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/io.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/io.c -o CMakeFiles/ext_luasocket.dir/io.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/io.c -o CMakeFiles/ext_luasocket.dir/io.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o: ../../external/lua/luasocket/timeout.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o: ../external/lua/luasocket/timeout.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o -MF CMakeFiles/ext_luasocket.dir/timeout.c.o.d -o CMakeFiles/ext_luasocket.dir/timeout.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/timeout.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o -MF CMakeFiles/ext_luasocket.dir/timeout.c.o.d -o CMakeFiles/ext_luasocket.dir/timeout.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/timeout.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/timeout.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/timeout.c > CMakeFiles/ext_luasocket.dir/timeout.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/timeout.c > CMakeFiles/ext_luasocket.dir/timeout.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/timeout.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/timeout.c -o CMakeFiles/ext_luasocket.dir/timeout.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/timeout.c -o CMakeFiles/ext_luasocket.dir/timeout.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o: ../../external/lua/luasocket/select.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o: ../external/lua/luasocket/select.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o -MF CMakeFiles/ext_luasocket.dir/select.c.o.d -o CMakeFiles/ext_luasocket.dir/select.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/select.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o -MF CMakeFiles/ext_luasocket.dir/select.c.o.d -o CMakeFiles/ext_luasocket.dir/select.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/select.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/select.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/select.c > CMakeFiles/ext_luasocket.dir/select.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/select.c > CMakeFiles/ext_luasocket.dir/select.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/select.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/select.c -o CMakeFiles/ext_luasocket.dir/select.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/select.c -o CMakeFiles/ext_luasocket.dir/select.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o: ../../external/lua/luasocket/udp.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o: ../external/lua/luasocket/udp.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o -MF CMakeFiles/ext_luasocket.dir/udp.c.o.d -o CMakeFiles/ext_luasocket.dir/udp.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/udp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o -MF CMakeFiles/ext_luasocket.dir/udp.c.o.d -o CMakeFiles/ext_luasocket.dir/udp.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/udp.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/udp.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/udp.c > CMakeFiles/ext_luasocket.dir/udp.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/udp.c > CMakeFiles/ext_luasocket.dir/udp.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/udp.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/udp.c -o CMakeFiles/ext_luasocket.dir/udp.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/udp.c -o CMakeFiles/ext_luasocket.dir/udp.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o: ../../external/lua/luasocket/mime.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o: ../external/lua/luasocket/mime.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o -MF CMakeFiles/ext_luasocket.dir/mime.c.o.d -o CMakeFiles/ext_luasocket.dir/mime.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/mime.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o -MF CMakeFiles/ext_luasocket.dir/mime.c.o.d -o CMakeFiles/ext_luasocket.dir/mime.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/mime.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/mime.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/mime.c > CMakeFiles/ext_luasocket.dir/mime.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/mime.c > CMakeFiles/ext_luasocket.dir/mime.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/mime.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/mime.c -o CMakeFiles/ext_luasocket.dir/mime.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/mime.c -o CMakeFiles/ext_luasocket.dir/mime.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o: ../../external/lua/luasocket/tcp.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o: ../external/lua/luasocket/tcp.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o -MF CMakeFiles/ext_luasocket.dir/tcp.c.o.d -o CMakeFiles/ext_luasocket.dir/tcp.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/tcp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o -MF CMakeFiles/ext_luasocket.dir/tcp.c.o.d -o CMakeFiles/ext_luasocket.dir/tcp.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/tcp.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/tcp.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/tcp.c > CMakeFiles/ext_luasocket.dir/tcp.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/tcp.c > CMakeFiles/ext_luasocket.dir/tcp.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/tcp.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/tcp.c -o CMakeFiles/ext_luasocket.dir/tcp.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/tcp.c -o CMakeFiles/ext_luasocket.dir/tcp.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o: ../../external/lua/luasocket/auxiliar.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o: ../external/lua/luasocket/auxiliar.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o -MF CMakeFiles/ext_luasocket.dir/auxiliar.c.o.d -o CMakeFiles/ext_luasocket.dir/auxiliar.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/auxiliar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o -MF CMakeFiles/ext_luasocket.dir/auxiliar.c.o.d -o CMakeFiles/ext_luasocket.dir/auxiliar.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/auxiliar.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/auxiliar.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/auxiliar.c > CMakeFiles/ext_luasocket.dir/auxiliar.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/auxiliar.c > CMakeFiles/ext_luasocket.dir/auxiliar.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/auxiliar.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/auxiliar.c -o CMakeFiles/ext_luasocket.dir/auxiliar.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/auxiliar.c -o CMakeFiles/ext_luasocket.dir/auxiliar.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o: ../../external/lua/luasocket/inet.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o: ../external/lua/luasocket/inet.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o -MF CMakeFiles/ext_luasocket.dir/inet.c.o.d -o CMakeFiles/ext_luasocket.dir/inet.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/inet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o -MF CMakeFiles/ext_luasocket.dir/inet.c.o.d -o CMakeFiles/ext_luasocket.dir/inet.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/inet.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/inet.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/inet.c > CMakeFiles/ext_luasocket.dir/inet.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/inet.c > CMakeFiles/ext_luasocket.dir/inet.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/inet.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/inet.c -o CMakeFiles/ext_luasocket.dir/inet.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/inet.c -o CMakeFiles/ext_luasocket.dir/inet.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o: ../../external/lua/luasocket/luasocket.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o: ../external/lua/luasocket/luasocket.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o -MF CMakeFiles/ext_luasocket.dir/luasocket.c.o.d -o CMakeFiles/ext_luasocket.dir/luasocket.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/luasocket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o -MF CMakeFiles/ext_luasocket.dir/luasocket.c.o.d -o CMakeFiles/ext_luasocket.dir/luasocket.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/luasocket.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/luasocket.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/luasocket.c > CMakeFiles/ext_luasocket.dir/luasocket.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/luasocket.c > CMakeFiles/ext_luasocket.dir/luasocket.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/luasocket.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/luasocket.c -o CMakeFiles/ext_luasocket.dir/luasocket.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/luasocket.c -o CMakeFiles/ext_luasocket.dir/luasocket.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o: ../../external/lua/luasocket/luasocket_scripts.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o: ../external/lua/luasocket/luasocket_scripts.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o -MF CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o.d -o CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/luasocket_scripts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o -MF CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o.d -o CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/luasocket_scripts.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/luasocket_scripts.c > CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/luasocket_scripts.c > CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/luasocket_scripts.c -o CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/luasocket_scripts.c -o CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o: ../../external/lua/luasocket/except.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o: ../external/lua/luasocket/except.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o -MF CMakeFiles/ext_luasocket.dir/except.c.o.d -o CMakeFiles/ext_luasocket.dir/except.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/except.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o -MF CMakeFiles/ext_luasocket.dir/except.c.o.d -o CMakeFiles/ext_luasocket.dir/except.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/except.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/except.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/except.c > CMakeFiles/ext_luasocket.dir/except.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/except.c > CMakeFiles/ext_luasocket.dir/except.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/except.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/except.c -o CMakeFiles/ext_luasocket.dir/except.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/except.c -o CMakeFiles/ext_luasocket.dir/except.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o: ../../external/lua/luasocket/options.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o: ../external/lua/luasocket/options.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o -MF CMakeFiles/ext_luasocket.dir/options.c.o.d -o CMakeFiles/ext_luasocket.dir/options.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/options.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o -MF CMakeFiles/ext_luasocket.dir/options.c.o.d -o CMakeFiles/ext_luasocket.dir/options.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/options.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/options.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/options.c > CMakeFiles/ext_luasocket.dir/options.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/options.c > CMakeFiles/ext_luasocket.dir/options.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/options.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/options.c -o CMakeFiles/ext_luasocket.dir/options.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/options.c -o CMakeFiles/ext_luasocket.dir/options.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o: ../../external/lua/luasocket/unix.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o: ../external/lua/luasocket/unix.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o -MF CMakeFiles/ext_luasocket.dir/unix.c.o.d -o CMakeFiles/ext_luasocket.dir/unix.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/unix.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o -MF CMakeFiles/ext_luasocket.dir/unix.c.o.d -o CMakeFiles/ext_luasocket.dir/unix.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/unix.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/unix.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/unix.c > CMakeFiles/ext_luasocket.dir/unix.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/unix.c > CMakeFiles/ext_luasocket.dir/unix.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/unix.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/unix.c -o CMakeFiles/ext_luasocket.dir/unix.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/unix.c -o CMakeFiles/ext_luasocket.dir/unix.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o: ../../external/lua/luasocket/usocket.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o: ../external/lua/luasocket/usocket.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o -MF CMakeFiles/ext_luasocket.dir/usocket.c.o.d -o CMakeFiles/ext_luasocket.dir/usocket.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/usocket.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o -MF CMakeFiles/ext_luasocket.dir/usocket.c.o.d -o CMakeFiles/ext_luasocket.dir/usocket.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/usocket.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/usocket.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/usocket.c > CMakeFiles/ext_luasocket.dir/usocket.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/usocket.c > CMakeFiles/ext_luasocket.dir/usocket.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/usocket.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/usocket.c -o CMakeFiles/ext_luasocket.dir/usocket.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/usocket.c -o CMakeFiles/ext_luasocket.dir/usocket.c.s
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/flags.make
-engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o: ../../external/lua/luasocket/serial.c
+engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o: ../external/lua/luasocket/serial.c
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o -MF CMakeFiles/ext_luasocket.dir/serial.c.o.d -o CMakeFiles/ext_luasocket.dir/serial.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/serial.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o -MF CMakeFiles/ext_luasocket.dir/serial.c.o.d -o CMakeFiles/ext_luasocket.dir/serial.c.o -c /home/victor/cocos2d-x/external/lua/luasocket/serial.c
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ext_luasocket.dir/serial.c.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/serial.c > CMakeFiles/ext_luasocket.dir/serial.c.i
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/victor/cocos2d-x/external/lua/luasocket/serial.c > CMakeFiles/ext_luasocket.dir/serial.c.i
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ext_luasocket.dir/serial.c.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/serial.c -o CMakeFiles/ext_luasocket.dir/serial.c.s
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/victor/cocos2d-x/external/lua/luasocket/serial.c -o CMakeFiles/ext_luasocket.dir/serial.c.s
 
 # Object files for target ext_luasocket
 ext_luasocket_OBJECTS = \
@@ -333,19 +333,19 @@ lib/libext_luasocket.a: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.d
 lib/libext_luasocket.a: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o
 lib/libext_luasocket.a: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make
 lib/libext_luasocket.a: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library ../../../../lib/libext_luasocket.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && $(CMAKE_COMMAND) -P CMakeFiles/ext_luasocket.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_luasocket.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking C static library ../../../../lib/libext_luasocket.a"
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && $(CMAKE_COMMAND) -P CMakeFiles/ext_luasocket.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_luasocket.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build: lib/libext_luasocket.a
 .PHONY : engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket && $(CMAKE_COMMAND) -P CMakeFiles/ext_luasocket.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/lua/luasocket && $(CMAKE_COMMAND) -P CMakeFiles/ext_luasocket.dir/cmake_clean.cmake
 .PHONY : engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/clean
 
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/lua/luasocket /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/lua/luasocket /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/external/lua/luasocket /home/victor/cocos2d-x/Game/engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/depend
 

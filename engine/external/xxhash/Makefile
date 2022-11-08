@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/xxhash//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/xxhash//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule
 .PHONY : engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_xxhash: engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule
 
 # fast build rule for target.
 ext_xxhash/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build
 .PHONY : ext_xxhash/fast
 
 xxhash.o: xxhash.c.o
@@ -135,7 +135,7 @@ xxhash.o: xxhash.c.o
 
 # target to build an object file
 xxhash.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/xxhash.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/xxhash.c.o
 .PHONY : xxhash.c.o
 
 xxhash.i: xxhash.c.i
@@ -143,7 +143,7 @@ xxhash.i: xxhash.c.i
 
 # target to preprocess a source file
 xxhash.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/xxhash.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/xxhash.c.i
 .PHONY : xxhash.c.i
 
 xxhash.s: xxhash.c.s
@@ -151,7 +151,7 @@ xxhash.s: xxhash.c.s
 
 # target to generate assembly for a file
 xxhash.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/xxhash.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/xxhash.c.s
 .PHONY : xxhash.c.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

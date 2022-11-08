@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/luasocket//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/lua/luasocket//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule
 .PHONY : engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_luasocket: engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule
 
 # fast build rule for target.
 ext_luasocket/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build
 .PHONY : ext_luasocket/fast
 
 auxiliar.o: auxiliar.c.o
@@ -135,7 +135,7 @@ auxiliar.o: auxiliar.c.o
 
 # target to build an object file
 auxiliar.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.o
 .PHONY : auxiliar.c.o
 
 auxiliar.i: auxiliar.c.i
@@ -143,7 +143,7 @@ auxiliar.i: auxiliar.c.i
 
 # target to preprocess a source file
 auxiliar.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.i
 .PHONY : auxiliar.c.i
 
 auxiliar.s: auxiliar.c.s
@@ -151,7 +151,7 @@ auxiliar.s: auxiliar.c.s
 
 # target to generate assembly for a file
 auxiliar.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/auxiliar.c.s
 .PHONY : auxiliar.c.s
 
 buffer.o: buffer.c.o
@@ -159,7 +159,7 @@ buffer.o: buffer.c.o
 
 # target to build an object file
 buffer.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.o
 .PHONY : buffer.c.o
 
 buffer.i: buffer.c.i
@@ -167,7 +167,7 @@ buffer.i: buffer.c.i
 
 # target to preprocess a source file
 buffer.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.i
 .PHONY : buffer.c.i
 
 buffer.s: buffer.c.s
@@ -175,7 +175,7 @@ buffer.s: buffer.c.s
 
 # target to generate assembly for a file
 buffer.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/buffer.c.s
 .PHONY : buffer.c.s
 
 except.o: except.c.o
@@ -183,7 +183,7 @@ except.o: except.c.o
 
 # target to build an object file
 except.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.o
 .PHONY : except.c.o
 
 except.i: except.c.i
@@ -191,7 +191,7 @@ except.i: except.c.i
 
 # target to preprocess a source file
 except.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.i
 .PHONY : except.c.i
 
 except.s: except.c.s
@@ -199,7 +199,7 @@ except.s: except.c.s
 
 # target to generate assembly for a file
 except.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/except.c.s
 .PHONY : except.c.s
 
 inet.o: inet.c.o
@@ -207,7 +207,7 @@ inet.o: inet.c.o
 
 # target to build an object file
 inet.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.o
 .PHONY : inet.c.o
 
 inet.i: inet.c.i
@@ -215,7 +215,7 @@ inet.i: inet.c.i
 
 # target to preprocess a source file
 inet.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.i
 .PHONY : inet.c.i
 
 inet.s: inet.c.s
@@ -223,7 +223,7 @@ inet.s: inet.c.s
 
 # target to generate assembly for a file
 inet.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/inet.c.s
 .PHONY : inet.c.s
 
 io.o: io.c.o
@@ -231,7 +231,7 @@ io.o: io.c.o
 
 # target to build an object file
 io.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.o
 .PHONY : io.c.o
 
 io.i: io.c.i
@@ -239,7 +239,7 @@ io.i: io.c.i
 
 # target to preprocess a source file
 io.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.i
 .PHONY : io.c.i
 
 io.s: io.c.s
@@ -247,7 +247,7 @@ io.s: io.c.s
 
 # target to generate assembly for a file
 io.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/io.c.s
 .PHONY : io.c.s
 
 luasocket.o: luasocket.c.o
@@ -255,7 +255,7 @@ luasocket.o: luasocket.c.o
 
 # target to build an object file
 luasocket.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.o
 .PHONY : luasocket.c.o
 
 luasocket.i: luasocket.c.i
@@ -263,7 +263,7 @@ luasocket.i: luasocket.c.i
 
 # target to preprocess a source file
 luasocket.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.i
 .PHONY : luasocket.c.i
 
 luasocket.s: luasocket.c.s
@@ -271,7 +271,7 @@ luasocket.s: luasocket.c.s
 
 # target to generate assembly for a file
 luasocket.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket.c.s
 .PHONY : luasocket.c.s
 
 luasocket_scripts.o: luasocket_scripts.c.o
@@ -279,7 +279,7 @@ luasocket_scripts.o: luasocket_scripts.c.o
 
 # target to build an object file
 luasocket_scripts.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.o
 .PHONY : luasocket_scripts.c.o
 
 luasocket_scripts.i: luasocket_scripts.c.i
@@ -287,7 +287,7 @@ luasocket_scripts.i: luasocket_scripts.c.i
 
 # target to preprocess a source file
 luasocket_scripts.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.i
 .PHONY : luasocket_scripts.c.i
 
 luasocket_scripts.s: luasocket_scripts.c.s
@@ -295,7 +295,7 @@ luasocket_scripts.s: luasocket_scripts.c.s
 
 # target to generate assembly for a file
 luasocket_scripts.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/luasocket_scripts.c.s
 .PHONY : luasocket_scripts.c.s
 
 mime.o: mime.c.o
@@ -303,7 +303,7 @@ mime.o: mime.c.o
 
 # target to build an object file
 mime.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.o
 .PHONY : mime.c.o
 
 mime.i: mime.c.i
@@ -311,7 +311,7 @@ mime.i: mime.c.i
 
 # target to preprocess a source file
 mime.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.i
 .PHONY : mime.c.i
 
 mime.s: mime.c.s
@@ -319,7 +319,7 @@ mime.s: mime.c.s
 
 # target to generate assembly for a file
 mime.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/mime.c.s
 .PHONY : mime.c.s
 
 options.o: options.c.o
@@ -327,7 +327,7 @@ options.o: options.c.o
 
 # target to build an object file
 options.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.o
 .PHONY : options.c.o
 
 options.i: options.c.i
@@ -335,7 +335,7 @@ options.i: options.c.i
 
 # target to preprocess a source file
 options.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.i
 .PHONY : options.c.i
 
 options.s: options.c.s
@@ -343,7 +343,7 @@ options.s: options.c.s
 
 # target to generate assembly for a file
 options.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/options.c.s
 .PHONY : options.c.s
 
 select.o: select.c.o
@@ -351,7 +351,7 @@ select.o: select.c.o
 
 # target to build an object file
 select.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.o
 .PHONY : select.c.o
 
 select.i: select.c.i
@@ -359,7 +359,7 @@ select.i: select.c.i
 
 # target to preprocess a source file
 select.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.i
 .PHONY : select.c.i
 
 select.s: select.c.s
@@ -367,7 +367,7 @@ select.s: select.c.s
 
 # target to generate assembly for a file
 select.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/select.c.s
 .PHONY : select.c.s
 
 serial.o: serial.c.o
@@ -375,7 +375,7 @@ serial.o: serial.c.o
 
 # target to build an object file
 serial.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.o
 .PHONY : serial.c.o
 
 serial.i: serial.c.i
@@ -383,7 +383,7 @@ serial.i: serial.c.i
 
 # target to preprocess a source file
 serial.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.i
 .PHONY : serial.c.i
 
 serial.s: serial.c.s
@@ -391,7 +391,7 @@ serial.s: serial.c.s
 
 # target to generate assembly for a file
 serial.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/serial.c.s
 .PHONY : serial.c.s
 
 tcp.o: tcp.c.o
@@ -399,7 +399,7 @@ tcp.o: tcp.c.o
 
 # target to build an object file
 tcp.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.o
 .PHONY : tcp.c.o
 
 tcp.i: tcp.c.i
@@ -407,7 +407,7 @@ tcp.i: tcp.c.i
 
 # target to preprocess a source file
 tcp.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.i
 .PHONY : tcp.c.i
 
 tcp.s: tcp.c.s
@@ -415,7 +415,7 @@ tcp.s: tcp.c.s
 
 # target to generate assembly for a file
 tcp.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/tcp.c.s
 .PHONY : tcp.c.s
 
 timeout.o: timeout.c.o
@@ -423,7 +423,7 @@ timeout.o: timeout.c.o
 
 # target to build an object file
 timeout.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.o
 .PHONY : timeout.c.o
 
 timeout.i: timeout.c.i
@@ -431,7 +431,7 @@ timeout.i: timeout.c.i
 
 # target to preprocess a source file
 timeout.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.i
 .PHONY : timeout.c.i
 
 timeout.s: timeout.c.s
@@ -439,7 +439,7 @@ timeout.s: timeout.c.s
 
 # target to generate assembly for a file
 timeout.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/timeout.c.s
 .PHONY : timeout.c.s
 
 udp.o: udp.c.o
@@ -447,7 +447,7 @@ udp.o: udp.c.o
 
 # target to build an object file
 udp.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.o
 .PHONY : udp.c.o
 
 udp.i: udp.c.i
@@ -455,7 +455,7 @@ udp.i: udp.c.i
 
 # target to preprocess a source file
 udp.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.i
 .PHONY : udp.c.i
 
 udp.s: udp.c.s
@@ -463,7 +463,7 @@ udp.s: udp.c.s
 
 # target to generate assembly for a file
 udp.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/udp.c.s
 .PHONY : udp.c.s
 
 unix.o: unix.c.o
@@ -471,7 +471,7 @@ unix.o: unix.c.o
 
 # target to build an object file
 unix.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.o
 .PHONY : unix.c.o
 
 unix.i: unix.c.i
@@ -479,7 +479,7 @@ unix.i: unix.c.i
 
 # target to preprocess a source file
 unix.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.i
 .PHONY : unix.c.i
 
 unix.s: unix.c.s
@@ -487,7 +487,7 @@ unix.s: unix.c.s
 
 # target to generate assembly for a file
 unix.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/unix.c.s
 .PHONY : unix.c.s
 
 usocket.o: usocket.c.o
@@ -495,7 +495,7 @@ usocket.o: usocket.c.o
 
 # target to build an object file
 usocket.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.o
 .PHONY : usocket.c.o
 
 usocket.i: usocket.c.i
@@ -503,7 +503,7 @@ usocket.i: usocket.c.i
 
 # target to preprocess a source file
 usocket.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.i
 .PHONY : usocket.c.i
 
 usocket.s: usocket.c.s
@@ -511,7 +511,7 @@ usocket.s: usocket.c.s
 
 # target to generate assembly for a file
 usocket.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/usocket.c.s
 .PHONY : usocket.c.s
 
 # Help Target
@@ -582,6 +582,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

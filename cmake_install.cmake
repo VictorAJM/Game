@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/victor/cocos2d-x/Triwar_cocos/Game/engine/cocos/core/cmake_install.cmake")
-  include("/home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-empty-test/cmake_install.cmake")
-  include("/home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-tests/cmake_install.cmake")
-  include("/home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/lua-empty-test/cmake_install.cmake")
-  include("/home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/lua-test/cmake_install.cmake")
-  include("/home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/HelloCpp/cmake_install.cmake")
+  include("/home/victor/cocos2d-x/Game/engine/cocos/core/cmake_install.cmake")
+  include("/home/victor/cocos2d-x/Game/engine/tests/cpp-empty-test/cmake_install.cmake")
+  include("/home/victor/cocos2d-x/Game/engine/tests/cpp-tests/cmake_install.cmake")
+  include("/home/victor/cocos2d-x/Game/engine/tests/lua-empty-test/cmake_install.cmake")
+  include("/home/victor/cocos2d-x/Game/engine/tests/lua-test/cmake_install.cmake")
+  include("/home/victor/cocos2d-x/Game/engine/tests/HelloCpp/cmake_install.cmake")
 
 endif()
 
@@ -61,5 +61,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/victor/cocos2d-x/Triwar_cocos/Game/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/victor/cocos2d-x/Game/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

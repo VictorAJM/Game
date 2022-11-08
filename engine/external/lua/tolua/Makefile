@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/lua/tolua//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/lua/tolua//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule
 .PHONY : engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_tolua: engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule
 
 # fast build rule for target.
 ext_tolua/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build
 .PHONY : ext_tolua/fast
 
 tolua_event.o: tolua_event.c.o
@@ -135,7 +135,7 @@ tolua_event.o: tolua_event.c.o
 
 # target to build an object file
 tolua_event.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.o
 .PHONY : tolua_event.c.o
 
 tolua_event.i: tolua_event.c.i
@@ -143,7 +143,7 @@ tolua_event.i: tolua_event.c.i
 
 # target to preprocess a source file
 tolua_event.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.i
 .PHONY : tolua_event.c.i
 
 tolua_event.s: tolua_event.c.s
@@ -151,7 +151,7 @@ tolua_event.s: tolua_event.c.s
 
 # target to generate assembly for a file
 tolua_event.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_event.c.s
 .PHONY : tolua_event.c.s
 
 tolua_is.o: tolua_is.c.o
@@ -159,7 +159,7 @@ tolua_is.o: tolua_is.c.o
 
 # target to build an object file
 tolua_is.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.o
 .PHONY : tolua_is.c.o
 
 tolua_is.i: tolua_is.c.i
@@ -167,7 +167,7 @@ tolua_is.i: tolua_is.c.i
 
 # target to preprocess a source file
 tolua_is.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.i
 .PHONY : tolua_is.c.i
 
 tolua_is.s: tolua_is.c.s
@@ -175,7 +175,7 @@ tolua_is.s: tolua_is.c.s
 
 # target to generate assembly for a file
 tolua_is.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_is.c.s
 .PHONY : tolua_is.c.s
 
 tolua_map.o: tolua_map.c.o
@@ -183,7 +183,7 @@ tolua_map.o: tolua_map.c.o
 
 # target to build an object file
 tolua_map.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.o
 .PHONY : tolua_map.c.o
 
 tolua_map.i: tolua_map.c.i
@@ -191,7 +191,7 @@ tolua_map.i: tolua_map.c.i
 
 # target to preprocess a source file
 tolua_map.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.i
 .PHONY : tolua_map.c.i
 
 tolua_map.s: tolua_map.c.s
@@ -199,7 +199,7 @@ tolua_map.s: tolua_map.c.s
 
 # target to generate assembly for a file
 tolua_map.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_map.c.s
 .PHONY : tolua_map.c.s
 
 tolua_push.o: tolua_push.c.o
@@ -207,7 +207,7 @@ tolua_push.o: tolua_push.c.o
 
 # target to build an object file
 tolua_push.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.o
 .PHONY : tolua_push.c.o
 
 tolua_push.i: tolua_push.c.i
@@ -215,7 +215,7 @@ tolua_push.i: tolua_push.c.i
 
 # target to preprocess a source file
 tolua_push.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.i
 .PHONY : tolua_push.c.i
 
 tolua_push.s: tolua_push.c.s
@@ -223,7 +223,7 @@ tolua_push.s: tolua_push.c.s
 
 # target to generate assembly for a file
 tolua_push.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_push.c.s
 .PHONY : tolua_push.c.s
 
 tolua_to.o: tolua_to.c.o
@@ -231,7 +231,7 @@ tolua_to.o: tolua_to.c.o
 
 # target to build an object file
 tolua_to.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.o
 .PHONY : tolua_to.c.o
 
 tolua_to.i: tolua_to.c.i
@@ -239,7 +239,7 @@ tolua_to.i: tolua_to.c.i
 
 # target to preprocess a source file
 tolua_to.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.i
 .PHONY : tolua_to.c.i
 
 tolua_to.s: tolua_to.c.s
@@ -247,7 +247,7 @@ tolua_to.s: tolua_to.c.s
 
 # target to generate assembly for a file
 tolua_to.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/tolua_to.c.s
 .PHONY : tolua_to.c.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

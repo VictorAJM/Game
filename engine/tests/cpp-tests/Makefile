@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/cpp-tests//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/tests/cpp-tests//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule
 .PHONY : engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ cpp-tests: engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule
 
 # fast build rule for target.
 cpp-tests/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build
 .PHONY : cpp-tests/fast
 
 # Convenience name for target.
 engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/rule
 .PHONY : engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/rule
 
 # Convenience name for target.
@@ -141,7 +141,7 @@ SYNC_RESOURCE-cpp-tests: engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tes
 
 # fast build rule for target.
 SYNC_RESOURCE-cpp-tests/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build
 .PHONY : SYNC_RESOURCE-cpp-tests/fast
 
 Classes/ActionManagerTest/ActionManagerTest.o: Classes/ActionManagerTest/ActionManagerTest.cpp.o
@@ -149,7 +149,7 @@ Classes/ActionManagerTest/ActionManagerTest.o: Classes/ActionManagerTest/ActionM
 
 # target to build an object file
 Classes/ActionManagerTest/ActionManagerTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionManagerTest/ActionManagerTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionManagerTest/ActionManagerTest.cpp.o
 .PHONY : Classes/ActionManagerTest/ActionManagerTest.cpp.o
 
 Classes/ActionManagerTest/ActionManagerTest.i: Classes/ActionManagerTest/ActionManagerTest.cpp.i
@@ -157,7 +157,7 @@ Classes/ActionManagerTest/ActionManagerTest.i: Classes/ActionManagerTest/ActionM
 
 # target to preprocess a source file
 Classes/ActionManagerTest/ActionManagerTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionManagerTest/ActionManagerTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionManagerTest/ActionManagerTest.cpp.i
 .PHONY : Classes/ActionManagerTest/ActionManagerTest.cpp.i
 
 Classes/ActionManagerTest/ActionManagerTest.s: Classes/ActionManagerTest/ActionManagerTest.cpp.s
@@ -165,7 +165,7 @@ Classes/ActionManagerTest/ActionManagerTest.s: Classes/ActionManagerTest/ActionM
 
 # target to generate assembly for a file
 Classes/ActionManagerTest/ActionManagerTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionManagerTest/ActionManagerTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionManagerTest/ActionManagerTest.cpp.s
 .PHONY : Classes/ActionManagerTest/ActionManagerTest.cpp.s
 
 Classes/ActionsEaseTest/ActionsEaseTest.o: Classes/ActionsEaseTest/ActionsEaseTest.cpp.o
@@ -173,7 +173,7 @@ Classes/ActionsEaseTest/ActionsEaseTest.o: Classes/ActionsEaseTest/ActionsEaseTe
 
 # target to build an object file
 Classes/ActionsEaseTest/ActionsEaseTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsEaseTest/ActionsEaseTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsEaseTest/ActionsEaseTest.cpp.o
 .PHONY : Classes/ActionsEaseTest/ActionsEaseTest.cpp.o
 
 Classes/ActionsEaseTest/ActionsEaseTest.i: Classes/ActionsEaseTest/ActionsEaseTest.cpp.i
@@ -181,7 +181,7 @@ Classes/ActionsEaseTest/ActionsEaseTest.i: Classes/ActionsEaseTest/ActionsEaseTe
 
 # target to preprocess a source file
 Classes/ActionsEaseTest/ActionsEaseTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsEaseTest/ActionsEaseTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsEaseTest/ActionsEaseTest.cpp.i
 .PHONY : Classes/ActionsEaseTest/ActionsEaseTest.cpp.i
 
 Classes/ActionsEaseTest/ActionsEaseTest.s: Classes/ActionsEaseTest/ActionsEaseTest.cpp.s
@@ -189,7 +189,7 @@ Classes/ActionsEaseTest/ActionsEaseTest.s: Classes/ActionsEaseTest/ActionsEaseTe
 
 # target to generate assembly for a file
 Classes/ActionsEaseTest/ActionsEaseTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsEaseTest/ActionsEaseTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsEaseTest/ActionsEaseTest.cpp.s
 .PHONY : Classes/ActionsEaseTest/ActionsEaseTest.cpp.s
 
 Classes/ActionsProgressTest/ActionsProgressTest.o: Classes/ActionsProgressTest/ActionsProgressTest.cpp.o
@@ -197,7 +197,7 @@ Classes/ActionsProgressTest/ActionsProgressTest.o: Classes/ActionsProgressTest/A
 
 # target to build an object file
 Classes/ActionsProgressTest/ActionsProgressTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsProgressTest/ActionsProgressTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsProgressTest/ActionsProgressTest.cpp.o
 .PHONY : Classes/ActionsProgressTest/ActionsProgressTest.cpp.o
 
 Classes/ActionsProgressTest/ActionsProgressTest.i: Classes/ActionsProgressTest/ActionsProgressTest.cpp.i
@@ -205,7 +205,7 @@ Classes/ActionsProgressTest/ActionsProgressTest.i: Classes/ActionsProgressTest/A
 
 # target to preprocess a source file
 Classes/ActionsProgressTest/ActionsProgressTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsProgressTest/ActionsProgressTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsProgressTest/ActionsProgressTest.cpp.i
 .PHONY : Classes/ActionsProgressTest/ActionsProgressTest.cpp.i
 
 Classes/ActionsProgressTest/ActionsProgressTest.s: Classes/ActionsProgressTest/ActionsProgressTest.cpp.s
@@ -213,7 +213,7 @@ Classes/ActionsProgressTest/ActionsProgressTest.s: Classes/ActionsProgressTest/A
 
 # target to generate assembly for a file
 Classes/ActionsProgressTest/ActionsProgressTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsProgressTest/ActionsProgressTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsProgressTest/ActionsProgressTest.cpp.s
 .PHONY : Classes/ActionsProgressTest/ActionsProgressTest.cpp.s
 
 Classes/ActionsTest/ActionsTest.o: Classes/ActionsTest/ActionsTest.cpp.o
@@ -221,7 +221,7 @@ Classes/ActionsTest/ActionsTest.o: Classes/ActionsTest/ActionsTest.cpp.o
 
 # target to build an object file
 Classes/ActionsTest/ActionsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsTest/ActionsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsTest/ActionsTest.cpp.o
 .PHONY : Classes/ActionsTest/ActionsTest.cpp.o
 
 Classes/ActionsTest/ActionsTest.i: Classes/ActionsTest/ActionsTest.cpp.i
@@ -229,7 +229,7 @@ Classes/ActionsTest/ActionsTest.i: Classes/ActionsTest/ActionsTest.cpp.i
 
 # target to preprocess a source file
 Classes/ActionsTest/ActionsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsTest/ActionsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsTest/ActionsTest.cpp.i
 .PHONY : Classes/ActionsTest/ActionsTest.cpp.i
 
 Classes/ActionsTest/ActionsTest.s: Classes/ActionsTest/ActionsTest.cpp.s
@@ -237,7 +237,7 @@ Classes/ActionsTest/ActionsTest.s: Classes/ActionsTest/ActionsTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ActionsTest/ActionsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsTest/ActionsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ActionsTest/ActionsTest.cpp.s
 .PHONY : Classes/ActionsTest/ActionsTest.cpp.s
 
 Classes/AppDelegate.o: Classes/AppDelegate.cpp.o
@@ -245,7 +245,7 @@ Classes/AppDelegate.o: Classes/AppDelegate.cpp.o
 
 # target to build an object file
 Classes/AppDelegate.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/AppDelegate.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/AppDelegate.cpp.o
 .PHONY : Classes/AppDelegate.cpp.o
 
 Classes/AppDelegate.i: Classes/AppDelegate.cpp.i
@@ -253,7 +253,7 @@ Classes/AppDelegate.i: Classes/AppDelegate.cpp.i
 
 # target to preprocess a source file
 Classes/AppDelegate.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/AppDelegate.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/AppDelegate.cpp.i
 .PHONY : Classes/AppDelegate.cpp.i
 
 Classes/AppDelegate.s: Classes/AppDelegate.cpp.s
@@ -261,7 +261,7 @@ Classes/AppDelegate.s: Classes/AppDelegate.cpp.s
 
 # target to generate assembly for a file
 Classes/AppDelegate.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/AppDelegate.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/AppDelegate.cpp.s
 .PHONY : Classes/AppDelegate.cpp.s
 
 Classes/BaseTest.o: Classes/BaseTest.cpp.o
@@ -269,7 +269,7 @@ Classes/BaseTest.o: Classes/BaseTest.cpp.o
 
 # target to build an object file
 Classes/BaseTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BaseTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BaseTest.cpp.o
 .PHONY : Classes/BaseTest.cpp.o
 
 Classes/BaseTest.i: Classes/BaseTest.cpp.i
@@ -277,7 +277,7 @@ Classes/BaseTest.i: Classes/BaseTest.cpp.i
 
 # target to preprocess a source file
 Classes/BaseTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BaseTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BaseTest.cpp.i
 .PHONY : Classes/BaseTest.cpp.i
 
 Classes/BaseTest.s: Classes/BaseTest.cpp.s
@@ -285,7 +285,7 @@ Classes/BaseTest.s: Classes/BaseTest.cpp.s
 
 # target to generate assembly for a file
 Classes/BaseTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BaseTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BaseTest.cpp.s
 .PHONY : Classes/BaseTest.cpp.s
 
 Classes/BillBoardTest/BillBoardTest.o: Classes/BillBoardTest/BillBoardTest.cpp.o
@@ -293,7 +293,7 @@ Classes/BillBoardTest/BillBoardTest.o: Classes/BillBoardTest/BillBoardTest.cpp.o
 
 # target to build an object file
 Classes/BillBoardTest/BillBoardTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BillBoardTest/BillBoardTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BillBoardTest/BillBoardTest.cpp.o
 .PHONY : Classes/BillBoardTest/BillBoardTest.cpp.o
 
 Classes/BillBoardTest/BillBoardTest.i: Classes/BillBoardTest/BillBoardTest.cpp.i
@@ -301,7 +301,7 @@ Classes/BillBoardTest/BillBoardTest.i: Classes/BillBoardTest/BillBoardTest.cpp.i
 
 # target to preprocess a source file
 Classes/BillBoardTest/BillBoardTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BillBoardTest/BillBoardTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BillBoardTest/BillBoardTest.cpp.i
 .PHONY : Classes/BillBoardTest/BillBoardTest.cpp.i
 
 Classes/BillBoardTest/BillBoardTest.s: Classes/BillBoardTest/BillBoardTest.cpp.s
@@ -309,7 +309,7 @@ Classes/BillBoardTest/BillBoardTest.s: Classes/BillBoardTest/BillBoardTest.cpp.s
 
 # target to generate assembly for a file
 Classes/BillBoardTest/BillBoardTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BillBoardTest/BillBoardTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BillBoardTest/BillBoardTest.cpp.s
 .PHONY : Classes/BillBoardTest/BillBoardTest.cpp.s
 
 Classes/BugsTest/Bug-1159.o: Classes/BugsTest/Bug-1159.cpp.o
@@ -317,7 +317,7 @@ Classes/BugsTest/Bug-1159.o: Classes/BugsTest/Bug-1159.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-1159.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1159.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1159.cpp.o
 .PHONY : Classes/BugsTest/Bug-1159.cpp.o
 
 Classes/BugsTest/Bug-1159.i: Classes/BugsTest/Bug-1159.cpp.i
@@ -325,7 +325,7 @@ Classes/BugsTest/Bug-1159.i: Classes/BugsTest/Bug-1159.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-1159.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1159.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1159.cpp.i
 .PHONY : Classes/BugsTest/Bug-1159.cpp.i
 
 Classes/BugsTest/Bug-1159.s: Classes/BugsTest/Bug-1159.cpp.s
@@ -333,7 +333,7 @@ Classes/BugsTest/Bug-1159.s: Classes/BugsTest/Bug-1159.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-1159.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1159.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1159.cpp.s
 .PHONY : Classes/BugsTest/Bug-1159.cpp.s
 
 Classes/BugsTest/Bug-1174.o: Classes/BugsTest/Bug-1174.cpp.o
@@ -341,7 +341,7 @@ Classes/BugsTest/Bug-1174.o: Classes/BugsTest/Bug-1174.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-1174.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1174.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1174.cpp.o
 .PHONY : Classes/BugsTest/Bug-1174.cpp.o
 
 Classes/BugsTest/Bug-1174.i: Classes/BugsTest/Bug-1174.cpp.i
@@ -349,7 +349,7 @@ Classes/BugsTest/Bug-1174.i: Classes/BugsTest/Bug-1174.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-1174.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1174.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1174.cpp.i
 .PHONY : Classes/BugsTest/Bug-1174.cpp.i
 
 Classes/BugsTest/Bug-1174.s: Classes/BugsTest/Bug-1174.cpp.s
@@ -357,7 +357,7 @@ Classes/BugsTest/Bug-1174.s: Classes/BugsTest/Bug-1174.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-1174.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1174.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-1174.cpp.s
 .PHONY : Classes/BugsTest/Bug-1174.cpp.s
 
 Classes/BugsTest/Bug-12847.o: Classes/BugsTest/Bug-12847.cpp.o
@@ -365,7 +365,7 @@ Classes/BugsTest/Bug-12847.o: Classes/BugsTest/Bug-12847.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-12847.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-12847.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-12847.cpp.o
 .PHONY : Classes/BugsTest/Bug-12847.cpp.o
 
 Classes/BugsTest/Bug-12847.i: Classes/BugsTest/Bug-12847.cpp.i
@@ -373,7 +373,7 @@ Classes/BugsTest/Bug-12847.i: Classes/BugsTest/Bug-12847.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-12847.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-12847.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-12847.cpp.i
 .PHONY : Classes/BugsTest/Bug-12847.cpp.i
 
 Classes/BugsTest/Bug-12847.s: Classes/BugsTest/Bug-12847.cpp.s
@@ -381,7 +381,7 @@ Classes/BugsTest/Bug-12847.s: Classes/BugsTest/Bug-12847.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-12847.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-12847.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-12847.cpp.s
 .PHONY : Classes/BugsTest/Bug-12847.cpp.s
 
 Classes/BugsTest/Bug-14327.o: Classes/BugsTest/Bug-14327.cpp.o
@@ -389,7 +389,7 @@ Classes/BugsTest/Bug-14327.o: Classes/BugsTest/Bug-14327.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-14327.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-14327.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-14327.cpp.o
 .PHONY : Classes/BugsTest/Bug-14327.cpp.o
 
 Classes/BugsTest/Bug-14327.i: Classes/BugsTest/Bug-14327.cpp.i
@@ -397,7 +397,7 @@ Classes/BugsTest/Bug-14327.i: Classes/BugsTest/Bug-14327.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-14327.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-14327.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-14327.cpp.i
 .PHONY : Classes/BugsTest/Bug-14327.cpp.i
 
 Classes/BugsTest/Bug-14327.s: Classes/BugsTest/Bug-14327.cpp.s
@@ -405,7 +405,7 @@ Classes/BugsTest/Bug-14327.s: Classes/BugsTest/Bug-14327.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-14327.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-14327.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-14327.cpp.s
 .PHONY : Classes/BugsTest/Bug-14327.cpp.s
 
 Classes/BugsTest/Bug-15594.o: Classes/BugsTest/Bug-15594.cpp.o
@@ -413,7 +413,7 @@ Classes/BugsTest/Bug-15594.o: Classes/BugsTest/Bug-15594.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-15594.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15594.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15594.cpp.o
 .PHONY : Classes/BugsTest/Bug-15594.cpp.o
 
 Classes/BugsTest/Bug-15594.i: Classes/BugsTest/Bug-15594.cpp.i
@@ -421,7 +421,7 @@ Classes/BugsTest/Bug-15594.i: Classes/BugsTest/Bug-15594.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-15594.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15594.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15594.cpp.i
 .PHONY : Classes/BugsTest/Bug-15594.cpp.i
 
 Classes/BugsTest/Bug-15594.s: Classes/BugsTest/Bug-15594.cpp.s
@@ -429,7 +429,7 @@ Classes/BugsTest/Bug-15594.s: Classes/BugsTest/Bug-15594.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-15594.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15594.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15594.cpp.s
 .PHONY : Classes/BugsTest/Bug-15594.cpp.s
 
 Classes/BugsTest/Bug-15776.o: Classes/BugsTest/Bug-15776.cpp.o
@@ -437,7 +437,7 @@ Classes/BugsTest/Bug-15776.o: Classes/BugsTest/Bug-15776.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-15776.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15776.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15776.cpp.o
 .PHONY : Classes/BugsTest/Bug-15776.cpp.o
 
 Classes/BugsTest/Bug-15776.i: Classes/BugsTest/Bug-15776.cpp.i
@@ -445,7 +445,7 @@ Classes/BugsTest/Bug-15776.i: Classes/BugsTest/Bug-15776.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-15776.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15776.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15776.cpp.i
 .PHONY : Classes/BugsTest/Bug-15776.cpp.i
 
 Classes/BugsTest/Bug-15776.s: Classes/BugsTest/Bug-15776.cpp.s
@@ -453,7 +453,7 @@ Classes/BugsTest/Bug-15776.s: Classes/BugsTest/Bug-15776.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-15776.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15776.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-15776.cpp.s
 .PHONY : Classes/BugsTest/Bug-15776.cpp.s
 
 Classes/BugsTest/Bug-350.o: Classes/BugsTest/Bug-350.cpp.o
@@ -461,7 +461,7 @@ Classes/BugsTest/Bug-350.o: Classes/BugsTest/Bug-350.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-350.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-350.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-350.cpp.o
 .PHONY : Classes/BugsTest/Bug-350.cpp.o
 
 Classes/BugsTest/Bug-350.i: Classes/BugsTest/Bug-350.cpp.i
@@ -469,7 +469,7 @@ Classes/BugsTest/Bug-350.i: Classes/BugsTest/Bug-350.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-350.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-350.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-350.cpp.i
 .PHONY : Classes/BugsTest/Bug-350.cpp.i
 
 Classes/BugsTest/Bug-350.s: Classes/BugsTest/Bug-350.cpp.s
@@ -477,7 +477,7 @@ Classes/BugsTest/Bug-350.s: Classes/BugsTest/Bug-350.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-350.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-350.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-350.cpp.s
 .PHONY : Classes/BugsTest/Bug-350.cpp.s
 
 Classes/BugsTest/Bug-422.o: Classes/BugsTest/Bug-422.cpp.o
@@ -485,7 +485,7 @@ Classes/BugsTest/Bug-422.o: Classes/BugsTest/Bug-422.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-422.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-422.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-422.cpp.o
 .PHONY : Classes/BugsTest/Bug-422.cpp.o
 
 Classes/BugsTest/Bug-422.i: Classes/BugsTest/Bug-422.cpp.i
@@ -493,7 +493,7 @@ Classes/BugsTest/Bug-422.i: Classes/BugsTest/Bug-422.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-422.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-422.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-422.cpp.i
 .PHONY : Classes/BugsTest/Bug-422.cpp.i
 
 Classes/BugsTest/Bug-422.s: Classes/BugsTest/Bug-422.cpp.s
@@ -501,7 +501,7 @@ Classes/BugsTest/Bug-422.s: Classes/BugsTest/Bug-422.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-422.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-422.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-422.cpp.s
 .PHONY : Classes/BugsTest/Bug-422.cpp.s
 
 Classes/BugsTest/Bug-458/Bug-458.o: Classes/BugsTest/Bug-458/Bug-458.cpp.o
@@ -509,7 +509,7 @@ Classes/BugsTest/Bug-458/Bug-458.o: Classes/BugsTest/Bug-458/Bug-458.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-458/Bug-458.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/Bug-458.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/Bug-458.cpp.o
 .PHONY : Classes/BugsTest/Bug-458/Bug-458.cpp.o
 
 Classes/BugsTest/Bug-458/Bug-458.i: Classes/BugsTest/Bug-458/Bug-458.cpp.i
@@ -517,7 +517,7 @@ Classes/BugsTest/Bug-458/Bug-458.i: Classes/BugsTest/Bug-458/Bug-458.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-458/Bug-458.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/Bug-458.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/Bug-458.cpp.i
 .PHONY : Classes/BugsTest/Bug-458/Bug-458.cpp.i
 
 Classes/BugsTest/Bug-458/Bug-458.s: Classes/BugsTest/Bug-458/Bug-458.cpp.s
@@ -525,7 +525,7 @@ Classes/BugsTest/Bug-458/Bug-458.s: Classes/BugsTest/Bug-458/Bug-458.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-458/Bug-458.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/Bug-458.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/Bug-458.cpp.s
 .PHONY : Classes/BugsTest/Bug-458/Bug-458.cpp.s
 
 Classes/BugsTest/Bug-458/QuestionContainerSprite.o: Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.o
@@ -533,7 +533,7 @@ Classes/BugsTest/Bug-458/QuestionContainerSprite.o: Classes/BugsTest/Bug-458/Que
 
 # target to build an object file
 Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.o
 .PHONY : Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.o
 
 Classes/BugsTest/Bug-458/QuestionContainerSprite.i: Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.i
@@ -541,7 +541,7 @@ Classes/BugsTest/Bug-458/QuestionContainerSprite.i: Classes/BugsTest/Bug-458/Que
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.i
 .PHONY : Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.i
 
 Classes/BugsTest/Bug-458/QuestionContainerSprite.s: Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.s
@@ -549,7 +549,7 @@ Classes/BugsTest/Bug-458/QuestionContainerSprite.s: Classes/BugsTest/Bug-458/Que
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.s
 .PHONY : Classes/BugsTest/Bug-458/QuestionContainerSprite.cpp.s
 
 Classes/BugsTest/Bug-624.o: Classes/BugsTest/Bug-624.cpp.o
@@ -557,7 +557,7 @@ Classes/BugsTest/Bug-624.o: Classes/BugsTest/Bug-624.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-624.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-624.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-624.cpp.o
 .PHONY : Classes/BugsTest/Bug-624.cpp.o
 
 Classes/BugsTest/Bug-624.i: Classes/BugsTest/Bug-624.cpp.i
@@ -565,7 +565,7 @@ Classes/BugsTest/Bug-624.i: Classes/BugsTest/Bug-624.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-624.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-624.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-624.cpp.i
 .PHONY : Classes/BugsTest/Bug-624.cpp.i
 
 Classes/BugsTest/Bug-624.s: Classes/BugsTest/Bug-624.cpp.s
@@ -573,7 +573,7 @@ Classes/BugsTest/Bug-624.s: Classes/BugsTest/Bug-624.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-624.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-624.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-624.cpp.s
 .PHONY : Classes/BugsTest/Bug-624.cpp.s
 
 Classes/BugsTest/Bug-886.o: Classes/BugsTest/Bug-886.cpp.o
@@ -581,7 +581,7 @@ Classes/BugsTest/Bug-886.o: Classes/BugsTest/Bug-886.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-886.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-886.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-886.cpp.o
 .PHONY : Classes/BugsTest/Bug-886.cpp.o
 
 Classes/BugsTest/Bug-886.i: Classes/BugsTest/Bug-886.cpp.i
@@ -589,7 +589,7 @@ Classes/BugsTest/Bug-886.i: Classes/BugsTest/Bug-886.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-886.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-886.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-886.cpp.i
 .PHONY : Classes/BugsTest/Bug-886.cpp.i
 
 Classes/BugsTest/Bug-886.s: Classes/BugsTest/Bug-886.cpp.s
@@ -597,7 +597,7 @@ Classes/BugsTest/Bug-886.s: Classes/BugsTest/Bug-886.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-886.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-886.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-886.cpp.s
 .PHONY : Classes/BugsTest/Bug-886.cpp.s
 
 Classes/BugsTest/Bug-899.o: Classes/BugsTest/Bug-899.cpp.o
@@ -605,7 +605,7 @@ Classes/BugsTest/Bug-899.o: Classes/BugsTest/Bug-899.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-899.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-899.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-899.cpp.o
 .PHONY : Classes/BugsTest/Bug-899.cpp.o
 
 Classes/BugsTest/Bug-899.i: Classes/BugsTest/Bug-899.cpp.i
@@ -613,7 +613,7 @@ Classes/BugsTest/Bug-899.i: Classes/BugsTest/Bug-899.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-899.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-899.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-899.cpp.i
 .PHONY : Classes/BugsTest/Bug-899.cpp.i
 
 Classes/BugsTest/Bug-899.s: Classes/BugsTest/Bug-899.cpp.s
@@ -621,7 +621,7 @@ Classes/BugsTest/Bug-899.s: Classes/BugsTest/Bug-899.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-899.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-899.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-899.cpp.s
 .PHONY : Classes/BugsTest/Bug-899.cpp.s
 
 Classes/BugsTest/Bug-914.o: Classes/BugsTest/Bug-914.cpp.o
@@ -629,7 +629,7 @@ Classes/BugsTest/Bug-914.o: Classes/BugsTest/Bug-914.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-914.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-914.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-914.cpp.o
 .PHONY : Classes/BugsTest/Bug-914.cpp.o
 
 Classes/BugsTest/Bug-914.i: Classes/BugsTest/Bug-914.cpp.i
@@ -637,7 +637,7 @@ Classes/BugsTest/Bug-914.i: Classes/BugsTest/Bug-914.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-914.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-914.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-914.cpp.i
 .PHONY : Classes/BugsTest/Bug-914.cpp.i
 
 Classes/BugsTest/Bug-914.s: Classes/BugsTest/Bug-914.cpp.s
@@ -645,7 +645,7 @@ Classes/BugsTest/Bug-914.s: Classes/BugsTest/Bug-914.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-914.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-914.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-914.cpp.s
 .PHONY : Classes/BugsTest/Bug-914.cpp.s
 
 Classes/BugsTest/Bug-CCDrawNode.o: Classes/BugsTest/Bug-CCDrawNode.cpp.o
@@ -653,7 +653,7 @@ Classes/BugsTest/Bug-CCDrawNode.o: Classes/BugsTest/Bug-CCDrawNode.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-CCDrawNode.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-CCDrawNode.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-CCDrawNode.cpp.o
 .PHONY : Classes/BugsTest/Bug-CCDrawNode.cpp.o
 
 Classes/BugsTest/Bug-CCDrawNode.i: Classes/BugsTest/Bug-CCDrawNode.cpp.i
@@ -661,7 +661,7 @@ Classes/BugsTest/Bug-CCDrawNode.i: Classes/BugsTest/Bug-CCDrawNode.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-CCDrawNode.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-CCDrawNode.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-CCDrawNode.cpp.i
 .PHONY : Classes/BugsTest/Bug-CCDrawNode.cpp.i
 
 Classes/BugsTest/Bug-CCDrawNode.s: Classes/BugsTest/Bug-CCDrawNode.cpp.s
@@ -669,7 +669,7 @@ Classes/BugsTest/Bug-CCDrawNode.s: Classes/BugsTest/Bug-CCDrawNode.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-CCDrawNode.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-CCDrawNode.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-CCDrawNode.cpp.s
 .PHONY : Classes/BugsTest/Bug-CCDrawNode.cpp.s
 
 Classes/BugsTest/Bug-Child.o: Classes/BugsTest/Bug-Child.cpp.o
@@ -677,7 +677,7 @@ Classes/BugsTest/Bug-Child.o: Classes/BugsTest/Bug-Child.cpp.o
 
 # target to build an object file
 Classes/BugsTest/Bug-Child.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-Child.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-Child.cpp.o
 .PHONY : Classes/BugsTest/Bug-Child.cpp.o
 
 Classes/BugsTest/Bug-Child.i: Classes/BugsTest/Bug-Child.cpp.i
@@ -685,7 +685,7 @@ Classes/BugsTest/Bug-Child.i: Classes/BugsTest/Bug-Child.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/Bug-Child.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-Child.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-Child.cpp.i
 .PHONY : Classes/BugsTest/Bug-Child.cpp.i
 
 Classes/BugsTest/Bug-Child.s: Classes/BugsTest/Bug-Child.cpp.s
@@ -693,7 +693,7 @@ Classes/BugsTest/Bug-Child.s: Classes/BugsTest/Bug-Child.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/Bug-Child.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-Child.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/Bug-Child.cpp.s
 .PHONY : Classes/BugsTest/Bug-Child.cpp.s
 
 Classes/BugsTest/BugsTest.o: Classes/BugsTest/BugsTest.cpp.o
@@ -701,7 +701,7 @@ Classes/BugsTest/BugsTest.o: Classes/BugsTest/BugsTest.cpp.o
 
 # target to build an object file
 Classes/BugsTest/BugsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/BugsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/BugsTest.cpp.o
 .PHONY : Classes/BugsTest/BugsTest.cpp.o
 
 Classes/BugsTest/BugsTest.i: Classes/BugsTest/BugsTest.cpp.i
@@ -709,7 +709,7 @@ Classes/BugsTest/BugsTest.i: Classes/BugsTest/BugsTest.cpp.i
 
 # target to preprocess a source file
 Classes/BugsTest/BugsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/BugsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/BugsTest.cpp.i
 .PHONY : Classes/BugsTest/BugsTest.cpp.i
 
 Classes/BugsTest/BugsTest.s: Classes/BugsTest/BugsTest.cpp.s
@@ -717,7 +717,7 @@ Classes/BugsTest/BugsTest.s: Classes/BugsTest/BugsTest.cpp.s
 
 # target to generate assembly for a file
 Classes/BugsTest/BugsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/BugsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/BugsTest/BugsTest.cpp.s
 .PHONY : Classes/BugsTest/BugsTest.cpp.s
 
 Classes/Camera3DTest/Camera3DTest.o: Classes/Camera3DTest/Camera3DTest.cpp.o
@@ -725,7 +725,7 @@ Classes/Camera3DTest/Camera3DTest.o: Classes/Camera3DTest/Camera3DTest.cpp.o
 
 # target to build an object file
 Classes/Camera3DTest/Camera3DTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Camera3DTest/Camera3DTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Camera3DTest/Camera3DTest.cpp.o
 .PHONY : Classes/Camera3DTest/Camera3DTest.cpp.o
 
 Classes/Camera3DTest/Camera3DTest.i: Classes/Camera3DTest/Camera3DTest.cpp.i
@@ -733,7 +733,7 @@ Classes/Camera3DTest/Camera3DTest.i: Classes/Camera3DTest/Camera3DTest.cpp.i
 
 # target to preprocess a source file
 Classes/Camera3DTest/Camera3DTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Camera3DTest/Camera3DTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Camera3DTest/Camera3DTest.cpp.i
 .PHONY : Classes/Camera3DTest/Camera3DTest.cpp.i
 
 Classes/Camera3DTest/Camera3DTest.s: Classes/Camera3DTest/Camera3DTest.cpp.s
@@ -741,7 +741,7 @@ Classes/Camera3DTest/Camera3DTest.s: Classes/Camera3DTest/Camera3DTest.cpp.s
 
 # target to generate assembly for a file
 Classes/Camera3DTest/Camera3DTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Camera3DTest/Camera3DTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Camera3DTest/Camera3DTest.cpp.s
 .PHONY : Classes/Camera3DTest/Camera3DTest.cpp.s
 
 Classes/ChipmunkTest/ChipmunkTest.o: Classes/ChipmunkTest/ChipmunkTest.cpp.o
@@ -749,7 +749,7 @@ Classes/ChipmunkTest/ChipmunkTest.o: Classes/ChipmunkTest/ChipmunkTest.cpp.o
 
 # target to build an object file
 Classes/ChipmunkTest/ChipmunkTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ChipmunkTest/ChipmunkTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ChipmunkTest/ChipmunkTest.cpp.o
 .PHONY : Classes/ChipmunkTest/ChipmunkTest.cpp.o
 
 Classes/ChipmunkTest/ChipmunkTest.i: Classes/ChipmunkTest/ChipmunkTest.cpp.i
@@ -757,7 +757,7 @@ Classes/ChipmunkTest/ChipmunkTest.i: Classes/ChipmunkTest/ChipmunkTest.cpp.i
 
 # target to preprocess a source file
 Classes/ChipmunkTest/ChipmunkTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ChipmunkTest/ChipmunkTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ChipmunkTest/ChipmunkTest.cpp.i
 .PHONY : Classes/ChipmunkTest/ChipmunkTest.cpp.i
 
 Classes/ChipmunkTest/ChipmunkTest.s: Classes/ChipmunkTest/ChipmunkTest.cpp.s
@@ -765,7 +765,7 @@ Classes/ChipmunkTest/ChipmunkTest.s: Classes/ChipmunkTest/ChipmunkTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ChipmunkTest/ChipmunkTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ChipmunkTest/ChipmunkTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ChipmunkTest/ChipmunkTest.cpp.s
 .PHONY : Classes/ChipmunkTest/ChipmunkTest.cpp.s
 
 Classes/ClickAndMoveTest/ClickAndMoveTest.o: Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.o
@@ -773,7 +773,7 @@ Classes/ClickAndMoveTest/ClickAndMoveTest.o: Classes/ClickAndMoveTest/ClickAndMo
 
 # target to build an object file
 Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.o
 .PHONY : Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.o
 
 Classes/ClickAndMoveTest/ClickAndMoveTest.i: Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.i
@@ -781,7 +781,7 @@ Classes/ClickAndMoveTest/ClickAndMoveTest.i: Classes/ClickAndMoveTest/ClickAndMo
 
 # target to preprocess a source file
 Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.i
 .PHONY : Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.i
 
 Classes/ClickAndMoveTest/ClickAndMoveTest.s: Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.s
@@ -789,7 +789,7 @@ Classes/ClickAndMoveTest/ClickAndMoveTest.s: Classes/ClickAndMoveTest/ClickAndMo
 
 # target to generate assembly for a file
 Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.s
 .PHONY : Classes/ClickAndMoveTest/ClickAndMoveTest.cpp.s
 
 Classes/ClippingNodeTest/ClippingNodeTest.o: Classes/ClippingNodeTest/ClippingNodeTest.cpp.o
@@ -797,7 +797,7 @@ Classes/ClippingNodeTest/ClippingNodeTest.o: Classes/ClippingNodeTest/ClippingNo
 
 # target to build an object file
 Classes/ClippingNodeTest/ClippingNodeTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClippingNodeTest/ClippingNodeTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClippingNodeTest/ClippingNodeTest.cpp.o
 .PHONY : Classes/ClippingNodeTest/ClippingNodeTest.cpp.o
 
 Classes/ClippingNodeTest/ClippingNodeTest.i: Classes/ClippingNodeTest/ClippingNodeTest.cpp.i
@@ -805,7 +805,7 @@ Classes/ClippingNodeTest/ClippingNodeTest.i: Classes/ClippingNodeTest/ClippingNo
 
 # target to preprocess a source file
 Classes/ClippingNodeTest/ClippingNodeTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClippingNodeTest/ClippingNodeTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClippingNodeTest/ClippingNodeTest.cpp.i
 .PHONY : Classes/ClippingNodeTest/ClippingNodeTest.cpp.i
 
 Classes/ClippingNodeTest/ClippingNodeTest.s: Classes/ClippingNodeTest/ClippingNodeTest.cpp.s
@@ -813,7 +813,7 @@ Classes/ClippingNodeTest/ClippingNodeTest.s: Classes/ClippingNodeTest/ClippingNo
 
 # target to generate assembly for a file
 Classes/ClippingNodeTest/ClippingNodeTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClippingNodeTest/ClippingNodeTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ClippingNodeTest/ClippingNodeTest.cpp.s
 .PHONY : Classes/ClippingNodeTest/ClippingNodeTest.cpp.s
 
 Classes/ConfigurationTest/ConfigurationTest.o: Classes/ConfigurationTest/ConfigurationTest.cpp.o
@@ -821,7 +821,7 @@ Classes/ConfigurationTest/ConfigurationTest.o: Classes/ConfigurationTest/Configu
 
 # target to build an object file
 Classes/ConfigurationTest/ConfigurationTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConfigurationTest/ConfigurationTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConfigurationTest/ConfigurationTest.cpp.o
 .PHONY : Classes/ConfigurationTest/ConfigurationTest.cpp.o
 
 Classes/ConfigurationTest/ConfigurationTest.i: Classes/ConfigurationTest/ConfigurationTest.cpp.i
@@ -829,7 +829,7 @@ Classes/ConfigurationTest/ConfigurationTest.i: Classes/ConfigurationTest/Configu
 
 # target to preprocess a source file
 Classes/ConfigurationTest/ConfigurationTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConfigurationTest/ConfigurationTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConfigurationTest/ConfigurationTest.cpp.i
 .PHONY : Classes/ConfigurationTest/ConfigurationTest.cpp.i
 
 Classes/ConfigurationTest/ConfigurationTest.s: Classes/ConfigurationTest/ConfigurationTest.cpp.s
@@ -837,7 +837,7 @@ Classes/ConfigurationTest/ConfigurationTest.s: Classes/ConfigurationTest/Configu
 
 # target to generate assembly for a file
 Classes/ConfigurationTest/ConfigurationTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConfigurationTest/ConfigurationTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConfigurationTest/ConfigurationTest.cpp.s
 .PHONY : Classes/ConfigurationTest/ConfigurationTest.cpp.s
 
 Classes/ConsoleTest/ConsoleTest.o: Classes/ConsoleTest/ConsoleTest.cpp.o
@@ -845,7 +845,7 @@ Classes/ConsoleTest/ConsoleTest.o: Classes/ConsoleTest/ConsoleTest.cpp.o
 
 # target to build an object file
 Classes/ConsoleTest/ConsoleTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConsoleTest/ConsoleTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConsoleTest/ConsoleTest.cpp.o
 .PHONY : Classes/ConsoleTest/ConsoleTest.cpp.o
 
 Classes/ConsoleTest/ConsoleTest.i: Classes/ConsoleTest/ConsoleTest.cpp.i
@@ -853,7 +853,7 @@ Classes/ConsoleTest/ConsoleTest.i: Classes/ConsoleTest/ConsoleTest.cpp.i
 
 # target to preprocess a source file
 Classes/ConsoleTest/ConsoleTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConsoleTest/ConsoleTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConsoleTest/ConsoleTest.cpp.i
 .PHONY : Classes/ConsoleTest/ConsoleTest.cpp.i
 
 Classes/ConsoleTest/ConsoleTest.s: Classes/ConsoleTest/ConsoleTest.cpp.s
@@ -861,7 +861,7 @@ Classes/ConsoleTest/ConsoleTest.s: Classes/ConsoleTest/ConsoleTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ConsoleTest/ConsoleTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConsoleTest/ConsoleTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ConsoleTest/ConsoleTest.cpp.s
 .PHONY : Classes/ConsoleTest/ConsoleTest.cpp.s
 
 Classes/CurlTest/CurlTest.o: Classes/CurlTest/CurlTest.cpp.o
@@ -869,7 +869,7 @@ Classes/CurlTest/CurlTest.o: Classes/CurlTest/CurlTest.cpp.o
 
 # target to build an object file
 Classes/CurlTest/CurlTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurlTest/CurlTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurlTest/CurlTest.cpp.o
 .PHONY : Classes/CurlTest/CurlTest.cpp.o
 
 Classes/CurlTest/CurlTest.i: Classes/CurlTest/CurlTest.cpp.i
@@ -877,7 +877,7 @@ Classes/CurlTest/CurlTest.i: Classes/CurlTest/CurlTest.cpp.i
 
 # target to preprocess a source file
 Classes/CurlTest/CurlTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurlTest/CurlTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurlTest/CurlTest.cpp.i
 .PHONY : Classes/CurlTest/CurlTest.cpp.i
 
 Classes/CurlTest/CurlTest.s: Classes/CurlTest/CurlTest.cpp.s
@@ -885,7 +885,7 @@ Classes/CurlTest/CurlTest.s: Classes/CurlTest/CurlTest.cpp.s
 
 # target to generate assembly for a file
 Classes/CurlTest/CurlTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurlTest/CurlTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurlTest/CurlTest.cpp.s
 .PHONY : Classes/CurlTest/CurlTest.cpp.s
 
 Classes/CurrentLanguageTest/CurrentLanguageTest.o: Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.o
@@ -893,7 +893,7 @@ Classes/CurrentLanguageTest/CurrentLanguageTest.o: Classes/CurrentLanguageTest/C
 
 # target to build an object file
 Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.o
 .PHONY : Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.o
 
 Classes/CurrentLanguageTest/CurrentLanguageTest.i: Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.i
@@ -901,7 +901,7 @@ Classes/CurrentLanguageTest/CurrentLanguageTest.i: Classes/CurrentLanguageTest/C
 
 # target to preprocess a source file
 Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.i
 .PHONY : Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.i
 
 Classes/CurrentLanguageTest/CurrentLanguageTest.s: Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.s
@@ -909,7 +909,7 @@ Classes/CurrentLanguageTest/CurrentLanguageTest.s: Classes/CurrentLanguageTest/C
 
 # target to generate assembly for a file
 Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.s
 .PHONY : Classes/CurrentLanguageTest/CurrentLanguageTest.cpp.s
 
 Classes/DataVisitorTest/DataVisitorTest.o: Classes/DataVisitorTest/DataVisitorTest.cpp.o
@@ -917,7 +917,7 @@ Classes/DataVisitorTest/DataVisitorTest.o: Classes/DataVisitorTest/DataVisitorTe
 
 # target to build an object file
 Classes/DataVisitorTest/DataVisitorTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DataVisitorTest/DataVisitorTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DataVisitorTest/DataVisitorTest.cpp.o
 .PHONY : Classes/DataVisitorTest/DataVisitorTest.cpp.o
 
 Classes/DataVisitorTest/DataVisitorTest.i: Classes/DataVisitorTest/DataVisitorTest.cpp.i
@@ -925,7 +925,7 @@ Classes/DataVisitorTest/DataVisitorTest.i: Classes/DataVisitorTest/DataVisitorTe
 
 # target to preprocess a source file
 Classes/DataVisitorTest/DataVisitorTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DataVisitorTest/DataVisitorTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DataVisitorTest/DataVisitorTest.cpp.i
 .PHONY : Classes/DataVisitorTest/DataVisitorTest.cpp.i
 
 Classes/DataVisitorTest/DataVisitorTest.s: Classes/DataVisitorTest/DataVisitorTest.cpp.s
@@ -933,7 +933,7 @@ Classes/DataVisitorTest/DataVisitorTest.s: Classes/DataVisitorTest/DataVisitorTe
 
 # target to generate assembly for a file
 Classes/DataVisitorTest/DataVisitorTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DataVisitorTest/DataVisitorTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DataVisitorTest/DataVisitorTest.cpp.s
 .PHONY : Classes/DataVisitorTest/DataVisitorTest.cpp.s
 
 Classes/DownloaderTest/DownloaderTest.o: Classes/DownloaderTest/DownloaderTest.cpp.o
@@ -941,7 +941,7 @@ Classes/DownloaderTest/DownloaderTest.o: Classes/DownloaderTest/DownloaderTest.c
 
 # target to build an object file
 Classes/DownloaderTest/DownloaderTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DownloaderTest/DownloaderTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DownloaderTest/DownloaderTest.cpp.o
 .PHONY : Classes/DownloaderTest/DownloaderTest.cpp.o
 
 Classes/DownloaderTest/DownloaderTest.i: Classes/DownloaderTest/DownloaderTest.cpp.i
@@ -949,7 +949,7 @@ Classes/DownloaderTest/DownloaderTest.i: Classes/DownloaderTest/DownloaderTest.c
 
 # target to preprocess a source file
 Classes/DownloaderTest/DownloaderTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DownloaderTest/DownloaderTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DownloaderTest/DownloaderTest.cpp.i
 .PHONY : Classes/DownloaderTest/DownloaderTest.cpp.i
 
 Classes/DownloaderTest/DownloaderTest.s: Classes/DownloaderTest/DownloaderTest.cpp.s
@@ -957,7 +957,7 @@ Classes/DownloaderTest/DownloaderTest.s: Classes/DownloaderTest/DownloaderTest.c
 
 # target to generate assembly for a file
 Classes/DownloaderTest/DownloaderTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DownloaderTest/DownloaderTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DownloaderTest/DownloaderTest.cpp.s
 .PHONY : Classes/DownloaderTest/DownloaderTest.cpp.s
 
 Classes/DrawPrimitivesTest/DrawPrimitivesTest.o: Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.o
@@ -965,7 +965,7 @@ Classes/DrawPrimitivesTest/DrawPrimitivesTest.o: Classes/DrawPrimitivesTest/Draw
 
 # target to build an object file
 Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.o
 .PHONY : Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.o
 
 Classes/DrawPrimitivesTest/DrawPrimitivesTest.i: Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.i
@@ -973,7 +973,7 @@ Classes/DrawPrimitivesTest/DrawPrimitivesTest.i: Classes/DrawPrimitivesTest/Draw
 
 # target to preprocess a source file
 Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.i
 .PHONY : Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.i
 
 Classes/DrawPrimitivesTest/DrawPrimitivesTest.s: Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.s
@@ -981,7 +981,7 @@ Classes/DrawPrimitivesTest/DrawPrimitivesTest.s: Classes/DrawPrimitivesTest/Draw
 
 # target to generate assembly for a file
 Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.s
 .PHONY : Classes/DrawPrimitivesTest/DrawPrimitivesTest.cpp.s
 
 Classes/EffectsAdvancedTest/EffectsAdvancedTest.o: Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.o
@@ -989,7 +989,7 @@ Classes/EffectsAdvancedTest/EffectsAdvancedTest.o: Classes/EffectsAdvancedTest/E
 
 # target to build an object file
 Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.o
 .PHONY : Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.o
 
 Classes/EffectsAdvancedTest/EffectsAdvancedTest.i: Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.i
@@ -997,7 +997,7 @@ Classes/EffectsAdvancedTest/EffectsAdvancedTest.i: Classes/EffectsAdvancedTest/E
 
 # target to preprocess a source file
 Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.i
 .PHONY : Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.i
 
 Classes/EffectsAdvancedTest/EffectsAdvancedTest.s: Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.s
@@ -1005,7 +1005,7 @@ Classes/EffectsAdvancedTest/EffectsAdvancedTest.s: Classes/EffectsAdvancedTest/E
 
 # target to generate assembly for a file
 Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.s
 .PHONY : Classes/EffectsAdvancedTest/EffectsAdvancedTest.cpp.s
 
 Classes/EffectsTest/EffectsTest.o: Classes/EffectsTest/EffectsTest.cpp.o
@@ -1013,7 +1013,7 @@ Classes/EffectsTest/EffectsTest.o: Classes/EffectsTest/EffectsTest.cpp.o
 
 # target to build an object file
 Classes/EffectsTest/EffectsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsTest/EffectsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsTest/EffectsTest.cpp.o
 .PHONY : Classes/EffectsTest/EffectsTest.cpp.o
 
 Classes/EffectsTest/EffectsTest.i: Classes/EffectsTest/EffectsTest.cpp.i
@@ -1021,7 +1021,7 @@ Classes/EffectsTest/EffectsTest.i: Classes/EffectsTest/EffectsTest.cpp.i
 
 # target to preprocess a source file
 Classes/EffectsTest/EffectsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsTest/EffectsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsTest/EffectsTest.cpp.i
 .PHONY : Classes/EffectsTest/EffectsTest.cpp.i
 
 Classes/EffectsTest/EffectsTest.s: Classes/EffectsTest/EffectsTest.cpp.s
@@ -1029,7 +1029,7 @@ Classes/EffectsTest/EffectsTest.s: Classes/EffectsTest/EffectsTest.cpp.s
 
 # target to generate assembly for a file
 Classes/EffectsTest/EffectsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsTest/EffectsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/EffectsTest/EffectsTest.cpp.s
 .PHONY : Classes/EffectsTest/EffectsTest.cpp.s
 
 Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.o: Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.o
@@ -1037,7 +1037,7 @@ Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.o: Classes/Extens
 
 # target to build an object file
 Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.o
 .PHONY : Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.o
 
 Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.i: Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.i
@@ -1045,7 +1045,7 @@ Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.i: Classes/Extens
 
 # target to preprocess a source file
 Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.i
 .PHONY : Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.i
 
 Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.s: Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.s
@@ -1053,7 +1053,7 @@ Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.s: Classes/Extens
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.s
 .PHONY : Classes/ExtensionsTest/AssetsManagerExTest/AssetsManagerExTest.cpp.s
 
 Classes/ExtensionsTest/ExtensionsTest.o: Classes/ExtensionsTest/ExtensionsTest.cpp.o
@@ -1061,7 +1061,7 @@ Classes/ExtensionsTest/ExtensionsTest.o: Classes/ExtensionsTest/ExtensionsTest.c
 
 # target to build an object file
 Classes/ExtensionsTest/ExtensionsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/ExtensionsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/ExtensionsTest.cpp.o
 .PHONY : Classes/ExtensionsTest/ExtensionsTest.cpp.o
 
 Classes/ExtensionsTest/ExtensionsTest.i: Classes/ExtensionsTest/ExtensionsTest.cpp.i
@@ -1069,7 +1069,7 @@ Classes/ExtensionsTest/ExtensionsTest.i: Classes/ExtensionsTest/ExtensionsTest.c
 
 # target to preprocess a source file
 Classes/ExtensionsTest/ExtensionsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/ExtensionsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/ExtensionsTest.cpp.i
 .PHONY : Classes/ExtensionsTest/ExtensionsTest.cpp.i
 
 Classes/ExtensionsTest/ExtensionsTest.s: Classes/ExtensionsTest/ExtensionsTest.cpp.s
@@ -1077,7 +1077,7 @@ Classes/ExtensionsTest/ExtensionsTest.s: Classes/ExtensionsTest/ExtensionsTest.c
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/ExtensionsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/ExtensionsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/ExtensionsTest.cpp.s
 .PHONY : Classes/ExtensionsTest/ExtensionsTest.cpp.s
 
 Classes/ExtensionsTest/NetworkTest/HttpClientTest.o: Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.o
@@ -1085,7 +1085,7 @@ Classes/ExtensionsTest/NetworkTest/HttpClientTest.o: Classes/ExtensionsTest/Netw
 
 # target to build an object file
 Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.o
 .PHONY : Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.o
 
 Classes/ExtensionsTest/NetworkTest/HttpClientTest.i: Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.i
@@ -1093,7 +1093,7 @@ Classes/ExtensionsTest/NetworkTest/HttpClientTest.i: Classes/ExtensionsTest/Netw
 
 # target to preprocess a source file
 Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.i
 .PHONY : Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.i
 
 Classes/ExtensionsTest/NetworkTest/HttpClientTest.s: Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.s
@@ -1101,7 +1101,7 @@ Classes/ExtensionsTest/NetworkTest/HttpClientTest.s: Classes/ExtensionsTest/Netw
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.s
 .PHONY : Classes/ExtensionsTest/NetworkTest/HttpClientTest.cpp.s
 
 Classes/ExtensionsTest/NetworkTest/SocketIOTest.o: Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.o
@@ -1109,7 +1109,7 @@ Classes/ExtensionsTest/NetworkTest/SocketIOTest.o: Classes/ExtensionsTest/Networ
 
 # target to build an object file
 Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.o
 .PHONY : Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.o
 
 Classes/ExtensionsTest/NetworkTest/SocketIOTest.i: Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.i
@@ -1117,7 +1117,7 @@ Classes/ExtensionsTest/NetworkTest/SocketIOTest.i: Classes/ExtensionsTest/Networ
 
 # target to preprocess a source file
 Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.i
 .PHONY : Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.i
 
 Classes/ExtensionsTest/NetworkTest/SocketIOTest.s: Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.s
@@ -1125,7 +1125,7 @@ Classes/ExtensionsTest/NetworkTest/SocketIOTest.s: Classes/ExtensionsTest/Networ
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.s
 .PHONY : Classes/ExtensionsTest/NetworkTest/SocketIOTest.cpp.s
 
 Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.o: Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.o
@@ -1133,7 +1133,7 @@ Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.o: Classes/ExtensionsTest/
 
 # target to build an object file
 Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.o
 .PHONY : Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.o
 
 Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.i: Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.i
@@ -1141,7 +1141,7 @@ Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.i: Classes/ExtensionsTest/
 
 # target to preprocess a source file
 Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.i
 .PHONY : Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.i
 
 Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.s: Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.s
@@ -1149,7 +1149,7 @@ Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.s: Classes/ExtensionsTest/
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.s
 .PHONY : Classes/ExtensionsTest/NetworkTest/WebSocketDelayTest.cpp.s
 
 Classes/ExtensionsTest/NetworkTest/WebSocketTest.o: Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.o
@@ -1157,7 +1157,7 @@ Classes/ExtensionsTest/NetworkTest/WebSocketTest.o: Classes/ExtensionsTest/Netwo
 
 # target to build an object file
 Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.o
 .PHONY : Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.o
 
 Classes/ExtensionsTest/NetworkTest/WebSocketTest.i: Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.i
@@ -1165,7 +1165,7 @@ Classes/ExtensionsTest/NetworkTest/WebSocketTest.i: Classes/ExtensionsTest/Netwo
 
 # target to preprocess a source file
 Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.i
 .PHONY : Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.i
 
 Classes/ExtensionsTest/NetworkTest/WebSocketTest.s: Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.s
@@ -1173,7 +1173,7 @@ Classes/ExtensionsTest/NetworkTest/WebSocketTest.s: Classes/ExtensionsTest/Netwo
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.s
 .PHONY : Classes/ExtensionsTest/NetworkTest/WebSocketTest.cpp.s
 
 Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.o: Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.o
@@ -1181,7 +1181,7 @@ Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.o: Classes/ExtensionsTe
 
 # target to build an object file
 Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.o
 .PHONY : Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.o
 
 Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.i: Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.i
@@ -1189,7 +1189,7 @@ Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.i: Classes/ExtensionsTe
 
 # target to preprocess a source file
 Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.i
 .PHONY : Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.i
 
 Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.s: Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.s
@@ -1197,7 +1197,7 @@ Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.s: Classes/ExtensionsTe
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.s
 .PHONY : Classes/ExtensionsTest/TableViewTest/CustomTableViewCell.cpp.s
 
 Classes/ExtensionsTest/TableViewTest/TableViewTestScene.o: Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.o
@@ -1205,7 +1205,7 @@ Classes/ExtensionsTest/TableViewTest/TableViewTestScene.o: Classes/ExtensionsTes
 
 # target to build an object file
 Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.o
 .PHONY : Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.o
 
 Classes/ExtensionsTest/TableViewTest/TableViewTestScene.i: Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.i
@@ -1213,7 +1213,7 @@ Classes/ExtensionsTest/TableViewTest/TableViewTestScene.i: Classes/ExtensionsTes
 
 # target to preprocess a source file
 Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.i
 .PHONY : Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.i
 
 Classes/ExtensionsTest/TableViewTest/TableViewTestScene.s: Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.s
@@ -1221,7 +1221,7 @@ Classes/ExtensionsTest/TableViewTest/TableViewTestScene.s: Classes/ExtensionsTes
 
 # target to generate assembly for a file
 Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.s
 .PHONY : Classes/ExtensionsTest/TableViewTest/TableViewTestScene.cpp.s
 
 Classes/FileUtilsTest/FileUtilsTest.o: Classes/FileUtilsTest/FileUtilsTest.cpp.o
@@ -1229,7 +1229,7 @@ Classes/FileUtilsTest/FileUtilsTest.o: Classes/FileUtilsTest/FileUtilsTest.cpp.o
 
 # target to build an object file
 Classes/FileUtilsTest/FileUtilsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FileUtilsTest/FileUtilsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FileUtilsTest/FileUtilsTest.cpp.o
 .PHONY : Classes/FileUtilsTest/FileUtilsTest.cpp.o
 
 Classes/FileUtilsTest/FileUtilsTest.i: Classes/FileUtilsTest/FileUtilsTest.cpp.i
@@ -1237,7 +1237,7 @@ Classes/FileUtilsTest/FileUtilsTest.i: Classes/FileUtilsTest/FileUtilsTest.cpp.i
 
 # target to preprocess a source file
 Classes/FileUtilsTest/FileUtilsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FileUtilsTest/FileUtilsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FileUtilsTest/FileUtilsTest.cpp.i
 .PHONY : Classes/FileUtilsTest/FileUtilsTest.cpp.i
 
 Classes/FileUtilsTest/FileUtilsTest.s: Classes/FileUtilsTest/FileUtilsTest.cpp.s
@@ -1245,7 +1245,7 @@ Classes/FileUtilsTest/FileUtilsTest.s: Classes/FileUtilsTest/FileUtilsTest.cpp.s
 
 # target to generate assembly for a file
 Classes/FileUtilsTest/FileUtilsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FileUtilsTest/FileUtilsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FileUtilsTest/FileUtilsTest.cpp.s
 .PHONY : Classes/FileUtilsTest/FileUtilsTest.cpp.s
 
 Classes/FontTest/FontTest.o: Classes/FontTest/FontTest.cpp.o
@@ -1253,7 +1253,7 @@ Classes/FontTest/FontTest.o: Classes/FontTest/FontTest.cpp.o
 
 # target to build an object file
 Classes/FontTest/FontTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FontTest/FontTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FontTest/FontTest.cpp.o
 .PHONY : Classes/FontTest/FontTest.cpp.o
 
 Classes/FontTest/FontTest.i: Classes/FontTest/FontTest.cpp.i
@@ -1261,7 +1261,7 @@ Classes/FontTest/FontTest.i: Classes/FontTest/FontTest.cpp.i
 
 # target to preprocess a source file
 Classes/FontTest/FontTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FontTest/FontTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FontTest/FontTest.cpp.i
 .PHONY : Classes/FontTest/FontTest.cpp.i
 
 Classes/FontTest/FontTest.s: Classes/FontTest/FontTest.cpp.s
@@ -1269,7 +1269,7 @@ Classes/FontTest/FontTest.s: Classes/FontTest/FontTest.cpp.s
 
 # target to generate assembly for a file
 Classes/FontTest/FontTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FontTest/FontTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/FontTest/FontTest.cpp.s
 .PHONY : Classes/FontTest/FontTest.cpp.s
 
 Classes/InputTest/MouseTest.o: Classes/InputTest/MouseTest.cpp.o
@@ -1277,7 +1277,7 @@ Classes/InputTest/MouseTest.o: Classes/InputTest/MouseTest.cpp.o
 
 # target to build an object file
 Classes/InputTest/MouseTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/InputTest/MouseTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/InputTest/MouseTest.cpp.o
 .PHONY : Classes/InputTest/MouseTest.cpp.o
 
 Classes/InputTest/MouseTest.i: Classes/InputTest/MouseTest.cpp.i
@@ -1285,7 +1285,7 @@ Classes/InputTest/MouseTest.i: Classes/InputTest/MouseTest.cpp.i
 
 # target to preprocess a source file
 Classes/InputTest/MouseTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/InputTest/MouseTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/InputTest/MouseTest.cpp.i
 .PHONY : Classes/InputTest/MouseTest.cpp.i
 
 Classes/InputTest/MouseTest.s: Classes/InputTest/MouseTest.cpp.s
@@ -1293,7 +1293,7 @@ Classes/InputTest/MouseTest.s: Classes/InputTest/MouseTest.cpp.s
 
 # target to generate assembly for a file
 Classes/InputTest/MouseTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/InputTest/MouseTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/InputTest/MouseTest.cpp.s
 .PHONY : Classes/InputTest/MouseTest.cpp.s
 
 Classes/IntervalTest/IntervalTest.o: Classes/IntervalTest/IntervalTest.cpp.o
@@ -1301,7 +1301,7 @@ Classes/IntervalTest/IntervalTest.o: Classes/IntervalTest/IntervalTest.cpp.o
 
 # target to build an object file
 Classes/IntervalTest/IntervalTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/IntervalTest/IntervalTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/IntervalTest/IntervalTest.cpp.o
 .PHONY : Classes/IntervalTest/IntervalTest.cpp.o
 
 Classes/IntervalTest/IntervalTest.i: Classes/IntervalTest/IntervalTest.cpp.i
@@ -1309,7 +1309,7 @@ Classes/IntervalTest/IntervalTest.i: Classes/IntervalTest/IntervalTest.cpp.i
 
 # target to preprocess a source file
 Classes/IntervalTest/IntervalTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/IntervalTest/IntervalTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/IntervalTest/IntervalTest.cpp.i
 .PHONY : Classes/IntervalTest/IntervalTest.cpp.i
 
 Classes/IntervalTest/IntervalTest.s: Classes/IntervalTest/IntervalTest.cpp.s
@@ -1317,7 +1317,7 @@ Classes/IntervalTest/IntervalTest.s: Classes/IntervalTest/IntervalTest.cpp.s
 
 # target to generate assembly for a file
 Classes/IntervalTest/IntervalTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/IntervalTest/IntervalTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/IntervalTest/IntervalTest.cpp.s
 .PHONY : Classes/IntervalTest/IntervalTest.cpp.s
 
 Classes/LabelTest/LabelTestNew.o: Classes/LabelTest/LabelTestNew.cpp.o
@@ -1325,7 +1325,7 @@ Classes/LabelTest/LabelTestNew.o: Classes/LabelTest/LabelTestNew.cpp.o
 
 # target to build an object file
 Classes/LabelTest/LabelTestNew.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LabelTest/LabelTestNew.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LabelTest/LabelTestNew.cpp.o
 .PHONY : Classes/LabelTest/LabelTestNew.cpp.o
 
 Classes/LabelTest/LabelTestNew.i: Classes/LabelTest/LabelTestNew.cpp.i
@@ -1333,7 +1333,7 @@ Classes/LabelTest/LabelTestNew.i: Classes/LabelTest/LabelTestNew.cpp.i
 
 # target to preprocess a source file
 Classes/LabelTest/LabelTestNew.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LabelTest/LabelTestNew.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LabelTest/LabelTestNew.cpp.i
 .PHONY : Classes/LabelTest/LabelTestNew.cpp.i
 
 Classes/LabelTest/LabelTestNew.s: Classes/LabelTest/LabelTestNew.cpp.s
@@ -1341,7 +1341,7 @@ Classes/LabelTest/LabelTestNew.s: Classes/LabelTest/LabelTestNew.cpp.s
 
 # target to generate assembly for a file
 Classes/LabelTest/LabelTestNew.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LabelTest/LabelTestNew.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LabelTest/LabelTestNew.cpp.s
 .PHONY : Classes/LabelTest/LabelTestNew.cpp.s
 
 Classes/LayerTest/LayerTest.o: Classes/LayerTest/LayerTest.cpp.o
@@ -1349,7 +1349,7 @@ Classes/LayerTest/LayerTest.o: Classes/LayerTest/LayerTest.cpp.o
 
 # target to build an object file
 Classes/LayerTest/LayerTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LayerTest/LayerTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LayerTest/LayerTest.cpp.o
 .PHONY : Classes/LayerTest/LayerTest.cpp.o
 
 Classes/LayerTest/LayerTest.i: Classes/LayerTest/LayerTest.cpp.i
@@ -1357,7 +1357,7 @@ Classes/LayerTest/LayerTest.i: Classes/LayerTest/LayerTest.cpp.i
 
 # target to preprocess a source file
 Classes/LayerTest/LayerTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LayerTest/LayerTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LayerTest/LayerTest.cpp.i
 .PHONY : Classes/LayerTest/LayerTest.cpp.i
 
 Classes/LayerTest/LayerTest.s: Classes/LayerTest/LayerTest.cpp.s
@@ -1365,7 +1365,7 @@ Classes/LayerTest/LayerTest.s: Classes/LayerTest/LayerTest.cpp.s
 
 # target to generate assembly for a file
 Classes/LayerTest/LayerTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LayerTest/LayerTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LayerTest/LayerTest.cpp.s
 .PHONY : Classes/LayerTest/LayerTest.cpp.s
 
 Classes/LightTest/LightTest.o: Classes/LightTest/LightTest.cpp.o
@@ -1373,7 +1373,7 @@ Classes/LightTest/LightTest.o: Classes/LightTest/LightTest.cpp.o
 
 # target to build an object file
 Classes/LightTest/LightTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LightTest/LightTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LightTest/LightTest.cpp.o
 .PHONY : Classes/LightTest/LightTest.cpp.o
 
 Classes/LightTest/LightTest.i: Classes/LightTest/LightTest.cpp.i
@@ -1381,7 +1381,7 @@ Classes/LightTest/LightTest.i: Classes/LightTest/LightTest.cpp.i
 
 # target to preprocess a source file
 Classes/LightTest/LightTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LightTest/LightTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LightTest/LightTest.cpp.i
 .PHONY : Classes/LightTest/LightTest.cpp.i
 
 Classes/LightTest/LightTest.s: Classes/LightTest/LightTest.cpp.s
@@ -1389,7 +1389,7 @@ Classes/LightTest/LightTest.s: Classes/LightTest/LightTest.cpp.s
 
 # target to generate assembly for a file
 Classes/LightTest/LightTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LightTest/LightTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/LightTest/LightTest.cpp.s
 .PHONY : Classes/LightTest/LightTest.cpp.s
 
 Classes/MaterialSystemTest/MaterialSystemTest.o: Classes/MaterialSystemTest/MaterialSystemTest.cpp.o
@@ -1397,7 +1397,7 @@ Classes/MaterialSystemTest/MaterialSystemTest.o: Classes/MaterialSystemTest/Mate
 
 # target to build an object file
 Classes/MaterialSystemTest/MaterialSystemTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MaterialSystemTest/MaterialSystemTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MaterialSystemTest/MaterialSystemTest.cpp.o
 .PHONY : Classes/MaterialSystemTest/MaterialSystemTest.cpp.o
 
 Classes/MaterialSystemTest/MaterialSystemTest.i: Classes/MaterialSystemTest/MaterialSystemTest.cpp.i
@@ -1405,7 +1405,7 @@ Classes/MaterialSystemTest/MaterialSystemTest.i: Classes/MaterialSystemTest/Mate
 
 # target to preprocess a source file
 Classes/MaterialSystemTest/MaterialSystemTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MaterialSystemTest/MaterialSystemTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MaterialSystemTest/MaterialSystemTest.cpp.i
 .PHONY : Classes/MaterialSystemTest/MaterialSystemTest.cpp.i
 
 Classes/MaterialSystemTest/MaterialSystemTest.s: Classes/MaterialSystemTest/MaterialSystemTest.cpp.s
@@ -1413,7 +1413,7 @@ Classes/MaterialSystemTest/MaterialSystemTest.s: Classes/MaterialSystemTest/Mate
 
 # target to generate assembly for a file
 Classes/MaterialSystemTest/MaterialSystemTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MaterialSystemTest/MaterialSystemTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MaterialSystemTest/MaterialSystemTest.cpp.s
 .PHONY : Classes/MaterialSystemTest/MaterialSystemTest.cpp.s
 
 Classes/MenuTest/MenuTest.o: Classes/MenuTest/MenuTest.cpp.o
@@ -1421,7 +1421,7 @@ Classes/MenuTest/MenuTest.o: Classes/MenuTest/MenuTest.cpp.o
 
 # target to build an object file
 Classes/MenuTest/MenuTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MenuTest/MenuTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MenuTest/MenuTest.cpp.o
 .PHONY : Classes/MenuTest/MenuTest.cpp.o
 
 Classes/MenuTest/MenuTest.i: Classes/MenuTest/MenuTest.cpp.i
@@ -1429,7 +1429,7 @@ Classes/MenuTest/MenuTest.i: Classes/MenuTest/MenuTest.cpp.i
 
 # target to preprocess a source file
 Classes/MenuTest/MenuTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MenuTest/MenuTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MenuTest/MenuTest.cpp.i
 .PHONY : Classes/MenuTest/MenuTest.cpp.i
 
 Classes/MenuTest/MenuTest.s: Classes/MenuTest/MenuTest.cpp.s
@@ -1437,7 +1437,7 @@ Classes/MenuTest/MenuTest.s: Classes/MenuTest/MenuTest.cpp.s
 
 # target to generate assembly for a file
 Classes/MenuTest/MenuTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MenuTest/MenuTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MenuTest/MenuTest.cpp.s
 .PHONY : Classes/MenuTest/MenuTest.cpp.s
 
 Classes/MotionStreakTest/MotionStreakTest.o: Classes/MotionStreakTest/MotionStreakTest.cpp.o
@@ -1445,7 +1445,7 @@ Classes/MotionStreakTest/MotionStreakTest.o: Classes/MotionStreakTest/MotionStre
 
 # target to build an object file
 Classes/MotionStreakTest/MotionStreakTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MotionStreakTest/MotionStreakTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MotionStreakTest/MotionStreakTest.cpp.o
 .PHONY : Classes/MotionStreakTest/MotionStreakTest.cpp.o
 
 Classes/MotionStreakTest/MotionStreakTest.i: Classes/MotionStreakTest/MotionStreakTest.cpp.i
@@ -1453,7 +1453,7 @@ Classes/MotionStreakTest/MotionStreakTest.i: Classes/MotionStreakTest/MotionStre
 
 # target to preprocess a source file
 Classes/MotionStreakTest/MotionStreakTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MotionStreakTest/MotionStreakTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MotionStreakTest/MotionStreakTest.cpp.i
 .PHONY : Classes/MotionStreakTest/MotionStreakTest.cpp.i
 
 Classes/MotionStreakTest/MotionStreakTest.s: Classes/MotionStreakTest/MotionStreakTest.cpp.s
@@ -1461,7 +1461,7 @@ Classes/MotionStreakTest/MotionStreakTest.s: Classes/MotionStreakTest/MotionStre
 
 # target to generate assembly for a file
 Classes/MotionStreakTest/MotionStreakTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MotionStreakTest/MotionStreakTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MotionStreakTest/MotionStreakTest.cpp.s
 .PHONY : Classes/MotionStreakTest/MotionStreakTest.cpp.s
 
 Classes/MultiTouchTest/MultiTouchTest.o: Classes/MultiTouchTest/MultiTouchTest.cpp.o
@@ -1469,7 +1469,7 @@ Classes/MultiTouchTest/MultiTouchTest.o: Classes/MultiTouchTest/MultiTouchTest.c
 
 # target to build an object file
 Classes/MultiTouchTest/MultiTouchTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MultiTouchTest/MultiTouchTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MultiTouchTest/MultiTouchTest.cpp.o
 .PHONY : Classes/MultiTouchTest/MultiTouchTest.cpp.o
 
 Classes/MultiTouchTest/MultiTouchTest.i: Classes/MultiTouchTest/MultiTouchTest.cpp.i
@@ -1477,7 +1477,7 @@ Classes/MultiTouchTest/MultiTouchTest.i: Classes/MultiTouchTest/MultiTouchTest.c
 
 # target to preprocess a source file
 Classes/MultiTouchTest/MultiTouchTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MultiTouchTest/MultiTouchTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MultiTouchTest/MultiTouchTest.cpp.i
 .PHONY : Classes/MultiTouchTest/MultiTouchTest.cpp.i
 
 Classes/MultiTouchTest/MultiTouchTest.s: Classes/MultiTouchTest/MultiTouchTest.cpp.s
@@ -1485,7 +1485,7 @@ Classes/MultiTouchTest/MultiTouchTest.s: Classes/MultiTouchTest/MultiTouchTest.c
 
 # target to generate assembly for a file
 Classes/MultiTouchTest/MultiTouchTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MultiTouchTest/MultiTouchTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/MultiTouchTest/MultiTouchTest.cpp.s
 .PHONY : Classes/MultiTouchTest/MultiTouchTest.cpp.s
 
 Classes/NavMeshTest/NavMeshTest.o: Classes/NavMeshTest/NavMeshTest.cpp.o
@@ -1493,7 +1493,7 @@ Classes/NavMeshTest/NavMeshTest.o: Classes/NavMeshTest/NavMeshTest.cpp.o
 
 # target to build an object file
 Classes/NavMeshTest/NavMeshTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NavMeshTest/NavMeshTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NavMeshTest/NavMeshTest.cpp.o
 .PHONY : Classes/NavMeshTest/NavMeshTest.cpp.o
 
 Classes/NavMeshTest/NavMeshTest.i: Classes/NavMeshTest/NavMeshTest.cpp.i
@@ -1501,7 +1501,7 @@ Classes/NavMeshTest/NavMeshTest.i: Classes/NavMeshTest/NavMeshTest.cpp.i
 
 # target to preprocess a source file
 Classes/NavMeshTest/NavMeshTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NavMeshTest/NavMeshTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NavMeshTest/NavMeshTest.cpp.i
 .PHONY : Classes/NavMeshTest/NavMeshTest.cpp.i
 
 Classes/NavMeshTest/NavMeshTest.s: Classes/NavMeshTest/NavMeshTest.cpp.s
@@ -1509,7 +1509,7 @@ Classes/NavMeshTest/NavMeshTest.s: Classes/NavMeshTest/NavMeshTest.cpp.s
 
 # target to generate assembly for a file
 Classes/NavMeshTest/NavMeshTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NavMeshTest/NavMeshTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NavMeshTest/NavMeshTest.cpp.s
 .PHONY : Classes/NavMeshTest/NavMeshTest.cpp.s
 
 Classes/NewAudioEngineTest/NewAudioEngineTest.o: Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.o
@@ -1517,7 +1517,7 @@ Classes/NewAudioEngineTest/NewAudioEngineTest.o: Classes/NewAudioEngineTest/NewA
 
 # target to build an object file
 Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.o
 .PHONY : Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.o
 
 Classes/NewAudioEngineTest/NewAudioEngineTest.i: Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.i
@@ -1525,7 +1525,7 @@ Classes/NewAudioEngineTest/NewAudioEngineTest.i: Classes/NewAudioEngineTest/NewA
 
 # target to preprocess a source file
 Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.i
 .PHONY : Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.i
 
 Classes/NewAudioEngineTest/NewAudioEngineTest.s: Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.s
@@ -1533,7 +1533,7 @@ Classes/NewAudioEngineTest/NewAudioEngineTest.s: Classes/NewAudioEngineTest/NewA
 
 # target to generate assembly for a file
 Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.s
 .PHONY : Classes/NewAudioEngineTest/NewAudioEngineTest.cpp.s
 
 Classes/NewEventDispatcherTest/NewEventDispatcherTest.o: Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.o
@@ -1541,7 +1541,7 @@ Classes/NewEventDispatcherTest/NewEventDispatcherTest.o: Classes/NewEventDispatc
 
 # target to build an object file
 Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.o
 .PHONY : Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.o
 
 Classes/NewEventDispatcherTest/NewEventDispatcherTest.i: Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.i
@@ -1549,7 +1549,7 @@ Classes/NewEventDispatcherTest/NewEventDispatcherTest.i: Classes/NewEventDispatc
 
 # target to preprocess a source file
 Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.i
 .PHONY : Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.i
 
 Classes/NewEventDispatcherTest/NewEventDispatcherTest.s: Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.s
@@ -1557,7 +1557,7 @@ Classes/NewEventDispatcherTest/NewEventDispatcherTest.s: Classes/NewEventDispatc
 
 # target to generate assembly for a file
 Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.s
 .PHONY : Classes/NewEventDispatcherTest/NewEventDispatcherTest.cpp.s
 
 Classes/NewRendererTest/NewRendererTest.o: Classes/NewRendererTest/NewRendererTest.cpp.o
@@ -1565,7 +1565,7 @@ Classes/NewRendererTest/NewRendererTest.o: Classes/NewRendererTest/NewRendererTe
 
 # target to build an object file
 Classes/NewRendererTest/NewRendererTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewRendererTest/NewRendererTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewRendererTest/NewRendererTest.cpp.o
 .PHONY : Classes/NewRendererTest/NewRendererTest.cpp.o
 
 Classes/NewRendererTest/NewRendererTest.i: Classes/NewRendererTest/NewRendererTest.cpp.i
@@ -1573,7 +1573,7 @@ Classes/NewRendererTest/NewRendererTest.i: Classes/NewRendererTest/NewRendererTe
 
 # target to preprocess a source file
 Classes/NewRendererTest/NewRendererTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewRendererTest/NewRendererTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewRendererTest/NewRendererTest.cpp.i
 .PHONY : Classes/NewRendererTest/NewRendererTest.cpp.i
 
 Classes/NewRendererTest/NewRendererTest.s: Classes/NewRendererTest/NewRendererTest.cpp.s
@@ -1581,7 +1581,7 @@ Classes/NewRendererTest/NewRendererTest.s: Classes/NewRendererTest/NewRendererTe
 
 # target to generate assembly for a file
 Classes/NewRendererTest/NewRendererTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewRendererTest/NewRendererTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NewRendererTest/NewRendererTest.cpp.s
 .PHONY : Classes/NewRendererTest/NewRendererTest.cpp.s
 
 Classes/NodeTest/NodeTest.o: Classes/NodeTest/NodeTest.cpp.o
@@ -1589,7 +1589,7 @@ Classes/NodeTest/NodeTest.o: Classes/NodeTest/NodeTest.cpp.o
 
 # target to build an object file
 Classes/NodeTest/NodeTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NodeTest/NodeTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NodeTest/NodeTest.cpp.o
 .PHONY : Classes/NodeTest/NodeTest.cpp.o
 
 Classes/NodeTest/NodeTest.i: Classes/NodeTest/NodeTest.cpp.i
@@ -1597,7 +1597,7 @@ Classes/NodeTest/NodeTest.i: Classes/NodeTest/NodeTest.cpp.i
 
 # target to preprocess a source file
 Classes/NodeTest/NodeTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NodeTest/NodeTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NodeTest/NodeTest.cpp.i
 .PHONY : Classes/NodeTest/NodeTest.cpp.i
 
 Classes/NodeTest/NodeTest.s: Classes/NodeTest/NodeTest.cpp.s
@@ -1605,7 +1605,7 @@ Classes/NodeTest/NodeTest.s: Classes/NodeTest/NodeTest.cpp.s
 
 # target to generate assembly for a file
 Classes/NodeTest/NodeTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NodeTest/NodeTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/NodeTest/NodeTest.cpp.s
 .PHONY : Classes/NodeTest/NodeTest.cpp.s
 
 Classes/OpenURLTest/OpenURLTest.o: Classes/OpenURLTest/OpenURLTest.cpp.o
@@ -1613,7 +1613,7 @@ Classes/OpenURLTest/OpenURLTest.o: Classes/OpenURLTest/OpenURLTest.cpp.o
 
 # target to build an object file
 Classes/OpenURLTest/OpenURLTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/OpenURLTest/OpenURLTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/OpenURLTest/OpenURLTest.cpp.o
 .PHONY : Classes/OpenURLTest/OpenURLTest.cpp.o
 
 Classes/OpenURLTest/OpenURLTest.i: Classes/OpenURLTest/OpenURLTest.cpp.i
@@ -1621,7 +1621,7 @@ Classes/OpenURLTest/OpenURLTest.i: Classes/OpenURLTest/OpenURLTest.cpp.i
 
 # target to preprocess a source file
 Classes/OpenURLTest/OpenURLTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/OpenURLTest/OpenURLTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/OpenURLTest/OpenURLTest.cpp.i
 .PHONY : Classes/OpenURLTest/OpenURLTest.cpp.i
 
 Classes/OpenURLTest/OpenURLTest.s: Classes/OpenURLTest/OpenURLTest.cpp.s
@@ -1629,7 +1629,7 @@ Classes/OpenURLTest/OpenURLTest.s: Classes/OpenURLTest/OpenURLTest.cpp.s
 
 # target to generate assembly for a file
 Classes/OpenURLTest/OpenURLTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/OpenURLTest/OpenURLTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/OpenURLTest/OpenURLTest.cpp.s
 .PHONY : Classes/OpenURLTest/OpenURLTest.cpp.s
 
 Classes/ParallaxTest/ParallaxTest.o: Classes/ParallaxTest/ParallaxTest.cpp.o
@@ -1637,7 +1637,7 @@ Classes/ParallaxTest/ParallaxTest.o: Classes/ParallaxTest/ParallaxTest.cpp.o
 
 # target to build an object file
 Classes/ParallaxTest/ParallaxTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParallaxTest/ParallaxTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParallaxTest/ParallaxTest.cpp.o
 .PHONY : Classes/ParallaxTest/ParallaxTest.cpp.o
 
 Classes/ParallaxTest/ParallaxTest.i: Classes/ParallaxTest/ParallaxTest.cpp.i
@@ -1645,7 +1645,7 @@ Classes/ParallaxTest/ParallaxTest.i: Classes/ParallaxTest/ParallaxTest.cpp.i
 
 # target to preprocess a source file
 Classes/ParallaxTest/ParallaxTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParallaxTest/ParallaxTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParallaxTest/ParallaxTest.cpp.i
 .PHONY : Classes/ParallaxTest/ParallaxTest.cpp.i
 
 Classes/ParallaxTest/ParallaxTest.s: Classes/ParallaxTest/ParallaxTest.cpp.s
@@ -1653,7 +1653,7 @@ Classes/ParallaxTest/ParallaxTest.s: Classes/ParallaxTest/ParallaxTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ParallaxTest/ParallaxTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParallaxTest/ParallaxTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParallaxTest/ParallaxTest.cpp.s
 .PHONY : Classes/ParallaxTest/ParallaxTest.cpp.s
 
 Classes/Particle3DTest/Particle3DTest.o: Classes/Particle3DTest/Particle3DTest.cpp.o
@@ -1661,7 +1661,7 @@ Classes/Particle3DTest/Particle3DTest.o: Classes/Particle3DTest/Particle3DTest.c
 
 # target to build an object file
 Classes/Particle3DTest/Particle3DTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Particle3DTest/Particle3DTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Particle3DTest/Particle3DTest.cpp.o
 .PHONY : Classes/Particle3DTest/Particle3DTest.cpp.o
 
 Classes/Particle3DTest/Particle3DTest.i: Classes/Particle3DTest/Particle3DTest.cpp.i
@@ -1669,7 +1669,7 @@ Classes/Particle3DTest/Particle3DTest.i: Classes/Particle3DTest/Particle3DTest.c
 
 # target to preprocess a source file
 Classes/Particle3DTest/Particle3DTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Particle3DTest/Particle3DTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Particle3DTest/Particle3DTest.cpp.i
 .PHONY : Classes/Particle3DTest/Particle3DTest.cpp.i
 
 Classes/Particle3DTest/Particle3DTest.s: Classes/Particle3DTest/Particle3DTest.cpp.s
@@ -1677,7 +1677,7 @@ Classes/Particle3DTest/Particle3DTest.s: Classes/Particle3DTest/Particle3DTest.c
 
 # target to generate assembly for a file
 Classes/Particle3DTest/Particle3DTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Particle3DTest/Particle3DTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Particle3DTest/Particle3DTest.cpp.s
 .PHONY : Classes/Particle3DTest/Particle3DTest.cpp.s
 
 Classes/ParticleTest/ParticleTest.o: Classes/ParticleTest/ParticleTest.cpp.o
@@ -1685,7 +1685,7 @@ Classes/ParticleTest/ParticleTest.o: Classes/ParticleTest/ParticleTest.cpp.o
 
 # target to build an object file
 Classes/ParticleTest/ParticleTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParticleTest/ParticleTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParticleTest/ParticleTest.cpp.o
 .PHONY : Classes/ParticleTest/ParticleTest.cpp.o
 
 Classes/ParticleTest/ParticleTest.i: Classes/ParticleTest/ParticleTest.cpp.i
@@ -1693,7 +1693,7 @@ Classes/ParticleTest/ParticleTest.i: Classes/ParticleTest/ParticleTest.cpp.i
 
 # target to preprocess a source file
 Classes/ParticleTest/ParticleTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParticleTest/ParticleTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParticleTest/ParticleTest.cpp.i
 .PHONY : Classes/ParticleTest/ParticleTest.cpp.i
 
 Classes/ParticleTest/ParticleTest.s: Classes/ParticleTest/ParticleTest.cpp.s
@@ -1701,7 +1701,7 @@ Classes/ParticleTest/ParticleTest.s: Classes/ParticleTest/ParticleTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ParticleTest/ParticleTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParticleTest/ParticleTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ParticleTest/ParticleTest.cpp.s
 .PHONY : Classes/ParticleTest/ParticleTest.cpp.s
 
 Classes/Physics3DTest/Physics3DTest.o: Classes/Physics3DTest/Physics3DTest.cpp.o
@@ -1709,7 +1709,7 @@ Classes/Physics3DTest/Physics3DTest.o: Classes/Physics3DTest/Physics3DTest.cpp.o
 
 # target to build an object file
 Classes/Physics3DTest/Physics3DTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Physics3DTest/Physics3DTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Physics3DTest/Physics3DTest.cpp.o
 .PHONY : Classes/Physics3DTest/Physics3DTest.cpp.o
 
 Classes/Physics3DTest/Physics3DTest.i: Classes/Physics3DTest/Physics3DTest.cpp.i
@@ -1717,7 +1717,7 @@ Classes/Physics3DTest/Physics3DTest.i: Classes/Physics3DTest/Physics3DTest.cpp.i
 
 # target to preprocess a source file
 Classes/Physics3DTest/Physics3DTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Physics3DTest/Physics3DTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Physics3DTest/Physics3DTest.cpp.i
 .PHONY : Classes/Physics3DTest/Physics3DTest.cpp.i
 
 Classes/Physics3DTest/Physics3DTest.s: Classes/Physics3DTest/Physics3DTest.cpp.s
@@ -1725,7 +1725,7 @@ Classes/Physics3DTest/Physics3DTest.s: Classes/Physics3DTest/Physics3DTest.cpp.s
 
 # target to generate assembly for a file
 Classes/Physics3DTest/Physics3DTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Physics3DTest/Physics3DTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Physics3DTest/Physics3DTest.cpp.s
 .PHONY : Classes/Physics3DTest/Physics3DTest.cpp.s
 
 Classes/PhysicsTest/PhysicsTest.o: Classes/PhysicsTest/PhysicsTest.cpp.o
@@ -1733,7 +1733,7 @@ Classes/PhysicsTest/PhysicsTest.o: Classes/PhysicsTest/PhysicsTest.cpp.o
 
 # target to build an object file
 Classes/PhysicsTest/PhysicsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/PhysicsTest/PhysicsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/PhysicsTest/PhysicsTest.cpp.o
 .PHONY : Classes/PhysicsTest/PhysicsTest.cpp.o
 
 Classes/PhysicsTest/PhysicsTest.i: Classes/PhysicsTest/PhysicsTest.cpp.i
@@ -1741,7 +1741,7 @@ Classes/PhysicsTest/PhysicsTest.i: Classes/PhysicsTest/PhysicsTest.cpp.i
 
 # target to preprocess a source file
 Classes/PhysicsTest/PhysicsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/PhysicsTest/PhysicsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/PhysicsTest/PhysicsTest.cpp.i
 .PHONY : Classes/PhysicsTest/PhysicsTest.cpp.i
 
 Classes/PhysicsTest/PhysicsTest.s: Classes/PhysicsTest/PhysicsTest.cpp.s
@@ -1749,7 +1749,7 @@ Classes/PhysicsTest/PhysicsTest.s: Classes/PhysicsTest/PhysicsTest.cpp.s
 
 # target to generate assembly for a file
 Classes/PhysicsTest/PhysicsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/PhysicsTest/PhysicsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/PhysicsTest/PhysicsTest.cpp.s
 .PHONY : Classes/PhysicsTest/PhysicsTest.cpp.s
 
 Classes/ReleasePoolTest/ReleasePoolTest.o: Classes/ReleasePoolTest/ReleasePoolTest.cpp.o
@@ -1757,7 +1757,7 @@ Classes/ReleasePoolTest/ReleasePoolTest.o: Classes/ReleasePoolTest/ReleasePoolTe
 
 # target to build an object file
 Classes/ReleasePoolTest/ReleasePoolTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ReleasePoolTest/ReleasePoolTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ReleasePoolTest/ReleasePoolTest.cpp.o
 .PHONY : Classes/ReleasePoolTest/ReleasePoolTest.cpp.o
 
 Classes/ReleasePoolTest/ReleasePoolTest.i: Classes/ReleasePoolTest/ReleasePoolTest.cpp.i
@@ -1765,7 +1765,7 @@ Classes/ReleasePoolTest/ReleasePoolTest.i: Classes/ReleasePoolTest/ReleasePoolTe
 
 # target to preprocess a source file
 Classes/ReleasePoolTest/ReleasePoolTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ReleasePoolTest/ReleasePoolTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ReleasePoolTest/ReleasePoolTest.cpp.i
 .PHONY : Classes/ReleasePoolTest/ReleasePoolTest.cpp.i
 
 Classes/ReleasePoolTest/ReleasePoolTest.s: Classes/ReleasePoolTest/ReleasePoolTest.cpp.s
@@ -1773,7 +1773,7 @@ Classes/ReleasePoolTest/ReleasePoolTest.s: Classes/ReleasePoolTest/ReleasePoolTe
 
 # target to generate assembly for a file
 Classes/ReleasePoolTest/ReleasePoolTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ReleasePoolTest/ReleasePoolTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ReleasePoolTest/ReleasePoolTest.cpp.s
 .PHONY : Classes/ReleasePoolTest/ReleasePoolTest.cpp.s
 
 Classes/RenderTextureTest/RenderTextureTest.o: Classes/RenderTextureTest/RenderTextureTest.cpp.o
@@ -1781,7 +1781,7 @@ Classes/RenderTextureTest/RenderTextureTest.o: Classes/RenderTextureTest/RenderT
 
 # target to build an object file
 Classes/RenderTextureTest/RenderTextureTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RenderTextureTest/RenderTextureTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RenderTextureTest/RenderTextureTest.cpp.o
 .PHONY : Classes/RenderTextureTest/RenderTextureTest.cpp.o
 
 Classes/RenderTextureTest/RenderTextureTest.i: Classes/RenderTextureTest/RenderTextureTest.cpp.i
@@ -1789,7 +1789,7 @@ Classes/RenderTextureTest/RenderTextureTest.i: Classes/RenderTextureTest/RenderT
 
 # target to preprocess a source file
 Classes/RenderTextureTest/RenderTextureTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RenderTextureTest/RenderTextureTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RenderTextureTest/RenderTextureTest.cpp.i
 .PHONY : Classes/RenderTextureTest/RenderTextureTest.cpp.i
 
 Classes/RenderTextureTest/RenderTextureTest.s: Classes/RenderTextureTest/RenderTextureTest.cpp.s
@@ -1797,7 +1797,7 @@ Classes/RenderTextureTest/RenderTextureTest.s: Classes/RenderTextureTest/RenderT
 
 # target to generate assembly for a file
 Classes/RenderTextureTest/RenderTextureTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RenderTextureTest/RenderTextureTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RenderTextureTest/RenderTextureTest.cpp.s
 .PHONY : Classes/RenderTextureTest/RenderTextureTest.cpp.s
 
 Classes/RotateWorldTest/RotateWorldTest.o: Classes/RotateWorldTest/RotateWorldTest.cpp.o
@@ -1805,7 +1805,7 @@ Classes/RotateWorldTest/RotateWorldTest.o: Classes/RotateWorldTest/RotateWorldTe
 
 # target to build an object file
 Classes/RotateWorldTest/RotateWorldTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RotateWorldTest/RotateWorldTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RotateWorldTest/RotateWorldTest.cpp.o
 .PHONY : Classes/RotateWorldTest/RotateWorldTest.cpp.o
 
 Classes/RotateWorldTest/RotateWorldTest.i: Classes/RotateWorldTest/RotateWorldTest.cpp.i
@@ -1813,7 +1813,7 @@ Classes/RotateWorldTest/RotateWorldTest.i: Classes/RotateWorldTest/RotateWorldTe
 
 # target to preprocess a source file
 Classes/RotateWorldTest/RotateWorldTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RotateWorldTest/RotateWorldTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RotateWorldTest/RotateWorldTest.cpp.i
 .PHONY : Classes/RotateWorldTest/RotateWorldTest.cpp.i
 
 Classes/RotateWorldTest/RotateWorldTest.s: Classes/RotateWorldTest/RotateWorldTest.cpp.s
@@ -1821,7 +1821,7 @@ Classes/RotateWorldTest/RotateWorldTest.s: Classes/RotateWorldTest/RotateWorldTe
 
 # target to generate assembly for a file
 Classes/RotateWorldTest/RotateWorldTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RotateWorldTest/RotateWorldTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/RotateWorldTest/RotateWorldTest.cpp.s
 .PHONY : Classes/RotateWorldTest/RotateWorldTest.cpp.s
 
 Classes/SceneTest/SceneTest.o: Classes/SceneTest/SceneTest.cpp.o
@@ -1829,7 +1829,7 @@ Classes/SceneTest/SceneTest.o: Classes/SceneTest/SceneTest.cpp.o
 
 # target to build an object file
 Classes/SceneTest/SceneTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SceneTest/SceneTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SceneTest/SceneTest.cpp.o
 .PHONY : Classes/SceneTest/SceneTest.cpp.o
 
 Classes/SceneTest/SceneTest.i: Classes/SceneTest/SceneTest.cpp.i
@@ -1837,7 +1837,7 @@ Classes/SceneTest/SceneTest.i: Classes/SceneTest/SceneTest.cpp.i
 
 # target to preprocess a source file
 Classes/SceneTest/SceneTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SceneTest/SceneTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SceneTest/SceneTest.cpp.i
 .PHONY : Classes/SceneTest/SceneTest.cpp.i
 
 Classes/SceneTest/SceneTest.s: Classes/SceneTest/SceneTest.cpp.s
@@ -1845,7 +1845,7 @@ Classes/SceneTest/SceneTest.s: Classes/SceneTest/SceneTest.cpp.s
 
 # target to generate assembly for a file
 Classes/SceneTest/SceneTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SceneTest/SceneTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SceneTest/SceneTest.cpp.s
 .PHONY : Classes/SceneTest/SceneTest.cpp.s
 
 Classes/SchedulerTest/SchedulerTest.o: Classes/SchedulerTest/SchedulerTest.cpp.o
@@ -1853,7 +1853,7 @@ Classes/SchedulerTest/SchedulerTest.o: Classes/SchedulerTest/SchedulerTest.cpp.o
 
 # target to build an object file
 Classes/SchedulerTest/SchedulerTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SchedulerTest/SchedulerTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SchedulerTest/SchedulerTest.cpp.o
 .PHONY : Classes/SchedulerTest/SchedulerTest.cpp.o
 
 Classes/SchedulerTest/SchedulerTest.i: Classes/SchedulerTest/SchedulerTest.cpp.i
@@ -1861,7 +1861,7 @@ Classes/SchedulerTest/SchedulerTest.i: Classes/SchedulerTest/SchedulerTest.cpp.i
 
 # target to preprocess a source file
 Classes/SchedulerTest/SchedulerTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SchedulerTest/SchedulerTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SchedulerTest/SchedulerTest.cpp.i
 .PHONY : Classes/SchedulerTest/SchedulerTest.cpp.i
 
 Classes/SchedulerTest/SchedulerTest.s: Classes/SchedulerTest/SchedulerTest.cpp.s
@@ -1869,7 +1869,7 @@ Classes/SchedulerTest/SchedulerTest.s: Classes/SchedulerTest/SchedulerTest.cpp.s
 
 # target to generate assembly for a file
 Classes/SchedulerTest/SchedulerTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SchedulerTest/SchedulerTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SchedulerTest/SchedulerTest.cpp.s
 .PHONY : Classes/SchedulerTest/SchedulerTest.cpp.s
 
 Classes/ShaderTest/ShaderTest.o: Classes/ShaderTest/ShaderTest.cpp.o
@@ -1877,7 +1877,7 @@ Classes/ShaderTest/ShaderTest.o: Classes/ShaderTest/ShaderTest.cpp.o
 
 # target to build an object file
 Classes/ShaderTest/ShaderTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest.cpp.o
 .PHONY : Classes/ShaderTest/ShaderTest.cpp.o
 
 Classes/ShaderTest/ShaderTest.i: Classes/ShaderTest/ShaderTest.cpp.i
@@ -1885,7 +1885,7 @@ Classes/ShaderTest/ShaderTest.i: Classes/ShaderTest/ShaderTest.cpp.i
 
 # target to preprocess a source file
 Classes/ShaderTest/ShaderTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest.cpp.i
 .PHONY : Classes/ShaderTest/ShaderTest.cpp.i
 
 Classes/ShaderTest/ShaderTest.s: Classes/ShaderTest/ShaderTest.cpp.s
@@ -1893,7 +1893,7 @@ Classes/ShaderTest/ShaderTest.s: Classes/ShaderTest/ShaderTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ShaderTest/ShaderTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest.cpp.s
 .PHONY : Classes/ShaderTest/ShaderTest.cpp.s
 
 Classes/ShaderTest/ShaderTest2.o: Classes/ShaderTest/ShaderTest2.cpp.o
@@ -1901,7 +1901,7 @@ Classes/ShaderTest/ShaderTest2.o: Classes/ShaderTest/ShaderTest2.cpp.o
 
 # target to build an object file
 Classes/ShaderTest/ShaderTest2.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest2.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest2.cpp.o
 .PHONY : Classes/ShaderTest/ShaderTest2.cpp.o
 
 Classes/ShaderTest/ShaderTest2.i: Classes/ShaderTest/ShaderTest2.cpp.i
@@ -1909,7 +1909,7 @@ Classes/ShaderTest/ShaderTest2.i: Classes/ShaderTest/ShaderTest2.cpp.i
 
 # target to preprocess a source file
 Classes/ShaderTest/ShaderTest2.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest2.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest2.cpp.i
 .PHONY : Classes/ShaderTest/ShaderTest2.cpp.i
 
 Classes/ShaderTest/ShaderTest2.s: Classes/ShaderTest/ShaderTest2.cpp.s
@@ -1917,7 +1917,7 @@ Classes/ShaderTest/ShaderTest2.s: Classes/ShaderTest/ShaderTest2.cpp.s
 
 # target to generate assembly for a file
 Classes/ShaderTest/ShaderTest2.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest2.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ShaderTest/ShaderTest2.cpp.s
 .PHONY : Classes/ShaderTest/ShaderTest2.cpp.s
 
 Classes/Sprite3DTest/DrawNode3D.o: Classes/Sprite3DTest/DrawNode3D.cpp.o
@@ -1925,7 +1925,7 @@ Classes/Sprite3DTest/DrawNode3D.o: Classes/Sprite3DTest/DrawNode3D.cpp.o
 
 # target to build an object file
 Classes/Sprite3DTest/DrawNode3D.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/DrawNode3D.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/DrawNode3D.cpp.o
 .PHONY : Classes/Sprite3DTest/DrawNode3D.cpp.o
 
 Classes/Sprite3DTest/DrawNode3D.i: Classes/Sprite3DTest/DrawNode3D.cpp.i
@@ -1933,7 +1933,7 @@ Classes/Sprite3DTest/DrawNode3D.i: Classes/Sprite3DTest/DrawNode3D.cpp.i
 
 # target to preprocess a source file
 Classes/Sprite3DTest/DrawNode3D.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/DrawNode3D.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/DrawNode3D.cpp.i
 .PHONY : Classes/Sprite3DTest/DrawNode3D.cpp.i
 
 Classes/Sprite3DTest/DrawNode3D.s: Classes/Sprite3DTest/DrawNode3D.cpp.s
@@ -1941,7 +1941,7 @@ Classes/Sprite3DTest/DrawNode3D.s: Classes/Sprite3DTest/DrawNode3D.cpp.s
 
 # target to generate assembly for a file
 Classes/Sprite3DTest/DrawNode3D.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/DrawNode3D.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/DrawNode3D.cpp.s
 .PHONY : Classes/Sprite3DTest/DrawNode3D.cpp.s
 
 Classes/Sprite3DTest/Sprite3DTest.o: Classes/Sprite3DTest/Sprite3DTest.cpp.o
@@ -1949,7 +1949,7 @@ Classes/Sprite3DTest/Sprite3DTest.o: Classes/Sprite3DTest/Sprite3DTest.cpp.o
 
 # target to build an object file
 Classes/Sprite3DTest/Sprite3DTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/Sprite3DTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/Sprite3DTest.cpp.o
 .PHONY : Classes/Sprite3DTest/Sprite3DTest.cpp.o
 
 Classes/Sprite3DTest/Sprite3DTest.i: Classes/Sprite3DTest/Sprite3DTest.cpp.i
@@ -1957,7 +1957,7 @@ Classes/Sprite3DTest/Sprite3DTest.i: Classes/Sprite3DTest/Sprite3DTest.cpp.i
 
 # target to preprocess a source file
 Classes/Sprite3DTest/Sprite3DTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/Sprite3DTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/Sprite3DTest.cpp.i
 .PHONY : Classes/Sprite3DTest/Sprite3DTest.cpp.i
 
 Classes/Sprite3DTest/Sprite3DTest.s: Classes/Sprite3DTest/Sprite3DTest.cpp.s
@@ -1965,7 +1965,7 @@ Classes/Sprite3DTest/Sprite3DTest.s: Classes/Sprite3DTest/Sprite3DTest.cpp.s
 
 # target to generate assembly for a file
 Classes/Sprite3DTest/Sprite3DTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/Sprite3DTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Sprite3DTest/Sprite3DTest.cpp.s
 .PHONY : Classes/Sprite3DTest/Sprite3DTest.cpp.s
 
 Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.o: Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.o
@@ -1973,7 +1973,7 @@ Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.o: Classes/SpriteFrameCacheTes
 
 # target to build an object file
 Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.o
 .PHONY : Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.o
 
 Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.i: Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.i
@@ -1981,7 +1981,7 @@ Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.i: Classes/SpriteFrameCacheTes
 
 # target to preprocess a source file
 Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.i
 .PHONY : Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.i
 
 Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.s: Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.s
@@ -1989,7 +1989,7 @@ Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.s: Classes/SpriteFrameCacheTes
 
 # target to generate assembly for a file
 Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.s
 .PHONY : Classes/SpriteFrameCacheTest/SpriteFrameCacheTest.cpp.s
 
 Classes/SpritePolygonTest/SpritePolygonTest.o: Classes/SpritePolygonTest/SpritePolygonTest.cpp.o
@@ -1997,7 +1997,7 @@ Classes/SpritePolygonTest/SpritePolygonTest.o: Classes/SpritePolygonTest/SpriteP
 
 # target to build an object file
 Classes/SpritePolygonTest/SpritePolygonTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpritePolygonTest/SpritePolygonTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpritePolygonTest/SpritePolygonTest.cpp.o
 .PHONY : Classes/SpritePolygonTest/SpritePolygonTest.cpp.o
 
 Classes/SpritePolygonTest/SpritePolygonTest.i: Classes/SpritePolygonTest/SpritePolygonTest.cpp.i
@@ -2005,7 +2005,7 @@ Classes/SpritePolygonTest/SpritePolygonTest.i: Classes/SpritePolygonTest/SpriteP
 
 # target to preprocess a source file
 Classes/SpritePolygonTest/SpritePolygonTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpritePolygonTest/SpritePolygonTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpritePolygonTest/SpritePolygonTest.cpp.i
 .PHONY : Classes/SpritePolygonTest/SpritePolygonTest.cpp.i
 
 Classes/SpritePolygonTest/SpritePolygonTest.s: Classes/SpritePolygonTest/SpritePolygonTest.cpp.s
@@ -2013,7 +2013,7 @@ Classes/SpritePolygonTest/SpritePolygonTest.s: Classes/SpritePolygonTest/SpriteP
 
 # target to generate assembly for a file
 Classes/SpritePolygonTest/SpritePolygonTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpritePolygonTest/SpritePolygonTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpritePolygonTest/SpritePolygonTest.cpp.s
 .PHONY : Classes/SpritePolygonTest/SpritePolygonTest.cpp.s
 
 Classes/SpriteTest/SpriteTest.o: Classes/SpriteTest/SpriteTest.cpp.o
@@ -2021,7 +2021,7 @@ Classes/SpriteTest/SpriteTest.o: Classes/SpriteTest/SpriteTest.cpp.o
 
 # target to build an object file
 Classes/SpriteTest/SpriteTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteTest/SpriteTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteTest/SpriteTest.cpp.o
 .PHONY : Classes/SpriteTest/SpriteTest.cpp.o
 
 Classes/SpriteTest/SpriteTest.i: Classes/SpriteTest/SpriteTest.cpp.i
@@ -2029,7 +2029,7 @@ Classes/SpriteTest/SpriteTest.i: Classes/SpriteTest/SpriteTest.cpp.i
 
 # target to preprocess a source file
 Classes/SpriteTest/SpriteTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteTest/SpriteTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteTest/SpriteTest.cpp.i
 .PHONY : Classes/SpriteTest/SpriteTest.cpp.i
 
 Classes/SpriteTest/SpriteTest.s: Classes/SpriteTest/SpriteTest.cpp.s
@@ -2037,7 +2037,7 @@ Classes/SpriteTest/SpriteTest.s: Classes/SpriteTest/SpriteTest.cpp.s
 
 # target to generate assembly for a file
 Classes/SpriteTest/SpriteTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteTest/SpriteTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/SpriteTest/SpriteTest.cpp.s
 .PHONY : Classes/SpriteTest/SpriteTest.cpp.s
 
 Classes/TerrainTest/TerrainTest.o: Classes/TerrainTest/TerrainTest.cpp.o
@@ -2045,7 +2045,7 @@ Classes/TerrainTest/TerrainTest.o: Classes/TerrainTest/TerrainTest.cpp.o
 
 # target to build an object file
 Classes/TerrainTest/TerrainTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TerrainTest/TerrainTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TerrainTest/TerrainTest.cpp.o
 .PHONY : Classes/TerrainTest/TerrainTest.cpp.o
 
 Classes/TerrainTest/TerrainTest.i: Classes/TerrainTest/TerrainTest.cpp.i
@@ -2053,7 +2053,7 @@ Classes/TerrainTest/TerrainTest.i: Classes/TerrainTest/TerrainTest.cpp.i
 
 # target to preprocess a source file
 Classes/TerrainTest/TerrainTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TerrainTest/TerrainTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TerrainTest/TerrainTest.cpp.i
 .PHONY : Classes/TerrainTest/TerrainTest.cpp.i
 
 Classes/TerrainTest/TerrainTest.s: Classes/TerrainTest/TerrainTest.cpp.s
@@ -2061,7 +2061,7 @@ Classes/TerrainTest/TerrainTest.s: Classes/TerrainTest/TerrainTest.cpp.s
 
 # target to generate assembly for a file
 Classes/TerrainTest/TerrainTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TerrainTest/TerrainTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TerrainTest/TerrainTest.cpp.s
 .PHONY : Classes/TerrainTest/TerrainTest.cpp.s
 
 Classes/TextInputTest/TextInputTest.o: Classes/TextInputTest/TextInputTest.cpp.o
@@ -2069,7 +2069,7 @@ Classes/TextInputTest/TextInputTest.o: Classes/TextInputTest/TextInputTest.cpp.o
 
 # target to build an object file
 Classes/TextInputTest/TextInputTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextInputTest/TextInputTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextInputTest/TextInputTest.cpp.o
 .PHONY : Classes/TextInputTest/TextInputTest.cpp.o
 
 Classes/TextInputTest/TextInputTest.i: Classes/TextInputTest/TextInputTest.cpp.i
@@ -2077,7 +2077,7 @@ Classes/TextInputTest/TextInputTest.i: Classes/TextInputTest/TextInputTest.cpp.i
 
 # target to preprocess a source file
 Classes/TextInputTest/TextInputTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextInputTest/TextInputTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextInputTest/TextInputTest.cpp.i
 .PHONY : Classes/TextInputTest/TextInputTest.cpp.i
 
 Classes/TextInputTest/TextInputTest.s: Classes/TextInputTest/TextInputTest.cpp.s
@@ -2085,7 +2085,7 @@ Classes/TextInputTest/TextInputTest.s: Classes/TextInputTest/TextInputTest.cpp.s
 
 # target to generate assembly for a file
 Classes/TextInputTest/TextInputTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextInputTest/TextInputTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextInputTest/TextInputTest.cpp.s
 .PHONY : Classes/TextInputTest/TextInputTest.cpp.s
 
 Classes/Texture2dTest/Texture2dTest.o: Classes/Texture2dTest/Texture2dTest.cpp.o
@@ -2093,7 +2093,7 @@ Classes/Texture2dTest/Texture2dTest.o: Classes/Texture2dTest/Texture2dTest.cpp.o
 
 # target to build an object file
 Classes/Texture2dTest/Texture2dTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Texture2dTest/Texture2dTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Texture2dTest/Texture2dTest.cpp.o
 .PHONY : Classes/Texture2dTest/Texture2dTest.cpp.o
 
 Classes/Texture2dTest/Texture2dTest.i: Classes/Texture2dTest/Texture2dTest.cpp.i
@@ -2101,7 +2101,7 @@ Classes/Texture2dTest/Texture2dTest.i: Classes/Texture2dTest/Texture2dTest.cpp.i
 
 # target to preprocess a source file
 Classes/Texture2dTest/Texture2dTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Texture2dTest/Texture2dTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Texture2dTest/Texture2dTest.cpp.i
 .PHONY : Classes/Texture2dTest/Texture2dTest.cpp.i
 
 Classes/Texture2dTest/Texture2dTest.s: Classes/Texture2dTest/Texture2dTest.cpp.s
@@ -2109,7 +2109,7 @@ Classes/Texture2dTest/Texture2dTest.s: Classes/Texture2dTest/Texture2dTest.cpp.s
 
 # target to generate assembly for a file
 Classes/Texture2dTest/Texture2dTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Texture2dTest/Texture2dTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/Texture2dTest/Texture2dTest.cpp.s
 .PHONY : Classes/Texture2dTest/Texture2dTest.cpp.s
 
 Classes/TextureCacheTest/TextureCacheTest.o: Classes/TextureCacheTest/TextureCacheTest.cpp.o
@@ -2117,7 +2117,7 @@ Classes/TextureCacheTest/TextureCacheTest.o: Classes/TextureCacheTest/TextureCac
 
 # target to build an object file
 Classes/TextureCacheTest/TextureCacheTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextureCacheTest/TextureCacheTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextureCacheTest/TextureCacheTest.cpp.o
 .PHONY : Classes/TextureCacheTest/TextureCacheTest.cpp.o
 
 Classes/TextureCacheTest/TextureCacheTest.i: Classes/TextureCacheTest/TextureCacheTest.cpp.i
@@ -2125,7 +2125,7 @@ Classes/TextureCacheTest/TextureCacheTest.i: Classes/TextureCacheTest/TextureCac
 
 # target to preprocess a source file
 Classes/TextureCacheTest/TextureCacheTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextureCacheTest/TextureCacheTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextureCacheTest/TextureCacheTest.cpp.i
 .PHONY : Classes/TextureCacheTest/TextureCacheTest.cpp.i
 
 Classes/TextureCacheTest/TextureCacheTest.s: Classes/TextureCacheTest/TextureCacheTest.cpp.s
@@ -2133,7 +2133,7 @@ Classes/TextureCacheTest/TextureCacheTest.s: Classes/TextureCacheTest/TextureCac
 
 # target to generate assembly for a file
 Classes/TextureCacheTest/TextureCacheTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextureCacheTest/TextureCacheTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TextureCacheTest/TextureCacheTest.cpp.s
 .PHONY : Classes/TextureCacheTest/TextureCacheTest.cpp.s
 
 Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.o: Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.o
@@ -2141,7 +2141,7 @@ Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.o: Classes/Textur
 
 # target to build an object file
 Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.o
 .PHONY : Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.o
 
 Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.i: Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.i
@@ -2149,7 +2149,7 @@ Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.i: Classes/Textur
 
 # target to preprocess a source file
 Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.i
 .PHONY : Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.i
 
 Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.s: Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.s
@@ -2157,7 +2157,7 @@ Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.s: Classes/Textur
 
 # target to generate assembly for a file
 Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.s
 .PHONY : Classes/TexturePackerEncryptionTest/TextureAtlasEncryptionTest.cpp.s
 
 Classes/TileMapTest/TileMapTest.o: Classes/TileMapTest/TileMapTest.cpp.o
@@ -2165,7 +2165,7 @@ Classes/TileMapTest/TileMapTest.o: Classes/TileMapTest/TileMapTest.cpp.o
 
 # target to build an object file
 Classes/TileMapTest/TileMapTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest.cpp.o
 .PHONY : Classes/TileMapTest/TileMapTest.cpp.o
 
 Classes/TileMapTest/TileMapTest.i: Classes/TileMapTest/TileMapTest.cpp.i
@@ -2173,7 +2173,7 @@ Classes/TileMapTest/TileMapTest.i: Classes/TileMapTest/TileMapTest.cpp.i
 
 # target to preprocess a source file
 Classes/TileMapTest/TileMapTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest.cpp.i
 .PHONY : Classes/TileMapTest/TileMapTest.cpp.i
 
 Classes/TileMapTest/TileMapTest.s: Classes/TileMapTest/TileMapTest.cpp.s
@@ -2181,7 +2181,7 @@ Classes/TileMapTest/TileMapTest.s: Classes/TileMapTest/TileMapTest.cpp.s
 
 # target to generate assembly for a file
 Classes/TileMapTest/TileMapTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest.cpp.s
 .PHONY : Classes/TileMapTest/TileMapTest.cpp.s
 
 Classes/TileMapTest/TileMapTest2.o: Classes/TileMapTest/TileMapTest2.cpp.o
@@ -2189,7 +2189,7 @@ Classes/TileMapTest/TileMapTest2.o: Classes/TileMapTest/TileMapTest2.cpp.o
 
 # target to build an object file
 Classes/TileMapTest/TileMapTest2.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest2.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest2.cpp.o
 .PHONY : Classes/TileMapTest/TileMapTest2.cpp.o
 
 Classes/TileMapTest/TileMapTest2.i: Classes/TileMapTest/TileMapTest2.cpp.i
@@ -2197,7 +2197,7 @@ Classes/TileMapTest/TileMapTest2.i: Classes/TileMapTest/TileMapTest2.cpp.i
 
 # target to preprocess a source file
 Classes/TileMapTest/TileMapTest2.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest2.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest2.cpp.i
 .PHONY : Classes/TileMapTest/TileMapTest2.cpp.i
 
 Classes/TileMapTest/TileMapTest2.s: Classes/TileMapTest/TileMapTest2.cpp.s
@@ -2205,7 +2205,7 @@ Classes/TileMapTest/TileMapTest2.s: Classes/TileMapTest/TileMapTest2.cpp.s
 
 # target to generate assembly for a file
 Classes/TileMapTest/TileMapTest2.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest2.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TileMapTest/TileMapTest2.cpp.s
 .PHONY : Classes/TileMapTest/TileMapTest2.cpp.s
 
 Classes/TouchesTest/Ball.o: Classes/TouchesTest/Ball.cpp.o
@@ -2213,7 +2213,7 @@ Classes/TouchesTest/Ball.o: Classes/TouchesTest/Ball.cpp.o
 
 # target to build an object file
 Classes/TouchesTest/Ball.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Ball.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Ball.cpp.o
 .PHONY : Classes/TouchesTest/Ball.cpp.o
 
 Classes/TouchesTest/Ball.i: Classes/TouchesTest/Ball.cpp.i
@@ -2221,7 +2221,7 @@ Classes/TouchesTest/Ball.i: Classes/TouchesTest/Ball.cpp.i
 
 # target to preprocess a source file
 Classes/TouchesTest/Ball.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Ball.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Ball.cpp.i
 .PHONY : Classes/TouchesTest/Ball.cpp.i
 
 Classes/TouchesTest/Ball.s: Classes/TouchesTest/Ball.cpp.s
@@ -2229,7 +2229,7 @@ Classes/TouchesTest/Ball.s: Classes/TouchesTest/Ball.cpp.s
 
 # target to generate assembly for a file
 Classes/TouchesTest/Ball.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Ball.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Ball.cpp.s
 .PHONY : Classes/TouchesTest/Ball.cpp.s
 
 Classes/TouchesTest/Paddle.o: Classes/TouchesTest/Paddle.cpp.o
@@ -2237,7 +2237,7 @@ Classes/TouchesTest/Paddle.o: Classes/TouchesTest/Paddle.cpp.o
 
 # target to build an object file
 Classes/TouchesTest/Paddle.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Paddle.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Paddle.cpp.o
 .PHONY : Classes/TouchesTest/Paddle.cpp.o
 
 Classes/TouchesTest/Paddle.i: Classes/TouchesTest/Paddle.cpp.i
@@ -2245,7 +2245,7 @@ Classes/TouchesTest/Paddle.i: Classes/TouchesTest/Paddle.cpp.i
 
 # target to preprocess a source file
 Classes/TouchesTest/Paddle.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Paddle.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Paddle.cpp.i
 .PHONY : Classes/TouchesTest/Paddle.cpp.i
 
 Classes/TouchesTest/Paddle.s: Classes/TouchesTest/Paddle.cpp.s
@@ -2253,7 +2253,7 @@ Classes/TouchesTest/Paddle.s: Classes/TouchesTest/Paddle.cpp.s
 
 # target to generate assembly for a file
 Classes/TouchesTest/Paddle.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Paddle.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/Paddle.cpp.s
 .PHONY : Classes/TouchesTest/Paddle.cpp.s
 
 Classes/TouchesTest/TouchesTest.o: Classes/TouchesTest/TouchesTest.cpp.o
@@ -2261,7 +2261,7 @@ Classes/TouchesTest/TouchesTest.o: Classes/TouchesTest/TouchesTest.cpp.o
 
 # target to build an object file
 Classes/TouchesTest/TouchesTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/TouchesTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/TouchesTest.cpp.o
 .PHONY : Classes/TouchesTest/TouchesTest.cpp.o
 
 Classes/TouchesTest/TouchesTest.i: Classes/TouchesTest/TouchesTest.cpp.i
@@ -2269,7 +2269,7 @@ Classes/TouchesTest/TouchesTest.i: Classes/TouchesTest/TouchesTest.cpp.i
 
 # target to preprocess a source file
 Classes/TouchesTest/TouchesTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/TouchesTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/TouchesTest.cpp.i
 .PHONY : Classes/TouchesTest/TouchesTest.cpp.i
 
 Classes/TouchesTest/TouchesTest.s: Classes/TouchesTest/TouchesTest.cpp.s
@@ -2277,7 +2277,7 @@ Classes/TouchesTest/TouchesTest.s: Classes/TouchesTest/TouchesTest.cpp.s
 
 # target to generate assembly for a file
 Classes/TouchesTest/TouchesTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/TouchesTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TouchesTest/TouchesTest.cpp.s
 .PHONY : Classes/TouchesTest/TouchesTest.cpp.s
 
 Classes/TransitionsTest/TransitionsTest.o: Classes/TransitionsTest/TransitionsTest.cpp.o
@@ -2285,7 +2285,7 @@ Classes/TransitionsTest/TransitionsTest.o: Classes/TransitionsTest/TransitionsTe
 
 # target to build an object file
 Classes/TransitionsTest/TransitionsTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TransitionsTest/TransitionsTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TransitionsTest/TransitionsTest.cpp.o
 .PHONY : Classes/TransitionsTest/TransitionsTest.cpp.o
 
 Classes/TransitionsTest/TransitionsTest.i: Classes/TransitionsTest/TransitionsTest.cpp.i
@@ -2293,7 +2293,7 @@ Classes/TransitionsTest/TransitionsTest.i: Classes/TransitionsTest/TransitionsTe
 
 # target to preprocess a source file
 Classes/TransitionsTest/TransitionsTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TransitionsTest/TransitionsTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TransitionsTest/TransitionsTest.cpp.i
 .PHONY : Classes/TransitionsTest/TransitionsTest.cpp.i
 
 Classes/TransitionsTest/TransitionsTest.s: Classes/TransitionsTest/TransitionsTest.cpp.s
@@ -2301,7 +2301,7 @@ Classes/TransitionsTest/TransitionsTest.s: Classes/TransitionsTest/TransitionsTe
 
 # target to generate assembly for a file
 Classes/TransitionsTest/TransitionsTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TransitionsTest/TransitionsTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/TransitionsTest/TransitionsTest.cpp.s
 .PHONY : Classes/TransitionsTest/TransitionsTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/CocosGUIScene.o: Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.o
@@ -2309,7 +2309,7 @@ Classes/UITest/CocoStudioGUITest/CocosGUIScene.o: Classes/UITest/CocoStudioGUITe
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.o
 
 Classes/UITest/CocoStudioGUITest/CocosGUIScene.i: Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.i
@@ -2317,7 +2317,7 @@ Classes/UITest/CocoStudioGUITest/CocosGUIScene.i: Classes/UITest/CocoStudioGUITe
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.i
 
 Classes/UITest/CocoStudioGUITest/CocosGUIScene.s: Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.s
@@ -2325,7 +2325,7 @@ Classes/UITest/CocoStudioGUITest/CocosGUIScene.s: Classes/UITest/CocoStudioGUITe
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/CocosGUIScene.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.o: Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.o
@@ -2333,7 +2333,7 @@ Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.o: Classes/UITest/Coc
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.i: Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.i
@@ -2341,7 +2341,7 @@ Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.i: Classes/UITest/Coc
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.s: Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.s
@@ -2349,7 +2349,7 @@ Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.s: Classes/UITest/Coc
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIButtonTest/UIButtonTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.o: Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.o
@@ -2357,7 +2357,7 @@ Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.o: Classes/UITest
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.i: Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.i
@@ -2365,7 +2365,7 @@ Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.i: Classes/UITest
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.s: Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.s
@@ -2373,7 +2373,7 @@ Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.s: Classes/UITest
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UICheckBoxTest/UICheckBoxTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.o: Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.o
@@ -2381,7 +2381,7 @@ Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.o: Classes/UITest/CocoS
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.i: Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.i
@@ -2389,7 +2389,7 @@ Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.i: Classes/UITest/CocoS
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.s: Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.s
@@ -2397,7 +2397,7 @@ Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.s: Classes/UITest/CocoS
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIFocusTest/UIFocusTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.o: Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.o
@@ -2405,7 +2405,7 @@ Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.o: Classes/UITe
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.i: Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.i
@@ -2413,7 +2413,7 @@ Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.i: Classes/UITe
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.s: Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.s
@@ -2421,7 +2421,7 @@ Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.s: Classes/UITe
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIImageViewTest/UIImageViewTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.o: Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.o
@@ -2429,7 +2429,7 @@ Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.o: Classes/UITest/Coc
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.i: Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.i
@@ -2437,7 +2437,7 @@ Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.i: Classes/UITest/Coc
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.s: Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.s
@@ -2445,7 +2445,7 @@ Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.s: Classes/UITest/Coc
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UILayoutTest/UILayoutTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.o: Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.o
@@ -2453,7 +2453,7 @@ Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.o: Classes/UITest
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.i: Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.i
@@ -2461,7 +2461,7 @@ Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.i: Classes/UITest
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.s: Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.s
@@ -2469,7 +2469,7 @@ Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.s: Classes/UITest
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIListViewTest/UIListViewTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.o: Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.o
@@ -2477,7 +2477,7 @@ Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.o: Classes/UI
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.i: Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.i
@@ -2485,7 +2485,7 @@ Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.i: Classes/UI
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.s: Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.s
@@ -2493,7 +2493,7 @@ Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.s: Classes/UI
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UILoadingBarTest/UILoadingBarTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.o: Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.o
@@ -2501,7 +2501,7 @@ Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.o: Classes/UITest
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.i: Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.i
@@ -2509,7 +2509,7 @@ Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.i: Classes/UITest
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.s: Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.s
@@ -2517,7 +2517,7 @@ Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.s: Classes/UITest
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIPageViewTest/UIPageViewTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.o: Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.o
@@ -2525,7 +2525,7 @@ Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.o: Classes/
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.i: Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.i
@@ -2533,7 +2533,7 @@ Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.i: Classes/
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.s: Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.s
@@ -2541,7 +2541,7 @@ Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.s: Classes/
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIRadioButtonTest/UIRadioButtonTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.o: Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.o
@@ -2549,7 +2549,7 @@ Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.o: Classes/UITest
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.i: Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.i
@@ -2557,7 +2557,7 @@ Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.i: Classes/UITest
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.s: Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.s
@@ -2565,7 +2565,7 @@ Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.s: Classes/UITest
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIRichTextTest/UIRichTextTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.o: Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.o
@@ -2573,7 +2573,7 @@ Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.o: Classes/UITest/CocoStudio
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.i: Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.i
@@ -2581,7 +2581,7 @@ Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.i: Classes/UITest/CocoStudio
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.s: Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.s
@@ -2589,7 +2589,7 @@ Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.s: Classes/UITest/CocoStudio
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScale9SpriteTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIScene.o: Classes/UITest/CocoStudioGUITest/UIScene.cpp.o
@@ -2597,7 +2597,7 @@ Classes/UITest/CocoStudioGUITest/UIScene.o: Classes/UITest/CocoStudioGUITest/UIS
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIScene.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScene.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScene.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScene.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIScene.i: Classes/UITest/CocoStudioGUITest/UIScene.cpp.i
@@ -2605,7 +2605,7 @@ Classes/UITest/CocoStudioGUITest/UIScene.i: Classes/UITest/CocoStudioGUITest/UIS
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIScene.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScene.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScene.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScene.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIScene.s: Classes/UITest/CocoStudioGUITest/UIScene.cpp.s
@@ -2613,7 +2613,7 @@ Classes/UITest/CocoStudioGUITest/UIScene.s: Classes/UITest/CocoStudioGUITest/UIS
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIScene.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScene.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScene.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScene.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UISceneManager.o: Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.o
@@ -2621,7 +2621,7 @@ Classes/UITest/CocoStudioGUITest/UISceneManager.o: Classes/UITest/CocoStudioGUIT
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UISceneManager.i: Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.i
@@ -2629,7 +2629,7 @@ Classes/UITest/CocoStudioGUITest/UISceneManager.i: Classes/UITest/CocoStudioGUIT
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UISceneManager.s: Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.s
@@ -2637,7 +2637,7 @@ Classes/UITest/CocoStudioGUITest/UISceneManager.s: Classes/UITest/CocoStudioGUIT
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UISceneManager.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.o: Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.o
@@ -2645,7 +2645,7 @@ Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.o: Classes/UI
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.i: Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.i
@@ -2653,7 +2653,7 @@ Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.i: Classes/UI
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.s: Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.s
@@ -2661,7 +2661,7 @@ Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.s: Classes/UI
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIScrollViewTest/UIScrollViewTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.o: Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.o
@@ -2669,7 +2669,7 @@ Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.o: Classes/UITest/Coc
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.i: Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.i
@@ -2677,7 +2677,7 @@ Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.i: Classes/UITest/Coc
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.s: Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.s
@@ -2685,7 +2685,7 @@ Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.s: Classes/UITest/Coc
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UISliderTest/UISliderTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.o: Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.o
@@ -2693,7 +2693,7 @@ Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.o: Classes/UI
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.i: Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.i
@@ -2701,7 +2701,7 @@ Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.i: Classes/UI
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.s: Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.s
@@ -2709,7 +2709,7 @@ Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.s: Classes/UI
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UITabControlTest/UITabControlTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.o: Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.o
@@ -2717,7 +2717,7 @@ Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.o: Classes/UITe
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.i: Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.i
@@ -2725,7 +2725,7 @@ Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.i: Classes/UITe
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.s: Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.s
@@ -2733,7 +2733,7 @@ Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.s: Classes/UITe
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextAtlasTest/UITextAtlasTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.o: Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.o
@@ -2741,7 +2741,7 @@ Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.o: Classes/UI
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.i: Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.i
@@ -2749,7 +2749,7 @@ Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.i: Classes/UI
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.s: Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.s
@@ -2757,7 +2757,7 @@ Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.s: Classes/UI
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextBMFontTest/UITextBMFontTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.o: Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.o
@@ -2765,7 +2765,7 @@ Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.o: Classes/UITe
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.i: Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.i
@@ -2773,7 +2773,7 @@ Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.i: Classes/UITe
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.s: Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.s
@@ -2781,7 +2781,7 @@ Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.s: Classes/UITe
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextFieldTest/UITextFieldTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.o: Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.o
@@ -2789,7 +2789,7 @@ Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.o: Classes/UITest/CocoStu
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.i: Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.i
@@ -2797,7 +2797,7 @@ Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.i: Classes/UITest/CocoStu
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.s: Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.s
@@ -2805,7 +2805,7 @@ Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.s: Classes/UITest/CocoStu
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UITextTest/UITextTest.cpp.s
 
 Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.o: Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.o
@@ -2813,7 +2813,7 @@ Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.o: Clas
 
 # target to build an object file
 Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.o
 .PHONY : Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.o
 
 Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.i: Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.i
@@ -2821,7 +2821,7 @@ Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.i: Clas
 
 # target to preprocess a source file
 Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.i
 .PHONY : Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.i
 
 Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.s: Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.s
@@ -2829,7 +2829,7 @@ Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.s: Clas
 
 # target to generate assembly for a file
 Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.s
 .PHONY : Classes/UITest/CocoStudioGUITest/UIWidgetAddNodeTest/UIWidgetAddNodeTest.cpp.s
 
 Classes/UITest/UITest.o: Classes/UITest/UITest.cpp.o
@@ -2837,7 +2837,7 @@ Classes/UITest/UITest.o: Classes/UITest/UITest.cpp.o
 
 # target to build an object file
 Classes/UITest/UITest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/UITest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/UITest.cpp.o
 .PHONY : Classes/UITest/UITest.cpp.o
 
 Classes/UITest/UITest.i: Classes/UITest/UITest.cpp.i
@@ -2845,7 +2845,7 @@ Classes/UITest/UITest.i: Classes/UITest/UITest.cpp.i
 
 # target to preprocess a source file
 Classes/UITest/UITest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/UITest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/UITest.cpp.i
 .PHONY : Classes/UITest/UITest.cpp.i
 
 Classes/UITest/UITest.s: Classes/UITest/UITest.cpp.s
@@ -2853,7 +2853,7 @@ Classes/UITest/UITest.s: Classes/UITest/UITest.cpp.s
 
 # target to generate assembly for a file
 Classes/UITest/UITest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/UITest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UITest/UITest.cpp.s
 .PHONY : Classes/UITest/UITest.cpp.s
 
 Classes/UnitTest/UnitTest.o: Classes/UnitTest/UnitTest.cpp.o
@@ -2861,7 +2861,7 @@ Classes/UnitTest/UnitTest.o: Classes/UnitTest/UnitTest.cpp.o
 
 # target to build an object file
 Classes/UnitTest/UnitTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UnitTest/UnitTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UnitTest/UnitTest.cpp.o
 .PHONY : Classes/UnitTest/UnitTest.cpp.o
 
 Classes/UnitTest/UnitTest.i: Classes/UnitTest/UnitTest.cpp.i
@@ -2869,7 +2869,7 @@ Classes/UnitTest/UnitTest.i: Classes/UnitTest/UnitTest.cpp.i
 
 # target to preprocess a source file
 Classes/UnitTest/UnitTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UnitTest/UnitTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UnitTest/UnitTest.cpp.i
 .PHONY : Classes/UnitTest/UnitTest.cpp.i
 
 Classes/UnitTest/UnitTest.s: Classes/UnitTest/UnitTest.cpp.s
@@ -2877,7 +2877,7 @@ Classes/UnitTest/UnitTest.s: Classes/UnitTest/UnitTest.cpp.s
 
 # target to generate assembly for a file
 Classes/UnitTest/UnitTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UnitTest/UnitTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UnitTest/UnitTest.cpp.s
 .PHONY : Classes/UnitTest/UnitTest.cpp.s
 
 Classes/UserDefaultTest/UserDefaultTest.o: Classes/UserDefaultTest/UserDefaultTest.cpp.o
@@ -2885,7 +2885,7 @@ Classes/UserDefaultTest/UserDefaultTest.o: Classes/UserDefaultTest/UserDefaultTe
 
 # target to build an object file
 Classes/UserDefaultTest/UserDefaultTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UserDefaultTest/UserDefaultTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UserDefaultTest/UserDefaultTest.cpp.o
 .PHONY : Classes/UserDefaultTest/UserDefaultTest.cpp.o
 
 Classes/UserDefaultTest/UserDefaultTest.i: Classes/UserDefaultTest/UserDefaultTest.cpp.i
@@ -2893,7 +2893,7 @@ Classes/UserDefaultTest/UserDefaultTest.i: Classes/UserDefaultTest/UserDefaultTe
 
 # target to preprocess a source file
 Classes/UserDefaultTest/UserDefaultTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UserDefaultTest/UserDefaultTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UserDefaultTest/UserDefaultTest.cpp.i
 .PHONY : Classes/UserDefaultTest/UserDefaultTest.cpp.i
 
 Classes/UserDefaultTest/UserDefaultTest.s: Classes/UserDefaultTest/UserDefaultTest.cpp.s
@@ -2901,7 +2901,7 @@ Classes/UserDefaultTest/UserDefaultTest.s: Classes/UserDefaultTest/UserDefaultTe
 
 # target to generate assembly for a file
 Classes/UserDefaultTest/UserDefaultTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UserDefaultTest/UserDefaultTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/UserDefaultTest/UserDefaultTest.cpp.s
 .PHONY : Classes/UserDefaultTest/UserDefaultTest.cpp.s
 
 Classes/VibrateTest/VibrateTest.o: Classes/VibrateTest/VibrateTest.cpp.o
@@ -2909,7 +2909,7 @@ Classes/VibrateTest/VibrateTest.o: Classes/VibrateTest/VibrateTest.cpp.o
 
 # target to build an object file
 Classes/VibrateTest/VibrateTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VibrateTest/VibrateTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VibrateTest/VibrateTest.cpp.o
 .PHONY : Classes/VibrateTest/VibrateTest.cpp.o
 
 Classes/VibrateTest/VibrateTest.i: Classes/VibrateTest/VibrateTest.cpp.i
@@ -2917,7 +2917,7 @@ Classes/VibrateTest/VibrateTest.i: Classes/VibrateTest/VibrateTest.cpp.i
 
 # target to preprocess a source file
 Classes/VibrateTest/VibrateTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VibrateTest/VibrateTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VibrateTest/VibrateTest.cpp.i
 .PHONY : Classes/VibrateTest/VibrateTest.cpp.i
 
 Classes/VibrateTest/VibrateTest.s: Classes/VibrateTest/VibrateTest.cpp.s
@@ -2925,7 +2925,7 @@ Classes/VibrateTest/VibrateTest.s: Classes/VibrateTest/VibrateTest.cpp.s
 
 # target to generate assembly for a file
 Classes/VibrateTest/VibrateTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VibrateTest/VibrateTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VibrateTest/VibrateTest.cpp.s
 .PHONY : Classes/VibrateTest/VibrateTest.cpp.s
 
 Classes/VisibleRect.o: Classes/VisibleRect.cpp.o
@@ -2933,7 +2933,7 @@ Classes/VisibleRect.o: Classes/VisibleRect.cpp.o
 
 # target to build an object file
 Classes/VisibleRect.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VisibleRect.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VisibleRect.cpp.o
 .PHONY : Classes/VisibleRect.cpp.o
 
 Classes/VisibleRect.i: Classes/VisibleRect.cpp.i
@@ -2941,7 +2941,7 @@ Classes/VisibleRect.i: Classes/VisibleRect.cpp.i
 
 # target to preprocess a source file
 Classes/VisibleRect.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VisibleRect.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VisibleRect.cpp.i
 .PHONY : Classes/VisibleRect.cpp.i
 
 Classes/VisibleRect.s: Classes/VisibleRect.cpp.s
@@ -2949,7 +2949,7 @@ Classes/VisibleRect.s: Classes/VisibleRect.cpp.s
 
 # target to generate assembly for a file
 Classes/VisibleRect.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VisibleRect.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/VisibleRect.cpp.s
 .PHONY : Classes/VisibleRect.cpp.s
 
 Classes/WindowTest/WindowTest.o: Classes/WindowTest/WindowTest.cpp.o
@@ -2957,7 +2957,7 @@ Classes/WindowTest/WindowTest.o: Classes/WindowTest/WindowTest.cpp.o
 
 # target to build an object file
 Classes/WindowTest/WindowTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/WindowTest/WindowTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/WindowTest/WindowTest.cpp.o
 .PHONY : Classes/WindowTest/WindowTest.cpp.o
 
 Classes/WindowTest/WindowTest.i: Classes/WindowTest/WindowTest.cpp.i
@@ -2965,7 +2965,7 @@ Classes/WindowTest/WindowTest.i: Classes/WindowTest/WindowTest.cpp.i
 
 # target to preprocess a source file
 Classes/WindowTest/WindowTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/WindowTest/WindowTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/WindowTest/WindowTest.cpp.i
 .PHONY : Classes/WindowTest/WindowTest.cpp.i
 
 Classes/WindowTest/WindowTest.s: Classes/WindowTest/WindowTest.cpp.s
@@ -2973,7 +2973,7 @@ Classes/WindowTest/WindowTest.s: Classes/WindowTest/WindowTest.cpp.s
 
 # target to generate assembly for a file
 Classes/WindowTest/WindowTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/WindowTest/WindowTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/WindowTest/WindowTest.cpp.s
 .PHONY : Classes/WindowTest/WindowTest.cpp.s
 
 Classes/ZipTest/ZipTests.o: Classes/ZipTest/ZipTests.cpp.o
@@ -2981,7 +2981,7 @@ Classes/ZipTest/ZipTests.o: Classes/ZipTest/ZipTests.cpp.o
 
 # target to build an object file
 Classes/ZipTest/ZipTests.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZipTest/ZipTests.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZipTest/ZipTests.cpp.o
 .PHONY : Classes/ZipTest/ZipTests.cpp.o
 
 Classes/ZipTest/ZipTests.i: Classes/ZipTest/ZipTests.cpp.i
@@ -2989,7 +2989,7 @@ Classes/ZipTest/ZipTests.i: Classes/ZipTest/ZipTests.cpp.i
 
 # target to preprocess a source file
 Classes/ZipTest/ZipTests.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZipTest/ZipTests.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZipTest/ZipTests.cpp.i
 .PHONY : Classes/ZipTest/ZipTests.cpp.i
 
 Classes/ZipTest/ZipTests.s: Classes/ZipTest/ZipTests.cpp.s
@@ -2997,7 +2997,7 @@ Classes/ZipTest/ZipTests.s: Classes/ZipTest/ZipTests.cpp.s
 
 # target to generate assembly for a file
 Classes/ZipTest/ZipTests.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZipTest/ZipTests.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZipTest/ZipTests.cpp.s
 .PHONY : Classes/ZipTest/ZipTests.cpp.s
 
 Classes/ZwoptexTest/ZwoptexTest.o: Classes/ZwoptexTest/ZwoptexTest.cpp.o
@@ -3005,7 +3005,7 @@ Classes/ZwoptexTest/ZwoptexTest.o: Classes/ZwoptexTest/ZwoptexTest.cpp.o
 
 # target to build an object file
 Classes/ZwoptexTest/ZwoptexTest.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZwoptexTest/ZwoptexTest.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZwoptexTest/ZwoptexTest.cpp.o
 .PHONY : Classes/ZwoptexTest/ZwoptexTest.cpp.o
 
 Classes/ZwoptexTest/ZwoptexTest.i: Classes/ZwoptexTest/ZwoptexTest.cpp.i
@@ -3013,7 +3013,7 @@ Classes/ZwoptexTest/ZwoptexTest.i: Classes/ZwoptexTest/ZwoptexTest.cpp.i
 
 # target to preprocess a source file
 Classes/ZwoptexTest/ZwoptexTest.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZwoptexTest/ZwoptexTest.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZwoptexTest/ZwoptexTest.cpp.i
 .PHONY : Classes/ZwoptexTest/ZwoptexTest.cpp.i
 
 Classes/ZwoptexTest/ZwoptexTest.s: Classes/ZwoptexTest/ZwoptexTest.cpp.s
@@ -3021,7 +3021,7 @@ Classes/ZwoptexTest/ZwoptexTest.s: Classes/ZwoptexTest/ZwoptexTest.cpp.s
 
 # target to generate assembly for a file
 Classes/ZwoptexTest/ZwoptexTest.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZwoptexTest/ZwoptexTest.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/ZwoptexTest/ZwoptexTest.cpp.s
 .PHONY : Classes/ZwoptexTest/ZwoptexTest.cpp.s
 
 Classes/controller.o: Classes/controller.cpp.o
@@ -3029,7 +3029,7 @@ Classes/controller.o: Classes/controller.cpp.o
 
 # target to build an object file
 Classes/controller.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/controller.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/controller.cpp.o
 .PHONY : Classes/controller.cpp.o
 
 Classes/controller.i: Classes/controller.cpp.i
@@ -3037,7 +3037,7 @@ Classes/controller.i: Classes/controller.cpp.i
 
 # target to preprocess a source file
 Classes/controller.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/controller.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/controller.cpp.i
 .PHONY : Classes/controller.cpp.i
 
 Classes/controller.s: Classes/controller.cpp.s
@@ -3045,7 +3045,7 @@ Classes/controller.s: Classes/controller.cpp.s
 
 # target to generate assembly for a file
 Classes/controller.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/controller.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/Classes/controller.cpp.s
 .PHONY : Classes/controller.cpp.s
 
 proj.linux/main.o: proj.linux/main.cpp.o
@@ -3053,7 +3053,7 @@ proj.linux/main.o: proj.linux/main.cpp.o
 
 # target to build an object file
 proj.linux/main.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/proj.linux/main.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/proj.linux/main.cpp.o
 .PHONY : proj.linux/main.cpp.o
 
 proj.linux/main.i: proj.linux/main.cpp.i
@@ -3061,7 +3061,7 @@ proj.linux/main.i: proj.linux/main.cpp.i
 
 # target to preprocess a source file
 proj.linux/main.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/proj.linux/main.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/proj.linux/main.cpp.i
 .PHONY : proj.linux/main.cpp.i
 
 proj.linux/main.s: proj.linux/main.cpp.s
@@ -3069,7 +3069,7 @@ proj.linux/main.s: proj.linux/main.cpp.s
 
 # target to generate assembly for a file
 proj.linux/main.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/proj.linux/main.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/proj.linux/main.cpp.s
 .PHONY : proj.linux/main.cpp.s
 
 # Help Target
@@ -3459,6 +3459,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

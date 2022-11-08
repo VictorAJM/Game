@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/poly2tri//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/poly2tri//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule
 .PHONY : engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_poly2tri: engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule
 
 # fast build rule for target.
 ext_poly2tri/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build
 .PHONY : ext_poly2tri/fast
 
 common/shapes.o: common/shapes.cc.o
@@ -135,7 +135,7 @@ common/shapes.o: common/shapes.cc.o
 
 # target to build an object file
 common/shapes.cc.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/common/shapes.cc.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/common/shapes.cc.o
 .PHONY : common/shapes.cc.o
 
 common/shapes.i: common/shapes.cc.i
@@ -143,7 +143,7 @@ common/shapes.i: common/shapes.cc.i
 
 # target to preprocess a source file
 common/shapes.cc.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/common/shapes.cc.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/common/shapes.cc.i
 .PHONY : common/shapes.cc.i
 
 common/shapes.s: common/shapes.cc.s
@@ -151,7 +151,7 @@ common/shapes.s: common/shapes.cc.s
 
 # target to generate assembly for a file
 common/shapes.cc.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/common/shapes.cc.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/common/shapes.cc.s
 .PHONY : common/shapes.cc.s
 
 sweep/advancing_front.o: sweep/advancing_front.cc.o
@@ -159,7 +159,7 @@ sweep/advancing_front.o: sweep/advancing_front.cc.o
 
 # target to build an object file
 sweep/advancing_front.cc.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.o
 .PHONY : sweep/advancing_front.cc.o
 
 sweep/advancing_front.i: sweep/advancing_front.cc.i
@@ -167,7 +167,7 @@ sweep/advancing_front.i: sweep/advancing_front.cc.i
 
 # target to preprocess a source file
 sweep/advancing_front.cc.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.i
 .PHONY : sweep/advancing_front.cc.i
 
 sweep/advancing_front.s: sweep/advancing_front.cc.s
@@ -175,7 +175,7 @@ sweep/advancing_front.s: sweep/advancing_front.cc.s
 
 # target to generate assembly for a file
 sweep/advancing_front.cc.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/advancing_front.cc.s
 .PHONY : sweep/advancing_front.cc.s
 
 sweep/cdt.o: sweep/cdt.cc.o
@@ -183,7 +183,7 @@ sweep/cdt.o: sweep/cdt.cc.o
 
 # target to build an object file
 sweep/cdt.cc.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.o
 .PHONY : sweep/cdt.cc.o
 
 sweep/cdt.i: sweep/cdt.cc.i
@@ -191,7 +191,7 @@ sweep/cdt.i: sweep/cdt.cc.i
 
 # target to preprocess a source file
 sweep/cdt.cc.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.i
 .PHONY : sweep/cdt.cc.i
 
 sweep/cdt.s: sweep/cdt.cc.s
@@ -199,7 +199,7 @@ sweep/cdt.s: sweep/cdt.cc.s
 
 # target to generate assembly for a file
 sweep/cdt.cc.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/cdt.cc.s
 .PHONY : sweep/cdt.cc.s
 
 sweep/sweep.o: sweep/sweep.cc.o
@@ -207,7 +207,7 @@ sweep/sweep.o: sweep/sweep.cc.o
 
 # target to build an object file
 sweep/sweep.cc.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.o
 .PHONY : sweep/sweep.cc.o
 
 sweep/sweep.i: sweep/sweep.cc.i
@@ -215,7 +215,7 @@ sweep/sweep.i: sweep/sweep.cc.i
 
 # target to preprocess a source file
 sweep/sweep.cc.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.i
 .PHONY : sweep/sweep.cc.i
 
 sweep/sweep.s: sweep/sweep.cc.s
@@ -223,7 +223,7 @@ sweep/sweep.s: sweep/sweep.cc.s
 
 # target to generate assembly for a file
 sweep/sweep.cc.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep.cc.s
 .PHONY : sweep/sweep.cc.s
 
 sweep/sweep_context.o: sweep/sweep_context.cc.o
@@ -231,7 +231,7 @@ sweep/sweep_context.o: sweep/sweep_context.cc.o
 
 # target to build an object file
 sweep/sweep_context.cc.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.o
 .PHONY : sweep/sweep_context.cc.o
 
 sweep/sweep_context.i: sweep/sweep_context.cc.i
@@ -239,7 +239,7 @@ sweep/sweep_context.i: sweep/sweep_context.cc.i
 
 # target to preprocess a source file
 sweep/sweep_context.cc.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.i
 .PHONY : sweep/sweep_context.cc.i
 
 sweep/sweep_context.s: sweep/sweep_context.cc.s
@@ -247,7 +247,7 @@ sweep/sweep_context.s: sweep/sweep_context.cc.s
 
 # target to generate assembly for a file
 sweep/sweep_context.cc.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/sweep/sweep_context.cc.s
 .PHONY : sweep/sweep_context.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

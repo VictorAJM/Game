@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/edtaa3func//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_edtaa3func: engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule
 
 # fast build rule for target.
 ext_edtaa3func/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build
 .PHONY : ext_edtaa3func/fast
 
 edtaa3func.o: edtaa3func.cpp.o
@@ -135,7 +135,7 @@ edtaa3func.o: edtaa3func.cpp.o
 
 # target to build an object file
 edtaa3func.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o
 .PHONY : edtaa3func.cpp.o
 
 edtaa3func.i: edtaa3func.cpp.i
@@ -143,7 +143,7 @@ edtaa3func.i: edtaa3func.cpp.i
 
 # target to preprocess a source file
 edtaa3func.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.i
 .PHONY : edtaa3func.cpp.i
 
 edtaa3func.s: edtaa3func.cpp.s
@@ -151,7 +151,7 @@ edtaa3func.s: edtaa3func.cpp.s
 
 # target to generate assembly for a file
 edtaa3func.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.s
 .PHONY : edtaa3func.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

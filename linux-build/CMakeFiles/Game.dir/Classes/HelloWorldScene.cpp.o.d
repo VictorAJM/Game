@@ -532,4 +532,5 @@ CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o: \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCTerrain.h \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCRay.h \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/base/CCEventDispatcher.h \
- /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCVertexAttribBinding.h
+ /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCVertexAttribBinding.h \
+ /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h

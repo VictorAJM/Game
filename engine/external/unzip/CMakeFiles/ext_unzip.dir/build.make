@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/external/unzip/CMakeFiles/ext_unzip.dir/depend.make
@@ -70,46 +70,46 @@ include engine/external/unzip/CMakeFiles/ext_unzip.dir/progress.make
 include engine/external/unzip/CMakeFiles/ext_unzip.dir/flags.make
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o: engine/external/unzip/CMakeFiles/ext_unzip.dir/flags.make
-engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o: ../../external/unzip/ioapi.cpp
+engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o: ../external/unzip/ioapi.cpp
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o: engine/external/unzip/CMakeFiles/ext_unzip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o -MF CMakeFiles/ext_unzip.dir/ioapi.cpp.o.d -o CMakeFiles/ext_unzip.dir/ioapi.cpp.o -c /home/victor/cocos2d-x/external/unzip/ioapi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.o -MF CMakeFiles/ext_unzip.dir/ioapi.cpp.o.d -o CMakeFiles/ext_unzip.dir/ioapi.cpp.o -c /home/victor/cocos2d-x/external/unzip/ioapi.cpp
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_unzip.dir/ioapi.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/unzip/ioapi.cpp > CMakeFiles/ext_unzip.dir/ioapi.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/unzip/ioapi.cpp > CMakeFiles/ext_unzip.dir/ioapi.cpp.i
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_unzip.dir/ioapi.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/unzip/ioapi.cpp -o CMakeFiles/ext_unzip.dir/ioapi.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/unzip/ioapi.cpp -o CMakeFiles/ext_unzip.dir/ioapi.cpp.s
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o: engine/external/unzip/CMakeFiles/ext_unzip.dir/flags.make
-engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o: ../../external/unzip/unzip.cpp
+engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o: ../external/unzip/unzip.cpp
 engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o: engine/external/unzip/CMakeFiles/ext_unzip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o -MF CMakeFiles/ext_unzip.dir/unzip.cpp.o.d -o CMakeFiles/ext_unzip.dir/unzip.cpp.o -c /home/victor/cocos2d-x/external/unzip/unzip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o -MF CMakeFiles/ext_unzip.dir/unzip.cpp.o.d -o CMakeFiles/ext_unzip.dir/unzip.cpp.o -c /home/victor/cocos2d-x/external/unzip/unzip.cpp
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_unzip.dir/unzip.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/unzip/unzip.cpp > CMakeFiles/ext_unzip.dir/unzip.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/unzip/unzip.cpp > CMakeFiles/ext_unzip.dir/unzip.cpp.i
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_unzip.dir/unzip.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/unzip/unzip.cpp -o CMakeFiles/ext_unzip.dir/unzip.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/unzip/unzip.cpp -o CMakeFiles/ext_unzip.dir/unzip.cpp.s
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o: engine/external/unzip/CMakeFiles/ext_unzip.dir/flags.make
-engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o: ../../external/unzip/ioapi_mem.cpp
+engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o: ../external/unzip/ioapi_mem.cpp
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o: engine/external/unzip/CMakeFiles/ext_unzip.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o -MF CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o.d -o CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o -c /home/victor/cocos2d-x/external/unzip/ioapi_mem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o -MF CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o.d -o CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o -c /home/victor/cocos2d-x/external/unzip/ioapi_mem.cpp
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/unzip/ioapi_mem.cpp > CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/unzip/ioapi_mem.cpp > CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.i
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/unzip/ioapi_mem.cpp -o CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/unzip/ioapi_mem.cpp -o CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.s
 
 # Object files for target ext_unzip
 ext_unzip_OBJECTS = \
@@ -125,19 +125,19 @@ lib/libext_unzip.a: engine/external/unzip/CMakeFiles/ext_unzip.dir/unzip.cpp.o
 lib/libext_unzip.a: engine/external/unzip/CMakeFiles/ext_unzip.dir/ioapi_mem.cpp.o
 lib/libext_unzip.a: engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make
 lib/libext_unzip.a: engine/external/unzip/CMakeFiles/ext_unzip.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../lib/libext_unzip.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && $(CMAKE_COMMAND) -P CMakeFiles/ext_unzip.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_unzip.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../../lib/libext_unzip.a"
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && $(CMAKE_COMMAND) -P CMakeFiles/ext_unzip.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_unzip.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/unzip/CMakeFiles/ext_unzip.dir/build: lib/libext_unzip.a
 .PHONY : engine/external/unzip/CMakeFiles/ext_unzip.dir/build
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip && $(CMAKE_COMMAND) -P CMakeFiles/ext_unzip.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/unzip && $(CMAKE_COMMAND) -P CMakeFiles/ext_unzip.dir/cmake_clean.cmake
 .PHONY : engine/external/unzip/CMakeFiles/ext_unzip.dir/clean
 
 engine/external/unzip/CMakeFiles/ext_unzip.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/unzip /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/unzip/CMakeFiles/ext_unzip.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/unzip /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/external/unzip /home/victor/cocos2d-x/Game/engine/external/unzip/CMakeFiles/ext_unzip.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/unzip/CMakeFiles/ext_unzip.dir/depend
 

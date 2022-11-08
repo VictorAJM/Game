@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -676,14 +676,14 @@ engine/cocos/core/CMakeFiles/cocos2d.dir/all: engine/external/md5/CMakeFiles/ext
 engine/cocos/core/CMakeFiles/cocos2d.dir/all: engine/external/unzip/CMakeFiles/ext_unzip.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/cocos/core/CMakeFiles/cocos2d.dir/build.make engine/cocos/core/CMakeFiles/cocos2d.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/cocos/core/CMakeFiles/cocos2d.dir/build.make engine/cocos/core/CMakeFiles/cocos2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Built target cocos2d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67 "Built target cocos2d"
 .PHONY : engine/cocos/core/CMakeFiles/cocos2d.dir/all
 
 # Build rule for subdir invocation for target.
 engine/cocos/core/CMakeFiles/cocos2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/core/CMakeFiles/cocos2d.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/cocos/core/CMakeFiles/cocos2d.dir/rule
 
 # Convenience name for target.
@@ -711,14 +711,14 @@ engine/external/CMakeFiles/external.dir/all: engine/external/md5/CMakeFiles/ext_
 engine/external/CMakeFiles/external.dir/all: engine/external/unzip/CMakeFiles/ext_unzip.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/external/CMakeFiles/external.dir/build.make engine/external/CMakeFiles/external.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/CMakeFiles/external.dir/build.make engine/external/CMakeFiles/external.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target external"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target external"
 .PHONY : engine/external/CMakeFiles/external.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/CMakeFiles/external.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/CMakeFiles/external.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/CMakeFiles/external.dir/rule
 
 # Convenience name for target.
@@ -737,14 +737,14 @@ engine/external/CMakeFiles/external.dir/clean:
 engine/external/recast/CMakeFiles/ext_recast.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=88,89,90 "Built target ext_recast"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=88,89,90 "Built target ext_recast"
 .PHONY : engine/external/recast/CMakeFiles/ext_recast.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/recast/CMakeFiles/ext_recast.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/CMakeFiles/ext_recast.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/recast/CMakeFiles/ext_recast.dir/rule
 
 # Convenience name for target.
@@ -763,14 +763,14 @@ engine/external/recast/CMakeFiles/ext_recast.dir/clean:
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/build.make engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/build.make engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target ext_tinyxml2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target ext_tinyxml2"
 .PHONY : engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/rule
 
 # Convenience name for target.
@@ -789,14 +789,14 @@ engine/external/tinyxml2/CMakeFiles/ext_tinyxml2.dir/clean:
 engine/external/xxhash/CMakeFiles/ext_xxhash.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build.make engine/external/xxhash/CMakeFiles/ext_xxhash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target ext_xxhash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target ext_xxhash"
 .PHONY : engine/external/xxhash/CMakeFiles/ext_xxhash.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxhash/CMakeFiles/ext_xxhash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/xxhash/CMakeFiles/ext_xxhash.dir/rule
 
 # Convenience name for target.
@@ -815,14 +815,14 @@ engine/external/xxhash/CMakeFiles/ext_xxhash.dir/clean:
 engine/external/xxtea/CMakeFiles/ext_xxtea.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/xxtea/CMakeFiles/ext_xxtea.dir/build.make engine/external/xxtea/CMakeFiles/ext_xxtea.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/xxtea/CMakeFiles/ext_xxtea.dir/build.make engine/external/xxtea/CMakeFiles/ext_xxtea.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=92 "Built target ext_xxtea"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=92 "Built target ext_xxtea"
 .PHONY : engine/external/xxtea/CMakeFiles/ext_xxtea.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/xxtea/CMakeFiles/ext_xxtea.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/xxtea/CMakeFiles/ext_xxtea.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/xxtea/CMakeFiles/ext_xxtea.dir/rule
 
 # Convenience name for target.
@@ -841,14 +841,14 @@ engine/external/xxtea/CMakeFiles/ext_xxtea.dir/clean:
 engine/external/clipper/CMakeFiles/ext_clipper.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/clipper/CMakeFiles/ext_clipper.dir/build.make engine/external/clipper/CMakeFiles/ext_clipper.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/clipper/CMakeFiles/ext_clipper.dir/build.make engine/external/clipper/CMakeFiles/ext_clipper.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target ext_clipper"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target ext_clipper"
 .PHONY : engine/external/clipper/CMakeFiles/ext_clipper.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/clipper/CMakeFiles/ext_clipper.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/clipper/CMakeFiles/ext_clipper.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/clipper/CMakeFiles/ext_clipper.dir/rule
 
 # Convenience name for target.
@@ -867,14 +867,14 @@ engine/external/clipper/CMakeFiles/ext_clipper.dir/clean:
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target ext_edtaa3func"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target ext_edtaa3func"
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule
 
 # Convenience name for target.
@@ -893,14 +893,14 @@ engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/clean:
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=84 "Built target ext_convertUTF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=84 "Built target ext_convertUTF"
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule
 
 # Convenience name for target.
@@ -919,14 +919,14 @@ engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/clean:
 engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build.make engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=87 "Built target ext_poly2tri"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=87 "Built target ext_poly2tri"
 .PHONY : engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/rule
 
 # Convenience name for target.
@@ -945,14 +945,14 @@ engine/external/poly2tri/CMakeFiles/ext_poly2tri.dir/clean:
 engine/external/md5/CMakeFiles/ext_md5.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/md5/CMakeFiles/ext_md5.dir/build.make engine/external/md5/CMakeFiles/ext_md5.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/md5/CMakeFiles/ext_md5.dir/build.make engine/external/md5/CMakeFiles/ext_md5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target ext_md5"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target ext_md5"
 .PHONY : engine/external/md5/CMakeFiles/ext_md5.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/md5/CMakeFiles/ext_md5.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/md5/CMakeFiles/ext_md5.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/md5/CMakeFiles/ext_md5.dir/rule
 
 # Convenience name for target.
@@ -971,14 +971,14 @@ engine/external/md5/CMakeFiles/ext_md5.dir/clean:
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build.make engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=91 "Built target ext_tolua"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=91 "Built target ext_tolua"
 .PHONY : engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/rule
 
 # Convenience name for target.
@@ -997,14 +997,14 @@ engine/external/lua/tolua/CMakeFiles/ext_tolua.dir/clean:
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build.make engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=85,86 "Built target ext_luasocket"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=85,86 "Built target ext_luasocket"
 .PHONY : engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/rule
 
 # Convenience name for target.
@@ -1023,14 +1023,14 @@ engine/external/lua/luasocket/CMakeFiles/ext_luasocket.dir/clean:
 engine/external/unzip/CMakeFiles/ext_unzip.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/unzip/CMakeFiles/ext_unzip.dir/build.make engine/external/unzip/CMakeFiles/ext_unzip.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target ext_unzip"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target ext_unzip"
 .PHONY : engine/external/unzip/CMakeFiles/ext_unzip.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/unzip/CMakeFiles/ext_unzip.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/unzip/CMakeFiles/ext_unzip.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/external/unzip/CMakeFiles/ext_unzip.dir/rule
 
 # Convenience name for target.
@@ -1062,14 +1062,14 @@ engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/all: engine/external/lua/lua
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/all: engine/external/unzip/CMakeFiles/ext_unzip.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build.make engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target luacocos2d"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=94,95,96,97,98,99,100 "Built target luacocos2d"
 .PHONY : engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/all
 
 # Build rule for subdir invocation for target.
 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 83
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/cocos/lua-bindings/CMakeFiles/luacocos2d.dir/rule
 
 # Convenience name for target.
@@ -1100,14 +1100,14 @@ engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/all: engine/external/u
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/all: engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/build.make engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/build.make engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target cpp-empty-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target cpp-empty-test"
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/rule
 
 # Convenience name for target.
@@ -1126,14 +1126,14 @@ engine/tests/cpp-empty-test/CMakeFiles/cpp-empty-test.dir/clean:
 engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/build.make engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/build.make engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-cpp-empty-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-cpp-empty-test"
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/cpp-empty-test/CMakeFiles/SYNC_RESOURCE-cpp-empty-test.dir/rule
 
 # Convenience name for target.
@@ -1164,14 +1164,14 @@ engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/all: engine/external/unzip/CMake
 engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/all: engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target cpp-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83 "Built target cpp-tests"
 .PHONY : engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 89
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 89
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/rule
 
 # Convenience name for target.
@@ -1190,14 +1190,14 @@ engine/tests/cpp-tests/CMakeFiles/cpp-tests.dir/clean:
 engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build.make engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-cpp-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-cpp-tests"
 .PHONY : engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/cpp-tests/CMakeFiles/SYNC_RESOURCE-cpp-tests.dir/rule
 
 # Convenience name for target.
@@ -1232,14 +1232,14 @@ engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/all: engine/tests/lua-
 engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/all: engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/build.make engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/build.make engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target lua-empty-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target lua-empty-test"
 .PHONY : engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 83
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 83
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/rule
 
 # Convenience name for target.
@@ -1258,14 +1258,14 @@ engine/tests/lua-empty-test/CMakeFiles/lua-empty-test.dir/clean:
 engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/build.make engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/build.make engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-lua-empty-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-lua-empty-test"
 .PHONY : engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/rule
 
 # Convenience name for target.
@@ -1284,14 +1284,14 @@ engine/tests/lua-empty-test/CMakeFiles/SYNC_RESOURCE-lua-empty-test.dir/clean:
 engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/build.make engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/build.make engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target COPY_LUA-lua-empty-test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target COPY_LUA-lua-empty-test"
 .PHONY : engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/lua-empty-test/CMakeFiles/COPY_LUA-lua-empty-test.dir/rule
 
 # Convenience name for target.
@@ -1326,14 +1326,14 @@ engine/tests/lua-test/CMakeFiles/lua-tests.dir/all: engine/tests/lua-test/CMakeF
 engine/tests/lua-test/CMakeFiles/lua-tests.dir/all: engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=93 "Built target lua-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=93 "Built target lua-tests"
 .PHONY : engine/tests/lua-test/CMakeFiles/lua-tests.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 84
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 84
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/lua-tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule
 
 # Convenience name for target.
@@ -1352,14 +1352,14 @@ engine/tests/lua-test/CMakeFiles/lua-tests.dir/clean:
 engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-lua-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-lua-tests"
 .PHONY : engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/rule
 
 # Convenience name for target.
@@ -1378,14 +1378,14 @@ engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/clean:
 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target COPY_LUA-lua-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target COPY_LUA-lua-tests"
 .PHONY : engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule
 
 # Convenience name for target.
@@ -1416,14 +1416,14 @@ engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/all: engine/external/unzip/CMakeFi
 engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/all: engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/build.make engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/build.make engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target HelloCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target HelloCpp"
 .PHONY : engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/rule
 
 # Convenience name for target.
@@ -1442,14 +1442,14 @@ engine/tests/HelloCpp/CMakeFiles/HelloCpp.dir/clean:
 engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/build.make engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/build.make engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-HelloCpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num= "Built target SYNC_RESOURCE-HelloCpp"
 .PHONY : engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/all
 
 # Build rule for subdir invocation for target.
 engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : engine/tests/HelloCpp/CMakeFiles/SYNC_RESOURCE-HelloCpp.dir/rule
 
 # Convenience name for target.

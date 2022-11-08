@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/victor/cocos2d-x")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/victor/cocos2d-x/Triwar_cocos/Game")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/victor/cocos2d-x/Game")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

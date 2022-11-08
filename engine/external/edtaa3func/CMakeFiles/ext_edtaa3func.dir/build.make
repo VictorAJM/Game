@@ -56,7 +56,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 # Include any dependencies generated for this target.
 include engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/depend.make
@@ -70,18 +70,18 @@ include engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/progress.make
 include engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/flags.make
 
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o: engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/flags.make
-engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o: ../../external/edtaa3func/edtaa3func.cpp
+engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o: ../external/edtaa3func/edtaa3func.cpp
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o: engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o -MF CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o.d -o CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o -c /home/victor/cocos2d-x/external/edtaa3func/edtaa3func.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o"
+	cd /home/victor/cocos2d-x/Game/engine/external/edtaa3func && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o -MF CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o.d -o CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o -c /home/victor/cocos2d-x/external/edtaa3func/edtaa3func.cpp
 
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.i"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/edtaa3func/edtaa3func.cpp > CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.i
+	cd /home/victor/cocos2d-x/Game/engine/external/edtaa3func && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/external/edtaa3func/edtaa3func.cpp > CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.i
 
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.s"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/edtaa3func/edtaa3func.cpp -o CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.s
+	cd /home/victor/cocos2d-x/Game/engine/external/edtaa3func && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/external/edtaa3func/edtaa3func.cpp -o CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.s
 
 # Object files for target ext_edtaa3func
 ext_edtaa3func_OBJECTS = \
@@ -93,19 +93,19 @@ ext_edtaa3func_EXTERNAL_OBJECTS =
 lib/libext_edtaa3func.a: engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/edtaa3func.cpp.o
 lib/libext_edtaa3func.a: engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make
 lib/libext_edtaa3func.a: engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libext_edtaa3func.a"
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func && $(CMAKE_COMMAND) -P CMakeFiles/ext_edtaa3func.dir/cmake_clean_target.cmake
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_edtaa3func.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../lib/libext_edtaa3func.a"
+	cd /home/victor/cocos2d-x/Game/engine/external/edtaa3func && $(CMAKE_COMMAND) -P CMakeFiles/ext_edtaa3func.dir/cmake_clean_target.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/edtaa3func && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ext_edtaa3func.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build: lib/libext_edtaa3func.a
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build
 
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func && $(CMAKE_COMMAND) -P CMakeFiles/ext_edtaa3func.dir/cmake_clean.cmake
+	cd /home/victor/cocos2d-x/Game/engine/external/edtaa3func && $(CMAKE_COMMAND) -P CMakeFiles/ext_edtaa3func.dir/cmake_clean.cmake
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/clean
 
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/edtaa3func /home/victor/cocos2d-x/Triwar_cocos/Game /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/victor/cocos2d-x /home/victor/cocos2d-x/external/edtaa3func /home/victor/cocos2d-x/Game /home/victor/cocos2d-x/Game/engine/external/edtaa3func /home/victor/cocos2d-x/Game/engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/depend
 

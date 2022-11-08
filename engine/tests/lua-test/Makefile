@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/tests/lua-test//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/tests/lua-test//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule
 .PHONY : engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule
 
 # Convenience name for target.
@@ -127,12 +127,12 @@ lua-tests: engine/tests/lua-test/CMakeFiles/lua-tests.dir/rule
 
 # fast build rule for target.
 lua-tests/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/build
 .PHONY : lua-tests/fast
 
 # Convenience name for target.
 engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/rule
 .PHONY : engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/rule
 
 # Convenience name for target.
@@ -141,12 +141,12 @@ SYNC_RESOURCE-lua-tests: engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-test
 
 # fast build rule for target.
 SYNC_RESOURCE-lua-tests/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/SYNC_RESOURCE-lua-tests.dir/build
 .PHONY : SYNC_RESOURCE-lua-tests/fast
 
 # Convenience name for target.
 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule
 .PHONY : engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule
 
 # Convenience name for target.
@@ -155,7 +155,7 @@ COPY_LUA-lua-tests: engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/rule
 
 # fast build rule for target.
 COPY_LUA-lua-tests/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/COPY_LUA-lua-tests.dir/build
 .PHONY : COPY_LUA-lua-tests/fast
 
 Classes/AppDelegate.o: Classes/AppDelegate.cpp.o
@@ -163,7 +163,7 @@ Classes/AppDelegate.o: Classes/AppDelegate.cpp.o
 
 # target to build an object file
 Classes/AppDelegate.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/AppDelegate.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/AppDelegate.cpp.o
 .PHONY : Classes/AppDelegate.cpp.o
 
 Classes/AppDelegate.i: Classes/AppDelegate.cpp.i
@@ -171,7 +171,7 @@ Classes/AppDelegate.i: Classes/AppDelegate.cpp.i
 
 # target to preprocess a source file
 Classes/AppDelegate.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/AppDelegate.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/AppDelegate.cpp.i
 .PHONY : Classes/AppDelegate.cpp.i
 
 Classes/AppDelegate.s: Classes/AppDelegate.cpp.s
@@ -179,7 +179,7 @@ Classes/AppDelegate.s: Classes/AppDelegate.cpp.s
 
 # target to generate assembly for a file
 Classes/AppDelegate.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/AppDelegate.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/AppDelegate.cpp.s
 .PHONY : Classes/AppDelegate.cpp.s
 
 Classes/lua_assetsmanager_test_sample.o: Classes/lua_assetsmanager_test_sample.cpp.o
@@ -187,7 +187,7 @@ Classes/lua_assetsmanager_test_sample.o: Classes/lua_assetsmanager_test_sample.c
 
 # target to build an object file
 Classes/lua_assetsmanager_test_sample.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_assetsmanager_test_sample.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_assetsmanager_test_sample.cpp.o
 .PHONY : Classes/lua_assetsmanager_test_sample.cpp.o
 
 Classes/lua_assetsmanager_test_sample.i: Classes/lua_assetsmanager_test_sample.cpp.i
@@ -195,7 +195,7 @@ Classes/lua_assetsmanager_test_sample.i: Classes/lua_assetsmanager_test_sample.c
 
 # target to preprocess a source file
 Classes/lua_assetsmanager_test_sample.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_assetsmanager_test_sample.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_assetsmanager_test_sample.cpp.i
 .PHONY : Classes/lua_assetsmanager_test_sample.cpp.i
 
 Classes/lua_assetsmanager_test_sample.s: Classes/lua_assetsmanager_test_sample.cpp.s
@@ -203,7 +203,7 @@ Classes/lua_assetsmanager_test_sample.s: Classes/lua_assetsmanager_test_sample.c
 
 # target to generate assembly for a file
 Classes/lua_assetsmanager_test_sample.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_assetsmanager_test_sample.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_assetsmanager_test_sample.cpp.s
 .PHONY : Classes/lua_assetsmanager_test_sample.cpp.s
 
 Classes/lua_test_bindings.o: Classes/lua_test_bindings.cpp.o
@@ -211,7 +211,7 @@ Classes/lua_test_bindings.o: Classes/lua_test_bindings.cpp.o
 
 # target to build an object file
 Classes/lua_test_bindings.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_test_bindings.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_test_bindings.cpp.o
 .PHONY : Classes/lua_test_bindings.cpp.o
 
 Classes/lua_test_bindings.i: Classes/lua_test_bindings.cpp.i
@@ -219,7 +219,7 @@ Classes/lua_test_bindings.i: Classes/lua_test_bindings.cpp.i
 
 # target to preprocess a source file
 Classes/lua_test_bindings.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_test_bindings.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_test_bindings.cpp.i
 .PHONY : Classes/lua_test_bindings.cpp.i
 
 Classes/lua_test_bindings.s: Classes/lua_test_bindings.cpp.s
@@ -227,7 +227,7 @@ Classes/lua_test_bindings.s: Classes/lua_test_bindings.cpp.s
 
 # target to generate assembly for a file
 Classes/lua_test_bindings.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_test_bindings.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/Classes/lua_test_bindings.cpp.s
 .PHONY : Classes/lua_test_bindings.cpp.s
 
 proj.linux/main.o: proj.linux/main.cpp.o
@@ -235,7 +235,7 @@ proj.linux/main.o: proj.linux/main.cpp.o
 
 # target to build an object file
 proj.linux/main.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/proj.linux/main.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/proj.linux/main.cpp.o
 .PHONY : proj.linux/main.cpp.o
 
 proj.linux/main.i: proj.linux/main.cpp.i
@@ -243,7 +243,7 @@ proj.linux/main.i: proj.linux/main.cpp.i
 
 # target to preprocess a source file
 proj.linux/main.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/proj.linux/main.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/proj.linux/main.cpp.i
 .PHONY : proj.linux/main.cpp.i
 
 proj.linux/main.s: proj.linux/main.cpp.s
@@ -251,7 +251,7 @@ proj.linux/main.s: proj.linux/main.cpp.s
 
 # target to generate assembly for a file
 proj.linux/main.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/proj.linux/main.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/tests/lua-test/CMakeFiles/lua-tests.dir/build.make engine/tests/lua-test/CMakeFiles/lua-tests.dir/proj.linux/main.cpp.s
 .PHONY : proj.linux/main.cpp.s
 
 # Help Target
@@ -288,6 +288,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

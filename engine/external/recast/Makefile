@@ -60,7 +60,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/victor/cocos2d-x
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Triwar_cocos/Game
+CMAKE_BINARY_DIR = /home/victor/cocos2d-x/Game
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles /home/victor/cocos2d-x/Triwar_cocos/Game/engine/external/recast//CMakeFiles/progress.marks
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Triwar_cocos/Game/CMakeFiles 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles /home/victor/cocos2d-x/Game/engine/external/recast//CMakeFiles/progress.marks
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/clean
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/preinstall
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/external/recast/CMakeFiles/ext_recast.dir/rule:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/CMakeFiles/ext_recast.dir/rule
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/recast/CMakeFiles/ext_recast.dir/rule
 .PHONY : engine/external/recast/CMakeFiles/ext_recast.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ext_recast: engine/external/recast/CMakeFiles/ext_recast.dir/rule
 
 # fast build rule for target.
 ext_recast/fast:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/build
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/build
 .PHONY : ext_recast/fast
 
 DebugUtils/DebugDraw.o: DebugUtils/DebugDraw.cpp.o
@@ -135,7 +135,7 @@ DebugUtils/DebugDraw.o: DebugUtils/DebugDraw.cpp.o
 
 # target to build an object file
 DebugUtils/DebugDraw.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DebugDraw.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DebugDraw.cpp.o
 .PHONY : DebugUtils/DebugDraw.cpp.o
 
 DebugUtils/DebugDraw.i: DebugUtils/DebugDraw.cpp.i
@@ -143,7 +143,7 @@ DebugUtils/DebugDraw.i: DebugUtils/DebugDraw.cpp.i
 
 # target to preprocess a source file
 DebugUtils/DebugDraw.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DebugDraw.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DebugDraw.cpp.i
 .PHONY : DebugUtils/DebugDraw.cpp.i
 
 DebugUtils/DebugDraw.s: DebugUtils/DebugDraw.cpp.s
@@ -151,7 +151,7 @@ DebugUtils/DebugDraw.s: DebugUtils/DebugDraw.cpp.s
 
 # target to generate assembly for a file
 DebugUtils/DebugDraw.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DebugDraw.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DebugDraw.cpp.s
 .PHONY : DebugUtils/DebugDraw.cpp.s
 
 DebugUtils/DetourDebugDraw.o: DebugUtils/DetourDebugDraw.cpp.o
@@ -159,7 +159,7 @@ DebugUtils/DetourDebugDraw.o: DebugUtils/DetourDebugDraw.cpp.o
 
 # target to build an object file
 DebugUtils/DetourDebugDraw.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DetourDebugDraw.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DetourDebugDraw.cpp.o
 .PHONY : DebugUtils/DetourDebugDraw.cpp.o
 
 DebugUtils/DetourDebugDraw.i: DebugUtils/DetourDebugDraw.cpp.i
@@ -167,7 +167,7 @@ DebugUtils/DetourDebugDraw.i: DebugUtils/DetourDebugDraw.cpp.i
 
 # target to preprocess a source file
 DebugUtils/DetourDebugDraw.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DetourDebugDraw.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DetourDebugDraw.cpp.i
 .PHONY : DebugUtils/DetourDebugDraw.cpp.i
 
 DebugUtils/DetourDebugDraw.s: DebugUtils/DetourDebugDraw.cpp.s
@@ -175,7 +175,7 @@ DebugUtils/DetourDebugDraw.s: DebugUtils/DetourDebugDraw.cpp.s
 
 # target to generate assembly for a file
 DebugUtils/DetourDebugDraw.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DetourDebugDraw.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DebugUtils/DetourDebugDraw.cpp.s
 .PHONY : DebugUtils/DetourDebugDraw.cpp.s
 
 Detour/DetourAlloc.o: Detour/DetourAlloc.cpp.o
@@ -183,7 +183,7 @@ Detour/DetourAlloc.o: Detour/DetourAlloc.cpp.o
 
 # target to build an object file
 Detour/DetourAlloc.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourAlloc.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourAlloc.cpp.o
 .PHONY : Detour/DetourAlloc.cpp.o
 
 Detour/DetourAlloc.i: Detour/DetourAlloc.cpp.i
@@ -191,7 +191,7 @@ Detour/DetourAlloc.i: Detour/DetourAlloc.cpp.i
 
 # target to preprocess a source file
 Detour/DetourAlloc.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourAlloc.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourAlloc.cpp.i
 .PHONY : Detour/DetourAlloc.cpp.i
 
 Detour/DetourAlloc.s: Detour/DetourAlloc.cpp.s
@@ -199,7 +199,7 @@ Detour/DetourAlloc.s: Detour/DetourAlloc.cpp.s
 
 # target to generate assembly for a file
 Detour/DetourAlloc.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourAlloc.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourAlloc.cpp.s
 .PHONY : Detour/DetourAlloc.cpp.s
 
 Detour/DetourCommon.o: Detour/DetourCommon.cpp.o
@@ -207,7 +207,7 @@ Detour/DetourCommon.o: Detour/DetourCommon.cpp.o
 
 # target to build an object file
 Detour/DetourCommon.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourCommon.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourCommon.cpp.o
 .PHONY : Detour/DetourCommon.cpp.o
 
 Detour/DetourCommon.i: Detour/DetourCommon.cpp.i
@@ -215,7 +215,7 @@ Detour/DetourCommon.i: Detour/DetourCommon.cpp.i
 
 # target to preprocess a source file
 Detour/DetourCommon.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourCommon.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourCommon.cpp.i
 .PHONY : Detour/DetourCommon.cpp.i
 
 Detour/DetourCommon.s: Detour/DetourCommon.cpp.s
@@ -223,7 +223,7 @@ Detour/DetourCommon.s: Detour/DetourCommon.cpp.s
 
 # target to generate assembly for a file
 Detour/DetourCommon.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourCommon.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourCommon.cpp.s
 .PHONY : Detour/DetourCommon.cpp.s
 
 Detour/DetourNavMesh.o: Detour/DetourNavMesh.cpp.o
@@ -231,7 +231,7 @@ Detour/DetourNavMesh.o: Detour/DetourNavMesh.cpp.o
 
 # target to build an object file
 Detour/DetourNavMesh.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMesh.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMesh.cpp.o
 .PHONY : Detour/DetourNavMesh.cpp.o
 
 Detour/DetourNavMesh.i: Detour/DetourNavMesh.cpp.i
@@ -239,7 +239,7 @@ Detour/DetourNavMesh.i: Detour/DetourNavMesh.cpp.i
 
 # target to preprocess a source file
 Detour/DetourNavMesh.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMesh.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMesh.cpp.i
 .PHONY : Detour/DetourNavMesh.cpp.i
 
 Detour/DetourNavMesh.s: Detour/DetourNavMesh.cpp.s
@@ -247,7 +247,7 @@ Detour/DetourNavMesh.s: Detour/DetourNavMesh.cpp.s
 
 # target to generate assembly for a file
 Detour/DetourNavMesh.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMesh.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMesh.cpp.s
 .PHONY : Detour/DetourNavMesh.cpp.s
 
 Detour/DetourNavMeshBuilder.o: Detour/DetourNavMeshBuilder.cpp.o
@@ -255,7 +255,7 @@ Detour/DetourNavMeshBuilder.o: Detour/DetourNavMeshBuilder.cpp.o
 
 # target to build an object file
 Detour/DetourNavMeshBuilder.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshBuilder.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshBuilder.cpp.o
 .PHONY : Detour/DetourNavMeshBuilder.cpp.o
 
 Detour/DetourNavMeshBuilder.i: Detour/DetourNavMeshBuilder.cpp.i
@@ -263,7 +263,7 @@ Detour/DetourNavMeshBuilder.i: Detour/DetourNavMeshBuilder.cpp.i
 
 # target to preprocess a source file
 Detour/DetourNavMeshBuilder.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshBuilder.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshBuilder.cpp.i
 .PHONY : Detour/DetourNavMeshBuilder.cpp.i
 
 Detour/DetourNavMeshBuilder.s: Detour/DetourNavMeshBuilder.cpp.s
@@ -271,7 +271,7 @@ Detour/DetourNavMeshBuilder.s: Detour/DetourNavMeshBuilder.cpp.s
 
 # target to generate assembly for a file
 Detour/DetourNavMeshBuilder.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshBuilder.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshBuilder.cpp.s
 .PHONY : Detour/DetourNavMeshBuilder.cpp.s
 
 Detour/DetourNavMeshQuery.o: Detour/DetourNavMeshQuery.cpp.o
@@ -279,7 +279,7 @@ Detour/DetourNavMeshQuery.o: Detour/DetourNavMeshQuery.cpp.o
 
 # target to build an object file
 Detour/DetourNavMeshQuery.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshQuery.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshQuery.cpp.o
 .PHONY : Detour/DetourNavMeshQuery.cpp.o
 
 Detour/DetourNavMeshQuery.i: Detour/DetourNavMeshQuery.cpp.i
@@ -287,7 +287,7 @@ Detour/DetourNavMeshQuery.i: Detour/DetourNavMeshQuery.cpp.i
 
 # target to preprocess a source file
 Detour/DetourNavMeshQuery.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshQuery.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshQuery.cpp.i
 .PHONY : Detour/DetourNavMeshQuery.cpp.i
 
 Detour/DetourNavMeshQuery.s: Detour/DetourNavMeshQuery.cpp.s
@@ -295,7 +295,7 @@ Detour/DetourNavMeshQuery.s: Detour/DetourNavMeshQuery.cpp.s
 
 # target to generate assembly for a file
 Detour/DetourNavMeshQuery.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshQuery.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNavMeshQuery.cpp.s
 .PHONY : Detour/DetourNavMeshQuery.cpp.s
 
 Detour/DetourNode.o: Detour/DetourNode.cpp.o
@@ -303,7 +303,7 @@ Detour/DetourNode.o: Detour/DetourNode.cpp.o
 
 # target to build an object file
 Detour/DetourNode.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNode.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNode.cpp.o
 .PHONY : Detour/DetourNode.cpp.o
 
 Detour/DetourNode.i: Detour/DetourNode.cpp.i
@@ -311,7 +311,7 @@ Detour/DetourNode.i: Detour/DetourNode.cpp.i
 
 # target to preprocess a source file
 Detour/DetourNode.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNode.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNode.cpp.i
 .PHONY : Detour/DetourNode.cpp.i
 
 Detour/DetourNode.s: Detour/DetourNode.cpp.s
@@ -319,7 +319,7 @@ Detour/DetourNode.s: Detour/DetourNode.cpp.s
 
 # target to generate assembly for a file
 Detour/DetourNode.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNode.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/Detour/DetourNode.cpp.s
 .PHONY : Detour/DetourNode.cpp.s
 
 DetourCrowd/DetourCrowd.o: DetourCrowd/DetourCrowd.cpp.o
@@ -327,7 +327,7 @@ DetourCrowd/DetourCrowd.o: DetourCrowd/DetourCrowd.cpp.o
 
 # target to build an object file
 DetourCrowd/DetourCrowd.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourCrowd.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourCrowd.cpp.o
 .PHONY : DetourCrowd/DetourCrowd.cpp.o
 
 DetourCrowd/DetourCrowd.i: DetourCrowd/DetourCrowd.cpp.i
@@ -335,7 +335,7 @@ DetourCrowd/DetourCrowd.i: DetourCrowd/DetourCrowd.cpp.i
 
 # target to preprocess a source file
 DetourCrowd/DetourCrowd.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourCrowd.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourCrowd.cpp.i
 .PHONY : DetourCrowd/DetourCrowd.cpp.i
 
 DetourCrowd/DetourCrowd.s: DetourCrowd/DetourCrowd.cpp.s
@@ -343,7 +343,7 @@ DetourCrowd/DetourCrowd.s: DetourCrowd/DetourCrowd.cpp.s
 
 # target to generate assembly for a file
 DetourCrowd/DetourCrowd.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourCrowd.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourCrowd.cpp.s
 .PHONY : DetourCrowd/DetourCrowd.cpp.s
 
 DetourCrowd/DetourLocalBoundary.o: DetourCrowd/DetourLocalBoundary.cpp.o
@@ -351,7 +351,7 @@ DetourCrowd/DetourLocalBoundary.o: DetourCrowd/DetourLocalBoundary.cpp.o
 
 # target to build an object file
 DetourCrowd/DetourLocalBoundary.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourLocalBoundary.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourLocalBoundary.cpp.o
 .PHONY : DetourCrowd/DetourLocalBoundary.cpp.o
 
 DetourCrowd/DetourLocalBoundary.i: DetourCrowd/DetourLocalBoundary.cpp.i
@@ -359,7 +359,7 @@ DetourCrowd/DetourLocalBoundary.i: DetourCrowd/DetourLocalBoundary.cpp.i
 
 # target to preprocess a source file
 DetourCrowd/DetourLocalBoundary.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourLocalBoundary.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourLocalBoundary.cpp.i
 .PHONY : DetourCrowd/DetourLocalBoundary.cpp.i
 
 DetourCrowd/DetourLocalBoundary.s: DetourCrowd/DetourLocalBoundary.cpp.s
@@ -367,7 +367,7 @@ DetourCrowd/DetourLocalBoundary.s: DetourCrowd/DetourLocalBoundary.cpp.s
 
 # target to generate assembly for a file
 DetourCrowd/DetourLocalBoundary.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourLocalBoundary.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourLocalBoundary.cpp.s
 .PHONY : DetourCrowd/DetourLocalBoundary.cpp.s
 
 DetourCrowd/DetourObstacleAvoidance.o: DetourCrowd/DetourObstacleAvoidance.cpp.o
@@ -375,7 +375,7 @@ DetourCrowd/DetourObstacleAvoidance.o: DetourCrowd/DetourObstacleAvoidance.cpp.o
 
 # target to build an object file
 DetourCrowd/DetourObstacleAvoidance.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourObstacleAvoidance.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourObstacleAvoidance.cpp.o
 .PHONY : DetourCrowd/DetourObstacleAvoidance.cpp.o
 
 DetourCrowd/DetourObstacleAvoidance.i: DetourCrowd/DetourObstacleAvoidance.cpp.i
@@ -383,7 +383,7 @@ DetourCrowd/DetourObstacleAvoidance.i: DetourCrowd/DetourObstacleAvoidance.cpp.i
 
 # target to preprocess a source file
 DetourCrowd/DetourObstacleAvoidance.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourObstacleAvoidance.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourObstacleAvoidance.cpp.i
 .PHONY : DetourCrowd/DetourObstacleAvoidance.cpp.i
 
 DetourCrowd/DetourObstacleAvoidance.s: DetourCrowd/DetourObstacleAvoidance.cpp.s
@@ -391,7 +391,7 @@ DetourCrowd/DetourObstacleAvoidance.s: DetourCrowd/DetourObstacleAvoidance.cpp.s
 
 # target to generate assembly for a file
 DetourCrowd/DetourObstacleAvoidance.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourObstacleAvoidance.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourObstacleAvoidance.cpp.s
 .PHONY : DetourCrowd/DetourObstacleAvoidance.cpp.s
 
 DetourCrowd/DetourPathCorridor.o: DetourCrowd/DetourPathCorridor.cpp.o
@@ -399,7 +399,7 @@ DetourCrowd/DetourPathCorridor.o: DetourCrowd/DetourPathCorridor.cpp.o
 
 # target to build an object file
 DetourCrowd/DetourPathCorridor.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathCorridor.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathCorridor.cpp.o
 .PHONY : DetourCrowd/DetourPathCorridor.cpp.o
 
 DetourCrowd/DetourPathCorridor.i: DetourCrowd/DetourPathCorridor.cpp.i
@@ -407,7 +407,7 @@ DetourCrowd/DetourPathCorridor.i: DetourCrowd/DetourPathCorridor.cpp.i
 
 # target to preprocess a source file
 DetourCrowd/DetourPathCorridor.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathCorridor.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathCorridor.cpp.i
 .PHONY : DetourCrowd/DetourPathCorridor.cpp.i
 
 DetourCrowd/DetourPathCorridor.s: DetourCrowd/DetourPathCorridor.cpp.s
@@ -415,7 +415,7 @@ DetourCrowd/DetourPathCorridor.s: DetourCrowd/DetourPathCorridor.cpp.s
 
 # target to generate assembly for a file
 DetourCrowd/DetourPathCorridor.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathCorridor.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathCorridor.cpp.s
 .PHONY : DetourCrowd/DetourPathCorridor.cpp.s
 
 DetourCrowd/DetourPathQueue.o: DetourCrowd/DetourPathQueue.cpp.o
@@ -423,7 +423,7 @@ DetourCrowd/DetourPathQueue.o: DetourCrowd/DetourPathQueue.cpp.o
 
 # target to build an object file
 DetourCrowd/DetourPathQueue.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathQueue.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathQueue.cpp.o
 .PHONY : DetourCrowd/DetourPathQueue.cpp.o
 
 DetourCrowd/DetourPathQueue.i: DetourCrowd/DetourPathQueue.cpp.i
@@ -431,7 +431,7 @@ DetourCrowd/DetourPathQueue.i: DetourCrowd/DetourPathQueue.cpp.i
 
 # target to preprocess a source file
 DetourCrowd/DetourPathQueue.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathQueue.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathQueue.cpp.i
 .PHONY : DetourCrowd/DetourPathQueue.cpp.i
 
 DetourCrowd/DetourPathQueue.s: DetourCrowd/DetourPathQueue.cpp.s
@@ -439,7 +439,7 @@ DetourCrowd/DetourPathQueue.s: DetourCrowd/DetourPathQueue.cpp.s
 
 # target to generate assembly for a file
 DetourCrowd/DetourPathQueue.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathQueue.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourPathQueue.cpp.s
 .PHONY : DetourCrowd/DetourPathQueue.cpp.s
 
 DetourCrowd/DetourProximityGrid.o: DetourCrowd/DetourProximityGrid.cpp.o
@@ -447,7 +447,7 @@ DetourCrowd/DetourProximityGrid.o: DetourCrowd/DetourProximityGrid.cpp.o
 
 # target to build an object file
 DetourCrowd/DetourProximityGrid.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourProximityGrid.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourProximityGrid.cpp.o
 .PHONY : DetourCrowd/DetourProximityGrid.cpp.o
 
 DetourCrowd/DetourProximityGrid.i: DetourCrowd/DetourProximityGrid.cpp.i
@@ -455,7 +455,7 @@ DetourCrowd/DetourProximityGrid.i: DetourCrowd/DetourProximityGrid.cpp.i
 
 # target to preprocess a source file
 DetourCrowd/DetourProximityGrid.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourProximityGrid.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourProximityGrid.cpp.i
 .PHONY : DetourCrowd/DetourProximityGrid.cpp.i
 
 DetourCrowd/DetourProximityGrid.s: DetourCrowd/DetourProximityGrid.cpp.s
@@ -463,7 +463,7 @@ DetourCrowd/DetourProximityGrid.s: DetourCrowd/DetourProximityGrid.cpp.s
 
 # target to generate assembly for a file
 DetourCrowd/DetourProximityGrid.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourProximityGrid.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourCrowd/DetourProximityGrid.cpp.s
 .PHONY : DetourCrowd/DetourProximityGrid.cpp.s
 
 DetourTileCache/DetourTileCache.o: DetourTileCache/DetourTileCache.cpp.o
@@ -471,7 +471,7 @@ DetourTileCache/DetourTileCache.o: DetourTileCache/DetourTileCache.cpp.o
 
 # target to build an object file
 DetourTileCache/DetourTileCache.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCache.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCache.cpp.o
 .PHONY : DetourTileCache/DetourTileCache.cpp.o
 
 DetourTileCache/DetourTileCache.i: DetourTileCache/DetourTileCache.cpp.i
@@ -479,7 +479,7 @@ DetourTileCache/DetourTileCache.i: DetourTileCache/DetourTileCache.cpp.i
 
 # target to preprocess a source file
 DetourTileCache/DetourTileCache.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCache.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCache.cpp.i
 .PHONY : DetourTileCache/DetourTileCache.cpp.i
 
 DetourTileCache/DetourTileCache.s: DetourTileCache/DetourTileCache.cpp.s
@@ -487,7 +487,7 @@ DetourTileCache/DetourTileCache.s: DetourTileCache/DetourTileCache.cpp.s
 
 # target to generate assembly for a file
 DetourTileCache/DetourTileCache.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCache.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCache.cpp.s
 .PHONY : DetourTileCache/DetourTileCache.cpp.s
 
 DetourTileCache/DetourTileCacheBuilder.o: DetourTileCache/DetourTileCacheBuilder.cpp.o
@@ -495,7 +495,7 @@ DetourTileCache/DetourTileCacheBuilder.o: DetourTileCache/DetourTileCacheBuilder
 
 # target to build an object file
 DetourTileCache/DetourTileCacheBuilder.cpp.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCacheBuilder.cpp.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCacheBuilder.cpp.o
 .PHONY : DetourTileCache/DetourTileCacheBuilder.cpp.o
 
 DetourTileCache/DetourTileCacheBuilder.i: DetourTileCache/DetourTileCacheBuilder.cpp.i
@@ -503,7 +503,7 @@ DetourTileCache/DetourTileCacheBuilder.i: DetourTileCache/DetourTileCacheBuilder
 
 # target to preprocess a source file
 DetourTileCache/DetourTileCacheBuilder.cpp.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCacheBuilder.cpp.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCacheBuilder.cpp.i
 .PHONY : DetourTileCache/DetourTileCacheBuilder.cpp.i
 
 DetourTileCache/DetourTileCacheBuilder.s: DetourTileCache/DetourTileCacheBuilder.cpp.s
@@ -511,7 +511,7 @@ DetourTileCache/DetourTileCacheBuilder.s: DetourTileCache/DetourTileCacheBuilder
 
 # target to generate assembly for a file
 DetourTileCache/DetourTileCacheBuilder.cpp.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCacheBuilder.cpp.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/DetourTileCache/DetourTileCacheBuilder.cpp.s
 .PHONY : DetourTileCache/DetourTileCacheBuilder.cpp.s
 
 fastlz/fastlz.o: fastlz/fastlz.c.o
@@ -519,7 +519,7 @@ fastlz/fastlz.o: fastlz/fastlz.c.o
 
 # target to build an object file
 fastlz/fastlz.c.o:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/fastlz/fastlz.c.o
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/fastlz/fastlz.c.o
 .PHONY : fastlz/fastlz.c.o
 
 fastlz/fastlz.i: fastlz/fastlz.c.i
@@ -527,7 +527,7 @@ fastlz/fastlz.i: fastlz/fastlz.c.i
 
 # target to preprocess a source file
 fastlz/fastlz.c.i:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/fastlz/fastlz.c.i
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/fastlz/fastlz.c.i
 .PHONY : fastlz/fastlz.c.i
 
 fastlz/fastlz.s: fastlz/fastlz.c.s
@@ -535,7 +535,7 @@ fastlz/fastlz.s: fastlz/fastlz.c.s
 
 # target to generate assembly for a file
 fastlz/fastlz.c.s:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/fastlz/fastlz.c.s
+	cd /home/victor/cocos2d-x/Game && $(MAKE) $(MAKESILENT) -f engine/external/recast/CMakeFiles/ext_recast.dir/build.make engine/external/recast/CMakeFiles/ext_recast.dir/fastlz/fastlz.c.s
 .PHONY : fastlz/fastlz.c.s
 
 # Help Target
@@ -609,6 +609,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/victor/cocos2d-x/Triwar_cocos/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/victor/cocos2d-x/Game && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
