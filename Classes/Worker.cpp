@@ -39,7 +39,7 @@ void Worker::onMouseMove(Event * event)
     EventMouse* e = (EventMouse*)event;
     if (isSelected) return;
     if (workerSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(), e->getCursorY()))) {
-        drawCircle(workerSprite->getPosition());
+        drawGreenCircle(workerSprite->getPosition());
     } else {
         eraseCircle();
     }

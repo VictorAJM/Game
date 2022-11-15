@@ -36,6 +36,11 @@ void Unit::initCircle(Vec2 justaposition)
     this->addChild(drawNode);
     return;
 }
+void Unit::drawGreenCircle(Vec2 justaposition)
+{
+    drawNode->drawCircle(justaposition, 13,0, 100,false,Color4F::GREEN);
+    return;
+}
 void Unit::drawCircle(Vec2 justaposition)
 {
     

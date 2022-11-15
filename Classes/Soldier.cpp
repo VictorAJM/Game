@@ -23,29 +23,44 @@ bool Soldier::init()
 void Soldier::onMouseMove(Event * event)
 {
     EventMouse* e = (EventMouse*)event;
+    if (isSelected) return;
+    if (soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(), e->getCursorY()))) {
+        drawGreenCircle(soldierSprite->getPosition());
+    } else {
+        eraseCircle();
+    }
     // mark unit
 }
 void Soldier::onMouseDown(Event* event)
 {
     EventMouse* e = (EventMouse*)event;
-    // check if the clic is over
-    
-    if (soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
-        isSelected = true;
-    }else {
-        isSelected = false;
-    }
-    
+
 }
 void Soldier::onMouseUp(Event* event)
 {
     EventMouse* e = (EventMouse*)event;
-    if (!soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY())) && isSelected) {
-        Move(Vec2(e->getCursorX(),e->getCursorY()));
-        
-        isSelected = false;
-    }else {
-        isSelected = false;
+    clic_counter++;
+    if (clic_counter%2 == 1) return;
+    // check if the clic is over
+    if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
+        if (soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
+            if (!isSelected) {
+                isSelected = true;
+                cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.1);
+                soldierSprite->runAction(delay);
+                drawCircle(soldierSprite->getPosition());
+            } else {
+                isSelected = false;
+                cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.1);
+                soldierSprite->runAction(delay);
+                eraseCircle();
+            }
+        }
+    } else if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_RIGHT) {
+        if (isSelected) {
+            Move(Vec2(e->getCursorX(),e->getCursorY()));
+            isSelected = false;
+        }
     }
 }
 
@@ -63,12 +78,23 @@ void Soldier::setHP(int hp_)
 }
 void Soldier::Move(Vec2 _moveTo)
 {
+    auto callbackMining = CallFunc::create([]() mutable {
+        //this->soldierSprite->setTexture("soldier_alone.png");
+        log("im mining");
+
+    });
+    auto callbackMiningfinished = CallFunc::create([=]() mutable {
+        drawCircle(soldierSprite->getPosition());
+        log("i finished");
+
+    });
+    cocos2d::DelayTime* delay = cocos2d::DelayTime::create(1);
     float distance = _moveTo.distance(Vec2(soldierSprite->getPosition()));
     auto moveTo = MoveTo::create(distance/(float)unit_status.speed, _moveTo);
-    soldierSprite->runAction(moveTo->clone());
+    eraseCircle();
+    soldierSprite->runAction(cocos2d::Sequence::create(moveTo->clone(),callbackMining,delay,callbackMiningfinished,nullptr));
+
     hp_bar->runAction(moveTo->clone());
     hp_outline->runAction(moveTo->clone());
-    eraseCircle();
-    // do nothing yet
     return;
 }

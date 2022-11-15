@@ -34,5 +34,6 @@ class Unit : public cocos2d::Node {
         void updateHPBar(); 
         void initCircle(cocos2d::Vec2);
         void drawCircle(cocos2d::Vec2);
+        void drawGreenCircle(cocos2d::Vec2);
         void eraseCircle();
 };
