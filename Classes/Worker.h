@@ -9,8 +9,8 @@ class Worker : public Unit
         Worker()  { init(); }
         ~Worker() = default;
         bool init() override;
-        void Move(cocos2d::Vec2) override;
-        void StopMove(bool bypass) override;
+        void Move(cocos2d::Vec2) ;
+
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
         void onMouseDown(cocos2d::Event* event);

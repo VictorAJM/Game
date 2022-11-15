@@ -11,28 +11,19 @@ class Unit : public cocos2d::Node {
         virtual ~Unit() = default;
         // clockwise rotation 0-360
         int direction=0;
-        struct MovementCallback {
-            std::function<void(int)> request;
-        };
         struct UnitStatus {
             int hp;
             int damage;
             int speed;
         };
         virtual bool init() = 0;
-        void setMovementCallback(MovementCallback callback_);
-        virtual void Move(cocos2d::Vec2) = 0;
-        virtual void StopMove(bool bypass) = 0;
-        void LockMovement(bool locked);
+        int clic_counter = 0;
         const UnitStatus& getUnitStatus() const;
     protected:
         cocos2d::Sprite* sprite {nullptr};
-        int unit_direction = 0;
-        int previous_direction = 0;
-        bool moved_on_last = false;
+
         bool is_moving = false;
-        MovementCallback movement_callback;
-        void RequestMovement(int direction);
+        bool is_selected = false;
         UnitStatus unit_status;
         int maxhp;
         virtual void initStatus() = 0;
@@ -41,6 +32,7 @@ class Unit : public cocos2d::Node {
         cocos2d::DrawNode* drawNode{nullptr};
         void createHPBar();
         void updateHPBar(); 
-        void drawCircle();
+        void initCircle(cocos2d::Vec2);
+        void drawCircle(cocos2d::Vec2);
         void eraseCircle();
 };

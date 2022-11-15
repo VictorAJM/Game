@@ -6,27 +6,7 @@
 
 USING_NS_CC;
 
-void Unit::setMovementCallback(MovementCallback callback_)
-{
-    log("setMovementCallback called");
-    movement_callback  = std::move(callback_);
-    return;
-}
 
-void Unit::LockMovement(bool locked)
-{
-    is_moving = locked;
-    if (is_moving){
-        return;
-    }
-    StopMove(false);
-    return;
-}
-
-void Unit::RequestMovement(int direction) {
-    movement_callback.request({direction});
-    return; 
-}
 
 const Unit::UnitStatus& Unit::getUnitStatus() const {
     return unit_status;
@@ -50,11 +30,16 @@ void Unit::createHPBar() {
     this->addChild(hp_bar, 1);
     return;
 }
-void Unit::drawCircle()
+void Unit::initCircle(Vec2 justaposition)
 {
     drawNode = DrawNode::create();
-    drawNode->drawCircle(this->getPosition(), 13,0, 100,false,Color4F::RED);
     this->addChild(drawNode);
+    return;
+}
+void Unit::drawCircle(Vec2 justaposition)
+{
+    
+    drawNode->drawCircle(justaposition, 13,0, 100,false,Color4F::RED);
     return;
 }
 void Unit::eraseCircle()

@@ -11,7 +11,7 @@ bool Soldier::init()
     this->addChild(soldierSprite,1);
     initStatus();
     createHPBar();
-    drawCircle();
+    initCircle(soldierSprite->getPosition());
     this->scheduleUpdate();
     auto* mouseListener = EventListenerMouse::create();
     mouseListener->onMouseMove = CC_CALLBACK_1(Soldier::onMouseMove, this);
@@ -70,10 +70,5 @@ void Soldier::Move(Vec2 _moveTo)
     hp_outline->runAction(moveTo->clone());
     eraseCircle();
     // do nothing yet
-    return;
-}
-void Soldier::StopMove(bool bypass)
-{
-    //do nothing yet
     return;
 }

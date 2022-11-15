@@ -9,11 +9,11 @@ class Soldier : public Unit
         Soldier() { init(); }
         ~Soldier() = default;
         bool init() override;
-        void Move(cocos2d::Vec2) override;
+void Move(cocos2d::Vec2) ;
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
         void onMouseDown(cocos2d::Event* event);
-        void StopMove(bool bypass) override;
+
         void setHP(int hp_);
         void initStatus() override;
         cocos2d::Sprite* soldierSprite{nullptr};
