@@ -11,7 +11,25 @@ USING_NS_CC;
 const Unit::UnitStatus& Unit::getUnitStatus() const {
     return unit_status;
 }
+void Unit::createHPBar(float posX, float posY)
+{
+    hp_outline = Sprite::create();
+    hp_outline->setTextureRect(Rect(0,0,22,6));
+    hp_outline->setColor(Color3B::BLACK);
+    hp_outline->setAnchorPoint(Vec2(0.5f, 0.0f));
+    hp_outline->setPosition(Vec2(posX-0.0f, posY-15.0f));
+    hp_outline->setGlobalZOrder(3);
+    this->addChild(hp_outline, 0);
 
+    hp_bar = Sprite::create();
+    hp_bar->setTextureRect(Rect(0, 0, 20, 4));
+    hp_bar->setColor(Color3B::RED);
+    hp_bar->setAnchorPoint(Vec2(0.5f, 0.0f));
+    hp_bar->setPosition(Vec2(posX+1.0f, posY-14.0f));
+    hp_bar->setGlobalZOrder(3);
+    this->addChild(hp_bar, 1);
+    return;
+}
 void Unit::createHPBar() {
     hp_outline = Sprite::create();
     hp_outline->setTextureRect(Rect(0,0,42,6));

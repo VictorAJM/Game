@@ -16,7 +16,7 @@ bool Worker::init()
      //drawNode->drawSolidCircle(workerSprite->getParent()->convertToWorldSpace(workerSprite->getPosition()), 8,0, 1,Color4F::BLACK);
 
     initStatus();
-    createHPBar();
+    createHPBar(workerSprite->getPositionX(),workerSprite->getPositionY());
     initCircle(workerSprite->getPosition());
     this->scheduleUpdate();
     this->addChild(workerSprite,1);
@@ -105,12 +105,15 @@ void Worker::Move(Vec2 _moveTo)
     });
     cocos2d::DelayTime* delay = cocos2d::DelayTime::create(1);
     float distance = _moveTo.distance(Vec2(workerSprite->getPosition()));
+    auto _moveTohpoutline = Vec2(_moveTo)+Vec2(0.0f,-15.0f);
+    auto _moveTohpbar = Vec2(_moveTo)+Vec2(1.0f,-14.0f);
     auto moveTo = MoveTo::create(distance/(float)unit_status.speed, _moveTo);
     eraseCircle();
     workerSprite->runAction(cocos2d::Sequence::create(moveTo->clone(),callbackMining,delay,callbackMiningfinished,nullptr));
-
-    hp_bar->runAction(moveTo->clone());
-    hp_outline->runAction(moveTo->clone());
+    auto moveTohpbar = MoveTo::create(distance/(float)unit_status.speed, _moveTohpbar);
+    auto moveTohpoutline = MoveTo::create(distance/(float)unit_status.speed, _moveTohpoutline);
+    hp_bar->runAction(moveTohpbar);
+    hp_outline->runAction(moveTohpoutline);
     
     //drawNode->runAction(moveTo->clone());
     // do nothing yet

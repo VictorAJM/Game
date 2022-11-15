@@ -10,7 +10,7 @@ bool Soldier::init()
     soldierSprite->setAnchorPoint(Vec2(0.5f,0.5f));
     this->addChild(soldierSprite,1);
     initStatus();
-    createHPBar();
+    createHPBar(soldierSprite->getPositionX(),soldierSprite->getPositionY());
     initCircle(soldierSprite->getPosition());
     this->scheduleUpdate();
     auto* mouseListener = EventListenerMouse::create();
@@ -91,10 +91,14 @@ void Soldier::Move(Vec2 _moveTo)
     cocos2d::DelayTime* delay = cocos2d::DelayTime::create(1);
     float distance = _moveTo.distance(Vec2(soldierSprite->getPosition()));
     auto moveTo = MoveTo::create(distance/(float)unit_status.speed, _moveTo);
+    auto _moveTohpoutline = Vec2(_moveTo)+Vec2(0.0f,-15.0f);
+    auto _moveTohpbar = Vec2(_moveTo)+Vec2(1.0f,-14.0f);
     eraseCircle();
     soldierSprite->runAction(cocos2d::Sequence::create(moveTo->clone(),callbackMining,delay,callbackMiningfinished,nullptr));
-
-    hp_bar->runAction(moveTo->clone());
-    hp_outline->runAction(moveTo->clone());
+    auto moveTohpbar = MoveTo::create(distance/(float)unit_status.speed, _moveTohpbar);
+    auto moveTohpoutline = MoveTo::create(distance/(float)unit_status.speed, _moveTohpoutline);
+    hp_bar->runAction(moveTohpbar);
+    hp_outline->runAction(moveTohpoutline);
+    
     return;
 }

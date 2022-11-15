@@ -31,7 +31,8 @@ class Unit : public cocos2d::Node {
         cocos2d::Sprite* hp_bar{nullptr};
         cocos2d::DrawNode* drawNode{nullptr};
         void createHPBar();
-        void updateHPBar(); 
+        void updateHPBar();
+        void createHPBar(float, float); 
         void initCircle(cocos2d::Vec2);
         void drawCircle(cocos2d::Vec2);
         void drawGreenCircle(cocos2d::Vec2);
