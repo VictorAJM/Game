@@ -1,7 +1,6 @@
 #include "string"
 #include "cocos2d.h"
 #include "Mineral.h"
-
 USING_NS_CC;
 
 
@@ -12,7 +11,7 @@ bool Mineral::init()
     mineralSprite->setAnchorPoint(Vec2(0.5f,0.5f));
     mineralSprite->setPosition(Vec2(200,200));
     this->addChild(mineralSprite,1);
-    mineral_status.usesLeft = 10;
+    mineral_status.usesLeft = 10+cocos2d::RandomHelper::random_int(0,5);
     mineral_status.gold = 50;
     mineral_status.radius = 128.0f;
     auto* mouseListener = EventListenerMouse::create();

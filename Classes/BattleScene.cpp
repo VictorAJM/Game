@@ -24,29 +24,23 @@ bool BattleScene::init() {
     if (!Scene::init()) {
         return false;
     }
-    auto backgroundDimension = Director::getInstance()->getWinSize();
-    
-    Worker* worker = new Worker();
-
-    Soldier* soldier = new Soldier();
-    Mineral* mineral = new Mineral();
-    Base* base = new Base();
-    this->addChild(worker, 100);
-    this->addChild(soldier, 100);
-    //touchInit();
-
-
-    this->addChild(mineral,11);
-
-
-    this->addChild(base,15);    
+    auto backgroundDimension = Director::getInstance()->getWinSize();  
 
     auto background = Sprite::create("backgrounds/backgrounddetailed1.png");
     background->setScale(4.0f);
     background->setAnchorPoint(Vec2::ZERO);
     background->setPosition(0,0);
-    this->addChild(background);
+    this->addChild(background,-1);
+    Base* base1 = new Base(1);
+    Base* base2 = new Base(2);
+    // -1 for background
+    // 0 for bases
+    // 1 for structures and minerals
+    // 2 for units
+    // 1000 for stats
           
+    this->addChild(base1);
+    this->addChild(base2);
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
         std::string music_file = "music/muBattle2.ogg";

@@ -5,7 +5,7 @@
 class Base : public cocos2d::Node
 {
     public:
-        Base() { init(); }
+        Base(int a) { init(a); }
         virtual ~Base() = default;
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
@@ -14,7 +14,7 @@ class Base : public cocos2d::Node
             int gold;
             int race;
         };
-        bool init();
+        bool init(int);
         const BaseStatus& getBaseStatus() const;
         cocos2d::Sprite* baseSprite{nullptr};
     private:

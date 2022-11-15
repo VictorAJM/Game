@@ -15,6 +15,7 @@ class Unit : public cocos2d::Node {
             int hp;
             int damage;
             int speed;
+            int race;
         };
         virtual bool init() = 0;
         int clic_counter = 0;

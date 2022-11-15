@@ -41,6 +41,7 @@ void Soldier::onMouseUp(Event* event)
     EventMouse* e = (EventMouse*)event;
     clic_counter++;
     if (clic_counter%2 == 1) return;
+    if (is_moving) return;
     // check if the clic is over
     if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
         if (soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
@@ -78,23 +79,20 @@ void Soldier::setHP(int hp_)
 }
 void Soldier::Move(Vec2 _moveTo)
 {
-    auto callbackMining = CallFunc::create([]() mutable {
-        //this->soldierSprite->setTexture("soldier_alone.png");
-        log("im mining");
+    auto callbackMovementStarted = CallFunc::create([=]() mutable {
+        is_moving = true;
 
     });
-    auto callbackMiningfinished = CallFunc::create([=]() mutable {
-        drawCircle(soldierSprite->getPosition());
-        log("i finished");
+    auto callbackMovementFinished = CallFunc::create([=]() mutable {
+        is_moving = false;
 
     });
-    cocos2d::DelayTime* delay = cocos2d::DelayTime::create(1);
     float distance = _moveTo.distance(Vec2(soldierSprite->getPosition()));
     auto moveTo = MoveTo::create(distance/(float)unit_status.speed, _moveTo);
     auto _moveTohpoutline = Vec2(_moveTo)+Vec2(0.0f,-15.0f);
     auto _moveTohpbar = Vec2(_moveTo)+Vec2(1.0f,-14.0f);
     eraseCircle();
-    soldierSprite->runAction(cocos2d::Sequence::create(moveTo->clone(),callbackMining,delay,callbackMiningfinished,nullptr));
+    soldierSprite->runAction(cocos2d::Sequence::create(callbackMovementStarted, moveTo->clone(),callbackMovementFinished,nullptr));
     auto moveTohpbar = MoveTo::create(distance/(float)unit_status.speed, _moveTohpbar);
     auto moveTohpoutline = MoveTo::create(distance/(float)unit_status.speed, _moveTohpoutline);
     hp_bar->runAction(moveTohpbar);

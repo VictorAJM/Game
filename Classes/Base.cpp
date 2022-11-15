@@ -4,14 +4,15 @@
 
 USING_NS_CC;
 
-bool Base::init()
+bool Base::init(int a)
 {
     baseSprite = Sprite::create("Base.png");
     baseSprite->setAnchorPoint(Vec2(0.5f,0.5f));
-    baseSprite->setPosition(Vec2(300,300));
-    this->addChild(baseSprite, 1);
+    baseSprite->setPosition(Vec2(150,350));
+    if (a==2) baseSprite->setPosition(Vec2(1050,350));
+    this->addChild(baseSprite);
     base_status.gold = 0;
-    base_status.race = 1;
+    base_status.race = a;
     auto* mouseListener = EventListenerMouse::create();
     mouseListener->onMouseMove = CC_CALLBACK_1(Base::onMouseMove, this);
     mouseListener->onMouseUp = CC_CALLBACK_1(Base::onMouseUp, this);
