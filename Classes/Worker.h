@@ -20,4 +20,5 @@ class Worker : public Unit
     private:
         bool isSelected = false;
         cocos2d::Vector<cocos2d::SpriteFrame*> animFrames,animFrames2;
+        cocos2d::DrawNode *drawNode;
 };

@@ -50,7 +50,18 @@ void Unit::createHPBar() {
     this->addChild(hp_bar, 1);
     return;
 }
-
+void Unit::drawCircle()
+{
+    drawNode = DrawNode::create();
+    drawNode->drawCircle(this->getPosition(), 13,0, 100,false,Color4F::RED);
+    this->addChild(drawNode);
+    return;
+}
+void Unit::eraseCircle()
+{
+    drawNode->clear();
+    //drawNode->drawCircle(Vec2(600,300), 1,0, 100,false,Color4F::BLACK);
+}
 void Unit::updateHPBar(){
     float percent = static_cast<float>(unit_status.hp) /
                     static_cast<float>(maxhp);

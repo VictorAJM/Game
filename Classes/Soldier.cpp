@@ -9,15 +9,15 @@ bool Soldier::init()
     soldierSprite = Sprite::create("soldier.png",Rect(0,0,16,16));
     soldierSprite->setAnchorPoint(Vec2(0.5f,0.5f));
     this->addChild(soldierSprite,1);
-
+    initStatus();
+    createHPBar();
+    drawCircle();
+    this->scheduleUpdate();
     auto* mouseListener = EventListenerMouse::create();
     mouseListener->onMouseMove = CC_CALLBACK_1(Soldier::onMouseMove, this);
     mouseListener->onMouseUp = CC_CALLBACK_1(Soldier::onMouseUp, this);
     mouseListener->onMouseDown = CC_CALLBACK_1(Soldier::onMouseDown, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
-    initStatus();
-    createHPBar();
-    this->scheduleUpdate();
     return true;   
 }
 void Soldier::onMouseMove(Event * event)
@@ -68,6 +68,7 @@ void Soldier::Move(Vec2 _moveTo)
     soldierSprite->runAction(moveTo->clone());
     hp_bar->runAction(moveTo->clone());
     hp_outline->runAction(moveTo->clone());
+    eraseCircle();
     // do nothing yet
     return;
 }

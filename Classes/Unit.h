@@ -38,7 +38,9 @@ class Unit : public cocos2d::Node {
         virtual void initStatus() = 0;
         cocos2d::Sprite* hp_outline{nullptr};
         cocos2d::Sprite* hp_bar{nullptr};
+        cocos2d::DrawNode* drawNode{nullptr};
         void createHPBar();
         void updateHPBar(); 
-
+        void drawCircle();
+        void eraseCircle();
 };
