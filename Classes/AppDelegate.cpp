@@ -1,4 +1,19 @@
-	
+///TODO:
+// Agregar cuadro con informacion
+// agregar labels con informacion del juego
+// agregar workers
+// * interaccion con minerales
+// agregar soldiers
+// * interaccion con soldiers
+// * interaccion con bases
+// agregar generadores
+// * interacciones con workers y soldiers
+// agregar boosters
+// * interacciones "" "" 
+
+// game ends
+
+
 #include <cstdlib>
 #include "AppDelegate.h"
 #include "HelloWorldScene.h"
