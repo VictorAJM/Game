@@ -11,6 +11,9 @@
 // agregar boosters
 // * interacciones "" "" 
 
+// AGREGAR IA
+// wtf no se como hacer eso
+
 // game ends
 
 
