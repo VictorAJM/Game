@@ -4,12 +4,12 @@
 
 USING_NS_CC;
 
-bool Soldier::init()
+bool Soldier::init(int race)
 {
     soldierSprite = Sprite::create("soldier.png",Rect(0,0,16,16));
     soldierSprite->setAnchorPoint(Vec2(0.5f,0.5f));
     this->addChild(soldierSprite,1);
-    initStatus();
+    initStatus(race);
     createHPBar(soldierSprite->getPositionX(),soldierSprite->getPositionY());
     initCircle(soldierSprite->getPosition());
     this->scheduleUpdate();
@@ -65,11 +65,12 @@ void Soldier::onMouseUp(Event* event)
     }
 }
 
-void Soldier::initStatus()
+void Soldier::initStatus(int _race)
 {
     unit_status.hp = 100;
     unit_status.damage = 30;
     unit_status.speed = 60;
+    unit_status.race = _race;
     maxhp = 100;
     return;
 }

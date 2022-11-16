@@ -17,7 +17,7 @@ class Unit : public cocos2d::Node {
             int speed;
             int race;
         };
-        virtual bool init() = 0;
+        virtual bool init(int) = 0;
         int clic_counter = 0;
         const UnitStatus& getUnitStatus() const;
     protected:
@@ -27,7 +27,7 @@ class Unit : public cocos2d::Node {
         bool is_selected = false;
         UnitStatus unit_status;
         int maxhp;
-        virtual void initStatus() = 0;
+        virtual void initStatus(int) = 0;
         cocos2d::Sprite* hp_outline{nullptr};
         cocos2d::Sprite* hp_bar{nullptr};
         cocos2d::DrawNode* drawNode{nullptr};

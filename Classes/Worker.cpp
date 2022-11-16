@@ -5,17 +5,34 @@
 #include "../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h"
 #include <iostream>
 USING_NS_CC;
-
-
-bool Worker::init()
+using namespace std;
+map<int,set<pair<int,int> > > Worker::pUsed;
+bool Worker::init(int race)
 {
     
     workerSprite  = Sprite::create("worker.png",Rect(0,80,16,16));
     workerSprite->setAnchorPoint(Vec2(0.5f,0.5f));
     workerSprite->setPosition(600,300);
+    int x,y;
+    if (race == 1) {
+        x = 50;
+        y = 150;
+        while (Worker::pUsed[race].count({x,y})) {
+            y += 200;
+        }
+        Worker::pUsed[race].insert({x,y});
+    } else {
+        x = 1150;
+        y = 150;
+        while (Worker::pUsed[race].count({x,y})) {
+            y += 200;
+        }
+        Worker::pUsed[race].insert({x,y});
+    }
+    workerSprite->setPosition(x,y);
      //drawNode->drawSolidCircle(workerSprite->getParent()->convertToWorldSpace(workerSprite->getPosition()), 8,0, 1,Color4F::BLACK);
 
-    initStatus();
+    initStatus(race);
     createHPBar(workerSprite->getPositionX(),workerSprite->getPositionY());
     initCircle(workerSprite->getPosition());
     this->scheduleUpdate();
@@ -79,11 +96,12 @@ void Worker::onMouseUp(Event* event)
         }
     }
 }
-void Worker::initStatus()
+void Worker::initStatus(int _race)
 {
     unit_status.hp = 100;
     unit_status.damage = 10;
     unit_status.speed = 100;
+    unit_status.race = _race;
     maxhp = 100;
     return;
 }

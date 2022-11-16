@@ -38,11 +38,21 @@ bool BattleScene::init() {
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
+    Mineral* minerals[10];
     for (int i=0;i<10;i++) {
-        Mineral* mineral = new Mineral();
-        this->addChild(mineral);
+        minerals[i] = new Mineral();
+        this->addChild(minerals[i],1);
     }
-
+    Worker* workerA[3];
+    Worker* workerB[3];
+    for (int i=0;i<3;i++) {
+        workerA[i] = new Worker(1);
+        this->addChild(workerA[i],2);
+    }
+    for (int i=0;i<3;i++) {
+        workerB[i] = new Worker(2);
+        this->addChild(workerB[i],2);
+    }
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
         std::string music_file = "music/muBattle2.ogg";

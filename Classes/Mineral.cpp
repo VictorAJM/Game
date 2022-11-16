@@ -17,6 +17,7 @@ bool Mineral::init()
         x = cocos2d::RandomHelper::random_int(260,940);
         y = cocos2d::RandomHelper::random_int(40,660);;
     } while (Mineral::pUsed.count({x,y}));
+    Mineral::pUsed.insert({x,y});
     mineralSprite->setPosition(Vec2(x,y));
     initCircle(mineralSprite->getPosition());
     this->addChild(mineralSprite,1);
