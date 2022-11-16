@@ -33,14 +33,16 @@ bool BattleScene::init() {
     this->addChild(background,-1);
     Base* base1 = new Base(1);
     Base* base2 = new Base(2);
-    // -1 for background
-    // 0 for bases
+    this->addChild(base1);
+    this->addChild(base2);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-          
-    this->addChild(base1);
-    this->addChild(base2);
+    for (int i=0;i<10;i++) {
+        Mineral* mineral = new Mineral();
+        this->addChild(mineral);
+    }
+
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
         std::string music_file = "music/muBattle2.ogg";
