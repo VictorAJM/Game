@@ -1202,7 +1202,8 @@ CMakeFiles/Game.dir/Classes/Base.cpp.o: ../Classes/Base.cpp \
   ../cocos2d/cocos/3d/CCRay.h \
   ../cocos2d/cocos/base/CCEventDispatcher.h \
   ../cocos2d/cocos/3d/CCVertexAttribBinding.h \
-  ../Classes/Base.h
+  ../Classes/Base.h \
+  /usr/include/c++/11/iostream
 
 CMakeFiles/Game.dir/Classes/BattleScene.cpp.o: ../Classes/BattleScene.cpp \
   /usr/include/stdc-predef.h \
@@ -6018,6 +6019,8 @@ CMakeFiles/Game.dir/Classes/Worker.cpp.o: ../Classes/Worker.cpp \
   ../cocos2d/cocos/3d/CCVertexAttribBinding.h \
   ../Classes/Worker.h \
   ../Classes/Unit.h \
+  ../Classes/Mineral.h \
+  ../Classes/Base.h \
   ../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
   /usr/include/c++/11/iostream
 
@@ -6639,6 +6642,8 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 /usr/include/c++/11/bitset:
 
 ../Classes/BattleScene.h:
+
+../Classes/PauseMenu.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
@@ -7731,5 +7736,3 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 ../Classes/Base.cpp:
 
 ../Classes/Base.h:
-
-../Classes/PauseMenu.h:

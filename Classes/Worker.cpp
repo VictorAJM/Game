@@ -2,6 +2,8 @@
 #include <functional>
 #include "cocos2d.h"
 #include "Worker.h"
+#include "Mineral.h"
+#include "Base.h"
 #include "../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h"
 #include <iostream>
 USING_NS_CC;
@@ -10,7 +12,7 @@ map<int,set<pair<int,int> > > Worker::pUsed;
 bool Worker::init(int race)
 {
     
-    workerSprite  = Sprite::create("worker.png",Rect(0,80,16,16));
+    workerSprite  = Sprite::create("worker.png",Rect(0,0,16,16));
     workerSprite->setAnchorPoint(Vec2(0.5f,0.5f));
     workerSprite->setPosition(600,300);
     int x,y;
@@ -118,7 +120,16 @@ void Worker::Move(Vec2 _moveTo)
     });
     auto callbackMovementFinished = CallFunc::create([=]() mutable {
         is_moving = false;
-
+        for (auto u : Mineral::pUsed) {
+            if (Vec2(workerSprite->getPosition()).distance(Vec2(u.first,u.second)) <= 32.0f + 16.0f) {
+                log ("im mining");
+                return;
+            }
+        }
+        if (Vec2(workerSprite->getPosition()).distance(Vec2(Base::top_left_corner[unit_status.race].first+64,Base::top_left_corner[unit_status.race].second+64)) <= 64.0f+16.0f) {
+            log("im in MY base");
+            return;
+        }
     });
     float distance = _moveTo.distance(Vec2(workerSprite->getPosition()));
     auto _moveTohpoutline = Vec2(_moveTo)+Vec2(0.0f,-15.0f);
