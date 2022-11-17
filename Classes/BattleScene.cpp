@@ -49,17 +49,28 @@ bool BattleScene::init() {
         Mineral::pUsed.insert({x,y});
         Mineral* mineral = new Mineral(Vec2(x,y));
         minerals.push_back(mineral);
-        this->addChild(mineral,2);
+        this->addChild(mineral,1);
     }
-    Worker* workerA[3];
-    Worker* workerB[3];
+    vector<Worker*> workers;
     for (int i=0;i<3;i++) {
-        workerA[i] = new Worker(1);
-        this->addChild(workerA[i],2);
+        int x,y;
+        x = 50;
+        y = 150;
+        while (Worker::pUsed[1].count({x,y})) y += 200;
+        Worker::pUsed[1].insert({x,y});
+        Worker* worker = new Worker(Vec2(x,y), 1);
+        workers.push_back(worker);
+        this->addChild(worker,2);
     }
     for (int i=0;i<3;i++) {
-        workerB[i] = new Worker(2);
-        this->addChild(workerB[i],2);
+        int x,y;
+        x = 1150;
+        y = 150;
+        while (Worker::pUsed[2].count({x,y})) y += 200;
+        Worker::pUsed[2].insert({x,y});
+        Worker* worker = new Worker(Vec2(x,y), 2);
+        workers.push_back(worker);
+        this->addChild(worker,2);
     }
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
