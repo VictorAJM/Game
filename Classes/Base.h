@@ -10,9 +10,6 @@ class Base : public cocos2d::Node
         Base(int a) { init(a); }
         Base(cocos2d::Vec2 vec2, int a) { init(vec2, a);}
         virtual ~Base() = default;
-        void onMouseMove(cocos2d::Event* event);
-        void onMouseUp(cocos2d::Event* event);
-        void onMouseDown(cocos2d::Event* event);
         struct BaseStatus {
             int gold;
             int race;

@@ -14,15 +14,13 @@ class Worker : public Unit
         bool init(cocos2d::Vec2, int);
         void Move(cocos2d::Vec2) ;
         static std::map<int,std::set<std::pair<int,int> > > pUsed;
-        void onMouseMove(cocos2d::Event* event);
-        void onMouseUp(cocos2d::Event* event);
-        void onMouseDown(cocos2d::Event* event);
         void setHP(int hp_);
         void initStatus(int) override;
         cocos2d::Sprite* workerSprite{nullptr};
         int gold = 0;
-    private:
         bool isSelected = false;
+    private:
+        
         cocos2d::Vector<cocos2d::SpriteFrame*> animFrames,animFrames2;
         cocos2d::DrawNode *drawNode;
 };

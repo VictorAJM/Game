@@ -535,8 +535,8 @@ CMakeFiles/Game.dir/Classes/BattleScene.cpp.o: \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCVertexAttribBinding.h \
  /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
  /home/victor/cocos2d-x/Game/Classes/BattleScene.h \
- /usr/include/c++/11/bitset /home/victor/cocos2d-x/Game/Classes/Worker.h \
- /home/victor/cocos2d-x/Game/Classes/Unit.h \
- /home/victor/cocos2d-x/Game/Classes/Soldier.h \
+ /usr/include/c++/11/bitset /home/victor/cocos2d-x/Game/Classes/Base.h \
  /home/victor/cocos2d-x/Game/Classes/Mineral.h \
- /home/victor/cocos2d-x/Game/Classes/Base.h
+ /home/victor/cocos2d-x/Game/Classes/Worker.h \
+ /home/victor/cocos2d-x/Game/Classes/Unit.h \
+ /home/victor/cocos2d-x/Game/Classes/Soldier.h

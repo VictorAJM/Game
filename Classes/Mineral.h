@@ -11,9 +11,6 @@ class Mineral : public cocos2d::Node
         Mineral() {init(); }
         Mineral(cocos2d::Vec2 vec2) { init(vec2); }
         virtual ~Mineral() = default;
-        void onMouseMove(cocos2d::Event* event);
-        void onMouseUp(cocos2d::Event* event);
-        void onMouseDown(cocos2d::Event* event);
         struct MineralStatus {
             int usesLeft;
             int gold;
@@ -31,6 +28,6 @@ class Mineral : public cocos2d::Node
         void drawGreenCircle(cocos2d::Vec2);
         void eraseCircle();
     private:
-        bool isSelected = false;
+        
         MineralStatus mineral_status;
 };

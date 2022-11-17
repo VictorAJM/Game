@@ -25,11 +25,7 @@ bool Worker::init(Vec2 vec2, int race)
     for (int i=0;i<10;i++) {
         animFrames.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
     }
-    auto* mouseListener = EventListenerMouse::create();
-    mouseListener->onMouseMove = CC_CALLBACK_1(Worker::onMouseMove, this);
-    mouseListener->onMouseUp = CC_CALLBACK_1(Worker::onMouseUp, this);
-    mouseListener->onMouseDown = CC_CALLBACK_1(Worker::onMouseDown, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
+
 
     return true;   
 }
@@ -67,60 +63,12 @@ bool Worker::init(int race)
     for (int i=0;i<10;i++) {
         animFrames.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
     }
-    auto* mouseListener = EventListenerMouse::create();
-    mouseListener->onMouseMove = CC_CALLBACK_1(Worker::onMouseMove, this);
-    mouseListener->onMouseUp = CC_CALLBACK_1(Worker::onMouseUp, this);
-    mouseListener->onMouseDown = CC_CALLBACK_1(Worker::onMouseDown, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
+
 
     return true;   
 }
 
-void Worker::onMouseMove(Event * event)
-{
-    EventMouse* e = (EventMouse*)event;
-    if (isSelected) return;
-    if (workerSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(), e->getCursorY()))) {
-        drawGreenCircle(workerSprite->getPosition());
-    } else {
-        eraseCircle();
-    }
-    // mark unit
-}
-void Worker::onMouseDown(Event* event)
-{
-    EventMouse* e = (EventMouse*)event;
 
-}
-void Worker::onMouseUp(Event* event)
-{
-    EventMouse* e = (EventMouse*)event;
-    clic_counter++;
-    if (clic_counter%2 == 1) return;
-    if (is_moving) return;
-
-    // check if the clic is over
-    if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
-        if (workerSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
-            if (!isSelected) {
-                isSelected = true;
-                cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.1);
-                workerSprite->runAction(delay);
-                drawCircle(workerSprite->getPosition());
-            } else {
-                isSelected = false;
-                cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.1);
-                workerSprite->runAction(delay);
-                eraseCircle();
-            }
-        }
-    } else if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_RIGHT) {
-        if (isSelected) {
-            Move(Vec2(e->getCursorX(),e->getCursorY()));
-            isSelected = false;
-        }
-    }
-}
 void Worker::initStatus(int _race)
 {
     unit_status.hp = 100;

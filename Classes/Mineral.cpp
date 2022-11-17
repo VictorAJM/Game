@@ -20,12 +20,6 @@ bool Mineral::init(Vec2 vec2)
     mineral_status.usesLeft = 10+cocos2d::RandomHelper::random_int(0,5);
     mineral_status.gold = 10+cocos2d::RandomHelper::random_int(1,6);
     mineral_status.radius = 32.0f;
-    auto* mouseListener = EventListenerMouse::create();
-    mouseListener->onMouseMove = CC_CALLBACK_1(Mineral::onMouseMove, this);
-    mouseListener->onMouseUp = CC_CALLBACK_1(Mineral::onMouseUp, this);
-    mouseListener->onMouseDown = CC_CALLBACK_1(Mineral::onMouseDown, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
-    this->scheduleUpdate();
     return true;   
 }
 bool Mineral::init()
@@ -46,12 +40,6 @@ bool Mineral::init()
     mineral_status.usesLeft = 10+cocos2d::RandomHelper::random_int(0,5);
     mineral_status.gold = 10+cocos2d::RandomHelper::random_int(1,6);
     mineral_status.radius = 32.0f;
-    auto* mouseListener = EventListenerMouse::create();
-    mouseListener->onMouseMove = CC_CALLBACK_1(Mineral::onMouseMove, this);
-    mouseListener->onMouseUp = CC_CALLBACK_1(Mineral::onMouseUp, this);
-    mouseListener->onMouseDown = CC_CALLBACK_1(Mineral::onMouseDown, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
-    this->scheduleUpdate();
     return true;   
 }
 
@@ -67,27 +55,6 @@ int Mineral::getUsesLeft()
 void Mineral::oneUse()
 {
     mineral_status.usesLeft--;
-}
-
-void Mineral::onMouseMove(Event * event) 
-{
-    EventMouse* e = (EventMouse*)event;
-    if (mineralSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(), e->getCursorY()))) {
-        drawGreenCircle(mineralSprite->getPosition());
-    } else {
-        eraseCircle();
-    }
-}
-
-void Mineral::onMouseUp(Event * event)
-{
-
-    
-}
-void Mineral::onMouseDown(Event * event)
-{
-    // do nothing
-    //log("yep");
 }
 void Mineral::initCircle(Vec2 justaposition)
 {

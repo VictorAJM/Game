@@ -1807,11 +1807,11 @@ CMakeFiles/Game.dir/Classes/BattleScene.cpp.o: ../Classes/BattleScene.cpp \
   ../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
   ../Classes/BattleScene.h \
   /usr/include/c++/11/bitset \
+  ../Classes/Base.h \
+  ../Classes/Mineral.h \
   ../Classes/Worker.h \
   ../Classes/Unit.h \
-  ../Classes/Soldier.h \
-  ../Classes/Mineral.h \
-  ../Classes/Base.h
+  ../Classes/Soldier.h
 
 CMakeFiles/Game.dir/Classes/GameMenu.cpp.o: ../Classes/GameMenu.cpp \
   /usr/include/stdc-predef.h \
@@ -2413,7 +2413,12 @@ CMakeFiles/Game.dir/Classes/GameMenu.cpp.o: ../Classes/GameMenu.cpp \
   ../cocos2d/cocos/base/CCEventDispatcher.h \
   ../cocos2d/cocos/3d/CCVertexAttribBinding.h \
   ../Classes/BattleScene.h \
-  /usr/include/c++/11/bitset
+  /usr/include/c++/11/bitset \
+  ../Classes/Base.h \
+  ../Classes/Mineral.h \
+  ../Classes/Worker.h \
+  ../Classes/Unit.h \
+  ../Classes/Soldier.h
 
 CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o: ../Classes/HelloWorldScene.cpp \
   /usr/include/stdc-predef.h \
@@ -6635,9 +6640,9 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 
 ../Classes/HelloWorldScene.cpp:
 
-../Classes/Mineral.h:
-
 ../Classes/Unit.h:
+
+../Classes/Mineral.h:
 
 /usr/include/c++/11/bitset:
 

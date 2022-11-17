@@ -17,12 +17,6 @@ bool Base::init(Vec2 vec2, int a)
     base_status.gold = 0;
     base_status.race = a;
     base_status.radius = 64;
-    auto* mouseListener = EventListenerMouse::create();
-    mouseListener->onMouseMove = CC_CALLBACK_1(Base::onMouseMove, this);
-    mouseListener->onMouseUp = CC_CALLBACK_1(Base::onMouseUp, this);
-    mouseListener->onMouseDown = CC_CALLBACK_1(Base::onMouseDown, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
-    this->scheduleUpdate();
     return true;  
 }
 bool Base::init(int a)
@@ -39,12 +33,7 @@ bool Base::init(int a)
     base_status.gold = 0;
     base_status.race = a;
     base_status.radius = 64;
-    auto* mouseListener = EventListenerMouse::create();
-    mouseListener->onMouseMove = CC_CALLBACK_1(Base::onMouseMove, this);
-    mouseListener->onMouseUp = CC_CALLBACK_1(Base::onMouseUp, this);
-    mouseListener->onMouseDown = CC_CALLBACK_1(Base::onMouseDown, this);
-    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
-    this->scheduleUpdate();
+
     return true;   
 }
 
@@ -52,22 +41,7 @@ const Base::BaseStatus& Base::getBaseStatus() const {
     return base_status;
 }
 
-void Base::onMouseMove(Event* event) 
-{
-    EventMouse* e = (EventMouse*)event;
-}
 
-void Base::onMouseUp(Event * event)
-{
-    EventMouse* e = (EventMouse*)event;
-
-    
-}
-void Base::onMouseDown(Event * event)
-{
-    // do nothing
-    //log("yep");
-}
 
 void Base::initCircle(Vec2 justaposition)
 {
