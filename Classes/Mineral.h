@@ -9,6 +9,7 @@ class Mineral : public cocos2d::Node
         static std::set<std::pair<int,int> > pUsed;
         CREATE_FUNC(Mineral);
         Mineral() {init(); }
+        Mineral(cocos2d::Vec2 vec2) { init(vec2); }
         virtual ~Mineral() = default;
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
@@ -19,6 +20,7 @@ class Mineral : public cocos2d::Node
             float radius;
         };
         bool init();
+        bool init(cocos2d::Vec2);
         const MineralStatus& getMineralStatus() const;
         int getUsesLeft();
         void oneUse();

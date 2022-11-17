@@ -74,7 +74,7 @@ void Worker::onMouseUp(Event* event)
     clic_counter++;
     if (clic_counter%2 == 1) return;
     if (is_moving) return;
-    log ("aa");
+
     // check if the clic is over
     if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
         if (workerSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
@@ -127,7 +127,7 @@ void Worker::Move(Vec2 _moveTo)
                 return;
             }
         }
-        if (Vec2(workerSprite->getPosition()).distance(Vec2(Base::top_left_corner[unit_status.race].first+64,Base::top_left_corner[unit_status.race].second+64)) <= 64.0f+16.0f) {
+        if (Vec2(workerSprite->getPosition()).distance(Vec2(Base::pUsed[unit_status.race].first+64,Base::pUsed[unit_status.race].second+64)) <= 64.0f+16.0f) {
             if (!this->gold) return;
             workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
             this->gold = 0;

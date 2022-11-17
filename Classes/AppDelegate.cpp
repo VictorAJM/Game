@@ -2,7 +2,7 @@
 // Agregar cuadro con informacion
 // agregar labels con informacion del juego
 // agregar workers
-// * interaccion con minerales
+// * interaccion con minerales // casi hecho
 // agregar soldiers
 // * interaccion con soldiers
 // * interaccion con bases

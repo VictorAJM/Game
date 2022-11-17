@@ -26,7 +26,7 @@ bool BattleScene::init() {
     }
     auto backgroundDimension = Director::getInstance()->getWinSize();  
 
-    auto background = Sprite::create("backgrounds/backgrounddetailed1.png");
+    auto background = Sprite::create("backgrounds/backgrounddetailed"+std::to_string(cocos2d::RandomHelper::random_int(1,8))+".png");
     background->setScale(4.0f);
     background->setAnchorPoint(Vec2::ZERO);
     background->setPosition(0,0);
@@ -34,7 +34,7 @@ bool BattleScene::init() {
     Base* base1 = new Base(1);
     Base* base2 = new Base(2);
     this->addChild(base1);
-    this->addChild(base2);
+    this->addChild(base2);  
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats

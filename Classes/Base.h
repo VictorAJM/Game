@@ -5,9 +5,10 @@
 class Base : public cocos2d::Node
 {
     public:
-        static std::map<int,std::pair<int,int> > top_left_corner;
+        static std::map<int,std::pair<int,int> > pUsed;
         float height = 128.0f, width = 128.0f;
         Base(int a) { init(a); }
+        Base(cocos2d::Vec2 vec2, int a) { init(vec2, a);}
         virtual ~Base() = default;
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
@@ -18,6 +19,7 @@ class Base : public cocos2d::Node
             int radius;
         };
         bool init(int);
+        bool init(cocos2d::Vec2, int);
         const BaseStatus& getBaseStatus() const;
         cocos2d::Sprite* baseSprite{nullptr};
         cocos2d::DrawNode* drawNode{nullptr};
