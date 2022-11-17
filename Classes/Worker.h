@@ -8,8 +8,10 @@ class Worker : public Unit
 {
     public:
         Worker(int race)  { init(race); }
+        Worker(cocos2d::Vec2 vec2, int race) { init(vec2, race); }
         ~Worker() = default;
         bool init(int) override;
+        bool init(cocos2d::Vec2, int);
         void Move(cocos2d::Vec2) ;
         static std::map<int,std::set<std::pair<int,int> > > pUsed;
         void onMouseMove(cocos2d::Event* event);

@@ -9,6 +9,30 @@
 USING_NS_CC;
 using namespace std;
 map<int,set<pair<int,int> > > Worker::pUsed;
+bool Worker::init(Vec2 vec2, int race)
+{
+    workerSprite  = Sprite::create("worker.png",Rect(0,0,16,16));
+    workerSprite->setAnchorPoint(Vec2(0.5f,0.5f));
+    workerSprite->setPosition(vec2);
+     //drawNode->drawSolidCircle(workerSprite->getParent()->convertToWorldSpace(workerSprite->getPosition()), 8,0, 1,Color4F::BLACK);
+
+    initStatus(race);
+    createHPBar(workerSprite->getPositionX(),workerSprite->getPositionY());
+    initCircle(workerSprite->getPosition());
+    this->scheduleUpdate();
+    this->addChild(workerSprite,1);
+    //this->addChild(drawNode,0);
+    for (int i=0;i<10;i++) {
+        animFrames.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
+    }
+    auto* mouseListener = EventListenerMouse::create();
+    mouseListener->onMouseMove = CC_CALLBACK_1(Worker::onMouseMove, this);
+    mouseListener->onMouseUp = CC_CALLBACK_1(Worker::onMouseUp, this);
+    mouseListener->onMouseDown = CC_CALLBACK_1(Worker::onMouseDown, this);
+    _eventDispatcher->addEventListenerWithSceneGraphPriority(mouseListener, this);
+
+    return true;   
+}
 bool Worker::init(int race)
 {
     

@@ -8,6 +8,7 @@
 #include "Soldier.h"
 #include "Mineral.h"
 #include "Base.h"
+using namespace std;
 USING_NS_CC;
 
 
@@ -31,17 +32,24 @@ bool BattleScene::init() {
     background->setAnchorPoint(Vec2::ZERO);
     background->setPosition(0,0);
     this->addChild(background,-1);
-    Base* base1 = new Base(1);
-    Base* base2 = new Base(2);
+    Base* base1 = new Base(Vec2(150,350),1);
+    Base* base2 = new Base(Vec2(1050,350),2);
     this->addChild(base1);
-    this->addChild(base2);  
+    this->addChild(base2);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-    Mineral* minerals[10];
+    vector<Mineral*> minerals;
     for (int i=0;i<10;i++) {
-        minerals[i] = new Mineral();
-        this->addChild(minerals[i],1);
+        int x,y;
+        do {
+            x = cocos2d::RandomHelper::random_int(260,940);
+            y = cocos2d::RandomHelper::random_int(40,660);;
+        } while (Mineral::pUsed.count({x,y}));
+        Mineral::pUsed.insert({x,y});
+        Mineral* mineral = new Mineral(Vec2(x,y));
+        minerals.push_back(mineral);
+        this->addChild(mineral,2);
     }
     Worker* workerA[3];
     Worker* workerB[3];
