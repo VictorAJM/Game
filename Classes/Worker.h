@@ -18,7 +18,7 @@ class Worker : public Unit
         void setHP(int hp_);
         void initStatus(int) override;
         cocos2d::Sprite* workerSprite{nullptr};
-        
+        int gold = 0;
     private:
         bool isSelected = false;
         cocos2d::Vector<cocos2d::SpriteFrame*> animFrames,animFrames2;

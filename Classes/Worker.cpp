@@ -40,10 +40,9 @@ bool Worker::init(int race)
     this->scheduleUpdate();
     this->addChild(workerSprite,1);
     //this->addChild(drawNode,0);
-    for (int i=5;i<=5;i++) {
+    for (int i=0;i<10;i++) {
         animFrames.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
     }
-    animFrames2.pushBack(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
     auto* mouseListener = EventListenerMouse::create();
     mouseListener->onMouseMove = CC_CALLBACK_1(Worker::onMouseMove, this);
     mouseListener->onMouseUp = CC_CALLBACK_1(Worker::onMouseUp, this);
@@ -122,12 +121,16 @@ void Worker::Move(Vec2 _moveTo)
         is_moving = false;
         for (auto u : Mineral::pUsed) {
             if (Vec2(workerSprite->getPosition()).distance(Vec2(u.first,u.second)) <= 32.0f + 16.0f) {
-                log ("im mining");
+                if (this->gold != 0) return;
+                workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,80,16,16)));
+                this->gold = 5;
                 return;
             }
         }
         if (Vec2(workerSprite->getPosition()).distance(Vec2(Base::top_left_corner[unit_status.race].first+64,Base::top_left_corner[unit_status.race].second+64)) <= 64.0f+16.0f) {
-            log("im in MY base");
+            if (!this->gold) return;
+            workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
+            this->gold = 0;
             return;
         }
     });
