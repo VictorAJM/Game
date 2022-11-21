@@ -1,10 +1,12 @@
 #pragma once
 #include <vector>
+#include <string>
 #include "cocos2d.h"
 
 class Base : public cocos2d::Node
 {
     public:
+        
         static std::map<int,std::pair<int,int> > pUsed;
         float height = 128.0f, width = 128.0f;
         Base(int a) { init(a); }
@@ -24,6 +26,7 @@ class Base : public cocos2d::Node
         void drawCircle(cocos2d::Vec2);
         void drawGreenCircle(cocos2d::Vec2);
         void eraseCircle();
-    private:
+        std::string getStats();
         BaseStatus base_status;
+        void addGold(int);
 };

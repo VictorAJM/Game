@@ -80,7 +80,11 @@ bool BattleScene::init() {
         audio_engine->playBackgroundMusic(music_file.c_str(),true);
         audio_engine->setBackgroundMusicVolume(0.3f);
     }
-
+    stats_label = Label::createWithTTF(base1->getStats(), "fonts/arial.ttf",30);
+    stats_label->setAnchorPoint(Vec2(0.0f,0.0f));
+    stats_label->setPosition(Vec2(50,650));
+    stats_label->setTextColor(Color4B::BLACK);
+    this->addChild(stats_label,1000);
     auto* keyboardListener = EventListenerKeyboard::create();
     keyboardListener->onKeyPressed = CC_CALLBACK_2(BattleScene::onKeyPressed, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
@@ -138,7 +142,6 @@ void BattleScene::onMouseUp(Event* event)
     {
         worker->clic_counter++;
         if (worker->clic_counter%2 == 1) continue;
-        if (worker->is_moving) continue;
 
         // check if the clic is over
         if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
@@ -157,8 +160,48 @@ void BattleScene::onMouseUp(Event* event)
             }
         } else if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_RIGHT) {
             if (worker->isSelected) {
-                worker->Move(Vec2(e->getCursorX(),e->getCursorY()));
+                worker->stopMovement();
+                worker->eraseCircle();
                 worker->isSelected = false;
+                worker->startMovement(Vec2(e->getCursorX(),e->getCursorY()));
+            }
+        }
+    }
+}
+
+void BattleScene::update(float delta)
+{
+    times += (1.0/60.0);
+    //  bases[0]->base_status.gold += 5;
+    stats_label->setString(bases[0]->getStats()+" time: "+to_string(times));
+    for (auto worker : workers) {
+        if (worker->is_moving) {
+            worker->Move();
+        } else {
+            bool mined = false;
+            if (worker->gold == 0) for (auto u : minerals) {
+                if (mined) continue;
+                if (Vec2(worker->workerSprite->getPosition()).distance(Vec2(u->mineralSprite->getPosition())) <= 32.0f+8.0f) {
+                    u->oneUse();
+                    worker->gold = u->getMineralStatus().gold;
+                    // if mineral uses == 0
+                    worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,80,16,16)));
+                }
+            }
+            if (worker->gold != 0) {
+                auto u = Vec2(bases[worker->unit_status.race-1]->baseSprite->getPosition());
+                if (Vec2(worker->workerSprite->getPosition()).distance(u) <= 64.0f+8.0f) {
+                    // dejar mineral
+                    if (worker->unit_status.race == 1) {
+                        bases[0]->addGold(worker->gold);
+                        worker->gold = 0;
+                        worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
+                    } else {
+                        bases[1]->addGold(worker->gold);
+                        worker->gold = 0;
+                        worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
+                    }
+                }
             }
         }
     }

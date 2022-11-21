@@ -7,12 +7,15 @@
 class Worker : public Unit 
 {
     public:
+        cocos2d::Vec2 moveTo;
         Worker(int race)  { init(race); }
         Worker(cocos2d::Vec2 vec2, int race) { init(vec2, race); }
         ~Worker() = default;
         bool init(int) override;
         bool init(cocos2d::Vec2, int);
-        void Move(cocos2d::Vec2) ;
+        void Move() ;
+        void startMovement(cocos2d::Vec2);
+        void stopMovement();
         static std::map<int,std::set<std::pair<int,int> > > pUsed;
         void setHP(int hp_);
         void initStatus(int) override;

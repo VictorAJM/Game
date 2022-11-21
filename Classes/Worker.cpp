@@ -82,42 +82,25 @@ void Worker::setHP(int hp_)
 {
     unit_status.hp = hp_;
 }
-
-void Worker::Move(Vec2 _moveTo)
+void Worker::startMovement(Vec2 _moveTo)
 {
-    auto callbackMovementStarted = CallFunc::create([=]() mutable {
-        is_moving = true;
-
-    });
-    auto callbackMovementFinished = CallFunc::create([=]() mutable {
+    is_moving = true;
+    moveTo = _moveTo;
+}
+void Worker::stopMovement()
+{
+    is_moving = false;
+}
+void Worker::Move()
+{
+    if (Vec2(workerSprite->getPosition()).distance(moveTo) <= 2) {
         is_moving = false;
-        for (auto u : Mineral::pUsed) {
-            if (Vec2(workerSprite->getPosition()).distance(Vec2(u.first,u.second)) <= 32.0f + 16.0f) {
-                if (this->gold != 0) return;
-                workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,80,16,16)));
-                this->gold = 5;
-                return;
-            }
-        }
-        if (Vec2(workerSprite->getPosition()).distance(Vec2(Base::pUsed[unit_status.race].first+64,Base::pUsed[unit_status.race].second+64)) <= 64.0f+16.0f) {
-            if (!this->gold) return;
-            workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
-            this->gold = 0;
-            return;
-        }
-    });
-    float distance = _moveTo.distance(Vec2(workerSprite->getPosition()));
-    auto _moveTohpoutline = Vec2(_moveTo)+Vec2(0.0f,-15.0f);
-    auto _moveTohpbar = Vec2(_moveTo)+Vec2(1.0f,-14.0f);
-    auto moveTo = MoveTo::create(distance/(float)unit_status.speed, _moveTo);
-    eraseCircle();
-    workerSprite->runAction(cocos2d::Sequence::create(callbackMovementStarted, moveTo->clone(),callbackMovementFinished,nullptr));
-    auto moveTohpbar = MoveTo::create(distance/(float)unit_status.speed, _moveTohpbar);
-    auto moveTohpoutline = MoveTo::create(distance/(float)unit_status.speed, _moveTohpoutline);
-    hp_bar->runAction(moveTohpbar);
-    hp_outline->runAction(moveTohpoutline);
-    
-    //drawNode->runAction(moveTo->clone());
-    // do nothing yet
+        return;
+    }
+    Vec2 myVec = moveTo - workerSprite->getPosition();
+    Vec2 _moveTo = myVec.getNormalized();
+    workerSprite->setPosition(Vec2(workerSprite->getPosition())+_moveTo);
+    hp_bar->setPosition(Vec2(hp_bar->getPosition())+_moveTo);
+    hp_outline->setPosition(Vec2(hp_outline->getPosition())+_moveTo);
     return;
 }

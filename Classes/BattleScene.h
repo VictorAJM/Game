@@ -11,6 +11,7 @@
 
 class BattleScene : public cocos2d::Scene {
     public:
+        double times = 0.0;
         BattleScene() = default;
         virtual ~BattleScene() = default;
         static cocos2d::Scene* createScene();
@@ -27,6 +28,8 @@ class BattleScene : public cocos2d::Scene {
         static constexpr int map_width = 40;
         static constexpr int map_height = 30;
         void onKeyPressed(cocos2d::EventKeyboard::KeyCode key, cocos2d::Event* event);
+        void update(float) override;
+        cocos2d::Label* stats_label {nullptr};
     private:
         cocos2d::Label* score_label { nullptr };
 

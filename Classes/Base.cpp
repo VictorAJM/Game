@@ -2,6 +2,7 @@
 #include "cocos2d.h"
 #include "Base.h"
 #include <iostream>
+using namespace std;
 USING_NS_CC;
 std::map<int,std::pair<int,int> > Base::pUsed;
 bool Base::init(Vec2 vec2, int a)
@@ -64,4 +65,15 @@ void Base::eraseCircle()
 {
     drawNode->clear();
     //drawNode->drawCircle(Vec2(600,300), 1,0, 100,false,Color4F::BLACK);
+}
+
+string Base::getStats() 
+{
+    string str;
+    str = "minerals: "+to_string(base_status.gold);
+    return str;
+}
+void Base::addGold(int gold)
+{
+    base_status.gold += gold;
 }

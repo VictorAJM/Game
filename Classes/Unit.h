@@ -20,7 +20,6 @@ class Unit : public cocos2d::Node {
         virtual bool init(int) = 0;
         int clic_counter = 0;
         const UnitStatus& getUnitStatus() const;
-    public:
         cocos2d::Sprite* sprite {nullptr};
 
         bool is_moving = false;
