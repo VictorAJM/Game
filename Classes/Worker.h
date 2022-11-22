@@ -22,8 +22,6 @@ class Worker : public Unit
         cocos2d::Sprite* workerSprite{nullptr};
         int gold = 0;
         bool isSelected = false;
-    private:
-        
         cocos2d::Vector<cocos2d::SpriteFrame*> animFrames,animFrames2;
         cocos2d::DrawNode *drawNode;
 };

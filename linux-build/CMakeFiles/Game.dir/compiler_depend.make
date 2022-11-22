@@ -4822,7 +4822,8 @@ CMakeFiles/Game.dir/Classes/Soldier.cpp.o: ../Classes/Soldier.cpp \
   ../cocos2d/cocos/3d/CCVertexAttribBinding.h \
   ../Classes/Soldier.h \
   ../Classes/Unit.h \
-  ../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h
+  ../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
+  /usr/include/c++/11/iostream
 
 CMakeFiles/Game.dir/Classes/Unit.cpp.o: ../Classes/Unit.cpp \
   /usr/include/stdc-predef.h \
@@ -6024,8 +6025,6 @@ CMakeFiles/Game.dir/Classes/Worker.cpp.o: ../Classes/Worker.cpp \
   ../cocos2d/cocos/3d/CCVertexAttribBinding.h \
   ../Classes/Worker.h \
   ../Classes/Unit.h \
-  ../Classes/Mineral.h \
-  ../Classes/Base.h \
   ../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
   /usr/include/c++/11/iostream
 

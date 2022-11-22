@@ -21,6 +21,7 @@ class BattleScene : public cocos2d::Scene {
         std::vector<Worker*> workers;
         std::vector<Mineral*> minerals;
         std::vector<Soldier*> soldiers;
+
         CREATE_FUNC(BattleScene);
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);

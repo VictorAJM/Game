@@ -534,4 +534,5 @@ CMakeFiles/Game.dir/Classes/Soldier.cpp.o: \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCVertexAttribBinding.h \
  /home/victor/cocos2d-x/Game/Classes/Soldier.h \
  /home/victor/cocos2d-x/Game/Classes/Unit.h \
- /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h
+ /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
+ /usr/include/c++/11/iostream

@@ -38,6 +38,9 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
+    Soldier* soldier = new Soldier(Vec2(50,100),1);
+    soldiers.push_back(soldier);
+    this->addChild(soldier,2);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -133,6 +136,15 @@ void BattleScene::onMouseMove(Event* event)
             worker->eraseCircle();
         }
     }
+
+    for (auto soldier : soldiers) {
+        if (soldier->isSelected) continue;
+        if (soldier->soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
+            soldier->drawGreenCircle(soldier->soldierSprite->getPosition());
+        } else {
+            soldier->eraseCircle();
+        }
+    }
 }
 void BattleScene::onMouseDown(Event* event)
 {
@@ -167,6 +179,34 @@ void BattleScene::onMouseUp(Event* event)
                 worker->eraseCircle();
                 worker->isSelected = false;
                 worker->startMovement(Vec2(e->getCursorX(),e->getCursorY()));
+            }
+        }
+    }
+    for (auto soldier : soldiers)
+    {
+        soldier->clic_counter++;
+        if (soldier->clic_counter%2==1) continue;
+        if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
+            if (soldier->soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
+                if (!soldier->isSelected) {
+                    soldier->isSelected = true;
+                    cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.1);
+                    soldier->soldierSprite->runAction(delay);
+                    soldier->drawCircle(soldier->soldierSprite->getPosition());
+                } else {
+                    soldier->isSelected = false;
+                    cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.1);
+                    soldier->soldierSprite->runAction(delay);
+                    soldier->eraseCircle();
+                }
+            }
+        } else if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_RIGHT) {
+            if (soldier->isSelected) {
+                soldier->stopAttacking();
+                soldier->stopMovement();
+                soldier->eraseCircle();
+                soldier->isSelected = false;
+                soldier->startMovement(Vec2(e->getCursorX(),e->getCursorY()));
             }
         }
     }
@@ -205,6 +245,7 @@ void BattleScene::update(float delta)
                 Mineral* mineral = new Mineral(Vec2(x,y));
                 minerals.push_back(mineral);
                 this->addChild(mineral,1);
+                //for (auto u : minerals) if (u->getUsesLeft()==0) minerals.erase(u);
             }
             if (worker->gold != 0) {
                 auto u = Vec2(bases[worker->unit_status.race-1]->baseSprite->getPosition());
@@ -220,6 +261,11 @@ void BattleScene::update(float delta)
                     }
                 }
             }
+        }
+    }
+    for (auto soldier : soldiers) {
+        if (soldier->is_moving) {
+            soldier->Move();
         }
     }
 }

@@ -2,8 +2,6 @@
 #include <functional>
 #include "cocos2d.h"
 #include "Worker.h"
-#include "Mineral.h"
-#include "Base.h"
 #include "../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h"
 #include <iostream>
 USING_NS_CC;
@@ -99,6 +97,8 @@ void Worker::Move()
     }
     Vec2 myVec = moveTo - workerSprite->getPosition();
     Vec2 _moveTo = myVec.getNormalized();
+    auto rotate = RotateTo::create(0,_moveTo.getAngle()*57.2958f );
+    workerSprite->runAction(rotate);
     workerSprite->setPosition(Vec2(workerSprite->getPosition())+_moveTo);
     hp_bar->setPosition(Vec2(hp_bar->getPosition())+_moveTo);
     hp_outline->setPosition(Vec2(hp_outline->getPosition())+_moveTo);

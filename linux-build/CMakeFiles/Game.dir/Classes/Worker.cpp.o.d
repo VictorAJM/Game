@@ -532,7 +532,5 @@ CMakeFiles/Game.dir/Classes/Worker.cpp.o: \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCVertexAttribBinding.h \
  /home/victor/cocos2d-x/Game/Classes/Worker.h \
  /home/victor/cocos2d-x/Game/Classes/Unit.h \
- /home/victor/cocos2d-x/Game/Classes/Mineral.h \
- /home/victor/cocos2d-x/Game/Classes/Base.h \
  /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
  /usr/include/c++/11/iostream

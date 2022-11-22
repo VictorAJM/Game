@@ -23,6 +23,7 @@ class Unit : public cocos2d::Node {
         cocos2d::Sprite* sprite {nullptr};
 
         bool is_moving = false;
+        bool is_attacking = false;
         bool is_selected = false;
         UnitStatus unit_status;
         int maxhp;
