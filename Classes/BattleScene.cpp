@@ -115,13 +115,16 @@ void BattleScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event) {
 void BattleScene::onMouseMove(Event* event)
 {
     EventMouse* e = (EventMouse*)event;
+    bool newMineral = false;
     for (auto mineral : minerals) {
         if (mineral->mineralSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
             mineral->drawGreenCircle(mineral->mineralSprite->getPosition());
+            newMineral = true;
         } else {
             mineral->eraseCircle();
         }
     }
+
     for (auto worker : workers) {
         if (worker->isSelected) continue;
         if (worker->workerSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
@@ -179,19 +182,33 @@ void BattleScene::update(float delta)
             worker->Move();
         } else {
             bool mined = false;
+            bool newMineral = false;
             if (worker->gold == 0) for (auto u : minerals) {
                 if (mined) continue;
                 if (Vec2(worker->workerSprite->getPosition()).distance(Vec2(u->mineralSprite->getPosition())) <= 32.0f+8.0f) {
                     u->oneUse();
                     worker->gold = u->getMineralStatus().gold;
-                    // if mineral uses == 0
+                    if (u->getUsesLeft() == 0) {
+                        u->mineralSprite->setPosition(2000,2000);
+                        newMineral = true;
+                    }
                     worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,80,16,16)));
                 }
+            }
+            if (newMineral) {
+                int x,y;
+                do {
+                    x = cocos2d::RandomHelper::random_int(260,940);
+                    y = cocos2d::RandomHelper::random_int(40,660);;
+                } while (Mineral::pUsed.count({x,y}));
+                Mineral::pUsed.insert({x,y});
+                Mineral* mineral = new Mineral(Vec2(x,y));
+                minerals.push_back(mineral);
+                this->addChild(mineral,1);
             }
             if (worker->gold != 0) {
                 auto u = Vec2(bases[worker->unit_status.race-1]->baseSprite->getPosition());
                 if (Vec2(worker->workerSprite->getPosition()).distance(u) <= 64.0f+8.0f) {
-                    // dejar mineral
                     if (worker->unit_status.race == 1) {
                         bases[0]->addGold(worker->gold);
                         worker->gold = 0;
