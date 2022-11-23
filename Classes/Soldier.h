@@ -14,6 +14,7 @@ class Soldier : public Unit
         bool init(int) override;
         bool init(cocos2d::Vec2, int);
         void Move() ;
+        cocos2d::Vec2 getNextPos();
         void death();
         void startMovement(cocos2d::Vec2);
         void stopMovement();

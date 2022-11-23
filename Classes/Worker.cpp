@@ -114,6 +114,12 @@ void Worker::Move()
     hp_outline->setPosition(Vec2(hp_outline->getPosition())+_moveTo);
     return;
 }
+Vec2 Worker::getNextPos()
+{
+    Vec2 myVec = moveTo - workerSprite->getPosition();
+    Vec2 _moveTo = myVec.getNormalized();
+    return Vec2(workerSprite->getPosition()+_moveTo);
+}
 void Worker::death() {
     auto callbackFinished = CallFunc::create( [this] () {
         this->workerSprite->setPosition(2000,2000);

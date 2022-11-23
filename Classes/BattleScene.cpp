@@ -38,9 +38,6 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
-    Soldier* soldier = new Soldier(Vec2(50,100),1);
-    soldiers.push_back(soldier);
-    this->addChild(soldier,2);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -219,7 +216,19 @@ void BattleScene::update(float delta)
     stats_label->setString(bases[0]->getStats()+" time: "+to_string(times));
     for (auto worker : workers) {
         if (worker->is_moving) {
-            worker->Move();
+            bool t = true;
+            
+            for (auto* _worker : workers) if (worker->getNextPos().distance(Vec2(_worker->workerSprite->getPosition()))<=10) {
+                if (Vec2(worker->workerSprite->getPosition())!=Vec2(_worker->workerSprite->getPosition()))
+                t = false;
+            } 
+            for (auto* _soldier : soldiers) if (worker->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=10) {
+                
+                t = false;
+            } 
+            if (t) worker->Move();
+            else worker->stopMovement();
+            
         } else {
             bool mined = false;
             bool newMineral = false;
@@ -265,7 +274,16 @@ void BattleScene::update(float delta)
     }
     for (auto soldier : soldiers) {
         if (soldier->is_moving) {
-            soldier->Move();
+            bool t = true;
+            for (auto* worker : workers) if (soldier->getNextPos().distance(Vec2(worker->workerSprite->getPosition()))<=10) {
+                t = false;
+            } 
+            for (auto* _soldier : soldiers) if (soldier->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=10) {
+                if (Vec2(soldier->soldierSprite->getPosition())!=Vec2(_soldier->soldierSprite->getPosition()))
+                t = false;
+            } 
+            if (t) soldier->Move();
+            else soldier->stopMovement();
         } else {
             bool t = false;
             // TODO: soldier attack the closer unit 

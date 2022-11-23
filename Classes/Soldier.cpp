@@ -105,6 +105,12 @@ void Soldier::death()
         soldierSprite->runAction(Sequence::create(repeat,callbackFinished,NULL));
     }
 }
+Vec2 Soldier::getNextPos()
+{
+    Vec2 myVec = moveTo - soldierSprite->getPosition();
+    Vec2 _moveTo = myVec.getNormalized();
+    return Vec2(soldierSprite->getPosition())+_moveTo;
+}
 void Soldier::Move()
 {
     if (Vec2(soldierSprite->getPosition()).distance(moveTo)<=2) {
