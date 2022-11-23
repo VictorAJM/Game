@@ -14,19 +14,20 @@ class Soldier : public Unit
         bool init(int) override;
         bool init(cocos2d::Vec2, int);
         void Move() ;
+        void death();
         void startMovement(cocos2d::Vec2);
         void stopMovement();
-        void startAttacking();
+        void startAttacking(cocos2d::Vec2);
         void stopAttacking();
         void Attack();
         static std::map<int,std::set<std::pair<int,int> > > pUsed;
-        cocos2d::Vector<cocos2d::SpriteFrame*> animFrames, animFrames2;
+        cocos2d::Vector<cocos2d::SpriteFrame*> animFrames1, animFrames2;
         cocos2d::DrawNode *drawNode;
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
         void onMouseDown(cocos2d::Event* event);
 
-        void setHP(int hp_);
+        void setHP(float hp_);
         void initStatus(int) override;
         cocos2d::Sprite* soldierSprite{nullptr};
         bool isSelected = false;

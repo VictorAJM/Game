@@ -266,6 +266,47 @@ void BattleScene::update(float delta)
     for (auto soldier : soldiers) {
         if (soldier->is_moving) {
             soldier->Move();
+        } else {
+            bool t = false;
+            // TODO: soldier attack the closer unit 
+            for (auto worker : workers) {
+                if (worker->getUnitStatus().race == soldier->getUnitStatus().race) continue;
+                if (!t && Vec2(soldier->soldierSprite->getPosition()).distance(worker->workerSprite->getPosition()) <= 16.0f+50.0f) {
+                    t = true;
+                    soldier->startAttacking(worker->workerSprite->getPosition());
+                    // rotate to where is attacking
+                    worker->setHP(worker->getUnitStatus().hp-soldier->getUnitStatus().damage);
+                    // health < 0
+                    worker->updateHPBar();
+                }
+            }
+            for (auto _soldier : soldiers) {
+                if (_soldier->getUnitStatus().race == soldier->getUnitStatus().race) continue;
+                if (!t && 0 < Vec2(soldier->soldierSprite->getPosition()).distance(_soldier->soldierSprite->getPosition()) && Vec2(soldier->soldierSprite->getPosition()).distance(_soldier->soldierSprite->getPosition()) <= 66.0f) {
+                    t = true;
+                    soldier->startAttacking(soldier->soldierSprite->getPosition());
+                    // rotate to where is attacking
+                    _soldier->setHP(_soldier->getUnitStatus().hp-soldier->getUnitStatus().damage);
+
+                    // health < 0
+                    _soldier->updateHPBar();
+                }
+            }
+            if (!t) soldier->stopAttacking();
+        }
+    }
+    for (int i=0;i<workers.size();i++) {
+        if (workers[i]->getUnitStatus().hp <= 0.0f) {
+            workers[i]->death();
+            workers.erase(workers.begin()+i);
+            i=0;
+        }
+    }
+    for (int i=0;i<soldiers.size();i++) {
+        if (soldiers[i]->getUnitStatus().hp <= 0.0f) {
+            soldiers[i]->death();
+            soldiers.erase(soldiers.begin()+i);
+            i=0;
         }
     }
 }

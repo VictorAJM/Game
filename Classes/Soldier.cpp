@@ -18,8 +18,12 @@ bool Soldier::init(Vec2 vec2, int race)
     initCircle(soldierSprite->getPosition());
     this->scheduleUpdate();
     this->addChild(soldierSprite,1);
-    for (int i=0;i<10;i++) {
-        animFrames.pushBack(SpriteFrame::create("soldier.png",Rect(0,i*16,16,16)));
+    for (int i=0;i<5;i++) {
+        animFrames1.pushBack(SpriteFrame::create("soldier.png",Rect(0,i*16,16,16)));
+    }
+
+    for (int i=0;i<5;i++) {
+        animFrames2.pushBack(SpriteFrame::create("soldier.png",Rect(0,80+i*16,16,16)));
     }
     return true;
 }
@@ -32,20 +36,27 @@ bool Soldier::init(int race)
     createHPBar(soldierSprite->getPositionX(),soldierSprite->getPositionY());
     initCircle(soldierSprite->getPosition());
     this->scheduleUpdate();
+    for (int i=0;i<5;i++) {
+        animFrames1.pushBack(SpriteFrame::create("soldier.png",Rect(0,i*16,16,16)));
+    }
+
+    for (int i=0;i<5;i++) {
+        animFrames2.pushBack(SpriteFrame::create("soldier.png",Rect(0,80+i*16,16,16)));
+    }
     return true;   
 }
 
 
 void Soldier::initStatus(int _race)
 {
-    unit_status.hp = 100;
-    unit_status.damage = 30;
-    unit_status.speed = 60;
+    unit_status.hp = 75.0f;
+    unit_status.damage = 0.075f;
+    unit_status.speed = 0.8;
     unit_status.race = _race;
-    maxhp = 100;
+    maxhp = 75.0f;
     return;
 }
-void Soldier::setHP(int hp_)
+void Soldier::setHP(float hp_)
 {
     unit_status.hp = hp_;
 }
@@ -59,16 +70,40 @@ void Soldier::startMovement(Vec2 _moveTo)
 void Soldier::stopMovement()
 {
     is_moving = false;
-
 }
-void Soldier::startAttacking()
+void Soldier::startAttacking(Vec2 rotateTo)
 {
     is_attacking = true;
     is_moving = false;
+    rotateTo -= Vec2(soldierSprite->getPosition());
+    float _angle = atan2(rotateTo.x, rotateTo.y) *180.0f / PI;
+    auto rotate = RotateTo::create(0,_angle-90.0f);
+    soldierSprite->runAction(rotate);
+    soldierSprite->setSpriteFrame(SpriteFrame::create("soldier.png",Rect(0,80,16,16)));
 }
 void Soldier::stopAttacking()
 {
     is_attacking = false;
+    soldierSprite->setSpriteFrame(SpriteFrame::create("soldier.png",Rect(0,0,16,16)));
+}
+void Soldier::death()
+{
+    auto callbackFinished = CallFunc::create( [this] () {
+        this->soldierSprite->setPosition(2000,2000);
+    });
+    hp_bar->setPosition(2000,2000);
+    hp_outline->setPosition(2000,2000);
+    if (is_attacking) {
+        Animation* animation = Animation::createWithSpriteFrames(animFrames2,0.4f);
+        Animate* animate = Animate::create(animation);
+        Repeat* repeat = Repeat::create(animate,1);
+        soldierSprite->runAction(Sequence::create(repeat,callbackFinished,NULL));
+    } else {
+        Animation* animation = Animation::createWithSpriteFrames(animFrames1,0.4f);
+        Animate* animate = Animate::create(animation);
+        Repeat* repeat = Repeat::create(animate,1);
+        soldierSprite->runAction(Sequence::create(repeat,callbackFinished,NULL));
+    }
 }
 void Soldier::Move()
 {

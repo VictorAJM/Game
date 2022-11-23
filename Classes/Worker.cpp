@@ -23,8 +23,11 @@ bool Worker::init(Vec2 vec2, int race)
     this->scheduleUpdate();
     this->addChild(workerSprite,1);
     //this->addChild(drawNode,0);
-    for (int i=0;i<10;i++) {
-        animFrames.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
+    for (int i=1;i<=5;i++) {
+        animFrames1.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16-16,16,16)));
+    }
+    for (int i=1;i<=5;i++) {
+        animFrames2.pushBack(SpriteFrame::create("worker.png",Rect(0,80+i*16-16,16,16)));
     }
 
 
@@ -61,8 +64,11 @@ bool Worker::init(int race)
     this->scheduleUpdate();
     this->addChild(workerSprite,1);
     //this->addChild(drawNode,0);
-    for (int i=0;i<10;i++) {
-        animFrames.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
+    for (int i=0;i<5;i++) {
+        animFrames1.pushBack(SpriteFrame::create("worker.png",Rect(0,i*16,16,16)));
+    }
+    for (int i=0;i<5;i++) {
+        animFrames2.pushBack(SpriteFrame::create("worker.png",Rect(0,80+i*16,16,16)));
     }
 
 
@@ -72,14 +78,14 @@ bool Worker::init(int race)
 
 void Worker::initStatus(int _race)
 {
-    unit_status.hp = 100;
-    unit_status.damage = 10;
-    unit_status.speed = 100;
+    unit_status.hp = 100.0f;
+    unit_status.damage = 0.025f;
+    unit_status.speed = 1.0f;
     unit_status.race = _race;
-    maxhp = 100;
+    maxhp = 100.0f;
     return;
 }
-void Worker::setHP(int hp_)
+void Worker::setHP(float hp_)
 {
     unit_status.hp = hp_;
 }
@@ -107,4 +113,23 @@ void Worker::Move()
     hp_bar->setPosition(Vec2(hp_bar->getPosition())+_moveTo);
     hp_outline->setPosition(Vec2(hp_outline->getPosition())+_moveTo);
     return;
+}
+void Worker::death() {
+    auto callbackFinished = CallFunc::create( [this] () {
+        this->workerSprite->setPosition(2000,2000);
+    });
+    hp_bar->setPosition(2000,2000);
+    hp_outline->setPosition(2000,2000);
+    cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.4f);
+    if (this->gold == 0) {
+        Animation* animation = Animation::createWithSpriteFrames(animFrames1,0.4f);
+        Animate* animate = Animate::create(animation);
+        Repeat* repeat = Repeat::create(animate,1);
+        workerSprite->runAction(Sequence::create(repeat,callbackFinished,NULL));
+    } else {
+        Animation* animation = Animation::createWithSpriteFrames(animFrames2,0.4f);
+        Animate* animate = Animate::create(animation);
+        Repeat* repeat = Repeat::create(animate,1);
+        workerSprite->runAction(Sequence::create(repeat,callbackFinished,NULL));
+    }
 }

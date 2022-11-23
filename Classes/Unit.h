@@ -12,9 +12,9 @@ class Unit : public cocos2d::Node {
         // clockwise rotation 0-360
         int direction=0;
         struct UnitStatus {
-            int hp;
-            int damage;
-            int speed;
+            float hp;
+            float damage;
+            float speed;
             int race;
         };
         virtual bool init(int) = 0;
@@ -26,7 +26,7 @@ class Unit : public cocos2d::Node {
         bool is_attacking = false;
         bool is_selected = false;
         UnitStatus unit_status;
-        int maxhp;
+        float maxhp;
         virtual void initStatus(int) = 0;
         cocos2d::Sprite* hp_outline{nullptr};
         cocos2d::Sprite* hp_bar{nullptr};
