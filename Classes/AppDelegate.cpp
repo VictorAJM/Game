@@ -1,18 +1,17 @@
 ///TODO:
-// Agregar cuadro con informacion
-// agregar labels con informacion del juego
-// agregar workers
-// * interaccion con minerales // casi hecho
-// agregar soldiers
-// * interaccion con soldiers
-// * interaccion con bases
+
+// AGREGAR IA
+// wtf no se como hacer eso
+
+
+// soldier:
+// * interaccion con otros soldiers
+// * interaccion con bases y estructuras
 // agregar generadores
 // * interacciones con workers y soldiers
 // agregar boosters
 // * interacciones "" "" 
 
-// AGREGAR IA
-// wtf no se como hacer eso
 
 // game ends
 

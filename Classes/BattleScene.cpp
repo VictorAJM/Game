@@ -112,9 +112,9 @@ void BattleScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event)
         auto* director = Director::getInstance();
         director->pushScene(PauseMenu::createScene());
     } else if (key == EventKeyboard::KeyCode::KEY_W) {
-            this->tryNewWorker(1);
+        this->tryNewWorker(1);
     } else if (key == EventKeyboard::KeyCode::KEY_S) {
-                this->tryNewSoldier(1);
+        this->tryNewSoldier(1);
     } else if (key == EventKeyboard::KeyCode::KEY_A) {
 
     } else if (key == EventKeyboard::KeyCode::KEY_D) {
