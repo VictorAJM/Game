@@ -41,7 +41,7 @@ bool BattleScene::init() {
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-    Soldier* soldier = new Soldier(Vec2(50,100),1);
+    Soldier* soldier = new Soldier(Vec2(70,150),1);
     soldiers.push_back(soldier);
     this->addChild(soldier,1);
     for (int i=0;i<10;i++) {
@@ -106,14 +106,71 @@ void BattleScene::menuCloseCallback(Ref* pSender)
 
 
 
-void BattleScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event) {
+void BattleScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event) 
+{
     if (key == EventKeyboard::KeyCode::KEY_ESCAPE) {
         auto* director = Director::getInstance();
         director->pushScene(PauseMenu::createScene());
+    } else if (key == EventKeyboard::KeyCode::KEY_W) {
+            this->tryNewWorker(1);
+    } else if (key == EventKeyboard::KeyCode::KEY_S) {
+                this->tryNewSoldier(1);
+    } else if (key == EventKeyboard::KeyCode::KEY_A) {
+
+    } else if (key == EventKeyboard::KeyCode::KEY_D) {
+
+    } else if (key == EventKeyboard::KeyCode::KEY_1) {
+
+    } else if (key == EventKeyboard::KeyCode::KEY_2) {
+
+    } else if (key == EventKeyboard::KeyCode::KEY_3) {
+
     }
     return;
 }
 
+void BattleScene::tryNewWorker(int race)
+{
+    if (bases[race-1]->getBaseStatus().gold >= this->worker_price(race)) {
+        bases[race-1]->addGold((-1)*this->worker_price(race));
+        this->newWorker(race);
+    } else {
+        log("not enough money");    
+    }
+}
+void BattleScene::tryNewSoldier(int race)
+{
+    if (bases[race-1]->getBaseStatus().gold >= this->soldier_price(race)) {
+        bases[race-1]->addGold((-1)*this->soldier_price(race));
+        this->newSoldier(race);
+    } else {
+        log("not enough money");    
+    }
+}
+void BattleScene::newWorker(int race)
+{
+    int x,y;
+    x = 50;
+    do {
+        y = cocos2d::RandomHelper::random_int(150,550);
+    } while (!this->isFree(x, y));
+    Worker::pUsed[race].insert({x,y});
+    Worker* worker = new Worker(Vec2(x,y), 1);
+    workers.push_back(worker);
+    this->addChild(worker,2);
+}
+void BattleScene::newSoldier(int race)
+{
+    int x,y;
+    x = 70;
+    do {
+        y = cocos2d::RandomHelper::random_int(150,550);
+    } while (!this->isFree(x, y));
+    Soldier::pUsed[race].insert({x,y});
+    Soldier* soldier = new Soldier(Vec2(x,y), 1);
+    soldiers.push_back(soldier);
+    this->addChild(soldier,2);
+}
 void BattleScene::onMouseMove(Event* event)
 {
     EventMouse* e = (EventMouse*)event;
@@ -349,4 +406,15 @@ int BattleScene::soldier_price(int _race)
         cnt++;
     }
     return 100+cnt*25;
+}
+
+bool BattleScene::isFree(int _x, int _y)
+{
+    for (auto worker : workers) {
+        if (worker->workerSprite->getPositionX()==_x && worker->workerSprite->getPositionY()==_y) return false;
+    }
+    for (auto soldier : soldiers) {
+        if (soldier->soldierSprite->getPositionX()==_x && soldier->soldierSprite->getPositionY()==_y) return false;
+    }
+    return true;
 }
