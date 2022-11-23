@@ -4,6 +4,9 @@
 #include "Worker.h"
 #include "../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h"
 #include <iostream>
+#include <math.h>       /* atan2 */
+
+#define PI 3.14159265
 USING_NS_CC;
 using namespace std;
 map<int,set<pair<int,int> > > Worker::pUsed;
@@ -97,7 +100,8 @@ void Worker::Move()
     }
     Vec2 myVec = moveTo - workerSprite->getPosition();
     Vec2 _moveTo = myVec.getNormalized();
-    auto rotate = RotateTo::create(0,_moveTo.getAngle()*57.2958f );
+    float _angle = atan2(_moveTo.x, _moveTo.y) *180.0f / PI;
+    auto rotate = RotateTo::create(0,_angle);
     workerSprite->runAction(rotate);
     workerSprite->setPosition(Vec2(workerSprite->getPosition())+_moveTo);
     hp_bar->setPosition(Vec2(hp_bar->getPosition())+_moveTo);
