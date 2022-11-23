@@ -88,12 +88,6 @@ bool AppDelegate::applicationDidFinishLaunching() {
     //Initialize rand
     std::srand(std::time(nullptr));
 
-    //Cache spritesheets
-    auto* const sprite_cache = SpriteFrameCache::getInstance();
-    sprite_cache->addSpriteFramesWithFile("../Resources/lea.plist");
-    sprite_cache->addSpriteFramesWithFile("../Resources/autumn.plist");
-    sprite_cache->addSpriteFramesWithFile("../Resources/hedgehog.plist");
-
     // create a scene. it's an autorelease object
     auto scene = GameMenu::createScene();
 

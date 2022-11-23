@@ -41,7 +41,9 @@ bool BattleScene::init() {
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-
+    Soldier* soldier = new Soldier(Vec2(50,100),1);
+    soldiers.push_back(soldier);
+    this->addChild(soldier,1);
     for (int i=0;i<10;i++) {
         int x,y;
         do {
@@ -213,7 +215,7 @@ void BattleScene::update(float delta)
 {
     times += (1.0/60.0);
     //  bases[0]->base_status.gold += 5;
-    stats_label->setString(bases[0]->getStats()+" time: "+to_string(times));
+    stats_label->setString(bases[0]->getStats()+" time: "+to_string(times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)));
     for (auto worker : workers) {
         if (worker->is_moving) {
             bool t = true;
@@ -327,4 +329,24 @@ void BattleScene::update(float delta)
             i=0;
         }
     }
+}
+
+
+int BattleScene::worker_price(int _race)
+{
+    int cnt =0;
+    for (auto worker : workers) if (worker->getUnitStatus().race == _race) {
+        cnt++;
+    }
+    if (cnt <= 3) return 50;
+    else return 50+(cnt-3)*5;
+}
+
+int BattleScene::soldier_price(int _race)
+{
+    int cnt =0;
+    for (auto soldier : soldiers) if (soldier->getUnitStatus().race == _race) {
+        cnt++;
+    }
+    return 100+cnt*25;
 }

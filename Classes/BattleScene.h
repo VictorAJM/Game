@@ -26,6 +26,8 @@ class BattleScene : public cocos2d::Scene {
         void onMouseMove(cocos2d::Event* event);
         void onMouseUp(cocos2d::Event* event);
         void onMouseDown(cocos2d::Event* event);
+        int worker_price(int);
+        int soldier_price(int);
         static constexpr int map_width = 40;
         static constexpr int map_height = 30;
         void onKeyPressed(cocos2d::EventKeyboard::KeyCode key, cocos2d::Event* event);
