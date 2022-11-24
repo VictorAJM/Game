@@ -42,9 +42,9 @@ bool BattleScene::init() {
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-    Soldier* soldier = new Soldier(Vec2(75,150),1);
+    Soldier* soldier = new Soldier(Vec2(1175,150),2);
     soldiers.push_back(soldier);
-    this->addChild(soldier,1);
+    this->addChild(soldier,2);
     for (int i=0;i<10;i++) {
         int x,y;
         do {
@@ -378,7 +378,6 @@ void BattleScene::update(float delta)
                     soldier->startAttacking(worker->workerSprite->getPosition());
                     // rotate to where is attacking
                     worker->setHP(worker->getUnitStatus().hp-soldier->getUnitStatus().damage);
-                    // health < 0
                     worker->updateHPBar();
                 }
             }
@@ -386,11 +385,10 @@ void BattleScene::update(float delta)
                 if (_soldier->getUnitStatus().race == soldier->getUnitStatus().race) continue;
                 if (!t && 0 < Vec2(soldier->soldierSprite->getPosition()).distance(_soldier->soldierSprite->getPosition()) && Vec2(soldier->soldierSprite->getPosition()).distance(_soldier->soldierSprite->getPosition()) <= 66.0f) {
                     t = true;
-                    soldier->startAttacking(soldier->soldierSprite->getPosition());
+                    soldier->startAttacking(_soldier->soldierSprite->getPosition());
                     // rotate to where is attacking
                     _soldier->setHP(_soldier->getUnitStatus().hp-soldier->getUnitStatus().damage);
 
-                    // health < 0
                     _soldier->updateHPBar();
                 }
             }

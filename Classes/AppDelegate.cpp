@@ -5,7 +5,6 @@
 
 
 // soldier:
-// * interaccion con otros soldiers
 // * interaccion con bases y estructuras
 // agregar generadores
 // * interacciones con workers y soldiers
