@@ -418,6 +418,30 @@ Classes/HelloWorldScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.s
 .PHONY : Classes/HelloWorldScene.cpp.s
 
+Classes/IA.o: Classes/IA.cpp.o
+.PHONY : Classes/IA.o
+
+# target to build an object file
+Classes/IA.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/IA.cpp.o
+.PHONY : Classes/IA.cpp.o
+
+Classes/IA.i: Classes/IA.cpp.i
+.PHONY : Classes/IA.i
+
+# target to preprocess a source file
+Classes/IA.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/IA.cpp.i
+.PHONY : Classes/IA.cpp.i
+
+Classes/IA.s: Classes/IA.cpp.s
+.PHONY : Classes/IA.s
+
+# target to generate assembly for a file
+Classes/IA.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/IA.cpp.s
+.PHONY : Classes/IA.cpp.s
+
 Classes/Mineral.o: Classes/Mineral.cpp.o
 .PHONY : Classes/Mineral.o
 
@@ -599,6 +623,9 @@ help:
 	@echo "... Classes/HelloWorldScene.o"
 	@echo "... Classes/HelloWorldScene.i"
 	@echo "... Classes/HelloWorldScene.s"
+	@echo "... Classes/IA.o"
+	@echo "... Classes/IA.i"
+	@echo "... Classes/IA.s"
 	@echo "... Classes/Mineral.o"
 	@echo "... Classes/Mineral.i"
 	@echo "... Classes/Mineral.s"

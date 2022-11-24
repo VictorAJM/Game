@@ -93,10 +93,11 @@ void Worker::startMovement(Vec2 _moveTo)
 {
     is_moving = true;
     moveTo = _moveTo;
+    framesFrozen = 0;
 }
 void Worker::stopMovement()
 {
-    is_moving = false;
+    is_moving = false;framesFrozen = 0;
 }
 void Worker::Move()
 {

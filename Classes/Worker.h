@@ -7,6 +7,7 @@
 class Worker : public Unit 
 {
     public:
+        int framesFrozen = 0;
         cocos2d::Vec2 moveTo;
         Worker(int race)  { init(race); }
         Worker(cocos2d::Vec2 vec2, int race) { init(vec2, race); }

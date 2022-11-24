@@ -64,12 +64,13 @@ void Soldier::startMovement(Vec2 _moveTo)
 {
     is_moving = true;
     is_attacking = false;
-    
+    framesFrozen = 0;
     moveTo = _moveTo;
 }
 void Soldier::stopMovement()
 {
     is_moving = false;
+    framesFrozen = 0;
 }
 void Soldier::startAttacking(Vec2 rotateTo)
 {
@@ -117,6 +118,7 @@ void Soldier::Move()
         is_moving = false;
         return;
     }
+    framesFrozen = 0;
     Vec2 myVec = moveTo - soldierSprite->getPosition();
     Vec2 _moveTo = myVec.getNormalized();
     float _angle = atan2(_moveTo.x, _moveTo.y) *180.0f / PI;

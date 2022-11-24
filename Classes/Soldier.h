@@ -7,6 +7,7 @@
 class Soldier : public Unit
 {
     public:
+        int framesFrozen = 0;
         cocos2d::Vec2 moveTo;
         Soldier(int race) { init(race); }
         Soldier(cocos2d::Vec2 vec2, int race) {init(vec2, race); }

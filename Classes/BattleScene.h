@@ -12,6 +12,7 @@
 class BattleScene : public cocos2d::Scene {
     public:
         double times = 0.0;
+        int cnt = 0;
         BattleScene() = default;
         virtual ~BattleScene() = default;
         static cocos2d::Scene* createScene();

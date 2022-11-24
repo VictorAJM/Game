@@ -8,6 +8,7 @@
 #include "Soldier.h"
 #include "Mineral.h"
 #include "Base.h"
+#include "IA.h"
 using namespace std;
 USING_NS_CC;
 
@@ -41,7 +42,7 @@ bool BattleScene::init() {
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-    Soldier* soldier = new Soldier(Vec2(70,150),1);
+    Soldier* soldier = new Soldier(Vec2(75,150),1);
     soldiers.push_back(soldier);
     this->addChild(soldier,1);
     for (int i=0;i<10;i++) {
@@ -162,7 +163,7 @@ void BattleScene::newWorker(int race)
 void BattleScene::newSoldier(int race)
 {
     int x,y;
-    x = 70;
+    x = 75;
     do {
         y = cocos2d::RandomHelper::random_int(150,550);
     } while (!this->isFree(x, y));
@@ -271,23 +272,35 @@ void BattleScene::onMouseUp(Event* event)
 void BattleScene::update(float delta)
 {
     times += (1.0/60.0);
+    cnt++;
+    if (cnt%30==0) {
+        //getIAaction(workers, soldiers, bases, minerals);
+    }
     //  bases[0]->base_status.gold += 5;
-    stats_label->setString(bases[0]->getStats()+" time: "+to_string(times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)));
+    stats_label->setString(bases[0]->getStats()+" time: "+to_string((int)times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)));
     for (auto worker : workers) {
         if (worker->is_moving) {
             bool t = true;
-            
-            for (auto* _worker : workers) if (worker->getNextPos().distance(Vec2(_worker->workerSprite->getPosition()))<=10) {
-                if (Vec2(worker->workerSprite->getPosition())!=Vec2(_worker->workerSprite->getPosition()))
-                t = false;
+            bool tt = true;
+            { 
+                for (auto* _worker : workers) if (worker->getNextPos().distance(Vec2(_worker->workerSprite->getPosition()))<=16) {
+                    if (Vec2(worker->workerSprite->getPosition())!=Vec2(_worker->workerSprite->getPosition())) {
+                        if (!_worker->is_moving)
+                        tt = false;
+                        t = false;
+                    }
+                } 
+                for (auto* _soldier : soldiers) if (worker->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=16) {
+                    if (!_soldier->is_moving) {
+                        tt = false;
+                    }
+                    t = false;
+                } 
+                if (t) worker->framesFrozen++,worker->Move();
+                else if (tt) {
+
+                } else worker->stopMovement();
             } 
-            for (auto* _soldier : soldiers) if (worker->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=10) {
-                
-                t = false;
-            } 
-            if (t) worker->Move();
-            else worker->stopMovement();
-            
         } else {
             bool mined = false;
             bool newMineral = false;
@@ -334,15 +347,27 @@ void BattleScene::update(float delta)
     for (auto soldier : soldiers) {
         if (soldier->is_moving) {
             bool t = true;
-            for (auto* worker : workers) if (soldier->getNextPos().distance(Vec2(worker->workerSprite->getPosition()))<=10) {
-                t = false;
+            bool tt = true;
+             {
+                for (auto* worker : workers) if (soldier->getNextPos().distance(Vec2(worker->workerSprite->getPosition()))<=16) {
+                    if (!worker->is_moving) {
+                        tt = false;
+                    }
+                    t = false;
+                } 
+                for (auto* _soldier : soldiers) if (soldier->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=16) {
+                    if (Vec2(soldier->soldierSprite->getPosition())!=Vec2(_soldier->soldierSprite->getPosition())) {
+                        if (!_soldier->is_moving) {
+                            tt = false;
+                        }
+                        t = false;
+                    }
+                } 
+                if (t) soldier->framesFrozen++,soldier->Move();
+                else if (tt) {
+
+                } else soldier->stopMovement();
             } 
-            for (auto* _soldier : soldiers) if (soldier->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=10) {
-                if (Vec2(soldier->soldierSprite->getPosition())!=Vec2(_soldier->soldierSprite->getPosition()))
-                t = false;
-            } 
-            if (t) soldier->Move();
-            else soldier->stopMovement();
         } else {
             bool t = false;
             // TODO: soldier attack the closer unit 
