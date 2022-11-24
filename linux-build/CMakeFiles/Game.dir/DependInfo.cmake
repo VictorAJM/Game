@@ -13,7 +13,6 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/victor/cocos2d-x/Game/Classes/BattleScene.cpp" "CMakeFiles/Game.dir/Classes/BattleScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/BattleScene.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/GameMenu.cpp" "CMakeFiles/Game.dir/Classes/GameMenu.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/GameMenu.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/HelloWorldScene.cpp" "CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o.d"
-  "/home/victor/cocos2d-x/Game/Classes/IA.cpp" "CMakeFiles/Game.dir/Classes/IA.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/IA.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Mineral.cpp" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/PauseMenu.cpp" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Soldier.cpp" "CMakeFiles/Game.dir/Classes/Soldier.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Soldier.cpp.o.d"

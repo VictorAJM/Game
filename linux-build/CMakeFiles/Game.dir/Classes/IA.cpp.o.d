@@ -1,7 +1,6 @@
 CMakeFiles/Game.dir/Classes/IA.cpp.o: \
  /home/victor/cocos2d-x/Game/Classes/IA.cpp /usr/include/stdc-predef.h \
- /home/victor/cocos2d-x/Game/Classes/IA.h /usr/include/c++/11/bitset \
- /usr/include/c++/11/string \
+ /home/victor/cocos2d-x/Game/Classes/IA.h /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -126,8 +125,8 @@ CMakeFiles/Game.dir/Classes/IA.cpp.o: \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h \
- /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/bitset \
+ /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc /usr/include/c++/11/mutex \
@@ -539,4 +538,5 @@ CMakeFiles/Game.dir/Classes/IA.cpp.o: \
  /home/victor/cocos2d-x/Game/Classes/Mineral.h \
  /home/victor/cocos2d-x/Game/Classes/Worker.h \
  /home/victor/cocos2d-x/Game/Classes/Unit.h \
- /home/victor/cocos2d-x/Game/Classes/Soldier.h
+ /home/victor/cocos2d-x/Game/Classes/Soldier.h \
+ /usr/include/c++/11/iostream

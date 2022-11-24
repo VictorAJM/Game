@@ -9,8 +9,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/Classes/GameMenu.cpp.o.d"
   "CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o"
   "CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o.d"
-  "CMakeFiles/Game.dir/Classes/IA.cpp.o"
-  "CMakeFiles/Game.dir/Classes/IA.cpp.o.d"
   "CMakeFiles/Game.dir/Classes/Mineral.cpp.o"
   "CMakeFiles/Game.dir/Classes/Mineral.cpp.o.d"
   "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o"

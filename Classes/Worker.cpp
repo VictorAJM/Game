@@ -123,10 +123,10 @@ Vec2 Worker::getNextPos()
 }
 void Worker::death() {
     auto callbackFinished = CallFunc::create( [this] () {
-        this->workerSprite->setPosition(2000,2000);
+        this->workerSprite->setPosition(4000,4000);
     });
-    hp_bar->setPosition(2000,2000);
-    hp_outline->setPosition(2000,2000);
+    hp_bar->setPosition(4000,4000);
+    hp_outline->setPosition(4000,4000);
     cocos2d::DelayTime* delay = cocos2d::DelayTime::create(0.4f);
     if (this->gold == 0) {
         Animation* animation = Animation::createWithSpriteFrames(animFrames1,0.4f);

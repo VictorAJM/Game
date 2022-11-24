@@ -1,8 +1,14 @@
 ///TODO:
 
 // AGREGAR IA
-// wtf no se como hacer eso
+// la IA realiza una accion cada 60,30,15 frames [dependiendo dificultad]
+// la accion que realiza la IA es : mover una unidad o crear unidad/estructura
+// la IA pierde cuando ya no tiene estructuras y no tiene mas unidades y no puede comprar
 
+
+// agregar boton de rendicion en el menu de pausa
+// pierdes en automatico cuando ya no tiene estructuras y no tiene mas unidades y no puede comprar
+// no poder seleccionar mas de 3 unidades para poder calcular centro de triangulo
 
 // soldier:
 // * interaccion con bases y estructuras

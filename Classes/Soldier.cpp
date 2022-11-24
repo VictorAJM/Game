@@ -90,10 +90,10 @@ void Soldier::stopAttacking()
 void Soldier::death()
 {
     auto callbackFinished = CallFunc::create( [this] () {
-        this->soldierSprite->setPosition(2000,2000);
+        this->soldierSprite->setPosition(4000,4000);
     });
-    hp_bar->setPosition(2000,2000);
-    hp_outline->setPosition(2000,2000);
+    hp_bar->setPosition(4000,4000);
+    hp_outline->setPosition(4000,4000);
     if (is_attacking) {
         Animation* animation = Animation::createWithSpriteFrames(animFrames2,0.4f);
         Animate* animate = Animate::create(animation);

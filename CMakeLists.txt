@@ -66,7 +66,6 @@ list(APPEND GAME_SOURCE
      Classes/Soldier.cpp
      Classes/Mineral.cpp
      Classes/Base.cpp
-     Classes/IA.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h

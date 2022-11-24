@@ -42,9 +42,6 @@ bool BattleScene::init() {
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
-    Soldier* soldier = new Soldier(Vec2(1175,150),2);
-    soldiers.push_back(soldier);
-    this->addChild(soldier,2);
     for (int i=0;i<10;i++) {
         int x,y;
         do {
@@ -186,6 +183,7 @@ void BattleScene::onMouseMove(Event* event)
     }
 
     for (auto worker : workers) {
+        if (worker->getUnitStatus().race != 1) continue;
         if (worker->isSelected) continue;
         if (worker->workerSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
             worker->drawGreenCircle(worker->workerSprite->getPosition());
@@ -195,6 +193,7 @@ void BattleScene::onMouseMove(Event* event)
     }
 
     for (auto soldier : soldiers) {
+        if (soldier->getUnitStatus().race != 1) continue;
         if (soldier->isSelected) continue;
         if (soldier->soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
             soldier->drawGreenCircle(soldier->soldierSprite->getPosition());
@@ -213,7 +212,7 @@ void BattleScene::onMouseUp(Event* event)
     for (auto worker : workers)
     {
         worker->clic_counter++;
-        if (worker->clic_counter%2 == 1) continue;
+        if (worker->clic_counter%2 == 1 || worker->getUnitStatus().race != 1) continue;
 
         // check if the clic is over
         if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
@@ -242,7 +241,7 @@ void BattleScene::onMouseUp(Event* event)
     for (auto soldier : soldiers)
     {
         soldier->clic_counter++;
-        if (soldier->clic_counter%2==1) continue;
+        if (soldier->clic_counter%2==1 || soldier->getUnitStatus().race != 1) continue;
         if (e->getMouseButton()==EventMouse::MouseButton::BUTTON_LEFT) {
             if (soldier->soldierSprite->getBoundingBox().containsPoint(Vec2(e->getCursorX(),e->getCursorY()))) {
                 if (!soldier->isSelected) {
@@ -273,34 +272,59 @@ void BattleScene::update(float delta)
 {
     times += (1.0/60.0);
     cnt++;
-    if (cnt%30==0) {
-        //getIAaction(workers, soldiers, bases, minerals);
+    if (cnt%60==0) {
+        cnt=0;
+        string str = getIAaction("economia", workers, soldiers, bases, minerals);
+        if (str == "soldier") {
+            this->addChild(soldiers[soldiers.size()-1],2);
+        } else if (str=="worker") {
+            this->addChild(workers[workers.size()-1],2);
+        }
+        // getIAaction("micro", workers, soldiers, bases, minerals);
+        // getIAaction("macro", workers, soldiers, bases, minerals);
     }
-    //  bases[0]->base_status.gold += 5;
     stats_label->setString(bases[0]->getStats()+" time: "+to_string((int)times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)));
     for (auto worker : workers) {
         if (worker->is_moving) {
-            bool t = true;
-            bool tt = true;
-            { 
-                for (auto* _worker : workers) if (worker->getNextPos().distance(Vec2(_worker->workerSprite->getPosition()))<=16) {
-                    if (Vec2(worker->workerSprite->getPosition())!=Vec2(_worker->workerSprite->getPosition())) {
-                        if (!_worker->is_moving)
-                        tt = false;
+            if (worker->gold != 0) {
+                auto u = Vec2(bases[worker->unit_status.race-1]->baseSprite->getPosition());
+                if (Vec2(worker->workerSprite->getPosition()).distance(u) <= 64.0f+8.0f) {
+                    if (worker->unit_status.race == 1) {
+                        bases[0]->addGold(worker->gold);
+                        worker->gold = 0;
+                        worker->stopMovement();
+                        worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
+                    } else {
+                        bases[1]->addGold(worker->gold);
+                        worker->gold = 0;
+                        worker->stopMovement();
+                        worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,0,16,16)));
+                    }
+                }
+            }
+            if (worker->is_moving) {
+                bool t = true;
+                bool tt = true;
+                { 
+                    for (auto* _worker : workers) if (worker->getNextPos().distance(Vec2(_worker->workerSprite->getPosition()))<=16) {
+                        if (Vec2(worker->workerSprite->getPosition())!=Vec2(_worker->workerSprite->getPosition())) {
+                            if (!_worker->is_moving)
+                            tt = false;
+                            t = false;
+                        }
+                    } 
+                    for (auto* _soldier : soldiers) if (worker->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=16) {
+                        if (!_soldier->is_moving) {
+                            tt = false;
+                        }
                         t = false;
-                    }
-                } 
-                for (auto* _soldier : soldiers) if (worker->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=16) {
-                    if (!_soldier->is_moving) {
-                        tt = false;
-                    }
-                    t = false;
-                } 
-                if (t) worker->framesFrozen++,worker->Move();
-                else if (tt) {
+                    } 
+                    if (t) worker->framesFrozen++,worker->Move();
+                    else if (tt) {
 
-                } else worker->stopMovement();
-            } 
+                    } else worker->stopMovement();
+                } 
+            }
         } else {
             bool mined = false;
             bool newMineral = false;
@@ -310,7 +334,7 @@ void BattleScene::update(float delta)
                     u->oneUse();
                     worker->gold = u->getMineralStatus().gold;
                     if (u->getUsesLeft() == 0) {
-                        u->mineralSprite->setPosition(2000,2000);
+                        u->mineralSprite->setPosition(4000,4000);
                         newMineral = true;
                     }
                     worker->workerSprite->setSpriteFrame(SpriteFrame::create("worker.png",Rect(0,80,16,16)));
