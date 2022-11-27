@@ -759,12 +759,12 @@ engine/external/clipper/CMakeFiles/ext_clipper.dir/clean:
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build.make engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=93 "Built target ext_edtaa3func"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num= "Built target ext_edtaa3func"
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/linux-build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/linux-build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/linux-build/CMakeFiles 0
 .PHONY : engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/rule
@@ -785,12 +785,12 @@ engine/external/edtaa3func/CMakeFiles/ext_edtaa3func.dir/clean:
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build.make engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num= "Built target ext_convertUTF"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=93 "Built target ext_convertUTF"
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/all
 
 # Build rule for subdir invocation for target.
 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/linux-build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/linux-build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/victor/cocos2d-x/Game/linux-build/CMakeFiles 0
 .PHONY : engine/external/ConvertUTF/CMakeFiles/ext_convertUTF.dir/rule

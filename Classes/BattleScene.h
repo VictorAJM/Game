@@ -8,7 +8,8 @@
 #include "Mineral.h"
 #include "Worker.h"
 #include "Soldier.h"
-
+#include "WorkerGenerator.h"
+#include "SoldierGenerator.h"
 class BattleScene : public cocos2d::Scene {
     public:
         double times = 0.0;
@@ -22,6 +23,8 @@ class BattleScene : public cocos2d::Scene {
         std::vector<Worker*> workers;
         std::vector<Mineral*> minerals;
         std::vector<Soldier*> soldiers;
+        std::vector<WorkerGenerator*> wgs;
+        std::vector<SoldierGenerator*> sgs;
         void tryNewWorker(int);
         void tryNewSoldier(int);
         void newSoldier(int);

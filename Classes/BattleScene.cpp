@@ -9,9 +9,10 @@
 #include "Mineral.h"
 #include "Base.h"
 #include "IA.h"
+#include "WorkerGenerator.h"
+#include "SoldierGenerator.h"
 using namespace std;
 USING_NS_CC;
-
 
 cocos2d::Scene* BattleScene::createScene() {
     auto scene = Scene::createWithPhysics();
@@ -80,6 +81,15 @@ bool BattleScene::init() {
         audio_engine->playBackgroundMusic(music_file.c_str(),true);
         audio_engine->setBackgroundMusicVolume(0.3f);
     }
+
+    WorkerGenerator* wg = new WorkerGenerator(Vec2(32,32),1);
+    wg->setInitTime(cnt);
+    this->addChild(wg,1);
+    SoldierGenerator* sg = new SoldierGenerator(Vec2(32,632),1);
+    sg->setInitTime(cnt);
+    this->addChild(sg,1);
+    wgs.push_back(wg);
+    sgs.push_back(sg);
     stats_label = Label::createWithTTF(base1->getStats(), "fonts/arial.ttf",30);
     stats_label->setAnchorPoint(Vec2(0.0f,0.0f));
     stats_label->setPosition(Vec2(50,650));
@@ -273,7 +283,6 @@ void BattleScene::update(float delta)
     times += (1.0/60.0);
     cnt++;
     if (cnt%60==0) {
-        cnt=0;
         string str = getIAaction("economia", workers, soldiers, bases, minerals);
         if (str == "soldier") {
             this->addChild(soldiers[soldiers.size()-1],2);
@@ -282,6 +291,16 @@ void BattleScene::update(float delta)
         }
         // getIAaction("micro", workers, soldiers, bases, minerals);
         // getIAaction("macro", workers, soldiers, bases, minerals);
+    }
+    for (auto wg : wgs) {
+        if ((cnt-wg->time)%wg->frecuency == 0) {
+            this->newWorker(wg->race);
+        }
+    }
+    for (auto sg : sgs) {
+        if ((cnt-sg->time)%sg->frecuency == 0) {
+            this->newSoldier(sg->race);
+        }
     }
     stats_label->setString(bases[0]->getStats()+" time: "+to_string((int)times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)));
     for (auto worker : workers) {
@@ -303,27 +322,7 @@ void BattleScene::update(float delta)
                 }
             }
             if (worker->is_moving) {
-                bool t = true;
-                bool tt = true;
-                { 
-                    for (auto* _worker : workers) if (worker->getNextPos().distance(Vec2(_worker->workerSprite->getPosition()))<=16) {
-                        if (Vec2(worker->workerSprite->getPosition())!=Vec2(_worker->workerSprite->getPosition())) {
-                            if (!_worker->is_moving)
-                            tt = false;
-                            t = false;
-                        }
-                    } 
-                    for (auto* _soldier : soldiers) if (worker->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=16) {
-                        if (!_soldier->is_moving) {
-                            tt = false;
-                        }
-                        t = false;
-                    } 
-                    if (t) worker->framesFrozen++,worker->Move();
-                    else if (tt) {
-
-                    } else worker->stopMovement();
-                } 
+                worker->Move();
             }
         } else {
             bool mined = false;
@@ -370,28 +369,7 @@ void BattleScene::update(float delta)
     }
     for (auto soldier : soldiers) {
         if (soldier->is_moving) {
-            bool t = true;
-            bool tt = true;
-             {
-                for (auto* worker : workers) if (soldier->getNextPos().distance(Vec2(worker->workerSprite->getPosition()))<=16) {
-                    if (!worker->is_moving) {
-                        tt = false;
-                    }
-                    t = false;
-                } 
-                for (auto* _soldier : soldiers) if (soldier->getNextPos().distance(Vec2(_soldier->soldierSprite->getPosition()))<=16) {
-                    if (Vec2(soldier->soldierSprite->getPosition())!=Vec2(_soldier->soldierSprite->getPosition())) {
-                        if (!_soldier->is_moving) {
-                            tt = false;
-                        }
-                        t = false;
-                    }
-                } 
-                if (t) soldier->framesFrozen++,soldier->Move();
-                else if (tt) {
-
-                } else soldier->stopMovement();
-            } 
+            soldier->Move();
         } else {
             bool t = false;
             // TODO: soldier attack the closer unit 

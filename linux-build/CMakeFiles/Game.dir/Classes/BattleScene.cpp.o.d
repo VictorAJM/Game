@@ -540,4 +540,6 @@ CMakeFiles/Game.dir/Classes/BattleScene.cpp.o: \
  /home/victor/cocos2d-x/Game/Classes/Worker.h \
  /home/victor/cocos2d-x/Game/Classes/Unit.h \
  /home/victor/cocos2d-x/Game/Classes/Soldier.h \
+ /home/victor/cocos2d-x/Game/Classes/WorkerGenerator.h \
+ /home/victor/cocos2d-x/Game/Classes/SoldierGenerator.h \
  /home/victor/cocos2d-x/Game/Classes/IA.h /usr/include/c++/11/iostream

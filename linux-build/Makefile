@@ -490,6 +490,30 @@ Classes/Soldier.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Soldier.cpp.s
 .PHONY : Classes/Soldier.cpp.s
 
+Classes/SoldierGenerator.o: Classes/SoldierGenerator.cpp.o
+.PHONY : Classes/SoldierGenerator.o
+
+# target to build an object file
+Classes/SoldierGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o
+.PHONY : Classes/SoldierGenerator.cpp.o
+
+Classes/SoldierGenerator.i: Classes/SoldierGenerator.cpp.i
+.PHONY : Classes/SoldierGenerator.i
+
+# target to preprocess a source file
+Classes/SoldierGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.i
+.PHONY : Classes/SoldierGenerator.cpp.i
+
+Classes/SoldierGenerator.s: Classes/SoldierGenerator.cpp.s
+.PHONY : Classes/SoldierGenerator.s
+
+# target to generate assembly for a file
+Classes/SoldierGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.s
+.PHONY : Classes/SoldierGenerator.cpp.s
+
 Classes/Unit.o: Classes/Unit.cpp.o
 .PHONY : Classes/Unit.o
 
@@ -537,6 +561,30 @@ Classes/Worker.s: Classes/Worker.cpp.s
 Classes/Worker.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Worker.cpp.s
 .PHONY : Classes/Worker.cpp.s
+
+Classes/WorkerGenerator.o: Classes/WorkerGenerator.cpp.o
+.PHONY : Classes/WorkerGenerator.o
+
+# target to build an object file
+Classes/WorkerGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/WorkerGenerator.cpp.o
+.PHONY : Classes/WorkerGenerator.cpp.o
+
+Classes/WorkerGenerator.i: Classes/WorkerGenerator.cpp.i
+.PHONY : Classes/WorkerGenerator.i
+
+# target to preprocess a source file
+Classes/WorkerGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/WorkerGenerator.cpp.i
+.PHONY : Classes/WorkerGenerator.cpp.i
+
+Classes/WorkerGenerator.s: Classes/WorkerGenerator.cpp.s
+.PHONY : Classes/WorkerGenerator.s
+
+# target to generate assembly for a file
+Classes/WorkerGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/WorkerGenerator.cpp.s
+.PHONY : Classes/WorkerGenerator.cpp.s
 
 proj.linux/main.o: proj.linux/main.cpp.o
 .PHONY : proj.linux/main.o
@@ -608,12 +656,18 @@ help:
 	@echo "... Classes/Soldier.o"
 	@echo "... Classes/Soldier.i"
 	@echo "... Classes/Soldier.s"
+	@echo "... Classes/SoldierGenerator.o"
+	@echo "... Classes/SoldierGenerator.i"
+	@echo "... Classes/SoldierGenerator.s"
 	@echo "... Classes/Unit.o"
 	@echo "... Classes/Unit.i"
 	@echo "... Classes/Unit.s"
 	@echo "... Classes/Worker.o"
 	@echo "... Classes/Worker.i"
 	@echo "... Classes/Worker.s"
+	@echo "... Classes/WorkerGenerator.o"
+	@echo "... Classes/WorkerGenerator.i"
+	@echo "... Classes/WorkerGenerator.s"
 	@echo "... proj.linux/main.o"
 	@echo "... proj.linux/main.i"
 	@echo "... proj.linux/main.s"

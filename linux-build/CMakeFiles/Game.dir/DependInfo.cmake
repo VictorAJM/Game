@@ -16,8 +16,10 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/victor/cocos2d-x/Game/Classes/Mineral.cpp" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/PauseMenu.cpp" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Soldier.cpp" "CMakeFiles/Game.dir/Classes/Soldier.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Soldier.cpp.o.d"
+  "/home/victor/cocos2d-x/Game/Classes/SoldierGenerator.cpp" "CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Unit.cpp" "CMakeFiles/Game.dir/Classes/Unit.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Unit.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Worker.cpp" "CMakeFiles/Game.dir/Classes/Worker.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Worker.cpp.o.d"
+  "/home/victor/cocos2d-x/Game/Classes/WorkerGenerator.cpp" "CMakeFiles/Game.dir/Classes/WorkerGenerator.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/WorkerGenerator.cpp.o.d"
   "/home/victor/cocos2d-x/Game/proj.linux/main.cpp" "CMakeFiles/Game.dir/proj.linux/main.cpp.o" "gcc" "CMakeFiles/Game.dir/proj.linux/main.cpp.o.d"
   )
 

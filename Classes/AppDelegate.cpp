@@ -1,8 +1,13 @@
 ///TODO:
 
-// AGREGAR IA
-// la IA realiza una accion cada 60,30,15 frames [dependiendo dificultad]
-// la accion que realiza la IA es : mover una unidad o crear unidad/estructura
+// Arreglar movimiento de unidades para que no se queden atascadas
+// RTS unit movements   https://sandruski.github.io/RTS-Group-Movement/
+
+
+
+// seleccionar dificultad de la IA (se podria hacer desde el menu)
+// la IA realiza una accion cada 120,60,30 frames [dependiendo dificultad]
+// la accion que realiza la IA es : mover unidades o crear unidad/estructura
 // la IA pierde cuando ya no tiene estructuras y no tiene mas unidades y no puede comprar
 
 
