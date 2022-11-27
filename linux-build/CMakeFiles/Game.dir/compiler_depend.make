@@ -1812,10 +1812,10 @@ CMakeFiles/Game.dir/Classes/BattleScene.cpp.o: ../Classes/BattleScene.cpp \
   ../Classes/Worker.h \
   ../Classes/Unit.h \
   ../Classes/Soldier.h \
-  ../Classes/IA.h \
-  /usr/include/c++/11/iostream \
   ../Classes/WorkerGenerator.h \
-  ../Classes/SoldierGenerator.h
+  ../Classes/SoldierGenerator.h \
+  ../Classes/IA.h \
+  /usr/include/c++/11/iostream
 
 CMakeFiles/Game.dir/Classes/GameMenu.cpp.o: ../Classes/GameMenu.cpp \
   /usr/include/stdc-predef.h \
@@ -2422,7 +2422,9 @@ CMakeFiles/Game.dir/Classes/GameMenu.cpp.o: ../Classes/GameMenu.cpp \
   ../Classes/Mineral.h \
   ../Classes/Worker.h \
   ../Classes/Unit.h \
-  ../Classes/Soldier.h
+  ../Classes/Soldier.h \
+  ../Classes/WorkerGenerator.h \
+  ../Classes/SoldierGenerator.h
 
 CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o: ../Classes/HelloWorldScene.cpp \
   /usr/include/stdc-predef.h \
@@ -7848,9 +7850,9 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 
 ../Classes/HelloWorldScene.cpp:
 
-../Classes/SoldierGenerator.h:
-
 ../Classes/IA.h:
+
+../Classes/SoldierGenerator.h:
 
 ../Classes/Unit.h:
 

@@ -14,4 +14,10 @@ class SoldierGenerator : public cocos2d::Node
         void setInitTime(int);
         int time = 0;
         int race;
+        float health = 500.0f;
+        float maxhp = 500.0f;
+        cocos2d::Sprite* hp_outline{nullptr};
+        cocos2d::Sprite* hp_bar{nullptr};
+        void createHPBar();
+        void updateHPBar();
 };

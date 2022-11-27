@@ -1,9 +1,5 @@
 ///TODO:
 
-// Arreglar movimiento de unidades para que no se queden atascadas
-// RTS unit movements   https://sandruski.github.io/RTS-Group-Movement/
-
-
 
 // seleccionar dificultad de la IA (se podria hacer desde el menu)
 // la IA realiza una accion cada 120,60,30 frames [dependiendo dificultad]
@@ -17,8 +13,6 @@
 
 // soldier:
 // * interaccion con bases y estructuras
-// agregar generadores
-// * interacciones con workers y soldiers
 // agregar boosters
 // * interacciones "" "" 
 
