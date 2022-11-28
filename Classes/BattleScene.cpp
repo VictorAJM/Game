@@ -40,7 +40,7 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
-    base1->addGold(10000);
+    base1->addGold(100000);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -57,16 +57,6 @@ bool BattleScene::init() {
     }
     for (int i=0;i<3;i++) {
         int x,y;
-        x = 50;
-        y = 150;
-        while (Worker::pUsed[1].count({x,y})) y += 200;
-        Worker::pUsed[1].insert({x,y});
-        Worker* worker = new Worker(Vec2(x,y), 1);
-        workers.push_back(worker);
-        this->addChild(worker,2);
-    }
-    for (int i=0;i<3;i++) {
-        int x,y;
         x = 1150;
         y = 150;
         while (Worker::pUsed[2].count({x,y})) y += 200;
@@ -74,6 +64,11 @@ bool BattleScene::init() {
         Worker* worker = new Worker(Vec2(x,y), 2);
         workers.push_back(worker);
         this->addChild(worker,2);
+    }
+    for (int i=0;i<10;i++) {
+        Soldier* s = new Soldier(Vec2(300,300),2);
+        soldiers.push_back(s);
+        this->addChild(s,2);
     }
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
@@ -316,7 +311,7 @@ void BattleScene::update(float delta)
 {
     times += (1.0/60.0);
     cnt++;
-    if (cnt%60==0) {
+    if (cnt%180==0) {
         string str = getIAaction("economia", workers, soldiers, bases, minerals);
         if (str == "soldier") {
             this->addChild(soldiers[soldiers.size()-1],2);
@@ -428,6 +423,24 @@ void BattleScene::update(float delta)
                     _soldier->updateHPBar();
                 }
             }
+            for (auto wg : wgs) {
+                if (wg->race == soldier->getUnitStatus().race) continue;
+                if (!t && Vec2(soldier->soldierSprite->getPosition()).distance(wg->workerGeneratorSprite->getPosition()) < 82.0f) {
+                    t = true;
+                    soldier->startAttacking(wg->workerGeneratorSprite->getPosition());
+                    wg->health -= soldier->getUnitStatus().damage;
+                    wg->updateHPBar();
+                } 
+            }
+            for (auto sg : sgs) {
+                if (sg->race == soldier->getUnitStatus().race) continue;
+                if (!t && Vec2(soldier->soldierSprite->getPosition()).distance(sg->soldierGeneratorSprite->getPosition()) < 82.0f) {
+                    t = true;
+                    soldier->startAttacking(sg->soldierGeneratorSprite->getPosition());
+                    sg->health -= soldier->getUnitStatus().damage;
+                    sg->updateHPBar();
+                } 
+            }
             if (!t) soldier->stopAttacking();
         }
     }
@@ -442,6 +455,27 @@ void BattleScene::update(float delta)
         if (soldiers[i]->getUnitStatus().hp <= 0.0f) {
             soldiers[i]->death();
             soldiers.erase(soldiers.begin()+i);
+            i=0;
+        }
+    }
+    for (int i=0;i<wgs.size();i++) {
+        if (wgs[i]->health <= 0.0f) {
+            wgs[i]->death();
+            wgs.erase(wgs.begin()+i);
+            i=0;
+        }
+    }
+    for (int i=0;i<sgs.size();i++) {
+        if (sgs[i]->health <= 0.0f) {
+            sgs[i]->death();
+            sgs.erase(sgs.begin()+i);
+            i=0;
+        }
+    }
+    for (int i=0;i<minerals.size();i++) {
+        if (minerals[i]->getUsesLeft() <= 0) {
+            minerals[i]->mineralSprite->setPosition(4000,4000);
+            minerals.erase(minerals.begin()+i);
             i=0;
         }
     }
@@ -499,7 +533,7 @@ bool BattleScene::isFree(int _x, int _y)
 bool BattleScene::isAreaFree(int _x, int _y)
 {
     bool t = true;
-    for (auto wg : wgs) if (abs(_y-wg->getPositionY())<30 && _x == wg->getPositionX()) t = false;
-    for (auto sg : sgs) if (abs(_y-sg->getPositionY())<30 && _x == sg->getPositionX()) t = false;
+    for (auto wg : wgs) if (abs(_y-wg->getPositionY())<60 && _x == wg->getPositionX()) t = false;
+    for (auto sg : sgs) if (abs(_y-sg->getPositionY())<60 && _x == sg->getPositionX()) t = false;
     return t;
 }

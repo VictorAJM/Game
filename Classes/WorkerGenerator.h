@@ -16,8 +16,10 @@ class WorkerGenerator : public cocos2d::Node
         int race;
         float health = 500.0f;
         float maxhp = 500.0f;
+        void death();
         cocos2d::Sprite* hp_outline{nullptr};
         cocos2d::Sprite* hp_bar{nullptr};
         void createHPBar();
         void updateHPBar();
+        cocos2d::Vector<cocos2d::SpriteFrame*> animFrames;
 };

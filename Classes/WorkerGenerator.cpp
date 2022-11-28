@@ -11,6 +11,9 @@ bool WorkerGenerator::init(Vec2 vec2, int race)
     createHPBar();
     this->addChild(workerGeneratorSprite);
     this->race = race;
+    for (int i=0;i<5;i++) {
+        animFrames.pushBack(SpriteFrame::create("worker_generator.png",Rect(0,i*64,64,64)));
+    }
     return true;
 }
 
@@ -44,4 +47,17 @@ void WorkerGenerator::updateHPBar(){
     float percent = (health) /(maxhp);
     hp_bar->setTextureRect(Rect(0, 0, std::max(int(64.0f * percent), 0), 4));
     return;
+}
+
+void WorkerGenerator::death()
+{
+    auto callbackFinished = CallFunc::create( [this]() {
+        this->workerGeneratorSprite->setPosition(4000,4000);
+    });
+    hp_bar->setPosition(4000,4000);
+    hp_outline->setPosition(4000,4000);
+    Animation* animation = Animation::createWithSpriteFrames(animFrames,0.4f);
+    Animate* animate = Animate::create(animation);
+    Repeat* repeat = Repeat::create(animate,1);
+    this->workerGeneratorSprite->runAction(Sequence::create(repeat, callbackFinished, NULL));
 }
