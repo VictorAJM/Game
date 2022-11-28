@@ -40,6 +40,7 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
+    base1->addGold(10000);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -81,15 +82,6 @@ bool BattleScene::init() {
         audio_engine->playBackgroundMusic(music_file.c_str(),true);
         audio_engine->setBackgroundMusicVolume(0.3f);
     }
-
-    WorkerGenerator* wg = new WorkerGenerator(Vec2(32,32),1);
-    wg->setInitTime(cnt);
-    this->addChild(wg,1);
-    SoldierGenerator* sg = new SoldierGenerator(Vec2(32,632),1);
-    sg->setInitTime(cnt);
-    this->addChild(sg,1);
-    wgs.push_back(wg);
-    sgs.push_back(sg);
     stats_label = Label::createWithTTF(base1->getStats(), "fonts/arial.ttf",30);
     stats_label->setAnchorPoint(Vec2(0.0f,0.0f));
     stats_label->setPosition(Vec2(50,650));
@@ -124,9 +116,9 @@ void BattleScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event)
     } else if (key == EventKeyboard::KeyCode::KEY_S) {
         this->tryNewSoldier(1);
     } else if (key == EventKeyboard::KeyCode::KEY_A) {
-
+        this->tryNewWorkerGenerator(1);
     } else if (key == EventKeyboard::KeyCode::KEY_D) {
-
+        this->tryNewSoldierGenerator(1);
     } else if (key == EventKeyboard::KeyCode::KEY_1) {
 
     } else if (key == EventKeyboard::KeyCode::KEY_2) {
@@ -146,11 +138,29 @@ void BattleScene::tryNewWorker(int race)
         log("not enough money");    
     }
 }
+void BattleScene::tryNewWorkerGenerator(int race)
+{
+    if (bases[race-1]->getBaseStatus().gold >= this->worker_generator_price(race)) {
+        bases[race-1]->addGold((-1)*this->worker_generator_price(race));
+        this->newWorkerGenerator(race);
+    } else {
+        log("not enough money");    
+    }
+}
 void BattleScene::tryNewSoldier(int race)
 {
     if (bases[race-1]->getBaseStatus().gold >= this->soldier_price(race)) {
         bases[race-1]->addGold((-1)*this->soldier_price(race));
         this->newSoldier(race);
+    } else {
+        log("not enough money");    
+    }
+}
+void BattleScene::tryNewSoldierGenerator(int race)
+{
+    if (bases[race-1]->getBaseStatus().gold >= this->soldier_generator_price(race)) {
+        bases[race-1]->addGold((-1)*this->soldier_generator_price(race));
+        this->newSoldierGenerator(race);
     } else {
         log("not enough money");    
     }
@@ -163,7 +173,7 @@ void BattleScene::newWorker(int race)
         y = cocos2d::RandomHelper::random_int(150,550);
     } while (!this->isFree(x, y));
     Worker::pUsed[race].insert({x,y});
-    Worker* worker = new Worker(Vec2(x,y), 1);
+    Worker* worker = new Worker(Vec2(x,y), race);
     workers.push_back(worker);
     this->addChild(worker,2);
 }
@@ -175,9 +185,33 @@ void BattleScene::newSoldier(int race)
         y = cocos2d::RandomHelper::random_int(150,550);
     } while (!this->isFree(x, y));
     Soldier::pUsed[race].insert({x,y});
-    Soldier* soldier = new Soldier(Vec2(x,y), 1);
+    Soldier* soldier = new Soldier(Vec2(x,y), race);
     soldiers.push_back(soldier);
     this->addChild(soldier,2);
+}
+void BattleScene::newWorkerGenerator(int race)
+{
+    int x,y;
+    x = 32;
+    do {
+        y = cocos2d::RandomHelper::random_int(50,650);
+    } while (!this->isAreaFree(x, y));
+    WorkerGenerator* wg = new WorkerGenerator(Vec2(x,y), race);
+    wgs.push_back(wg);
+    wg->setInitTime(cnt);
+    this->addChild(wg,1);
+}
+void BattleScene::newSoldierGenerator(int race)
+{
+    int x,y;
+    x = 32;
+    do {
+        y = cocos2d::RandomHelper::random_int(50,650);
+    } while (!this->isAreaFree(x, y));
+    SoldierGenerator* sg = new SoldierGenerator(Vec2(x,y), race);
+    sgs.push_back(sg);
+    sg->setInitTime(cnt);
+    this->addChild(sg,1);
 }
 void BattleScene::onMouseMove(Event* event)
 {
@@ -302,7 +336,7 @@ void BattleScene::update(float delta)
             this->newSoldier(sg->race);
         }
     }
-    stats_label->setString(bases[0]->getStats()+" time: "+to_string((int)times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)));
+    stats_label->setString(bases[0]->getStats()+" time: "+to_string((int)times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)) + "W gen: "+to_string(this->worker_generator_price(1))+ " S gen:"+to_string(this->soldier_generator_price(1)));
     for (auto worker : workers) {
         if (worker->is_moving) {
             if (worker->gold != 0) {
@@ -433,6 +467,24 @@ int BattleScene::soldier_price(int _race)
     return 100+cnt*25;
 }
 
+int BattleScene::worker_generator_price(int _race)
+{
+    int cnt = 0;
+    for (auto wg : wgs) if (wg->race == _race) {
+        cnt ++;
+    }
+    return 300+cnt*100;
+}
+
+int BattleScene::soldier_generator_price(int _race)
+{
+    int cnt = 0;
+    for (auto sg : sgs) if (sg->race == _race) {
+        cnt ++;
+    }
+    return 450+cnt*125;
+}
+
 bool BattleScene::isFree(int _x, int _y)
 {
     for (auto worker : workers) {
@@ -442,4 +494,12 @@ bool BattleScene::isFree(int _x, int _y)
         if (soldier->soldierSprite->getPositionX()==_x && soldier->soldierSprite->getPositionY()==_y) return false;
     }
     return true;
+}
+
+bool BattleScene::isAreaFree(int _x, int _y)
+{
+    bool t = true;
+    for (auto wg : wgs) if (abs(_y-wg->getPositionY())<30 && _x == wg->getPositionX()) t = false;
+    for (auto sg : sgs) if (abs(_y-sg->getPositionY())<30 && _x == sg->getPositionX()) t = false;
+    return t;
 }
