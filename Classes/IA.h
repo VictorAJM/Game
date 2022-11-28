@@ -50,7 +50,7 @@ bool isAreaFree(vector<WorkerGenerator*> &wgs,vector<SoldierGenerator*> &sgs,int
 void newSoldierGenerator(vector<WorkerGenerator*> &wgs,vector<SoldierGenerator*> &sgs, int race)
 {
     int x,y;
-    x = 32;
+    x = 1168;
     do {
         y = cocos2d::RandomHelper::random_int(50,650);
     } while (!isAreaFree(wgs,sgs,x, y));
@@ -61,7 +61,7 @@ void newSoldierGenerator(vector<WorkerGenerator*> &wgs,vector<SoldierGenerator*>
 void newWorkerGenerator(vector<WorkerGenerator*> &wgs,vector<SoldierGenerator*> &sgs, int race)
 {
     int x,y;
-    x = 32;
+    x = 1168;
     do {
         y = cocos2d::RandomHelper::random_int(50,650);
     } while (!isAreaFree(wgs,sgs,x, y));

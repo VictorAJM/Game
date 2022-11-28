@@ -40,7 +40,6 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
-    base1->addGold(100000);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -57,18 +56,23 @@ bool BattleScene::init() {
     }
     for (int i=0;i<3;i++) {
         int x,y;
-        x = 1150;
+        x = 50;
+        y = 150;
+        while (Worker::pUsed[1].count({x,y})) y += 200;
+        Worker::pUsed[1].insert({x,y});
+        Worker* worker = new Worker(Vec2(x,y), 1);
+        workers.push_back(worker);
+        this->addChild(worker,1);
+    }
+    for (int i=0;i<3;i++) {
+        int x,y;
+        x = 1140;
         y = 150;
         while (Worker::pUsed[2].count({x,y})) y += 200;
         Worker::pUsed[2].insert({x,y});
         Worker* worker = new Worker(Vec2(x,y), 2);
         workers.push_back(worker);
         this->addChild(worker,2);
-    }
-    for (int i=0;i<10;i++) {
-        Soldier* s = new Soldier(Vec2(300,300),2);
-        soldiers.push_back(s);
-        this->addChild(s,2);
     }
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
@@ -164,6 +168,7 @@ void BattleScene::newWorker(int race)
 {
     int x,y;
     x = 50;
+    if (race == 2) x = 1150;
     do {
         y = cocos2d::RandomHelper::random_int(150,550);
     } while (!this->isFree(x, y));
@@ -176,6 +181,7 @@ void BattleScene::newSoldier(int race)
 {
     int x,y;
     x = 75;
+    if (race == 2) x = 1175;
     do {
         y = cocos2d::RandomHelper::random_int(150,550);
     } while (!this->isFree(x, y));
@@ -318,9 +324,9 @@ void BattleScene::update(float delta)
         } else if (str=="worker") {
             this->addChild(workers[workers.size()-1],2);
         } else if (str=="worker generator") {
-            this->addChild(wgs[wgs.size()-1],2);
+            this->addChild(wgs[wgs.size()-1],1);
         } else if (str=="soldier generator") {
-            this->addChild(sgs[sgs.size()-1],2);
+            this->addChild(sgs[sgs.size()-1],1);
         }
         // getIAaction("micro", workers, soldiers, bases, minerals);
         // getIAaction("macro", workers, soldiers, bases, minerals);
@@ -451,6 +457,7 @@ void BattleScene::update(float delta)
     for (int i=0;i<workers.size();i++) {
         if (workers[i]->getUnitStatus().hp <= 0.0f) {
             workers[i]->death();
+            workers[i]->eraseCircle();
             workers.erase(workers.begin()+i);
             i=0;
         }
@@ -458,6 +465,7 @@ void BattleScene::update(float delta)
     for (int i=0;i<soldiers.size();i++) {
         if (soldiers[i]->getUnitStatus().hp <= 0.0f) {
             soldiers[i]->death();
+            soldiers[i]->eraseCircle();
             soldiers.erase(soldiers.begin()+i);
             i=0;
         }
@@ -479,6 +487,7 @@ void BattleScene::update(float delta)
     for (int i=0;i<minerals.size();i++) {
         if (minerals[i]->getUsesLeft() <= 0) {
             minerals[i]->mineralSprite->setPosition(4000,4000);
+            minerals[i]->eraseCircle();
             minerals.erase(minerals.begin()+i);
             i=0;
         }
