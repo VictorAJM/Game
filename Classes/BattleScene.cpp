@@ -312,11 +312,15 @@ void BattleScene::update(float delta)
     times += (1.0/60.0);
     cnt++;
     if (cnt%180==0) {
-        string str = getIAaction("economia", workers, soldiers, bases, minerals);
+        string str = getIAaction("economia", workers, soldiers, bases, minerals,wgs,sgs,cnt);
         if (str == "soldier") {
             this->addChild(soldiers[soldiers.size()-1],2);
         } else if (str=="worker") {
             this->addChild(workers[workers.size()-1],2);
+        } else if (str=="worker generator") {
+            this->addChild(wgs[wgs.size()-1],2);
+        } else if (str=="soldier generator") {
+            this->addChild(sgs[sgs.size()-1],2);
         }
         // getIAaction("micro", workers, soldiers, bases, minerals);
         // getIAaction("macro", workers, soldiers, bases, minerals);
