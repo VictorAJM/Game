@@ -10,6 +10,9 @@
 USING_NS_CC;
 using namespace std;
 map<int,set<pair<int,int> > > Worker::pUsed;
+float Worker::_health = 100.0f;
+float Worker::_damage = 0.025f;
+float Worker::_maxhp = 100.0f;
 bool Worker::init(Vec2 vec2, int race)
 {
     workerSprite  = Sprite::create("worker.png",Rect(0,0,16,16));
@@ -78,11 +81,19 @@ bool Worker::init(int race)
 
 void Worker::initStatus(int _race)
 {
+    if (_race == 1) {
+    unit_status.hp = _health;
+    unit_status.damage = _damage;
+    unit_status.speed = 0.8;
+    unit_status.race = _race;
+    maxhp = _maxhp;
+    }else {
     unit_status.hp = 100.0f;
     unit_status.damage = 0.025f;
-    unit_status.speed = 1.0f;
+    unit_status.speed = 0.8;
     unit_status.race = _race;
     maxhp = 100.0f;
+    }
     return;
 }
 void Worker::setHP(float hp_)

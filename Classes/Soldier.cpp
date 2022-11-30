@@ -7,6 +7,9 @@
 #define PI 3.14159265
 USING_NS_CC;
 using namespace std;
+float Soldier::_health = 75.0f;
+float Soldier::_damage = 0.075f;
+float Soldier::_maxhp = 75.0f;
 map<int,set<pair<int,int> > > Soldier::pUsed;
 bool Soldier::init(Vec2 vec2, int race)
 {
@@ -49,11 +52,19 @@ bool Soldier::init(int race)
 
 void Soldier::initStatus(int _race)
 {
+    if (_race == 1) {
+    unit_status.hp = _health;
+    unit_status.damage = _damage;
+    unit_status.speed = 0.8;
+    unit_status.race = _race;
+    maxhp = _maxhp;
+    }else {
     unit_status.hp = 75.0f;
     unit_status.damage = 0.075f;
     unit_status.speed = 0.8;
     unit_status.race = _race;
     maxhp = 75.0f;
+    }
     return;
 }
 void Soldier::setHP(float hp_)

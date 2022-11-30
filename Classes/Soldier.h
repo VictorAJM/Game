@@ -7,10 +7,13 @@
 class Soldier : public Unit
 {
     public:
+        static float _health,_damage,_maxhp;
         int framesFrozen = 0;
         cocos2d::Vec2 moveTo;
         Soldier(int race) { init(race); }
-        Soldier(cocos2d::Vec2 vec2, int race) {init(vec2, race); }
+        Soldier(cocos2d::Vec2 vec2, int race) {
+            init(vec2, race); 
+            }
         ~Soldier() = default;
         bool init(int) override;
         bool init(cocos2d::Vec2, int);

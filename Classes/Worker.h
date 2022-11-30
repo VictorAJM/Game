@@ -7,10 +7,14 @@
 class Worker : public Unit 
 {
     public:
+        static float _health, _damage,_maxhp;
         int framesFrozen = 0;
         cocos2d::Vec2 moveTo;
-        Worker(int race)  { init(race); }
-        Worker(cocos2d::Vec2 vec2, int race) { init(vec2, race); }
+        Worker(int race)  {
+
+             init(race); 
+             }
+        Worker(cocos2d::Vec2 vec2, int race) {  init(vec2, race); }
         ~Worker() = default;
         bool init(int) override;
         bool init(cocos2d::Vec2, int);

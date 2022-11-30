@@ -40,6 +40,7 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
+    base1->addGold(100000);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -118,16 +119,57 @@ void BattleScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event)
         this->tryNewWorkerGenerator(1);
     } else if (key == EventKeyboard::KeyCode::KEY_D) {
         this->tryNewSoldierGenerator(1);
-    } else if (key == EventKeyboard::KeyCode::KEY_1) {
-
-    } else if (key == EventKeyboard::KeyCode::KEY_2) {
-
-    } else if (key == EventKeyboard::KeyCode::KEY_3) {
-
-    }
+    } else if (key == EventKeyboard::KeyCode::KEY_Q) {
+        this->tryDamageUpdate(1);
+    } else if (key == EventKeyboard::KeyCode::KEY_E) {
+        this->tryHealthUpdate(1);
+    } 
     return;
 }
-
+void BattleScene::health_update(int race)
+{
+    for (auto w : workers) if (w->getUnitStatus().race == race) {
+        w->maxhp *= 1.1f;
+        w->setHP(w->getUnitStatus().hp*1.1f);
+    }
+    for (auto s : soldiers)if (s->getUnitStatus().race == race) {
+        s->maxhp *= 1.1f;
+        s->setHP(s->getUnitStatus().hp*1.1f);
+    }
+    Worker::_maxhp *= 1.1f;
+    Worker::_health *= 1.1f;
+    Soldier::_maxhp *= 1.1f;
+    Soldier::_health*= 1.1f;
+}
+void BattleScene::damage_update(int race)
+{
+    for (auto w : workers) if (w->getUnitStatus().race == race) {
+        w->unit_status.damage *= 1.1f;
+    }
+    for (auto s : soldiers) if (s->getUnitStatus().race == race){
+        s->unit_status.damage *= 1.1f;
+    }
+    Worker::_damage *= 1.1f;
+    Soldier::_damage *= 1.1f;
+}
+void BattleScene::tryDamageUpdate(int race)
+{
+    if (bases[race-1]->getBaseStatus().gold >= 150) {
+        bases[race-1]->addGold((-1)*150);
+        damage_update(race);
+    } else {
+        log ("not enough money");
+    }
+}
+void BattleScene::tryHealthUpdate(int race)
+{
+    if (bases[race-1]->getBaseStatus().gold >= 150 ) {
+        bases[race-1]->addGold((-1)*150);
+        health_update(race);
+    } else {
+        log ("not enough money");
+    }
+}
 void BattleScene::tryNewWorker(int race)
 {
     if (bases[race-1]->getBaseStatus().gold >= this->worker_price(race)) {

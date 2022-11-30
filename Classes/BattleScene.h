@@ -43,6 +43,10 @@ class BattleScene : public cocos2d::Scene {
         int soldier_generator_price(int);
         int worker_price(int);
         int soldier_price(int);
+        void damage_update(int);
+        void health_update(int);
+        void tryDamageUpdate(int);
+        void tryHealthUpdate(int);
         static constexpr int map_width = 40;
         static constexpr int map_height = 30;
         void onKeyPressed(cocos2d::EventKeyboard::KeyCode key, cocos2d::Event* event);
