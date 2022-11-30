@@ -10,8 +10,8 @@ public:
     virtual bool init();
 
     CREATE_FUNC(PauseMenu);
-
+    void BluePill(cocos2d::Ref* pSender);
     void onKeyPressed(cocos2d::EventKeyboard::KeyCode key, cocos2d::Event* event);
 
-    void QuitGame(cocos2d::Ref* pSender);
+    void RedPill(cocos2d::Ref* pSender);
 };
