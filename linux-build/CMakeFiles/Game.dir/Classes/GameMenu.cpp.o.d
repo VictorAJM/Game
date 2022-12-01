@@ -541,4 +541,6 @@ CMakeFiles/Game.dir/Classes/GameMenu.cpp.o: \
  /home/victor/cocos2d-x/Game/Classes/Soldier.h \
  /home/victor/cocos2d-x/Game/Classes/WorkerGenerator.h \
  /home/victor/cocos2d-x/Game/Classes/SoldierGenerator.h \
- /home/victor/cocos2d-x/Game/Classes/ArcadeScene.h
+ /home/victor/cocos2d-x/Game/Classes/ArcadeScene.h \
+ /home/victor/cocos2d-x/Game/Classes/Options.h \
+ /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h

@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/victor/cocos2d-x/Game/Classes/LoseArcadeScene.cpp" "CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/LoseScene.cpp" "CMakeFiles/Game.dir/Classes/LoseScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/LoseScene.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Mineral.cpp" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o.d"
+  "/home/victor/cocos2d-x/Game/Classes/Options.cpp" "CMakeFiles/Game.dir/Classes/Options.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Options.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/PauseMenu.cpp" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Soldier.cpp" "CMakeFiles/Game.dir/Classes/Soldier.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Soldier.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/SoldierGenerator.cpp" "CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o.d"

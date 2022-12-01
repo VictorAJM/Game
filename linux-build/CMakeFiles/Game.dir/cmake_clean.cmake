@@ -19,6 +19,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/Game.dir/Classes/LoseScene.cpp.o.d"
   "CMakeFiles/Game.dir/Classes/Mineral.cpp.o"
   "CMakeFiles/Game.dir/Classes/Mineral.cpp.o.d"
+  "CMakeFiles/Game.dir/Classes/Options.cpp.o"
+  "CMakeFiles/Game.dir/Classes/Options.cpp.o.d"
   "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o"
   "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o.d"
   "CMakeFiles/Game.dir/Classes/Soldier.cpp.o"

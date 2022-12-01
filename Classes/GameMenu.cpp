@@ -1,6 +1,7 @@
 #include "GameMenu.h"
 #include "BattleScene.h"
 #include "ArcadeScene.h"
+#include "Options.h"
 USING_NS_CC;
 
 cocos2d::Scene* GameMenu::createScene() {
@@ -68,7 +69,7 @@ void GameMenu::newGame(cocos2d::Ref* pSender)
 }
 void GameMenu::Options(cocos2d::Ref* pSender)
 {
-    auto scene = BattleScene::createScene();
+    auto scene = Options::createScene();
     auto* director = Director::getInstance();
     director->runWithScene(scene);
     // nothing yet

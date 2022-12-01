@@ -538,6 +538,30 @@ Classes/Mineral.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Mineral.cpp.s
 .PHONY : Classes/Mineral.cpp.s
 
+Classes/Options.o: Classes/Options.cpp.o
+.PHONY : Classes/Options.o
+
+# target to build an object file
+Classes/Options.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Options.cpp.o
+.PHONY : Classes/Options.cpp.o
+
+Classes/Options.i: Classes/Options.cpp.i
+.PHONY : Classes/Options.i
+
+# target to preprocess a source file
+Classes/Options.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Options.cpp.i
+.PHONY : Classes/Options.cpp.i
+
+Classes/Options.s: Classes/Options.cpp.s
+.PHONY : Classes/Options.s
+
+# target to generate assembly for a file
+Classes/Options.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Options.cpp.s
+.PHONY : Classes/Options.cpp.s
+
 Classes/PauseMenu.o: Classes/PauseMenu.cpp.o
 .PHONY : Classes/PauseMenu.o
 
@@ -782,6 +806,9 @@ help:
 	@echo "... Classes/Mineral.o"
 	@echo "... Classes/Mineral.i"
 	@echo "... Classes/Mineral.s"
+	@echo "... Classes/Options.o"
+	@echo "... Classes/Options.i"
+	@echo "... Classes/Options.s"
 	@echo "... Classes/PauseMenu.o"
 	@echo "... Classes/PauseMenu.i"
 	@echo "... Classes/PauseMenu.s"

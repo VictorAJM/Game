@@ -73,6 +73,7 @@ list(APPEND GAME_SOURCE
      Classes/ArcadeScene.cpp
      Classes/Ball.cpp
      Classes/LoseArcadeScene.cpp
+     Classes/Options.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -93,6 +94,7 @@ list(APPEND GAME_HEADER
      Classes/ArcadeScene.h
      Classes/Ball.h
      Classes/LoseArcadeScene.h
+     Classes/Options.h
      )
 
 if(ANDROID)
