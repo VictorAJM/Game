@@ -70,7 +70,7 @@ void Base::eraseCircle()
 string Base::getStats() 
 {
     string str;
-    str = "minerals: "+to_string(base_status.gold);
+    str = "Minerals: "+to_string(base_status.gold);
     return str;
 }
 void Base::addGold(int gold)

@@ -21,10 +21,10 @@ bool GameMenu::init() {
     float close_item_y = origin.y + close_item->getContentSize().height;
 
 
-    auto* background = cocos2d::Sprite::create("image/loading.png");
+    auto* background = cocos2d::Sprite::create("loading.png");
     background->setScale(2.0f);
     background->setContentSize(Size(background->getContentSize().width*2, background->getContentSize().height*2));
-    std::string buttons = "image/button_sprites.png";
+    std::string buttons = "button_sprites.png";
 
     auto newGameNormal = cocos2d::Sprite::create(buttons, Rect(0,0,210,53));
     auto newGameSelected = cocos2d::Sprite::create(buttons, Rect(0,53,210,53));
@@ -33,7 +33,21 @@ bool GameMenu::init() {
             newGameNormal, newGameSelected, newGameDisabled,
             CC_CALLBACK_1(GameMenu::newGame,this));
     
-    auto menu = Menu::create(newGameMenu,nullptr);
+    auto arcadeNormal = cocos2d::Sprite::create(buttons, Rect(210,0,210,53));
+    auto arcadeSelected = cocos2d::Sprite::create(buttons, Rect(210,53,210,53));
+    auto arcadeDisabled = cocos2d::Sprite::create(buttons, Rect(210,53*2,210,53));
+    auto arcadeMenu = MenuItemSprite::create(
+            arcadeNormal, arcadeSelected, arcadeDisabled,
+            CC_CALLBACK_1(GameMenu::ArcadeGame,this));
+    arcadeMenu->setPosition(newGameMenu->getPosition()+Vec2(0,63));
+    auto optionNormal = cocos2d::Sprite::create(buttons, Rect(420,0,210,53));
+    auto optionSelected = cocos2d::Sprite::create(buttons, Rect(420,53,210,53));
+    auto optionDisabled = cocos2d::Sprite::create(buttons, Rect(420,53*2,210,53));
+    auto optionMenu = MenuItemSprite::create(
+            optionNormal, optionSelected, optionDisabled,
+            CC_CALLBACK_1(GameMenu::Options,this));
+    optionMenu->setPosition(newGameMenu->getPosition()-Vec2(0,63));
+    auto menu = Menu::create(newGameMenu,arcadeMenu,optionMenu,NULL);
     this->addChild(background);
     this->addChild(menu);
 
@@ -45,6 +59,20 @@ bool GameMenu::init() {
     return true;
 }
 void GameMenu::newGame(cocos2d::Ref* pSender)
+{
+    auto scene = BattleScene::createScene();
+    auto* director = Director::getInstance();
+    director->runWithScene(scene);
+    // nothing yet
+}
+void GameMenu::Options(cocos2d::Ref* pSender)
+{
+    auto scene = BattleScene::createScene();
+    auto* director = Director::getInstance();
+    director->runWithScene(scene);
+    // nothing yet
+}
+void GameMenu::ArcadeGame(cocos2d::Ref* pSender)
 {
     auto scene = BattleScene::createScene();
     auto* director = Director::getInstance();

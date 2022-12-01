@@ -21,6 +21,7 @@ vector<WorkerGenerator*> BattleScene::wgs;
 vector<SoldierGenerator*> BattleScene::sgs;
 vector<Base*> BattleScene::bases;
 vector<Mineral*> BattleScene::minerals;
+int BattleScene::IA_SPEED = 180;
 cocos2d::Scene* BattleScene::createScene() {
     auto scene = Scene::createWithPhysics();
     scene -> getPhysicsWorld()->setGravity(Vect(0,0));
@@ -47,7 +48,7 @@ bool BattleScene::init() {
     this->addChild(base2);
     bases.push_back(base1);
     bases.push_back(base2);
-    base1->addGold(100000);
+    base1->addGold(0);
     // 1 for structures and minerals
     // 2 for units
     // 1000 for stats
@@ -90,11 +91,24 @@ bool BattleScene::init() {
         audio_engine->playBackgroundMusic(music_file.c_str(),true);
         audio_engine->setBackgroundMusicVolume(0.3f);
     }
-    stats_label = Label::createWithTTF(base1->getStats(), "fonts/arial.ttf",30);
+    stats_label = Label::createWithTTF(base1->getStats(), "fonts/arial.ttf",40);
     stats_label->setAnchorPoint(Vec2(0.0f,0.0f));
-    stats_label->setPosition(Vec2(50,650));
+    stats_label->setPosition(Vec2(10,650));
     stats_label->setTextColor(Color4B::BLACK);
+
+    prices_label = Label::createWithTTF(" ", "fonts/arial.ttf",40);
+    prices_label->setAnchorPoint(Vec2(0.0f,0.0f));
+    prices_label->setPosition(Vec2(5,5));
+    prices_label->setTextColor(Color4B::BLACK);
+
+
+    time_label = Label::createWithTTF(" ", "fonts/arial.ttf",40);
+    time_label->setAnchorPoint(Vec2(0.0f,0.0f));
+    time_label->setPosition(Vec2(975,650));
+    time_label->setTextColor(Color4B::BLACK);
     this->addChild(stats_label,1000);
+    this->addChild(prices_label,1000);
+    this->addChild(time_label,1000);
     auto* keyboardListener = EventListenerKeyboard::create();
     keyboardListener->onKeyPressed = CC_CALLBACK_2(BattleScene::onKeyPressed, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
@@ -405,7 +419,7 @@ void BattleScene::update(float delta)
     }
     times += (1.0/60.0);
     cnt++;
-    if (cnt%180==0) {
+    if (cnt%BattleScene::IA_SPEED==0) {
         string str = getIAaction("economia", workers, soldiers, bases, minerals,wgs,sgs,cnt);
         if (str == "soldier") {
             this->addChild(soldiers[soldiers.size()-1],2);
@@ -429,7 +443,10 @@ void BattleScene::update(float delta)
             this->newSoldier(sg->race);
         }
     }
-    stats_label->setString(bases[0]->getStats()+" time: "+to_string((int)times)+ " Worker: "+to_string(this->worker_price(1))+ " Soldier: "+to_string(this->soldier_price(1)) + "W gen: "+to_string(this->worker_generator_price(1))+ " S gen:"+to_string(this->soldier_generator_price(1)));
+
+    stats_label->setString(bases[0]->getStats());
+    time_label->setString("Time: "+to_string((int)times));
+    prices_label->setString("Worker: "+to_string(this->worker_price(1))+ "   Soldier: "+to_string(this->soldier_price(1)) + "      W gen: "+to_string(this->worker_generator_price(1))+ "   S gen: "+to_string(this->soldier_generator_price(1)));
     for (auto worker : workers) {
         if (worker->is_moving) {
             if (worker->gold != 0) {
