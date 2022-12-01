@@ -638,14 +638,14 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Game-Debug-f1eb29d42347190df531.json",
+					"jsonFile" : "target-Game-Debug-e5821fe5bafb727e35b1.json",
 					"name" : "Game",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "SYNC_RESOURCE-Game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-SYNC_RESOURCE-Game-Debug-03aead8d755da44b067b.json",
+					"jsonFile" : "target-SYNC_RESOURCE-Game-Debug-632cebcd0cfd247ea6fe.json",
 					"name" : "SYNC_RESOURCE-Game",
 					"projectIndex" : 0
 				},
