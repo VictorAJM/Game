@@ -11,9 +11,16 @@
 #include "IA.h"
 #include "WorkerGenerator.h"
 #include "SoldierGenerator.h"
+#include "WonScene.h"
+#include "LoseScene.h"
 using namespace std;
 USING_NS_CC;
-
+vector<Worker*> BattleScene::workers;
+vector<Soldier*> BattleScene::soldiers;
+vector<WorkerGenerator*> BattleScene::wgs;
+vector<SoldierGenerator*> BattleScene::sgs;
+vector<Base*> BattleScene::bases;
+vector<Mineral*> BattleScene::minerals;
 cocos2d::Scene* BattleScene::createScene() {
     auto scene = Scene::createWithPhysics();
     scene -> getPhysicsWorld()->setGravity(Vect(0,0));
@@ -55,6 +62,7 @@ bool BattleScene::init() {
         minerals.push_back(mineral);
         this->addChild(mineral,1);
     }
+    
     for (int i=0;i<3;i++) {
         int x,y;
         x = 50;
@@ -355,8 +363,46 @@ void BattleScene::onMouseUp(Event* event)
     }
 }
 
+bool BattleScene::lose()
+{
+    bool t = true;
+    for (auto w : workers) if (w->getUnitStatus().race == 1) t = 0;
+    for (auto s : soldiers) if (s->getUnitStatus().race == 1) t = 0;
+    for (auto wg : wgs) if (wg->race == 1) t = 0;
+    for (auto sg : sgs) if (sg->race == 1) t = 0;
+    return t;
+}
+bool BattleScene::won()
+{
+    bool t = true;
+    for (auto w : workers) if (w->getUnitStatus().race == 2) t = 0;
+    for (auto s : soldiers) if (s->getUnitStatus().race == 2) t = 0;
+    for (auto wg : wgs) if (wg->race == 2) t = 0;
+    for (auto sg : sgs) if (sg->race == 2) t = 0;
+    return t;
+}
+void BattleScene::LOSE()
+{
+    this->clearAll();
+    auto* director = Director::getInstance();
+    director->replaceScene(LoseScene::createScene());
+}
+void BattleScene::WON()
+{
+    this->clearAll();
+    auto* director = Director::getInstance();
+    director->replaceScene(WonScene::createScene());
+}
 void BattleScene::update(float delta)
 {
+    if (lose()) {
+        LOSE();
+        return;
+    }
+    if (won()) {
+        WON();
+        return;
+    }
     times += (1.0/60.0);
     cnt++;
     if (cnt%180==0) {
@@ -591,4 +637,24 @@ bool BattleScene::isAreaFree(int _x, int _y)
     for (auto wg : wgs) if (abs(_y-wg->getPositionY())<60 && _x == wg->getPositionX()) t = false;
     for (auto sg : sgs) if (abs(_y-sg->getPositionY())<60 && _x == sg->getPositionX()) t = false;
     return t;
+}
+
+void BattleScene::clearAll()
+{
+    wgs.clear();
+    sgs.clear();
+    Worker::pUsed.clear();
+    Worker::_health = 100.0f;
+    Worker::_damage = 0.025f;
+    Worker::_maxhp = 100.0f;
+    Soldier::pUsed.clear();
+    Soldier::_health = 75.0f;
+    Soldier::_damage = 0.075f;
+    Soldier::_maxhp = 75.0f;
+    workers.clear();
+    soldiers.clear();
+    minerals.clear();
+    Mineral::pUsed.clear();
+    Base::pUsed.clear();
+    bases.clear();
 }

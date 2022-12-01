@@ -418,6 +418,30 @@ Classes/HelloWorldScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.s
 .PHONY : Classes/HelloWorldScene.cpp.s
 
+Classes/LoseScene.o: Classes/LoseScene.cpp.o
+.PHONY : Classes/LoseScene.o
+
+# target to build an object file
+Classes/LoseScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/LoseScene.cpp.o
+.PHONY : Classes/LoseScene.cpp.o
+
+Classes/LoseScene.i: Classes/LoseScene.cpp.i
+.PHONY : Classes/LoseScene.i
+
+# target to preprocess a source file
+Classes/LoseScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/LoseScene.cpp.i
+.PHONY : Classes/LoseScene.cpp.i
+
+Classes/LoseScene.s: Classes/LoseScene.cpp.s
+.PHONY : Classes/LoseScene.s
+
+# target to generate assembly for a file
+Classes/LoseScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/LoseScene.cpp.s
+.PHONY : Classes/LoseScene.cpp.s
+
 Classes/Mineral.o: Classes/Mineral.cpp.o
 .PHONY : Classes/Mineral.o
 
@@ -538,6 +562,30 @@ Classes/Unit.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Unit.cpp.s
 .PHONY : Classes/Unit.cpp.s
 
+Classes/WonScene.o: Classes/WonScene.cpp.o
+.PHONY : Classes/WonScene.o
+
+# target to build an object file
+Classes/WonScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/WonScene.cpp.o
+.PHONY : Classes/WonScene.cpp.o
+
+Classes/WonScene.i: Classes/WonScene.cpp.i
+.PHONY : Classes/WonScene.i
+
+# target to preprocess a source file
+Classes/WonScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/WonScene.cpp.i
+.PHONY : Classes/WonScene.cpp.i
+
+Classes/WonScene.s: Classes/WonScene.cpp.s
+.PHONY : Classes/WonScene.s
+
+# target to generate assembly for a file
+Classes/WonScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/WonScene.cpp.s
+.PHONY : Classes/WonScene.cpp.s
+
 Classes/Worker.o: Classes/Worker.cpp.o
 .PHONY : Classes/Worker.o
 
@@ -647,6 +695,9 @@ help:
 	@echo "... Classes/HelloWorldScene.o"
 	@echo "... Classes/HelloWorldScene.i"
 	@echo "... Classes/HelloWorldScene.s"
+	@echo "... Classes/LoseScene.o"
+	@echo "... Classes/LoseScene.i"
+	@echo "... Classes/LoseScene.s"
 	@echo "... Classes/Mineral.o"
 	@echo "... Classes/Mineral.i"
 	@echo "... Classes/Mineral.s"
@@ -662,6 +713,9 @@ help:
 	@echo "... Classes/Unit.o"
 	@echo "... Classes/Unit.i"
 	@echo "... Classes/Unit.s"
+	@echo "... Classes/WonScene.o"
+	@echo "... Classes/WonScene.i"
+	@echo "... Classes/WonScene.s"
 	@echo "... Classes/Worker.o"
 	@echo "... Classes/Worker.i"
 	@echo "... Classes/Worker.s"

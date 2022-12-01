@@ -533,4 +533,13 @@ CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o: \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCRay.h \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/base/CCEventDispatcher.h \
  /home/victor/cocos2d-x/Game/cocos2d/cocos/3d/CCVertexAttribBinding.h \
- /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h
+ /home/victor/cocos2d-x/Game/Classes/../cocos2d/cocos/editor-support/cocostudio/SimpleAudioEngine.h \
+ /home/victor/cocos2d-x/Game/Classes/GameMenu.h \
+ /home/victor/cocos2d-x/Game/Classes/BattleScene.h \
+ /usr/include/c++/11/bitset /home/victor/cocos2d-x/Game/Classes/Base.h \
+ /home/victor/cocos2d-x/Game/Classes/Mineral.h \
+ /home/victor/cocos2d-x/Game/Classes/Worker.h \
+ /home/victor/cocos2d-x/Game/Classes/Unit.h \
+ /home/victor/cocos2d-x/Game/Classes/Soldier.h \
+ /home/victor/cocos2d-x/Game/Classes/WorkerGenerator.h \
+ /home/victor/cocos2d-x/Game/Classes/SoldierGenerator.h

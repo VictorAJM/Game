@@ -1,5 +1,6 @@
 #include "PauseMenu.h"
-
+#include "GameMenu.h"
+#include "BattleScene.h"
 USING_NS_CC;
 
 Scene* PauseMenu::createScene() {
@@ -83,13 +84,18 @@ bool PauseMenu::init() {
 }
 
 void PauseMenu::BluePill(Ref* pSender) {
-    Director::getInstance()->end();
+    BattleScene::clearAll();
+    auto* director = Director::getInstance();
+    director->popScene();
+    director->replaceScene(GameMenu::createScene());
+    
 }
 
 void PauseMenu::onKeyPressed(EventKeyboard::KeyCode key, Event* event){
     if (key == EventKeyboard::KeyCode::KEY_ESCAPE) {
         auto* director = Director::getInstance();
         director->popScene();
+
     }
     return;
 }
