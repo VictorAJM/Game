@@ -2,6 +2,9 @@
 #include "GameMenu.h"
 #include <iostream>
 #include <fstream>
+#include <dirent.h>
+#include <string>
+#include <vector>
 USING_NS_CC;
 using namespace std;
 
@@ -35,6 +38,23 @@ bool Options::init()
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
 
+
+    auto* toptext_label = Label::createWithTTF("TOP 10 SCORES ARCADE","fonts/arial.ttf",50);
+    toptext_label->setAnchorPoint(Vec2(0.5f,0.5f));
+    toptext_label->setPosition(Vec2(600,650));
+
+    cocos2d::FileUtils * file_utils = cocos2d::FileUtils::getInstance();
+    ifstream fin("games_saved.txt");
+
+    string file_data;
+    getline(fin,file_data);
+    toptext_label->setString(file_data);
+    cout << file_data << endl;
+    fin.close();
+
+
+
+    this->addChild(toptext_label,1);
     auto* keyboard_listener = EventListenerKeyboard::create();
     keyboard_listener->onKeyPressed = CC_CALLBACK_2(Options::onKeyPressed, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(keyboard_listener, this);

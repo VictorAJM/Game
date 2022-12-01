@@ -6672,7 +6672,10 @@ CMakeFiles/Game.dir/Classes/Options.cpp.o: ../Classes/Options.cpp \
   /usr/include/c++/11/bits/codecvt.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
-  /usr/include/c++/11/bits/fstream.tcc
+  /usr/include/c++/11/bits/fstream.tcc \
+  /usr/include/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent.h \
+  /usr/include/x86_64-linux-gnu/bits/dirent_ext.h
 
 CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o: ../Classes/PauseMenu.cpp \
   /usr/include/stdc-predef.h \
@@ -11515,6 +11518,8 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 
 ../Classes/PauseMenu.cpp:
 
+/usr/include/x86_64-linux-gnu/bits/dirent.h:
+
 /usr/include/c++/11/bits/fstream.tcc:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
@@ -12189,6 +12194,8 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/emmintrin.h:
 
+/usr/include/dirent.h:
+
 /usr/include/c++/11/thread:
 
 ../cocos2d/cocos/2d/CCActionInterval.h:
@@ -12646,6 +12653,8 @@ CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp \
 ../cocos2d/cocos/3d/CCMeshVertexIndexData.h:
 
 ../cocos2d/cocos/3d/CCSkybox.h:
+
+/usr/include/x86_64-linux-gnu/bits/dirent_ext.h:
 
 /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
