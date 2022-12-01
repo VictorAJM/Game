@@ -68,10 +68,10 @@ void Ball::Move()
     return;
 }
 
-void Ball::death()
+void Ball::death(int cnt)
 {
     // reset hp, move to init position
-    maxhp += 5.0f;
+    maxhp += 5.0f+cnt/100.0f;
     unit_status.hp = maxhp;
     auto diff = vecInit - ballSprite->getPosition();
     hp_outline->setPosition(hp_outline->getPosition()+diff);

@@ -38,8 +38,16 @@ bool ArcadeScene::init() {
     if (!Scene::init()) {
         return false;
     }
+    cnt = 0;
+    units_killed_counter = 0;
+    balls.clear();
+    workers.clear();
+    soldiers.clear();
+    wgs.clear();
+    sgs.clear();
+    bases.clear();
+    minerals.clear();
     auto backgroundDimension = Director::getInstance()->getWinSize();  
-
     auto background = Sprite::create("backgrounds/backgrounddetailed"+std::to_string(cocos2d::RandomHelper::random_int(1,7))+".png");
     background->setScale(4.0f);
     background->setAnchorPoint(Vec2::ZERO);
@@ -93,12 +101,17 @@ bool ArcadeScene::init() {
 
 
     time_label = Label::createWithTTF(" ", "fonts/arial.ttf",40);
+    units_killed = Label::createWithTTF("","fonts/arial.ttf",40);
+    units_killed->setAnchorPoint(Vec2(0.5f,0.0f));
+    units_killed->setPosition(Vec2(600,650));
+    units_killed->setTextColor(Color4B::BLACK);
     time_label->setAnchorPoint(Vec2(0.0f,0.0f));
     time_label->setPosition(Vec2(975,650));
     time_label->setTextColor(Color4B::BLACK);
     this->addChild(stats_label,1000);
     this->addChild(prices_label,1000);
     this->addChild(time_label,1000);
+    this->addChild(units_killed,1000);
     auto* keyboardListener = EventListenerKeyboard::create();
     keyboardListener->onKeyPressed = CC_CALLBACK_2(ArcadeScene::onKeyPressed, this);
     _eventDispatcher->addEventListenerWithSceneGraphPriority(keyboardListener, this);
@@ -133,8 +146,6 @@ void ArcadeScene::onKeyPressed(EventKeyboard::KeyCode key, Event* event)
         this->tryNewSoldierGenerator(1);
     } else if (key == EventKeyboard::KeyCode::KEY_Q) {
         this->tryDamageUpdate(1);
-    } else if (key == EventKeyboard::KeyCode::KEY_E) {
-        this->tryHealthUpdate(1);
     } 
     return;
 }
@@ -388,28 +399,45 @@ void ArcadeScene::update(float delta)
     times += (1.0/60.0);
     cnt++;
     int y;
-    if (cnt%1800==0 && cnt>=2000) {
+    if (cnt%1200==0 && cnt>=2000) {
+        for (int i=0;i<=(int)times/200;i++) {
         y = cocos2d::RandomHelper::random_int(40,660);
         Ball* ball = new Ball(Vec2(1150,y));
         this->addChild(ball,2);
         balls.push_back(ball);
+        }
+    }
+    if (cnt%3600==0 && cnt>3600) {
+        for (auto ball : balls) {
+            ball->maxhp *= 1.1f;
+            ball->unit_status.hp *= 1.1f;
+            ball->updateHPBar();
+        }
     }
     // ia
     for (auto ball : balls) {
-        if (ball->getUnitStatus().hp < 0.0f) ball->death();
+        if (ball->getUnitStatus().hp < 0.0f) {
+            ball->death(cnt);
+            units_killed_counter++;
+        } else{
         ball->Move();
+        }
     }
     for (auto wg : wgs) {
         if ((cnt-wg->time)%wg->frecuency == 0) {
             this->newWorker(wg->race);
+            wg->health -= 50.0f;
+            wg->updateHPBar();
         }
     }
     for (auto sg : sgs) {
         if ((cnt-sg->time)%sg->frecuency == 0) {
             this->newSoldier(sg->race);
+            sg->health -= 50.0f;
+            sg->updateHPBar();
         }
     }
-
+    units_killed->setString("UNITS KILLED: "+to_string(units_killed_counter));
     stats_label->setString(bases[0]->getStats());
     time_label->setString("Time: "+to_string((int)times));
     prices_label->setString("Worker: "+to_string(this->worker_price(1))+ "   Soldier: "+to_string(this->soldier_price(1)) + "      W gen: "+to_string(this->worker_generator_price(1))+ "   S gen: "+to_string(this->soldier_generator_price(1)));

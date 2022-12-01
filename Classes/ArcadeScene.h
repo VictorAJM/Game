@@ -14,6 +14,7 @@ class ArcadeScene : public cocos2d::Scene {
     public:
         double times = 0.0;
         int cnt = 0;
+        int units_killed_counter = 0;
         static int IA_SPEED;
         ArcadeScene() = default;
         virtual ~ArcadeScene() = default;
@@ -58,6 +59,7 @@ class ArcadeScene : public cocos2d::Scene {
         cocos2d::Label* stats_label {nullptr};
         cocos2d::Label* time_label {nullptr};
         cocos2d::Label* prices_label {nullptr};
+        cocos2d::Label* units_killed {nullptr};
     private:
         cocos2d::Label* score_label { nullptr };
 

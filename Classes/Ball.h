@@ -16,7 +16,7 @@ class Ball : public Unit
         bool init(cocos2d::Vec2);
         void Move();
         cocos2d::Vec2 getNextPos();
-        void death();
+        void death(int);
         void startMovement(cocos2d::Vec2);
         void setHP(float hp_);
         void initStatus(int) override;
