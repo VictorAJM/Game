@@ -9,10 +9,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/victor/cocos2d-x/Game/Classes/AppDelegate.cpp" "CMakeFiles/Game.dir/Classes/AppDelegate.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/AppDelegate.cpp.o.d"
+  "/home/victor/cocos2d-x/Game/Classes/ArcadeScene.cpp" "CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o.d"
+  "/home/victor/cocos2d-x/Game/Classes/Ball.cpp" "CMakeFiles/Game.dir/Classes/Ball.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Ball.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Base.cpp" "CMakeFiles/Game.dir/Classes/Base.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Base.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/BattleScene.cpp" "CMakeFiles/Game.dir/Classes/BattleScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/BattleScene.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/GameMenu.cpp" "CMakeFiles/Game.dir/Classes/GameMenu.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/GameMenu.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/HelloWorldScene.cpp" "CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.o.d"
+  "/home/victor/cocos2d-x/Game/Classes/LoseArcadeScene.cpp" "CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/LoseScene.cpp" "CMakeFiles/Game.dir/Classes/LoseScene.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/LoseScene.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/Mineral.cpp" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/Mineral.cpp.o.d"
   "/home/victor/cocos2d-x/Game/Classes/PauseMenu.cpp" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o" "gcc" "CMakeFiles/Game.dir/Classes/PauseMenu.cpp.o.d"

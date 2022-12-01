@@ -70,6 +70,9 @@ list(APPEND GAME_SOURCE
      Classes/SoldierGenerator.cpp
      Classes/WonScene.cpp
      Classes/LoseScene.cpp
+     Classes/ArcadeScene.cpp
+     Classes/Ball.cpp
+     Classes/LoseArcadeScene.cpp
      )
 list(APPEND GAME_HEADER
      Classes/AppDelegate.h
@@ -87,6 +90,9 @@ list(APPEND GAME_HEADER
      Classes/SoldierGenerator.h
      Classes/WonScene.h
      Classes/LoseScene.h
+     Classes/ArcadeScene.h
+     Classes/Ball.h
+     Classes/LoseArcadeScene.h
      )
 
 if(ANDROID)

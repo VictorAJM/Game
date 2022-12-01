@@ -265,10 +265,52 @@ CMakeFiles/Game.dir/Classes/LoseScene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Classes/LoseScene.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/Game/Classes/LoseScene.cpp -o CMakeFiles/Game.dir/Classes/LoseScene.cpp.s
 
+CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o: ../Classes/ArcadeScene.cpp
+CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o -MF CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o.d -o CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o -c /home/victor/cocos2d-x/Game/Classes/ArcadeScene.cpp
+
+CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/Game/Classes/ArcadeScene.cpp > CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.i
+
+CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/Game/Classes/ArcadeScene.cpp -o CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.s
+
+CMakeFiles/Game.dir/Classes/Ball.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Classes/Ball.cpp.o: ../Classes/Ball.cpp
+CMakeFiles/Game.dir/Classes/Ball.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/Game.dir/Classes/Ball.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/Classes/Ball.cpp.o -MF CMakeFiles/Game.dir/Classes/Ball.cpp.o.d -o CMakeFiles/Game.dir/Classes/Ball.cpp.o -c /home/victor/cocos2d-x/Game/Classes/Ball.cpp
+
+CMakeFiles/Game.dir/Classes/Ball.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Classes/Ball.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/Game/Classes/Ball.cpp > CMakeFiles/Game.dir/Classes/Ball.cpp.i
+
+CMakeFiles/Game.dir/Classes/Ball.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Classes/Ball.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/Game/Classes/Ball.cpp -o CMakeFiles/Game.dir/Classes/Ball.cpp.s
+
+CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o: CMakeFiles/Game.dir/flags.make
+CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o: ../Classes/LoseArcadeScene.cpp
+CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o -MF CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o.d -o CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o -c /home/victor/cocos2d-x/Game/Classes/LoseArcadeScene.cpp
+
+CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/victor/cocos2d-x/Game/Classes/LoseArcadeScene.cpp > CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.i
+
+CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/victor/cocos2d-x/Game/Classes/LoseArcadeScene.cpp -o CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.s
+
 CMakeFiles/Game.dir/proj.linux/main.cpp.o: CMakeFiles/Game.dir/flags.make
 CMakeFiles/Game.dir/proj.linux/main.cpp.o: ../proj.linux/main.cpp
 CMakeFiles/Game.dir/proj.linux/main.cpp.o: CMakeFiles/Game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/Game.dir/proj.linux/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/Game.dir/proj.linux/main.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Game.dir/proj.linux/main.cpp.o -MF CMakeFiles/Game.dir/proj.linux/main.cpp.o.d -o CMakeFiles/Game.dir/proj.linux/main.cpp.o -c /home/victor/cocos2d-x/Game/proj.linux/main.cpp
 
 CMakeFiles/Game.dir/proj.linux/main.cpp.i: cmake_force
@@ -295,6 +337,9 @@ Game_OBJECTS = \
 "CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o" \
 "CMakeFiles/Game.dir/Classes/WonScene.cpp.o" \
 "CMakeFiles/Game.dir/Classes/LoseScene.cpp.o" \
+"CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o" \
+"CMakeFiles/Game.dir/Classes/Ball.cpp.o" \
+"CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o" \
 "CMakeFiles/Game.dir/proj.linux/main.cpp.o"
 
 # External object files for target Game
@@ -314,6 +359,9 @@ bin/Game/Game: CMakeFiles/Game.dir/Classes/WorkerGenerator.cpp.o
 bin/Game/Game: CMakeFiles/Game.dir/Classes/SoldierGenerator.cpp.o
 bin/Game/Game: CMakeFiles/Game.dir/Classes/WonScene.cpp.o
 bin/Game/Game: CMakeFiles/Game.dir/Classes/LoseScene.cpp.o
+bin/Game/Game: CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o
+bin/Game/Game: CMakeFiles/Game.dir/Classes/Ball.cpp.o
+bin/Game/Game: CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o
 bin/Game/Game: CMakeFiles/Game.dir/proj.linux/main.cpp.o
 bin/Game/Game: CMakeFiles/Game.dir/build.make
 bin/Game/Game: lib/libcocos2d.a
@@ -355,7 +403,7 @@ bin/Game/Game: /usr/lib/x86_64-linux-gnu/libGLU.so
 bin/Game/Game: /usr/lib/x86_64-linux-gnu/libcurl.so
 bin/Game/Game: /usr/lib/x86_64-linux-gnu/libsqlite3.so
 bin/Game/Game: CMakeFiles/Game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable bin/Game/Game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/victor/cocos2d-x/Game/linux-build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable bin/Game/Game"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

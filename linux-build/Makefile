@@ -322,6 +322,54 @@ Classes/AppDelegate.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/AppDelegate.cpp.s
 .PHONY : Classes/AppDelegate.cpp.s
 
+Classes/ArcadeScene.o: Classes/ArcadeScene.cpp.o
+.PHONY : Classes/ArcadeScene.o
+
+# target to build an object file
+Classes/ArcadeScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.o
+.PHONY : Classes/ArcadeScene.cpp.o
+
+Classes/ArcadeScene.i: Classes/ArcadeScene.cpp.i
+.PHONY : Classes/ArcadeScene.i
+
+# target to preprocess a source file
+Classes/ArcadeScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.i
+.PHONY : Classes/ArcadeScene.cpp.i
+
+Classes/ArcadeScene.s: Classes/ArcadeScene.cpp.s
+.PHONY : Classes/ArcadeScene.s
+
+# target to generate assembly for a file
+Classes/ArcadeScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/ArcadeScene.cpp.s
+.PHONY : Classes/ArcadeScene.cpp.s
+
+Classes/Ball.o: Classes/Ball.cpp.o
+.PHONY : Classes/Ball.o
+
+# target to build an object file
+Classes/Ball.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Ball.cpp.o
+.PHONY : Classes/Ball.cpp.o
+
+Classes/Ball.i: Classes/Ball.cpp.i
+.PHONY : Classes/Ball.i
+
+# target to preprocess a source file
+Classes/Ball.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Ball.cpp.i
+.PHONY : Classes/Ball.cpp.i
+
+Classes/Ball.s: Classes/Ball.cpp.s
+.PHONY : Classes/Ball.s
+
+# target to generate assembly for a file
+Classes/Ball.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/Ball.cpp.s
+.PHONY : Classes/Ball.cpp.s
+
 Classes/Base.o: Classes/Base.cpp.o
 .PHONY : Classes/Base.o
 
@@ -417,6 +465,30 @@ Classes/HelloWorldScene.s: Classes/HelloWorldScene.cpp.s
 Classes/HelloWorldScene.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/HelloWorldScene.cpp.s
 .PHONY : Classes/HelloWorldScene.cpp.s
+
+Classes/LoseArcadeScene.o: Classes/LoseArcadeScene.cpp.o
+.PHONY : Classes/LoseArcadeScene.o
+
+# target to build an object file
+Classes/LoseArcadeScene.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.o
+.PHONY : Classes/LoseArcadeScene.cpp.o
+
+Classes/LoseArcadeScene.i: Classes/LoseArcadeScene.cpp.i
+.PHONY : Classes/LoseArcadeScene.i
+
+# target to preprocess a source file
+Classes/LoseArcadeScene.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.i
+.PHONY : Classes/LoseArcadeScene.cpp.i
+
+Classes/LoseArcadeScene.s: Classes/LoseArcadeScene.cpp.s
+.PHONY : Classes/LoseArcadeScene.s
+
+# target to generate assembly for a file
+Classes/LoseArcadeScene.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Game.dir/build.make CMakeFiles/Game.dir/Classes/LoseArcadeScene.cpp.s
+.PHONY : Classes/LoseArcadeScene.cpp.s
 
 Classes/LoseScene.o: Classes/LoseScene.cpp.o
 .PHONY : Classes/LoseScene.o
@@ -683,6 +755,12 @@ help:
 	@echo "... Classes/AppDelegate.o"
 	@echo "... Classes/AppDelegate.i"
 	@echo "... Classes/AppDelegate.s"
+	@echo "... Classes/ArcadeScene.o"
+	@echo "... Classes/ArcadeScene.i"
+	@echo "... Classes/ArcadeScene.s"
+	@echo "... Classes/Ball.o"
+	@echo "... Classes/Ball.i"
+	@echo "... Classes/Ball.s"
 	@echo "... Classes/Base.o"
 	@echo "... Classes/Base.i"
 	@echo "... Classes/Base.s"
@@ -695,6 +773,9 @@ help:
 	@echo "... Classes/HelloWorldScene.o"
 	@echo "... Classes/HelloWorldScene.i"
 	@echo "... Classes/HelloWorldScene.s"
+	@echo "... Classes/LoseArcadeScene.o"
+	@echo "... Classes/LoseArcadeScene.i"
+	@echo "... Classes/LoseArcadeScene.s"
 	@echo "... Classes/LoseScene.o"
 	@echo "... Classes/LoseScene.i"
 	@echo "... Classes/LoseScene.s"

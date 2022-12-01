@@ -72,7 +72,7 @@ bool BattleScene::init() {
         Worker::pUsed[1].insert({x,y});
         Worker* worker = new Worker(Vec2(x,y), 1);
         workers.push_back(worker);
-        this->addChild(worker,1);
+        this->addChild(worker,2);
     }
     for (int i=0;i<3;i++) {
         int x,y;
