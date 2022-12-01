@@ -47,10 +47,10 @@ bool WonScene::init()
         auto* pause_label = Label::createWithTTF("You Won", "fonts/arial.ttf", 48);
     pause_label->setPosition(Vec2(origin.x + visibleSize.width / 2,
                                   origin.y + visibleSize.height - pause_label->getContentSize().height));
-    auto* red_pill_label = Label::createWithTTF("You take the red pill...\nyou stay in Wonderland,\nand I show you how\ndeep the rabbit hole goes.","fonts/digiface.ttf",30);
+    auto* red_pill_label = Label::createWithTTF("New Game","fonts/digiface.ttf",30);
     red_pill_label->setPosition(Vec2(red_pill->getPosition())+Vec2(-15,70));
 
-    auto* blue_pill_label = Label::createWithTTF("You take the blue pill...\nthe story ends, you wake up\nin your bed and believe\nwhatever you want to believe.","fonts/digiface.ttf",30);
+    auto* blue_pill_label = Label::createWithTTF("Main Menu","fonts/digiface.ttf",30);
     blue_pill_label->setPosition(Vec2(blue_pill->getPosition())+Vec2(-20,70));
     this->addChild(blue_pill_label,0);
     this->addChild(red_pill_label,0);

@@ -3643,6 +3643,7 @@ CMakeFiles/Game.dir/Classes/LoseScene.cpp.o
  /home/victor/cocos2d-x/Game/Classes/Soldier.h
  /home/victor/cocos2d-x/Game/Classes/WorkerGenerator.h
  /home/victor/cocos2d-x/Game/Classes/SoldierGenerator.h
+ /home/victor/cocos2d-x/Game/Classes/GameMenu.h
 
 CMakeFiles/Game.dir/Classes/Mineral.cpp.o
  /home/victor/cocos2d-x/Game/Classes/Mineral.cpp
@@ -7274,6 +7275,7 @@ CMakeFiles/Game.dir/Classes/WonScene.cpp.o
  /home/victor/cocos2d-x/Game/Classes/Soldier.h
  /home/victor/cocos2d-x/Game/Classes/WorkerGenerator.h
  /home/victor/cocos2d-x/Game/Classes/SoldierGenerator.h
+ /home/victor/cocos2d-x/Game/Classes/GameMenu.h
 
 CMakeFiles/Game.dir/Classes/Worker.cpp.o
  /home/victor/cocos2d-x/Game/Classes/Worker.cpp

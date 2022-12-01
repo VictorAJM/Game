@@ -3636,7 +3636,8 @@ CMakeFiles/Game.dir/Classes/LoseScene.cpp.o: ../Classes/LoseScene.cpp \
   ../Classes/Unit.h \
   ../Classes/Soldier.h \
   ../Classes/WorkerGenerator.h \
-  ../Classes/SoldierGenerator.h
+  ../Classes/SoldierGenerator.h \
+  ../Classes/GameMenu.h
 
 CMakeFiles/Game.dir/Classes/Mineral.cpp.o: ../Classes/Mineral.cpp \
   /usr/include/stdc-predef.h \
@@ -7261,7 +7262,8 @@ CMakeFiles/Game.dir/Classes/WonScene.cpp.o: ../Classes/WonScene.cpp \
   ../Classes/Unit.h \
   ../Classes/Soldier.h \
   ../Classes/WorkerGenerator.h \
-  ../Classes/SoldierGenerator.h
+  ../Classes/SoldierGenerator.h \
+  ../Classes/GameMenu.h
 
 CMakeFiles/Game.dir/Classes/Worker.cpp.o: ../Classes/Worker.cpp \
   /usr/include/stdc-predef.h \

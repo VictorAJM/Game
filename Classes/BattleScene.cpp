@@ -36,7 +36,7 @@ bool BattleScene::init() {
     }
     auto backgroundDimension = Director::getInstance()->getWinSize();  
 
-    auto background = Sprite::create("backgrounds/backgrounddetailed"+std::to_string(cocos2d::RandomHelper::random_int(1,8))+".png");
+    auto background = Sprite::create("backgrounds/backgrounddetailed"+std::to_string(cocos2d::RandomHelper::random_int(1,7))+".png");
     background->setScale(4.0f);
     background->setAnchorPoint(Vec2::ZERO);
     background->setPosition(0,0);
