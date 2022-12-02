@@ -12,9 +12,9 @@
 #include "SoldierGenerator.h"
 class ArcadeScene : public cocos2d::Scene {
     public:
-        double times = 0.0;
+        static double times;
         int cnt = 0;
-        int units_killed_counter = 0;
+        static int units_killed_counter;
         static int IA_SPEED;
         ArcadeScene() = default;
         virtual ~ArcadeScene() = default;
@@ -52,8 +52,7 @@ class ArcadeScene : public cocos2d::Scene {
         bool lose();
         void LOSE();
         static void clearAll();
-        static constexpr int map_width = 40;
-        static constexpr int map_height = 30;
+        static void saveData();
         void onKeyPressed(cocos2d::EventKeyboard::KeyCode key, cocos2d::Event* event);
         void update(float) override;
         cocos2d::Label* stats_label {nullptr};

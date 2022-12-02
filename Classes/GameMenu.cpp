@@ -12,7 +12,13 @@ bool GameMenu::init() {
     if (!Scene::init()) {
         return false;
     }
-
+    auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
+    if (!audio_engine->isBackgroundMusicPlaying()) {
+        std::string music_file = "music/mymusic.wav";
+        audio_engine->preloadBackgroundMusic(music_file.c_str());
+        audio_engine->playBackgroundMusic(music_file.c_str(),true);
+        audio_engine->setBackgroundMusicVolume(0.3f);
+    }
     auto visibleSize = Director::getInstance()->getVisibleSize();
     Vec2 origin = Director::getInstance()->getVisibleOrigin();
 

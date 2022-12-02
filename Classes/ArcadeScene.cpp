@@ -22,7 +22,8 @@ vector<SoldierGenerator*> ArcadeScene::sgs;
 vector<Base*> ArcadeScene::bases;
 vector<Mineral*> ArcadeScene::minerals;
 int ArcadeScene::IA_SPEED = 180;
-
+double ArcadeScene::times = 0.0f;
+int ArcadeScene::units_killed_counter = 0;
 vector<Ball*> balls;
 
 cocos2d::Scene* ArcadeScene::createScene() {
@@ -38,6 +39,7 @@ bool ArcadeScene::init() {
     if (!Scene::init()) {
         return false;
     }
+    times=0.0;
     cnt = 0;
     units_killed_counter = 0;
     balls.clear();
@@ -84,7 +86,7 @@ bool ArcadeScene::init() {
     }
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
-        std::string music_file = "music/muArcade2.ogg";
+        std::string music_file = "music/mymusic.wav";
         audio_engine->preloadBackgroundMusic(music_file.c_str());
         audio_engine->playBackgroundMusic(music_file.c_str(),true);
         audio_engine->setBackgroundMusicVolume(0.3f);
@@ -384,8 +386,24 @@ bool ArcadeScene::lose()
     for (auto ball : balls) if (ball->ballSprite->getPositionX() < 0.0f) k = true;
     return k;
 }
+void ArcadeScene::saveData()
+{
+    int registros = UserDefault::getInstance()->getIntegerForKey("registros");
+    string a = "balls_killed_"+to_string(registros);
+    string b = "time_"+to_string(registros);
+
+    registros++;
+    UserDefault::getInstance()->setIntegerForKey("registros",registros);
+    UserDefault::getInstance()->flush();
+    UserDefault::getInstance()->setIntegerForKey(a.c_str(),units_killed_counter);
+    UserDefault::getInstance()->flush();
+    UserDefault::getInstance()->setIntegerForKey(b.c_str(),(int)times);
+    UserDefault::getInstance()->flush();
+}
 void ArcadeScene::LOSE()
 {
+    saveData();
+
     this->clearAll();
     auto* director = Director::getInstance();
     director->replaceScene(LoseArcadeScene::createScene());

@@ -1,6 +1,7 @@
 #include "PauseMenu.h"
 #include "GameMenu.h"
 #include "BattleScene.h"
+#include "ArcadeScene.h"
 USING_NS_CC;
 
 Scene* PauseMenu::createScene() {
@@ -86,6 +87,9 @@ bool PauseMenu::init() {
 void PauseMenu::BluePill(Ref* pSender) {
     BattleScene::clearAll();
     auto* director = Director::getInstance();
+    if (ArcadeScene::times != 0.0f) {
+        ArcadeScene::saveData();
+    }
     director->popScene();
     director->replaceScene(GameMenu::createScene());
     

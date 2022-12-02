@@ -36,8 +36,7 @@ bool BattleScene::init() {
         return false;
     }
     auto backgroundDimension = Director::getInstance()->getWinSize();  
-
-    auto background = Sprite::create("backgrounds/backgrounddetailed"+std::to_string(cocos2d::RandomHelper::random_int(1,7))+".png");
+    auto background = Sprite::create("backgrounds/backgrounddetailed"+std::to_string(cocos2d::RandomHelper::random_int(1,6))+".png");
     background->setScale(4.0f);
     background->setAnchorPoint(Vec2::ZERO);
     background->setPosition(0,0);
@@ -86,7 +85,7 @@ bool BattleScene::init() {
     }
     auto* audio_engine = CocosDenshion::SimpleAudioEngine::getInstance();
     if (!audio_engine->isBackgroundMusicPlaying()) {
-        std::string music_file = "music/muBattle2.ogg";
+        std::string music_file = "music/mymusic.wav";
         audio_engine->preloadBackgroundMusic(music_file.c_str());
         audio_engine->playBackgroundMusic(music_file.c_str(),true);
         audio_engine->setBackgroundMusicVolume(0.3f);
